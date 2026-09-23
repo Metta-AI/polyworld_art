@@ -1,0 +1,37 @@
+[
+  {
+    "file": "clothing/belts/gota_lich_belt.glb",
+    "vertices": 816,
+    "maxWeightError": 8.568167686462402e-08,
+    "sharedJoints": 22,
+    "textures": 0
+  },
+  {
+    "file": "clothing/boots/gota_lich_foot.glb",
+    "vertices": 3214,
+    "maxWeightError": 2.9802322387695312e-08,
+    "sharedJoints": 22,
+    "textures": 0
+  },
+  {
+    "file": "clothing/pants/gota_lich_leg.glb",
+    "vertices": 4121,
+    "maxWeightError": 8.847564458847046e-08,
+    "sharedJoints": 22,
+    "textures": 0
+  },
+  {
+    "file": "clothing/torsos/gota_lich_chest.glb",
+    "vertices": 6370,
+    "maxWeightError": 8.568167686462402e-08,
+    "sharedJoints": 22,
+    "textures": 0
+  },
+  {
+    "file": "hats/gota_lich_headgear.glb",
+    "vertices": 744,
+    "maxWeightError": 0,
+    "sharedJoints": 22,
+    "textures": 0
+  }
+]

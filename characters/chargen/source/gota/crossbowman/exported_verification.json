@@ -1,0 +1,51 @@
+{
+  "Hair": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 6400
+  },
+  "Beard": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 800
+  },
+  "Foot": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 5630
+  },
+  "Leg": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 6560
+  },
+  "Belt": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 960
+  },
+  "Chest": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 15408
+  },
+  "Headgear": {
+    "positionsFinite": true,
+    "weightsNormalized": true,
+    "sharedSkeleton": true,
+    "clothingTextures": 0,
+    "exportedVertices": 300
+  }
+}

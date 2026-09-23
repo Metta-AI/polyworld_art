@@ -1,0 +1,134 @@
+[
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_ranger_foot",
+    "name": "Ranger cuff boots",
+    "files": [
+      "clothing/boots/gota_ranger_foot.glb"
+    ],
+    "nodes": [
+      "Gota_ranger_Boots"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right",
+      "Gota_ranger_Trousers_BootCut0",
+      "Gota_ranger_Trousers_BootCut1",
+      "Gota_ranger_Trousers_BootCut2"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_ranger_leg",
+    "name": "Ranger trousers",
+    "files": [
+      "clothing/pants/gota_ranger_leg.glb"
+    ],
+    "nodes": [
+      "Gota_ranger_Trousers",
+      "Gota_ranger_Trousers_BootCut0",
+      "Gota_ranger_Trousers_BootCut1",
+      "Gota_ranger_Trousers_BootCut2",
+      "Gota_ranger_Trousers_BootCut3"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_ranger_belt",
+    "name": "Ranger buckle belt",
+    "files": [
+      "clothing/belts/gota_ranger_belt.glb"
+    ],
+    "nodes": [
+      "Gota_ranger_Belt"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_ranger_chest",
+    "name": "Ranger tunic and cape",
+    "files": [
+      "clothing/torsos/gota_ranger_chest.glb"
+    ],
+    "nodes": [
+      "Gota_ranger_Tunic",
+      "Gota_ranger_Bracers",
+      "Gota_ranger_Cape",
+      "Gota_ranger_Cowl",
+      "Gota_ranger_Strap-1",
+      "Gota_ranger_Strap1",
+      "Gota_ranger_SkirtPanel-1",
+      "Gota_ranger_SkirtPanel1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_ranger_headgear",
+    "name": "Ranger fitted hood",
+    "files": [
+      "hats/gota_ranger_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_ranger_Hood"
+    ],
+    "hides": [
+      "Ears_Round_Left",
+      "Ears_Round_Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Hair",
+    "id": "hair/gota_ranger_hair",
+    "name": "Ranger hood braids",
+    "files": [
+      "hair/gota_ranger_hair.glb"
+    ],
+    "nodes": [
+      "Gota_ranger_HoodBraids"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "clothing/pants/gota_crossbowman_leg",
+  "name": "Gota Crossbowman trousers",
+  "files": [
+    "clothing/pants/gota_crossbowman_leg.glb"
+  ],
+  "nodes": [
+    "Gota_crossbowman_legs",
+    "Gota_crossbowman_legs_BootCut2",
+    "Gota_crossbowman_legs_BootCut3"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

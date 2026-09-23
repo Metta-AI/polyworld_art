@@ -1,0 +1,19 @@
+{
+  "name": "02 Bowl cut",
+  "nodes": [
+    "Hair_02"
+  ],
+  "id": "hair/02_bowl_cut",
+  "files": [
+    "hair/02_bowl_cut.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_02",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_druid_warden_left_hand",
+  "name": "Druid orb",
+  "files": [
+    "props/left/gota_druid_warden_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_druid_warden_left_hand"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand",
+  "triangles": 644,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

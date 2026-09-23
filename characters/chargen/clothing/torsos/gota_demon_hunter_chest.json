@@ -1,0 +1,28 @@
+{
+  "id": "clothing/torsos/gota_demon_hunter_chest",
+  "name": "Gota Demon Hunter harness",
+  "files": [
+    "clothing/torsos/gota_demon_hunter_chest.glb"
+  ],
+  "nodes": [
+    "Gota_demon_hunter_Body",
+    "Gota_demon_hunter_Scarf",
+    "Gota_demon_hunter_ScarfFront",
+    "Gota_demon_hunter_ScarfFold",
+    "Gota_demon_hunter_ScarfBack",
+    "Gota_demon_hunter_GloveLeft",
+    "Gota_demon_hunter_GloveRight"
+  ],
+  "hides": [
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "Hand.Left",
+    "Hand.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

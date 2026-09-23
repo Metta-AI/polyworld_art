@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_arcanist_left_hand",
+  "name": "Arcanist orbs",
+  "files": [
+    "props/left/gota_arcanist_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_arcanist_left_hand"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand",
+  "triangles": 240,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

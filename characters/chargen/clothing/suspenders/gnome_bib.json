@@ -1,0 +1,26 @@
+{
+  "name": "Gnome bib",
+  "nodes": [
+    "Gnome_Bib"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Bib",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Bib",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/suspenders/gnome_bib",
+  "files": [
+    "clothing/suspenders/gnome_bib.glb"
+  ],
+  "skinNodes": []
+}

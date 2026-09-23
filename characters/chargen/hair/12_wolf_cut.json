@@ -1,0 +1,19 @@
+{
+  "name": "12 Wolf cut",
+  "nodes": [
+    "Hair_12"
+  ],
+  "id": "hair/12_wolf_cut",
+  "files": [
+    "hair/12_wolf_cut.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_12",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

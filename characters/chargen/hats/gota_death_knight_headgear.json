@@ -1,0 +1,23 @@
+{
+  "id": "hats/gota_death_knight_headgear",
+  "name": "Gota Death Knight open crown",
+  "files": [
+    "hats/gota_death_knight_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_death_knight_HelmetShell",
+    "Gota_death_knight_CrownSpike_0",
+    "Gota_death_knight_CrownSpike_1",
+    "Gota_death_knight_CrownSpike_2",
+    "Gota_death_knight_CrownSpike_3",
+    "Gota_death_knight_CrownSpike_4",
+    "Gota_death_knight_ForeheadGem"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

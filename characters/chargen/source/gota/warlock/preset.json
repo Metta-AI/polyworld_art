@@ -1,0 +1,103 @@
+{
+  "name": "Warlock",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 32,
+  "skinRgb": [
+    0.55,
+    0.36,
+    0.25
+  ],
+  "hairColor": "Soft black",
+  "pupilColor": "Amber",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "08 Sly"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "10 Mischievous"
+    },
+    {
+      "category": "Hair",
+      "item": "None"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Warlock horned hood"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Warlock robe"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Warlock trousers"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Warlock boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Warlock belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

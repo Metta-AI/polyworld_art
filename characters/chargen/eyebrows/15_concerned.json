@@ -1,0 +1,15 @@
+{
+  "name": "15 Concerned",
+  "nodes": [
+    "Brow_Atlas15"
+  ],
+  "id": "eyebrows/15_concerned",
+  "files": [
+    "eyebrows/15_concerned.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/15_concerned.png"
+}

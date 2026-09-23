@@ -1,0 +1,14 @@
+{
+  "name": "12 Grimace",
+  "nodes": [
+    "Mouth_Atlas12"
+  ],
+  "id": "mouths/12_grimace",
+  "files": [
+    "mouths/12_grimace.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/12_grimace.png"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "11 Tan knee breeches",
+  "nodes": [
+    "Clothing_11",
+    "Clothing_11_BootCut3"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/pants/11_tan_knee_breeches",
+  "files": [
+    "clothing/pants/11_tan_knee_breeches.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_11",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_11_BootCut3",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

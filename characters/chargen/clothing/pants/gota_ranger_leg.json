@@ -1,0 +1,23 @@
+{
+  "id": "clothing/pants/gota_ranger_leg",
+  "name": "Ranger trousers",
+  "files": [
+    "clothing/pants/gota_ranger_leg.glb"
+  ],
+  "nodes": [
+    "Gota_ranger_Trousers",
+    "Gota_ranger_Trousers_BootCut0",
+    "Gota_ranger_Trousers_BootCut1",
+    "Gota_ranger_Trousers_BootCut2",
+    "Gota_ranger_Trousers_BootCut3"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

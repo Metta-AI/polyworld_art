@@ -1,0 +1,47 @@
+[
+  {
+    "file": "clothing/boots/gota_arcanist_foot.glb",
+    "vertices": 2768,
+    "finite": true,
+    "normalizedWeights": true,
+    "sharedBindMatrices": true,
+    "sharedSkeleton": true,
+    "imageTextures": 0
+  },
+  {
+    "file": "clothing/pants/gota_arcanist_leg.glb",
+    "vertices": 3048,
+    "finite": true,
+    "normalizedWeights": true,
+    "sharedBindMatrices": true,
+    "sharedSkeleton": true,
+    "imageTextures": 0
+  },
+  {
+    "file": "clothing/belts/gota_arcanist_belt.glb",
+    "vertices": 816,
+    "finite": true,
+    "normalizedWeights": true,
+    "sharedBindMatrices": true,
+    "sharedSkeleton": true,
+    "imageTextures": 0
+  },
+  {
+    "file": "clothing/torsos/gota_arcanist_chest.glb",
+    "vertices": 5636,
+    "finite": true,
+    "normalizedWeights": true,
+    "sharedBindMatrices": true,
+    "sharedSkeleton": true,
+    "imageTextures": 0
+  },
+  {
+    "file": "hats/gota_arcanist_headgear.glb",
+    "vertices": 336,
+    "finite": true,
+    "normalizedWeights": true,
+    "sharedBindMatrices": true,
+    "sharedSkeleton": true,
+    "imageTextures": 0
+  }
+]

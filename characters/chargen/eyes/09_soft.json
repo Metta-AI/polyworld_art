@@ -1,0 +1,15 @@
+{
+  "name": "09 Soft",
+  "nodes": [
+    "Eyes_Atlas09"
+  ],
+  "id": "eyes/09_soft",
+  "files": [
+    "eyes/09_soft.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/09_soft.mask.png",
+  "texture": "eyes/09_soft.png"
+}

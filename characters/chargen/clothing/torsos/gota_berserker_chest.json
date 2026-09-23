@@ -1,0 +1,18 @@
+{
+  "id": "clothing/torsos/gota_berserker_chest",
+  "name": "Gota Berserker harness",
+  "files": [
+    "clothing/torsos/gota_berserker_chest.glb"
+  ],
+  "nodes": [
+    "Gota_berserker_harness",
+    "Gota_berserker_wrist_cuffs"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

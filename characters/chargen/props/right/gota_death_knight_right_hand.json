@@ -1,0 +1,30 @@
+{
+  "id": "props/right/gota_death_knight_right_hand",
+  "name": "Death Knight sword",
+  "files": [
+    "props/right/gota_death_knight_right_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_death_knight_right_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand",
+  "triangles": 882,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true,
+  "attachmentPivot": [
+    -1.13,
+    1.73,
+    0.025
+  ],
+  "attachmentRotation": [
+    55.4,
+    -22.7,
+    72.6
+  ]
+}

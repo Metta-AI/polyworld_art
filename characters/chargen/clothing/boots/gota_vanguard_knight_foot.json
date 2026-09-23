@@ -1,0 +1,25 @@
+{
+  "id": "clothing/boots/gota_vanguard_knight_foot",
+  "name": "Vanguard Knight boots",
+  "files": [
+    "clothing/boots/gota_vanguard_knight_foot.glb"
+  ],
+  "nodes": [
+    "Gota_vanguard_knight_Boots"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right",
+    "Gota_vanguard_knight_Legs_BootCut0",
+    "Gota_vanguard_knight_Legs_BootCut1",
+    "Gota_vanguard_knight_Legs_BootCut2"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

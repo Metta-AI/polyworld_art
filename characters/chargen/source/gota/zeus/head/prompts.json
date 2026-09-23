@@ -1,0 +1,18 @@
+{
+  "tool": "image_gen built-in",
+  "reference": "/var/folders/nh/hbz5f40j1nb0m6t1hnbbz8q40000gn/T/codex-clipboard-6ad64993-4495-4a5e-86cf-857aab0f6d55.png",
+  "prompts": [
+    {
+      "asset": "crown",
+      "prompt": "Use case: stylized-concept. Asset type: isolated 3D clothing modeling reference. Reference image: Zeus LEFT only from attached gods image. Generate just his gold laurel CROWN with blue diamond center jewel, detached from head. Two matching orthographic views side by side: FRONT and BACK. Smooth low polygon geometry, solid matte color materials, broad bevels, no textures or tiny filigree. Crown is a narrow rounded gold circlet with up-swept pointed laurel leaves at both temples and a broad diamond-shaped royal-blue gem in a gold diamond setting at forehead. Back is plain curved gold circlet with leaf tips visible. Empty neutral warm gray studio background. No head, no hair, no beard, no body, no eyes, no props, no extra crown. Clear full silhouette, modeling friendly geometry. Small labels FRONT and BACK."
+    },
+    {
+      "asset": "hair",
+      "prompt": "Use case: stylized-concept. Asset type: isolated 3D modular HAIR modeling reference. Reference image: Zeus LEFT only. Generate only his long white swept-back layered shoulder-length HAIR, detached from the invisible head. Two matching orthographic views side by side: FRONT and BACK. Broad sculpted flowing locks, elegant rounded curves with tapered ends, no individual strands; solid ivory-white low-poly geometry, smooth broad surfaces with deliberate sharp ridges. Hair opens clearly over the forehead and around face. Back hair flows down to shoulder height, layered medium locks, not spiky hedgehog. Crown NOT included; beard NOT included. Gray neutral studio background. No face, eyes, head, body or clothing; empty face opening. Easy-to-model chunky geometry. Small labels FRONT and BACK."
+    },
+    {
+      "asset": "beard",
+      "prompt": "Use case: stylized-concept. Asset type: isolated modular 3D BEARD modeling reference. Reference image is Zeus LEFT only. Generate only his WHITE BEARD WITH MOUSTACHE detached from head. Two matching orthographic views side by side FRONT and BACK. His beard is a full broad upper jaw beard flowing into a long pointed chin with five broad overlapping sculpted locks; broad thick moustache splits under the nose and sweeps outward over beard. Front has tiny open mouth gap. Back shows concave shell that hugs jaw, no hair behind head. Smooth simple low-poly curves with sharp lock tips, solid matte ivory-white, no textures or individual strands, restrained faceting. Neutral gray studio background. No face, skin, head, eyes, crown, body or other clothing, only beard. Small FRONT and BACK labels."
+    }
+  ]
+}

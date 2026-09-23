@@ -1,0 +1,31 @@
+{
+  "id": "clothing/pants/gota_vanguard_knight_leg",
+  "name": "Vanguard Knight legs",
+  "files": [
+    "clothing/pants/gota_vanguard_knight_leg.glb"
+  ],
+  "nodes": [
+    "Gota_vanguard_knight_Legs",
+    "Gota_vanguard_knight_Legs_BootCut0",
+    "Gota_vanguard_knight_Legs_BootCut1",
+    "Gota_vanguard_knight_Legs_BootCut2",
+    "Gota_vanguard_knight_Legs_BootCut3",
+    "Gota_vanguard_knight_KneeTrim1",
+    "Gota_vanguard_knight_KneePlate2",
+    "Gota_vanguard_knight_FauldTrim3",
+    "Gota_vanguard_knight_FauldPlate4",
+    "Gota_vanguard_knight_KneeTrim5",
+    "Gota_vanguard_knight_KneePlate6",
+    "Gota_vanguard_knight_FauldTrim7",
+    "Gota_vanguard_knight_FauldPlate8"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

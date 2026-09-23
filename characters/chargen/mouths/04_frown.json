@@ -1,0 +1,14 @@
+{
+  "name": "04 Frown",
+  "nodes": [
+    "Mouth_Atlas04"
+  ],
+  "id": "mouths/04_frown",
+  "files": [
+    "mouths/04_frown.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/04_frown.png"
+}

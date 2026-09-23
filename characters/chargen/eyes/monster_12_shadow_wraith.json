@@ -1,0 +1,15 @@
+{
+  "name": "Monster 12 Shadow wraith",
+  "nodes": [
+    "Eyes_Monster12"
+  ],
+  "texture": "eyes/monster_12_shadow_wraith.png",
+  "pupilMask": "eyes/monster_12_shadow_wraith.mask.png",
+  "id": "eyes/monster_12_shadow_wraith",
+  "files": [
+    "eyes/monster_12_shadow_wraith.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

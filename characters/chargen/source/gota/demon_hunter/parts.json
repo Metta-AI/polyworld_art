@@ -1,0 +1,155 @@
+[
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_demon_hunter_foot",
+    "name": "Gota Demon Hunter boots",
+    "files": [
+      "clothing/boots/gota_demon_hunter_foot.glb"
+    ],
+    "nodes": [
+      "Gota_demon_hunter_Boots",
+      "Gota_demon_hunter_BootCuffs"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_demon_hunter_leg",
+    "name": "Gota Demon Hunter leggings",
+    "files": [
+      "clothing/pants/gota_demon_hunter_leg.glb"
+    ],
+    "nodes": [
+      "Gota_demon_hunter_Trousers",
+      "Gota_demon_hunter_Trousers_BootCut2",
+      "Gota_demon_hunter_Trousers_BootCut3",
+      "Gota_demon_hunter_Hip-1Front0",
+      "Gota_demon_hunter_Hip-1Front1",
+      "Gota_demon_hunter_Hip-1Back0",
+      "Gota_demon_hunter_Hip-1Back1",
+      "Gota_demon_hunter_Hip1Front0",
+      "Gota_demon_hunter_Hip1Front1",
+      "Gota_demon_hunter_Hip1Back0",
+      "Gota_demon_hunter_Hip1Back1"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_demon_hunter_belt",
+    "name": "Gota Demon Hunter belt",
+    "files": [
+      "clothing/belts/gota_demon_hunter_belt.glb"
+    ],
+    "nodes": [
+      "Gota_demon_hunter_Belt",
+      "Gota_demon_hunter_RedTabard"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_demon_hunter_chest",
+    "name": "Gota Demon Hunter harness",
+    "files": [
+      "clothing/torsos/gota_demon_hunter_chest.glb"
+    ],
+    "nodes": [
+      "Gota_demon_hunter_Body",
+      "Gota_demon_hunter_Scarf",
+      "Gota_demon_hunter_ScarfFront",
+      "Gota_demon_hunter_ScarfFold",
+      "Gota_demon_hunter_ScarfBack",
+      "Gota_demon_hunter_GloveLeft",
+      "Gota_demon_hunter_GloveRight"
+    ],
+    "hides": [
+      "GotaHand.Left",
+      "GotaHand.Right",
+      "Hand.Left",
+      "Hand.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_demon_hunter_headgear",
+    "name": "Gota Demon Hunter blindfold",
+    "files": [
+      "hats/gota_demon_hunter_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_demon_hunter_Blindfold",
+      "Gota_demon_hunter_BlindfoldOverlap",
+      "Gota_demon_hunter_BlindfoldKnot",
+      "Gota_demon_hunter_BlindfoldTail-1",
+      "Gota_demon_hunter_BlindfoldTail1"
+    ],
+    "hides": [
+      "Brow_Atlas04",
+      "Eyes_Atlas02"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Hair",
+    "id": "hair/gota_demon_hunter_hair",
+    "name": "Gota Demon Hunter spiky hair",
+    "files": [
+      "hair/gota_demon_hunter_hair.glb"
+    ],
+    "nodes": [
+      "Gota_demon_hunter_HairBase",
+      "Gota_demon_hunter_HairSpike0",
+      "Gota_demon_hunter_HairSpike1",
+      "Gota_demon_hunter_HairSpike2",
+      "Gota_demon_hunter_HairSpike3",
+      "Gota_demon_hunter_HairSpike4",
+      "Gota_demon_hunter_HairSpike5",
+      "Gota_demon_hunter_HairSpike6",
+      "Gota_demon_hunter_HairSpike7"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

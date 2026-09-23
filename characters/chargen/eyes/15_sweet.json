@@ -1,0 +1,15 @@
+{
+  "name": "15 Sweet",
+  "nodes": [
+    "Eyes_Atlas15"
+  ],
+  "id": "eyes/15_sweet",
+  "files": [
+    "eyes/15_sweet.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/15_sweet.mask.png",
+  "texture": "eyes/15_sweet.png"
+}

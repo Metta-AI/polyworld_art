@@ -1,0 +1,681 @@
+{
+  "pack": "blender_forts",
+  "license": "generated",
+  "blend_file": "fort_kit.blend",
+  "model_count": 20,
+  "maximum_triangles_per_model": 249,
+  "construction": "Hand-built Blender meshes. Live X/Y mirrors and sixfold radial arrays. No decimation.",
+  "texture_generation": "Built-in image_gen; prompts in textures/prompts.json.",
+  "attachment_coordinates": "Asset-local Blender coordinates: Z up, front -Y. GLB uses Y up: (x, z, -y).",
+  "foliage_atlas": {
+    "file": "textures/tree_foliage_atlas.png",
+    "version": 5,
+    "size": [
+      2048,
+      2048
+    ],
+    "sha256": "291dab1008ad070309e09d2b9ee78aa2af1dcd09bf35ee8e37d9a26bbb9bb39c",
+    "grid": [
+      4,
+      4
+    ],
+    "cell_size": [
+      512,
+      512
+    ],
+    "uv_inset_pixels": 8,
+    "metadata": "textures/tree_foliage_atlas.json",
+    "alpha_mode": "MASK",
+    "alpha_cutoff": 0.45,
+    "export_meshes": [
+      "trunk",
+      "foliage"
+    ],
+    "tint": "Neutral grayscale foliage; engine tints foliage only.",
+    "preview": "Example colors only; exported baseColorFactor is white.",
+    "construction": "Offset rings with inward attachments and outward, descending tips; lower rings are darker.",
+    "primary_view": "63 degrees above the ground, 27 degrees from vertical.",
+    "layout_reference": "references/tree_ring_layout.png"
+  },
+  "uv_mapping": {
+    "square_pixel_tiles": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      11,
+      13,
+      14,
+      15
+    ],
+    "target_pixels_per_meter": 128,
+    "method": "Orthographic face-plane projection with one uniform pixel scale. Crop the tile; lower density uniformly only when necessary to fit.",
+    "artwork_and_grain_tiles": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      12
+    ]
+  },
+  "tile_names": [
+    "masonry",
+    "stone",
+    "trim",
+    "paving",
+    "roof",
+    "timber",
+    "metal",
+    "door",
+    "cloth",
+    "heraldry",
+    "magic",
+    "crystal",
+    "bark",
+    "foundation",
+    "reinforcement",
+    "recess"
+  ],
+  "textures": {
+    "dark": {
+      "file": "textures/dark_trim.png",
+      "grid": [
+        4,
+        4
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "pixel_columns": [
+        0,
+        313,
+        627,
+        940,
+        1254
+      ],
+      "pixel_rows": [
+        0,
+        313,
+        627,
+        922,
+        1254
+      ],
+      "uv_inset_pixels": 9
+    },
+    "light": {
+      "file": "textures/light_trim.png",
+      "grid": [
+        4,
+        4
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "pixel_columns": [
+        0,
+        313,
+        627,
+        940,
+        1254
+      ],
+      "pixel_rows": [
+        0,
+        313,
+        627,
+        937,
+        1254
+      ],
+      "uv_inset_pixels": 9
+    }
+  },
+  "assets": [
+    {
+      "faction": "dark",
+      "asset": "tower",
+      "triangles": 210,
+      "file": "models/dark/tower_level2.glb",
+      "symmetry": "sixfold radial array; separate front flag",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "../generated_forts/dark/meshy/tower.glb",
+      "attachments": [
+        {
+          "name": "fire",
+          "position": [
+            0,
+            0,
+            4.225
+          ]
+        }
+      ],
+      "sha256": "b1e6e82eac7d1a8c6b682d50952b6bfd9aa652c3c209541b3c06314b39eca4eb"
+    },
+    {
+      "faction": "dark",
+      "asset": "barracks",
+      "triangles": 232,
+      "file": "models/dark/barracks.glb",
+      "symmetry": "four-way X/Y Mirror modifier",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "../generated_forts/dark/meshy/barracks.glb",
+      "attachments": [
+        {
+          "name": "spawn",
+          "position": [
+            0,
+            -1.761,
+            0.32
+          ]
+        }
+      ],
+      "sha256": "e56f4a36a099ce8150211ccac5e6f618bc5b04d0d21535eebc1091d9bf4668e9"
+    },
+    {
+      "faction": "dark",
+      "asset": "pillar",
+      "triangles": 128,
+      "file": "models/dark/pillar.glb",
+      "symmetry": "four-way X/Y Mirror modifier",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "../generated_forts/dark/meshy/pillar.glb",
+      "attachments": [],
+      "sha256": "d1cc575371044f3468ae9680896ffa732a229a773ee5c628ec382c4e1dc52a1f"
+    },
+    {
+      "faction": "dark",
+      "asset": "wall",
+      "triangles": 104,
+      "file": "models/dark/wall.glb",
+      "symmetry": "four-way X/Y Mirror modifier",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "../generated_forts/dark/meshy/wall.glb",
+      "attachments": [],
+      "sha256": "ff992f5664e02a9e78cbe1fe0fdfcb4d2e84cd72e20e217bee36473650db51ad"
+    },
+    {
+      "faction": "dark",
+      "asset": "tree",
+      "triangles": 188,
+      "file": "models/dark/tree_1.glb",
+      "symmetry": "asymmetric branches",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "../generated_forts/dark/meshy/tree.glb",
+      "attachments": [],
+      "sha256": "5d45a5119a88b676662845482d00cc40697662dfcaaf590eee0258ca1b0d43e8",
+      "tree_shape": {
+        "variant": 1,
+        "branches": 5,
+        "roots": 4,
+        "dimensions": [
+          3.3116,
+          2.4575,
+          3.8788
+        ]
+      }
+    },
+    {
+      "faction": "dark",
+      "asset": "tower_level1",
+      "triangles": 234,
+      "file": "models/dark/tower_level1.glb",
+      "symmetry": "sixfold radial array",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "references/dark_tower_level1.png",
+      "attachments": [
+        {
+          "name": "fire",
+          "position": [
+            0,
+            0,
+            3.36
+          ]
+        }
+      ],
+      "sha256": "a5ed313afb2fe1ae45d8097f4c2617505607b30962de78099311d344c4bd7008"
+    },
+    {
+      "faction": "dark",
+      "asset": "tower_level3",
+      "triangles": 246,
+      "file": "models/dark/tower_level3.glb",
+      "symmetry": "sixfold radial array",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "references/dark_tower_level3.png",
+      "attachments": [
+        {
+          "name": "fire",
+          "position": [
+            0,
+            0,
+            4.995
+          ]
+        }
+      ],
+      "sha256": "328004b6bdb6f07f84c463315f991e66794e31eb81538b58ddf650592c8328ee"
+    },
+    {
+      "faction": "light",
+      "asset": "tower",
+      "triangles": 234,
+      "file": "models/light/tower_level1.glb",
+      "symmetry": "sixfold radial array; separate front flag",
+      "license": "generated",
+      "texture": "textures/light_trim.png",
+      "reference": "../generated_forts/light/meshy/tower.glb",
+      "attachments": [
+        {
+          "name": "fire",
+          "position": [
+            0,
+            0,
+            3.472723
+          ]
+        }
+      ],
+      "sha256": "059fbcae35a599377a97d171e4e4b2c4891f48adbf43148e651830635bcc270d"
+    },
+    {
+      "faction": "light",
+      "asset": "barracks",
+      "triangles": 220,
+      "file": "models/light/barracks.glb",
+      "symmetry": "four-way X/Y Mirror modifier",
+      "license": "generated",
+      "texture": "textures/light_trim.png",
+      "reference": "../generated_forts/light/meshy/barracks.glb",
+      "attachments": [
+        {
+          "name": "spawn",
+          "position": [
+            0,
+            -1.761,
+            0.32
+          ]
+        }
+      ],
+      "sha256": "398afb64bbfb7eee65c74c3a6d64f5dd608b3cf59e0eb7ddee75ef7a0e6c4bfb"
+    },
+    {
+      "faction": "light",
+      "asset": "pillar",
+      "triangles": 176,
+      "file": "models/light/pillar.glb",
+      "symmetry": "four-way X/Y Mirror modifier",
+      "license": "generated",
+      "texture": "textures/light_trim.png",
+      "reference": "../generated_forts/light/meshy/pillar.glb",
+      "attachments": [],
+      "sha256": "9fbed4a0e6c16dd0e3a0334adc250f8102eed0135dbd839b83da70581110ed35"
+    },
+    {
+      "faction": "light",
+      "asset": "wall",
+      "triangles": 176,
+      "file": "models/light/wall.glb",
+      "symmetry": "four-way X/Y Mirror modifier",
+      "license": "generated",
+      "texture": "textures/light_trim.png",
+      "reference": "../generated_forts/light/meshy/wall.glb",
+      "attachments": [],
+      "sha256": "56aa25fee914efdf78708969bbe7a896fd0d4bea631eb2a28817e122ce5329b9"
+    },
+    {
+      "faction": "light",
+      "asset": "tower_level2",
+      "triangles": 234,
+      "file": "models/light/tower_level2.glb",
+      "symmetry": "sixfold radial array; separate front flag",
+      "license": "generated",
+      "texture": "textures/light_trim.png",
+      "reference": "references/light_tower_level2.png",
+      "attachments": [
+        {
+          "name": "fire",
+          "position": [
+            0,
+            0,
+            4.225
+          ]
+        }
+      ],
+      "sha256": "3972fd37b4f5a4c986bc564ea018a9c63b5b6a2b79d738912937a075836c810f"
+    },
+    {
+      "faction": "light",
+      "asset": "tower_level3",
+      "triangles": 240,
+      "file": "models/light/tower_level3.glb",
+      "symmetry": "sixfold radial array; separate front flag",
+      "license": "generated",
+      "texture": "textures/light_trim.png",
+      "reference": "references/light_tower_level3.png",
+      "attachments": [
+        {
+          "name": "fire",
+          "position": [
+            0,
+            0,
+            5.105
+          ]
+        }
+      ],
+      "sha256": "1b5b092d488578835345b7de9716ed3e17d42a960f7cb885f9f3d5f71295bb38"
+    },
+    {
+      "faction": "dark",
+      "asset": "tree_2",
+      "triangles": 118,
+      "file": "models/dark/tree_2.glb",
+      "symmetry": "asymmetric branches",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "references/dead_tree_style2.png",
+      "attachments": [],
+      "sha256": "306814eed4fb29d016bbd35ccc06bba871811ebf233a7bcf7167f9295be83780",
+      "tree_shape": {
+        "variant": 2,
+        "branches": 2,
+        "roots": 3,
+        "dimensions": [
+          1.8093,
+          2.1783,
+          2.6929
+        ]
+      }
+    },
+    {
+      "faction": "dark",
+      "asset": "tree_3",
+      "triangles": 172,
+      "file": "models/dark/tree_3.glb",
+      "symmetry": "asymmetric branches",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "references/dead_tree_style3.png",
+      "attachments": [],
+      "sha256": "f61986b6243de004a3d966d05d112eae39d0954d8f3f6f1ad5b44e6f4091a122",
+      "tree_shape": {
+        "variant": 3,
+        "branches": 4,
+        "roots": 4,
+        "dimensions": [
+          4.2614,
+          2.8099,
+          3.377
+        ]
+      }
+    },
+    {
+      "faction": "dark",
+      "asset": "tree_4",
+      "triangles": 248,
+      "file": "models/dark/tree_4.glb",
+      "symmetry": "asymmetric branches",
+      "license": "generated",
+      "texture": "textures/dark_trim.png",
+      "reference": "references/dead_tree_style1.png",
+      "attachments": [],
+      "sha256": "00e3800587e9cf6f72439fed25d023d34d830713ff45f070956ebe00cd5eb2ca",
+      "tree_shape": {
+        "variant": 4,
+        "branches": 7,
+        "roots": 4,
+        "dimensions": [
+          3.6695,
+          3.7299,
+          5.324
+        ]
+      }
+    },
+    {
+      "faction": "light",
+      "asset": "tree_1",
+      "triangles": 206,
+      "file": "models/light/tree_1.glb",
+      "symmetry": "asymmetric trunk and individually oriented foliage quads",
+      "license": "generated",
+      "texture": "textures/tree_foliage_atlas.png",
+      "reference": "references/light_tree_styles.png",
+      "attachments": [],
+      "foliage": {
+        "variant": 1,
+        "kind": "evergreen",
+        "branches": 0,
+        "roots": 4,
+        "foliage_quads": 69,
+        "trunk_triangles": 68,
+        "foliage_triangles": 138,
+        "foliage_rings": 5,
+        "ring_profile": [
+          {
+            "ring": 0,
+            "height": 4.1,
+            "radius": 0.025,
+            "quads": 7,
+            "tone": 0
+          },
+          {
+            "ring": 1,
+            "height": 3.6,
+            "radius": 0.28,
+            "quads": 10,
+            "tone": 1
+          },
+          {
+            "ring": 2,
+            "height": 3.07,
+            "radius": 0.5,
+            "quads": 13,
+            "tone": 1
+          },
+          {
+            "ring": 3,
+            "height": 2.54,
+            "radius": 0.75,
+            "quads": 17,
+            "tone": 2
+          },
+          {
+            "ring": 4,
+            "height": 2.04,
+            "radius": 0.99,
+            "quads": 22,
+            "tone": 3
+          }
+        ],
+        "layering": "Staggered radial rings. Branches point outward and down; lower rings use darker tiles.",
+        "dimensions": [
+          4.9773,
+          4.8236,
+          4.1777
+        ]
+      },
+      "sha256": "f948f91f3ef16f94040c0968b0b9380422b644fbd8a6038425365750605e8977"
+    },
+    {
+      "faction": "light",
+      "asset": "tree_2",
+      "triangles": 172,
+      "file": "models/light/tree_2.glb",
+      "symmetry": "asymmetric trunk and individually oriented foliage quads",
+      "license": "generated",
+      "texture": "textures/tree_foliage_atlas.png",
+      "reference": "references/light_tree_styles.png",
+      "attachments": [],
+      "foliage": {
+        "variant": 2,
+        "kind": "leafy",
+        "branches": 3,
+        "roots": 3,
+        "foliage_quads": 39,
+        "trunk_triangles": 94,
+        "foliage_triangles": 78,
+        "foliage_rings": 4,
+        "ring_profile": [
+          {
+            "ring": 0,
+            "height": 2.619734388834347,
+            "radius": 0.023747526118976715,
+            "quads": 6,
+            "tone": 0
+          },
+          {
+            "ring": 1,
+            "height": 2.546125599265462,
+            "radius": 0.38737243040659164,
+            "quads": 8,
+            "tone": 1
+          },
+          {
+            "ring": 2,
+            "height": 2.3498880261944715,
+            "radius": 0.694588538240551,
+            "quads": 11,
+            "tone": 2
+          },
+          {
+            "ring": 3,
+            "height": 2.04607684177296,
+            "radius": 0.898494799477062,
+            "quads": 14,
+            "tone": 3
+          }
+        ],
+        "layering": "Staggered radial rings. Branches point outward and down; lower rings use darker tiles.",
+        "dimensions": [
+          2.8746,
+          2.8811,
+          2.6757
+        ]
+      },
+      "sha256": "23d4ab2aec9fbc9581e18a1b9ce8bbf0fec63963a599bf1a13231c7f9e8fb567"
+    },
+    {
+      "faction": "light",
+      "asset": "tree_3",
+      "triangles": 228,
+      "file": "models/light/tree_3.glb",
+      "symmetry": "asymmetric trunk and individually oriented foliage quads",
+      "license": "generated",
+      "texture": "textures/tree_foliage_atlas.png",
+      "reference": "references/light_tree_styles.png",
+      "attachments": [],
+      "foliage": {
+        "variant": 3,
+        "kind": "leafy",
+        "branches": 4,
+        "roots": 4,
+        "foliage_quads": 52,
+        "trunk_triangles": 124,
+        "foliage_triangles": 104,
+        "foliage_rings": 4,
+        "ring_profile": [
+          {
+            "ring": 0,
+            "height": 3.619625019530843,
+            "radius": 0.03374648448486165,
+            "quads": 7,
+            "tone": 0
+          },
+          {
+            "ring": 1,
+            "height": 3.51570672837477,
+            "radius": 0.5504766116304197,
+            "quads": 11,
+            "tone": 1
+          },
+          {
+            "ring": 2,
+            "height": 3.2386654487451363,
+            "radius": 0.9870468701313094,
+            "quads": 15,
+            "tone": 2
+          },
+          {
+            "ring": 3,
+            "height": 2.809755541326531,
+            "radius": 1.2768083992568777,
+            "quads": 19,
+            "tone": 3
+          }
+        ],
+        "layering": "Staggered radial rings. Branches point outward and down; lower rings use darker tiles.",
+        "dimensions": [
+          4.0707,
+          4.0596,
+          3.7066
+        ]
+      },
+      "sha256": "a2a2b20e32af1dfff6e0e883ef644544789c9d4911f9ad330299c4615e1b22bd"
+    },
+    {
+      "faction": "light",
+      "asset": "tree_4",
+      "triangles": 248,
+      "file": "models/light/tree_4.glb",
+      "symmetry": "asymmetric trunk and individually oriented foliage quads",
+      "license": "generated",
+      "texture": "textures/tree_foliage_atlas.png",
+      "reference": "references/light_tree_styles.png",
+      "attachments": [],
+      "foliage": {
+        "variant": 4,
+        "kind": "leafy",
+        "branches": 5,
+        "roots": 4,
+        "foliage_quads": 55,
+        "trunk_triangles": 138,
+        "foliage_triangles": 110,
+        "foliage_rings": 4,
+        "ring_profile": [
+          {
+            "ring": 0,
+            "height": 4.6995156502273385,
+            "radius": 0.04249557305501096,
+            "quads": 8,
+            "tone": 0
+          },
+          {
+            "ring": 1,
+            "height": 4.565287857484078,
+            "radius": 0.6931927702012692,
+            "quads": 12,
+            "tone": 1
+          },
+          {
+            "ring": 2,
+            "height": 4.207442871295801,
+            "radius": 1.2429479105357228,
+            "quads": 16,
+            "tone": 2
+          },
+          {
+            "ring": 3,
+            "height": 3.6534342408801033,
+            "radius": 1.6078327990642163,
+            "quads": 19,
+            "tone": 3
+          }
+        ],
+        "layering": "Staggered radial rings. Branches point outward and down; lower rings use darker tiles.",
+        "dimensions": [
+          5.1225,
+          5.0924,
+          4.8153
+        ]
+      },
+      "sha256": "9f1dd4715981018303b1726b2957e959018c39ef70c88593416b6449a1cf7fd2"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "clothing/boots/gota_death_knight_foot",
+  "name": "Gota Death Knight armored boots",
+  "files": [
+    "clothing/boots/gota_death_knight_foot.glb"
+  ],
+  "nodes": [
+    "Gota_death_knight_Boots",
+    "Gota_death_knight_Shin_Left",
+    "Gota_death_knight_KneeGem_Left",
+    "Gota_death_knight_Toe_Left",
+    "Gota_death_knight_Shin_Right",
+    "Gota_death_knight_KneeGem_Right",
+    "Gota_death_knight_Toe_Right"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Tiny",
+  "nodes": [
+    "Nose_Tiny"
+  ],
+  "id": "noses/tiny",
+  "files": [
+    "noses/tiny.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [
+    "Nose_Tiny"
+  ],
+  "hairShades": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "04 Red work shirt",
+  "nodes": [
+    "Clothing_04"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/torsos/04_red_work_shirt",
+  "files": [
+    "clothing/torsos/04_red_work_shirt.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_04",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

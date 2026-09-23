@@ -1,0 +1,9 @@
+Use case: precise-object-edit.
+Correct this existing Ranger front/back clothing sheet to be a clean modeling guide for the green-hooded Ranger shown TOP ROW SECOND in the roster. Keep same colors and faceted, untextured low-poly shapes. Use pale gray flat studio background without dark vignette.
+Create a 5-row, 2-column grid. FRONT left, BACK right. Top to bottom BOOTS, LEGS, BELT, BODY, HAT.
+BOOTS are paired brown leather boots with broad cuffs, matching Ranger.
+LEGS are ONLY plain brown trousers ending at ankles, no shoes or boot-like bands.
+BELT is separate brown belt with small square gold buckle.
+BODY is Ranger's sleeveless green tunic with brown X chest straps, jagged leaf-like thigh hem, green thigh-length cape on back, and short green neck cowl. Keep torso shoulder openings narrow to show bare upper arms when equipped. NO shoulder armor or shoulder pads. Detached brown wrist bracers may sit at left and right sides of the torso row; no hands or skin, no arms. There is NO belt in body row; belt exists only on belt row. Cowl belongs only to body row.
+HAT is ONLY large pointed moss green hood with angular face framing edges and empty face opening. No scarf/cowl at its lower edge. Allow space for orange forelock and two braids when worn but do NOT draw any hair here.
+Empty clothing only, no mannequin, face, skin, arms, hands, hair, weapons, bows, quivers, shields, loose props, textures or extra ornaments. Show each item matching accurately in front and rear. Preserve the provided Ranger identity.

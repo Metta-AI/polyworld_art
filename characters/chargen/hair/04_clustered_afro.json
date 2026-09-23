@@ -1,0 +1,19 @@
+{
+  "name": "04 Clustered afro",
+  "nodes": [
+    "Hair_04"
+  ],
+  "id": "hair/04_clustered_afro",
+  "files": [
+    "hair/04_clustered_afro.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_04",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

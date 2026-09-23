@@ -1,0 +1,340 @@
+{
+  "pack": "lvd_buildings_construction",
+  "format": "glTF 2.0 binary",
+  "model_count": 16,
+  "stage_counts": {
+    "foundation": 8,
+    "walls": 8
+  },
+  "coordinates": "Y up, front +Z, meters; each origin matches its completed GLB",
+  "loading": "Preserve authored scale and origin. Polyworld loadPropPack currently recenters each asset: use unitHeight=false, then apply placement_offset_after_polyworld_centering in local X/Y/Z before placement rotation and scale.",
+  "textures": "One shared external PNG referenced by relative URI from every GLB",
+  "farm_stages": "Bare soil bed, then empty fenced bed; no plants.",
+  "models": [
+    {
+      "name": "town_hall_foundation",
+      "file": "models/construction/foundation/town_hall_foundation.glb",
+      "triangles": 420,
+      "dimensions": [
+        6.915929,
+        0.557522,
+        4.838495
+      ],
+      "sha256": "de940878c604f0e7c8cdc6bda9baf0eff3b0c2efb949e80fb1189ee8676834aa",
+      "building": "town_hall",
+      "stage": "foundation",
+      "completed_model": "models/town_hall.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        0.035611748695373535
+      ],
+      "scale_from_original": 1.3274336283185841
+    },
+    {
+      "name": "farm_foundation",
+      "file": "models/construction/foundation/farm_foundation.glb",
+      "triangles": 44,
+      "dimensions": [
+        3.35,
+        0.17,
+        3.35
+      ],
+      "sha256": "6df42aade4f472e466b66b03b733ef613dd76775cda3729e17d503d8de5ecb27",
+      "building": "farm",
+      "stage": "foundation",
+      "completed_model": "models/farm.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "scale_from_original": 1.0
+    },
+    {
+      "name": "barracks_foundation",
+      "file": "models/construction/foundation/barracks_foundation.glb",
+      "triangles": 240,
+      "dimensions": [
+        3.036364,
+        0.436364,
+        2.940909
+      ],
+      "sha256": "928c10fdc238a11984387f828a2460a64a8b44e9ff1f28d0ce753a000f6cc1fb",
+      "building": "barracks",
+      "stage": "foundation",
+      "completed_model": "models/barracks.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        0.08636367321014404
+      ],
+      "scale_from_original": 0.9090909090909092
+    },
+    {
+      "name": "lumber_mill_foundation",
+      "file": "models/construction/foundation/lumber_mill_foundation.glb",
+      "triangles": 60,
+      "dimensions": [
+        3.057325,
+        0.248408,
+        2.627388
+      ],
+      "sha256": "590c6654a69cd35bcc0cf2302d145011a7385e4adbb5dea7ff6dd5dd784a4851",
+      "building": "lumber_mill",
+      "stage": "foundation",
+      "completed_model": "models/lumber_mill.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        -0.05015921592712402
+      ],
+      "scale_from_original": 0.9554140127388535
+    },
+    {
+      "name": "tower_foundation",
+      "file": "models/construction/foundation/tower_foundation.glb",
+      "triangles": 120,
+      "dimensions": [
+        3.472,
+        0.518,
+        3.00684
+      ],
+      "sha256": "7edc96124126dd0d611a79a5d03668b35a1a592cd045e4ab929e3f5032fa0e2c",
+      "building": "tower",
+      "stage": "foundation",
+      "completed_model": "models/tower.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "scale_from_original": 1.4
+    },
+    {
+      "name": "stables_foundation",
+      "file": "models/construction/foundation/stables_foundation.glb",
+      "triangles": 60,
+      "dimensions": [
+        3.810526,
+        0.315789,
+        2.547369
+      ],
+      "sha256": "24e8952e47c28bf01e8037cd127b87867ca4b30bcf73440fcfdab365f1de3190",
+      "building": "stables",
+      "stage": "foundation",
+      "completed_model": "models/stables.glb",
+      "placement_offset_after_polyworld_centering": [
+        -0.2052629590034485,
+        0.0,
+        -0.0
+      ],
+      "scale_from_original": 1.0526315789473684
+    },
+    {
+      "name": "church_foundation",
+      "file": "models/construction/foundation/church_foundation.glb",
+      "triangles": 272,
+      "dimensions": [
+        2.687919,
+        0.422819,
+        3.785234
+      ],
+      "sha256": "79eb3238c92e90600d80421ebf0815a441ff03b24420f5c7c786a213890fed8d",
+      "building": "church",
+      "stage": "foundation",
+      "completed_model": "models/church.glb",
+      "placement_offset_after_polyworld_centering": [
+        -0.007109403610229492,
+        0.0,
+        0.10822153091430664
+      ],
+      "scale_from_original": 1.0067114093959733
+    },
+    {
+      "name": "blacksmith_foundation",
+      "file": "models/construction/foundation/blacksmith_foundation.glb",
+      "triangles": 164,
+      "dimensions": [
+        3.1125,
+        0.75625,
+        3.85625
+      ],
+      "sha256": "88974186e49f4c3a4996599e3ce818a686d02a8291080ea58de94dd27a58240e",
+      "building": "blacksmith",
+      "stage": "foundation",
+      "completed_model": "models/blacksmith.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        0.01562511920928955
+      ],
+      "scale_from_original": 1.25
+    },
+    {
+      "name": "town_hall_walls",
+      "file": "models/construction/walls/town_hall_walls.glb",
+      "triangles": 6464,
+      "dimensions": [
+        7.035398,
+        4.632743,
+        4.838495
+      ],
+      "sha256": "c5e83257bb903d5844fffe7b0b303a1743b6ce7afd04b8d5f9408377a97d8e72",
+      "building": "town_hall",
+      "stage": "walls",
+      "completed_model": "models/town_hall.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        0.035611748695373535
+      ],
+      "scale_from_original": 1.3274336283185841
+    },
+    {
+      "name": "farm_walls",
+      "file": "models/construction/walls/farm_walls.glb",
+      "triangles": 1516,
+      "dimensions": [
+        3.475,
+        0.95,
+        3.475
+      ],
+      "sha256": "f51267fd72e4a84fa0985a5aaac8801525072739f9aa08b5660fabba64e2837a",
+      "building": "farm",
+      "stage": "walls",
+      "completed_model": "models/farm.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        -5.960464477539063e-08
+      ],
+      "scale_from_original": 1.0
+    },
+    {
+      "name": "barracks_walls",
+      "file": "models/construction/walls/barracks_walls.glb",
+      "triangles": 1788,
+      "dimensions": [
+        3.036364,
+        3.23001,
+        2.954546
+      ],
+      "sha256": "79c4260c59a4a53c0d8aff0ee44e911bfe284fe8e51190f6a1bad00c3751439a",
+      "building": "barracks",
+      "stage": "walls",
+      "completed_model": "models/barracks.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        0.07954537868499756
+      ],
+      "scale_from_original": 0.9090909090909092
+    },
+    {
+      "name": "lumber_mill_walls",
+      "file": "models/construction/walls/lumber_mill_walls.glb",
+      "triangles": 592,
+      "dimensions": [
+        3.057325,
+        1.958599,
+        2.627388
+      ],
+      "sha256": "f0017b2610b773a060030d59c9d57db77b15c8e5db9f5e83b4fbee15feb795b1",
+      "building": "lumber_mill",
+      "stage": "walls",
+      "completed_model": "models/lumber_mill.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        -0.05015921592712402
+      ],
+      "scale_from_original": 0.9554140127388535
+    },
+    {
+      "name": "tower_walls",
+      "file": "models/construction/walls/tower_walls.glb",
+      "triangles": 2700,
+      "dimensions": [
+        3.472,
+        5.53,
+        3.62217
+      ],
+      "sha256": "96f654926d00dc081fe7295d0d6cc868296c0524a15290b666df110cd2695ba2",
+      "building": "tower",
+      "stage": "walls",
+      "completed_model": "models/tower.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "scale_from_original": 1.4
+    },
+    {
+      "name": "stables_walls",
+      "file": "models/construction/walls/stables_walls.glb",
+      "triangles": 868,
+      "dimensions": [
+        4.447368,
+        2.01579,
+        2.547369
+      ],
+      "sha256": "58bf47550c93bab9f766f2e43a67946f794300350b87efac59c48decef02aa42",
+      "building": "stables",
+      "stage": "walls",
+      "completed_model": "models/stables.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.11315798759460449,
+        0.0,
+        -0.0
+      ],
+      "scale_from_original": 1.0526315789473684
+    },
+    {
+      "name": "church_walls",
+      "file": "models/construction/walls/church_walls.glb",
+      "triangles": 1940,
+      "dimensions": [
+        2.768456,
+        4.668624,
+        3.785234
+      ],
+      "sha256": "ddf89a6122561b0268bc0cfb70239d129d9da3e21e02c3f8782b04da55a5bcd1",
+      "building": "church",
+      "stage": "walls",
+      "completed_model": "models/church.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.03315901756286621,
+        0.0,
+        0.10822153091430664
+      ],
+      "scale_from_original": 1.0067114093959733
+    },
+    {
+      "name": "blacksmith_walls",
+      "file": "models/construction/walls/blacksmith_walls.glb",
+      "triangles": 1912,
+      "dimensions": [
+        3.1125,
+        4.39375,
+        3.8875
+      ],
+      "sha256": "9687588dd1020781f0478be834adf7adc8b90fd3883834109c9a96145dea61cc",
+      "building": "blacksmith",
+      "stage": "walls",
+      "completed_model": "models/blacksmith.glb",
+      "placement_offset_after_polyworld_centering": [
+        0.0,
+        0.0,
+        1.1920928955078125e-07
+      ],
+      "scale_from_original": 1.25
+    }
+  ],
+  "texture_size": [
+    512,
+    512
+  ],
+  "texture_source": "textures/buildings-atlas.png"
+}

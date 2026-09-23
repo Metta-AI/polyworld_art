@@ -1,0 +1,98 @@
+{
+  "name": "Vanguard Knight",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 17,
+  "hairColor": "Chestnut",
+  "pupilColor": "Blue",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "16 Determined"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "04 Heroic"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "None"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Vanguard Knight helmet"
+    },
+    {
+      "category": "Chest",
+      "item": "Vanguard Knight body"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Vanguard Knight legs"
+    },
+    {
+      "category": "Foot",
+      "item": "Vanguard Knight boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Vanguard Knight belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

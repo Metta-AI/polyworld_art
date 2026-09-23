@@ -1,0 +1,38 @@
+{
+  "id": "clothing/torsos/gota_warlock_chest",
+  "name": "Gota Warlock robe",
+  "files": [
+    "clothing/torsos/gota_warlock_chest.glb"
+  ],
+  "nodes": [
+    "Gota_warlock_Torso",
+    "Gota_warlock_Sleeve-1",
+    "Gota_warlock_Sleeve1",
+    "Gota_warlock_RobeTails",
+    "Gota_warlock_TabardGold",
+    "Gota_warlock_Tabard",
+    "Gota_warlock_WaistLining",
+    "Gota_warlock_Collar-1",
+    "Gota_warlock_Strap-1False",
+    "Gota_warlock_Strap-1True",
+    "Gota_warlock_Collar1",
+    "Gota_warlock_Strap1False",
+    "Gota_warlock_Strap1True",
+    "Gota_warlock_GloveLeft",
+    "Gota_warlock_GloveCuffLeft",
+    "Gota_warlock_GloveRight",
+    "Gota_warlock_GloveCuffRight"
+  ],
+  "hides": [
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "Hand.Left",
+    "Hand.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

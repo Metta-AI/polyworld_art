@@ -1,0 +1,22 @@
+{
+  "name": "06 Leather jerkin",
+  "nodes": [
+    "Clothing_06"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/torsos/06_leather_jerkin",
+  "files": [
+    "clothing/torsos/06_leather_jerkin.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_06",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

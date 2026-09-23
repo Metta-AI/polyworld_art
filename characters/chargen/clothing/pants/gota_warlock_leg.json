@@ -1,0 +1,23 @@
+{
+  "id": "clothing/pants/gota_warlock_leg",
+  "name": "Gota Warlock trousers",
+  "files": [
+    "clothing/pants/gota_warlock_leg.glb"
+  ],
+  "nodes": [
+    "Gota_warlock_Legs",
+    "Gota_warlock_Legs_BootCut0",
+    "Gota_warlock_Legs_BootCut1",
+    "Gota_warlock_Legs_BootCut2",
+    "Gota_warlock_Legs_BootCut3"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

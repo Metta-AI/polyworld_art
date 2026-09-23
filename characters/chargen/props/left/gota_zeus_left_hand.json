@@ -1,0 +1,21 @@
+{
+  "id": "props/left/gota_zeus_left_hand",
+  "name": "Zeus lightning orb",
+  "files": [
+    "props/left/gota_zeus_left_hand.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_LightningSpellHeart",
+    "Gota_zeus_LightningSpellGold",
+    "Gota_zeus_LightningSpellBlue-1",
+    "Gota_zeus_LightningSpellBlue1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand"
+}

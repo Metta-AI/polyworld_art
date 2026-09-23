@@ -1,0 +1,566 @@
+{
+  "size": [
+    1254,
+    1254
+  ],
+  "parts": [
+    {
+      "category": "Eyes",
+      "name": "Monster 01 Stalking cat",
+      "node": "Eyes_Monster01",
+      "texture": "eyes/monster_01_stalking_cat.png",
+      "size": [
+        276,
+        106
+      ],
+      "sourceRect": [
+        21,
+        146,
+        297,
+        252
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          51,
+          33,
+          110,
+          100
+        ],
+        [
+          165,
+          32,
+          224,
+          100
+        ]
+      ],
+      "pupilMask": "eyes/monster_01_stalking_cat.mask.png",
+      "scleraRect": [
+        25,
+        26,
+        250,
+        102
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 02 Feral cat",
+      "node": "Eyes_Monster02",
+      "texture": "eyes/monster_02_feral_cat.png",
+      "size": [
+        286,
+        145
+      ],
+      "sourceRect": [
+        323,
+        122,
+        609,
+        267
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          44,
+          40,
+          112,
+          132
+        ],
+        [
+          173,
+          40,
+          241,
+          132
+        ]
+      ],
+      "pupilMask": "eyes/monster_02_feral_cat.mask.png",
+      "scleraRect": [
+        26,
+        33,
+        259,
+        141
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 03 Hooded lizard",
+      "node": "Eyes_Monster03",
+      "texture": "eyes/monster_03_hooded_lizard.png",
+      "size": [
+        324,
+        80
+      ],
+      "sourceRect": [
+        610,
+        168,
+        934,
+        248
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          55,
+          23,
+          129,
+          73
+        ],
+        [
+          193,
+          22,
+          264,
+          72
+        ]
+      ],
+      "pupilMask": "eyes/monster_03_hooded_lizard.mask.png",
+      "scleraRect": [
+        21,
+        20,
+        303,
+        76
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 04 Dragon",
+      "node": "Eyes_Monster04",
+      "texture": "eyes/monster_04_dragon.png",
+      "size": [
+        301,
+        157
+      ],
+      "sourceRect": [
+        939,
+        111,
+        1240,
+        268
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          46,
+          55,
+          117,
+          141
+        ],
+        [
+          183,
+          56,
+          254,
+          140
+        ]
+      ],
+      "pupilMask": "eyes/monster_04_dragon.mask.png",
+      "scleraRect": [
+        19,
+        37,
+        281,
+        153
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 05 Viper",
+      "node": "Eyes_Monster05",
+      "texture": "eyes/monster_05_viper.png",
+      "size": [
+        275,
+        108
+      ],
+      "sourceRect": [
+        21,
+        436,
+        296,
+        544
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          57,
+          36,
+          97,
+          97
+        ],
+        [
+          176,
+          34,
+          217,
+          95
+        ]
+      ],
+      "pupilMask": "eyes/monster_05_viper.mask.png",
+      "scleraRect": [
+        21,
+        25,
+        253,
+        104
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 06 Crocodile",
+      "node": "Eyes_Monster06",
+      "texture": "eyes/monster_06_crocodile.png",
+      "size": [
+        304,
+        112
+      ],
+      "sourceRect": [
+        313,
+        438,
+        617,
+        550
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          44,
+          30,
+          122,
+          102
+        ],
+        [
+          185,
+          29,
+          264,
+          102
+        ]
+      ],
+      "pupilMask": "eyes/monster_06_crocodile.mask.png",
+      "scleraRect": [
+        19,
+        27,
+        285,
+        108
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 07 Cursed goat",
+      "node": "Eyes_Monster07",
+      "texture": "eyes/monster_07_cursed_goat.png",
+      "size": [
+        294,
+        101
+      ],
+      "sourceRect": [
+        626,
+        442,
+        920,
+        543
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          38,
+          30,
+          117,
+          91
+        ],
+        [
+          188,
+          29,
+          256,
+          91
+        ]
+      ],
+      "pupilMask": "eyes/monster_07_cursed_goat.mask.png",
+      "scleraRect": [
+        14,
+        26,
+        280,
+        97
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 08 Deep sea",
+      "node": "Eyes_Monster08",
+      "texture": "eyes/monster_08_deep_sea.png",
+      "size": [
+        276,
+        130
+      ],
+      "sourceRect": [
+        950,
+        423,
+        1226,
+        553
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          19,
+          19,
+          108,
+          113
+        ],
+        [
+          167,
+          18,
+          256,
+          113
+        ]
+      ],
+      "pupilMask": "eyes/monster_08_deep_sea.mask.png",
+      "scleraRect": [
+        4,
+        4,
+        272,
+        126
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 09 Demon",
+      "node": "Eyes_Monster09",
+      "texture": "eyes/monster_09_demon.png",
+      "size": [
+        294,
+        146
+      ],
+      "sourceRect": [
+        11,
+        694,
+        305,
+        840
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          59,
+          56,
+          112,
+          129
+        ],
+        [
+          182,
+          57,
+          234,
+          127
+        ]
+      ],
+      "pupilMask": "eyes/monster_09_demon.mask.png",
+      "scleraRect": [
+        34,
+        44,
+        259,
+        142
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 10 Possessed",
+      "node": "Eyes_Monster10",
+      "texture": "eyes/monster_10_possessed.png",
+      "size": [
+        288,
+        133
+      ],
+      "sourceRect": [
+        322,
+        703,
+        610,
+        836
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          44,
+          43,
+          117,
+          123
+        ],
+        [
+          168,
+          43,
+          242,
+          123
+        ]
+      ],
+      "pupilMask": "eyes/monster_10_possessed.mask.png",
+      "scleraRect": [
+        25,
+        31,
+        261,
+        129
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 11 Undead",
+      "node": "Eyes_Monster11",
+      "texture": "eyes/monster_11_undead.png",
+      "size": [
+        295,
+        109
+      ],
+      "sourceRect": [
+        629,
+        718,
+        924,
+        827
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          36,
+          28,
+          114,
+          101
+        ],
+        [
+          182,
+          32,
+          249,
+          100
+        ]
+      ],
+      "pupilMask": "eyes/monster_11_undead.mask.png",
+      "scleraRect": [
+        21,
+        24,
+        270,
+        105
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 12 Shadow wraith",
+      "node": "Eyes_Monster12",
+      "texture": "eyes/monster_12_shadow_wraith.png",
+      "size": [
+        302,
+        125
+      ],
+      "sourceRect": [
+        939,
+        704,
+        1241,
+        829
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          59,
+          44,
+          115,
+          109
+        ],
+        [
+          184,
+          44,
+          241,
+          110
+        ]
+      ],
+      "pupilMask": "eyes/monster_12_shadow_wraith.mask.png",
+      "scleraRect": [
+        14,
+        21,
+        287,
+        121
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 14 Berserk beast",
+      "node": "Eyes_Monster14",
+      "texture": "eyes/monster_14_berserk_beast.png",
+      "size": [
+        287,
+        135
+      ],
+      "sourceRect": [
+        324,
+        988,
+        611,
+        1123
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          57,
+          64,
+          106,
+          114
+        ],
+        [
+          181,
+          64,
+          229,
+          114
+        ]
+      ],
+      "pupilMask": "eyes/monster_14_berserk_beast.mask.png",
+      "scleraRect": [
+        23,
+        42,
+        262,
+        131
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 15 Pirate",
+      "node": "Eyes_Monster15",
+      "texture": "eyes/monster_15_pirate.png",
+      "size": [
+        296,
+        161
+      ],
+      "sourceRect": [
+        630,
+        967,
+        926,
+        1128
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          52,
+          85,
+          108,
+          140
+        ]
+      ],
+      "pupilMask": "eyes/monster_15_pirate.mask.png",
+      "scleraRect": [
+        21,
+        69,
+        121,
+        152
+      ]
+    },
+    {
+      "category": "Eyes",
+      "name": "Monster 16 Reptile raider",
+      "node": "Eyes_Monster16",
+      "texture": "eyes/monster_16_reptile_raider.png",
+      "size": [
+        302,
+        156
+      ],
+      "sourceRect": [
+        940,
+        971,
+        1242,
+        1127
+      ],
+      "source": "source/eyes/monster_v1/transparent.png",
+      "irisRects": [
+        [
+          58,
+          69,
+          118,
+          147
+        ]
+      ],
+      "pupilMask": "eyes/monster_16_reptile_raider.mask.png",
+      "scleraRect": [
+        32,
+        61,
+        132,
+        150
+      ]
+    }
+  ]
+}

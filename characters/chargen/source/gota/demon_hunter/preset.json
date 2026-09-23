@@ -1,0 +1,98 @@
+{
+  "name": "Demon Hunter",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 14,
+  "hairColor": "Jet black",
+  "pupilColor": "Brown",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "02 Focused"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "04 Heroic"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "Gota Demon Hunter spiky hair"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Demon Hunter blindfold"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Demon Hunter harness"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Demon Hunter leggings"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Demon Hunter boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Demon Hunter belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

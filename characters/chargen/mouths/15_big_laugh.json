@@ -1,0 +1,14 @@
+{
+  "name": "15 Big laugh",
+  "nodes": [
+    "Mouth_Atlas15"
+  ],
+  "id": "mouths/15_big_laugh",
+  "files": [
+    "mouths/15_big_laugh.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/15_big_laugh.png"
+}

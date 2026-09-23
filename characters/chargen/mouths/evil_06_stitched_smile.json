@@ -1,0 +1,14 @@
+{
+  "name": "Evil 06 Stitched smile",
+  "nodes": [
+    "Mouth_Evil06"
+  ],
+  "texture": "mouths/evil_06_stitched_smile.png",
+  "id": "mouths/evil_06_stitched_smile",
+  "files": [
+    "mouths/evil_06_stitched_smile.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

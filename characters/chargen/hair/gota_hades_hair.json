@@ -1,0 +1,23 @@
+{
+  "id": "hair/gota_hades_hair",
+  "name": "Gota Hades swept hair",
+  "files": [
+    "hair/gota_hades_hair.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Hair",
+    "Gota_hades_SweptLock-10",
+    "Gota_hades_SweptLock-11",
+    "Gota_hades_SweptLock-12",
+    "Gota_hades_SweptLock10",
+    "Gota_hades_SweptLock11",
+    "Gota_hades_SweptLock12"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

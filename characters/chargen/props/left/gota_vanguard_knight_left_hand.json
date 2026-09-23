@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_vanguard_knight_left_hand",
+  "name": "Vanguard shield",
+  "files": [
+    "props/left/gota_vanguard_knight_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_vanguard_knight_left_hand"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftForeArm",
+  "triangles": 1526,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

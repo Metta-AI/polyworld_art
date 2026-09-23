@@ -1,0 +1,15 @@
+{
+  "name": "11 Bushy",
+  "nodes": [
+    "Brow_Atlas11"
+  ],
+  "id": "eyebrows/11_bushy",
+  "files": [
+    "eyebrows/11_bushy.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/11_bushy.png"
+}

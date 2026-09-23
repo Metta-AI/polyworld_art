@@ -1,0 +1,17 @@
+{
+  "id": "hats/gota_arcanist_headgear",
+  "name": "Gota Arcanist circlet",
+  "files": [
+    "hats/gota_arcanist_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_arcanist_circlet"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

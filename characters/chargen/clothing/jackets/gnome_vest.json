@@ -1,0 +1,26 @@
+{
+  "name": "Gnome vest",
+  "nodes": [
+    "Gnome_Vest"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Vest",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Vest",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/jackets/gnome_vest",
+  "files": [
+    "clothing/jackets/gnome_vest.glb"
+  ],
+  "skinNodes": []
+}

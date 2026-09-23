@@ -1,0 +1,98 @@
+{
+  "name": "Ranger",
+  "group": "Gota",
+  "skin": 13,
+  "hairColor": "Copper",
+  "pupilColor": "Brown",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "12 Sleepy"
+    },
+    {
+      "category": "Brow",
+      "item": "02 Confident"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "Round"
+    },
+    {
+      "category": "Hair",
+      "item": "Ranger hood braids"
+    },
+    {
+      "category": "Foot",
+      "item": "Ranger cuff boots"
+    },
+    {
+      "category": "Leg",
+      "item": "Ranger trousers"
+    },
+    {
+      "category": "Belt",
+      "item": "Ranger buckle belt"
+    },
+    {
+      "category": "Chest",
+      "item": "Ranger tunic and cape"
+    },
+    {
+      "category": "Headgear",
+      "item": "Ranger fitted hood"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ],
+  "pose": "A_TPose"
+}

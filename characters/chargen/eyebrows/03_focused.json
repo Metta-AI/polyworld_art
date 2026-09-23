@@ -1,0 +1,15 @@
+{
+  "name": "03 Focused",
+  "nodes": [
+    "Brow_Atlas03"
+  ],
+  "id": "eyebrows/03_focused",
+  "files": [
+    "eyebrows/03_focused.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/03_focused.png"
+}

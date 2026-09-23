@@ -1,0 +1,23 @@
+{
+  "tool": "built-in imagegen",
+  "items": [
+    {
+      "name": "tunic",
+      "prompt": "Use case: stylized-concept. Asset type: 3D modeling reference of one clothing asset, matched front and back. Reference image shows Zeus on LEFT; ignore Hades on right. Isolate Zeus sleeveless ivory wrap tunic with royal-blue V-shaped crossed lapels, simple gold edging, two round gold eagle shoulder brooches, and separate gold forearm cuffs with blue diamond gems. Present FRONT left and BACK right views of clothing on an invisible chibi humanoid body with arms in horizontal T pose, no body skin, head, beard, cape, skirt, belt, weapons, hands or feet. Leave arm openings obvious. The back is ivory with clean draped folds and modest blue/gold neck border. Keep shapes smooth low-poly simple but true curves where rounded, solid untextured materials. Neutral pale gray studio background, orthographic matched scale, clear thick geometry, few broad folds. Label FRONT and BACK only.",
+      "reference": "../reference.png",
+      "image": "tunic_front_back.png"
+    },
+    {
+      "name": "belt",
+      "prompt": "Use case: stylized-concept. Asset type: 3D modeling front/back reference of a single belt asset. Use Zeus LEFT in reference, ignore Hades. Isolate Zeus broad dark brown waist belt with gold horizontal upper and lower edges and large rounded gold center buckle bearing a simplified raised golden eagle with outstretched wings. Belt is a complete curved loop around chibi torso, not a flat strip. FRONT view left and BACK view right at matching scale, slight elevation only to show thickness, neutral pale gray. No body, other clothes, skirt, cape, head or hands. Smooth low-poly with simple geometry solid colors no texture, no tiny engravings; geometry eagle and rounded buckle remain clear. Label FRONT and BACK.",
+      "reference": "../reference.png",
+      "image": "belt_front_back.png"
+    },
+    {
+      "name": "cape",
+      "prompt": "Use case: stylized-concept. Asset type: front/back modeling reference for one isolated cape. From Zeus LEFT in reference, isolate his royal blue long cape with gold hem border, folded broad fan shape, attached at two shoulders. Render FRONT left and BACK right, orthographic matching size, invisible body T pose. Cape starts shoulder width and spreads wider toward calf-length bottom; a few broad fabric folds, rounded soft bends, thick simple solid untextured polygonal geometry. Gold stripe across bottom near hem, medium blue and deep blue color facets, no lion heads, eagles or extra embroidery. Do not include body, clothes, collar, belt, head, arms, weapons or legs. Neutral pale gray studio. FRONT BACK labels.",
+      "reference": "../reference.png",
+      "image": "cape_front_back.png"
+    }
+  ]
+}

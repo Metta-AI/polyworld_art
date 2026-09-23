@@ -1,0 +1,19 @@
+{
+  "name": "01 French crop",
+  "nodes": [
+    "Hair_01"
+  ],
+  "id": "hair/01_french_crop",
+  "files": [
+    "hair/01_french_crop.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_01",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

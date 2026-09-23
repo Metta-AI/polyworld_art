@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_demon_hunter_left_hand",
+  "name": "Demon Hunter dagger",
+  "files": [
+    "props/left/gota_demon_hunter_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_demon_hunter_left_hand"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand",
+  "triangles": 876,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

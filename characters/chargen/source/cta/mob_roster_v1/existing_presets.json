@@ -1,0 +1,2384 @@
+{
+  "entries": [
+    {
+      "slug": "dustling",
+      "family": "Undead",
+      "rank": 0,
+      "scale": 0.7,
+      "skinRgb": [
+        0.788235294117647,
+        0.7058823529411765,
+        0.5450980392156862
+      ],
+      "weapons": "Dagger",
+      "preset": {
+        "name": "Dustling",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 10,
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "hatColor": "Brown",
+        "parts": [
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Eyes",
+            "item": "Monster 11 Undead"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 07 Broken teeth"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Round"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gnome folded"
+          },
+          {
+            "category": "Chest",
+            "item": "01 Linen tunic",
+            "rgb": [
+              0.40784313725490196,
+              0.3176470588235294,
+              0.23137254901960785
+            ]
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gnome shorts",
+            "rgb": [
+              0.28627450980392155,
+              0.23529411764705882,
+              0.19607843137254902
+            ]
+          },
+          {
+            "category": "Foot",
+            "item": "13 Strapped ankle boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "None"
+          },
+          {
+            "category": "Right hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Simple leather belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": [
+        "Torn sack tunic",
+        "Rope belt",
+        "Ankle wraps",
+        "Rag cap"
+      ]
+    },
+    {
+      "slug": "grave_stalker",
+      "family": "Undead",
+      "rank": 1,
+      "scale": 0.9,
+      "skinRgb": [
+        0.788235294117647,
+        0.7058823529411765,
+        0.5450980392156862
+      ],
+      "weapons": "Crossbow",
+      "preset": {
+        "name": "Grave Stalker",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 10,
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Eyes",
+            "item": "Monster 11 Undead"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 08 Undead snarl"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Crossbowman hood"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Crossbowman leather tunic"
+          },
+          {
+            "category": "Back",
+            "item": "Heavy bolt quiver"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Crossbowman trousers"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Crossbowman boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "None"
+          },
+          {
+            "category": "Right hand",
+            "item": "Medieval crossbow"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Crossbowman belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Brown"
+      },
+      "missing": [
+        "Frayed hood",
+        "Shredded short cape",
+        "Distressed leather"
+      ]
+    },
+    {
+      "slug": "crypt_acolyte",
+      "family": "Undead",
+      "rank": 2,
+      "scale": 1.1,
+      "skinRgb": [
+        0.788235294117647,
+        0.7058823529411765,
+        0.5450980392156862
+      ],
+      "weapons": "Lich staff + orb",
+      "preset": {
+        "name": "Crypt Acolyte",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 26,
+        "skinRgb": [
+          0.96,
+          0.9,
+          0.85
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Eyes",
+            "item": "Monster 12 Shadow wraith"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 05 Sewn shut"
+          },
+          {
+            "category": "Brow",
+            "item": "03 Focused"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Lich crystal hood"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Lich ivory edged robe"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Lich trousers"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Lich boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Lich orb"
+          },
+          {
+            "category": "Right hand",
+            "item": "Lich staff"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Lich diamond belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Brown"
+      },
+      "missing": [
+        "Torn teal robe",
+        "Plain ragged hood",
+        "Bone clasp"
+      ]
+    },
+    {
+      "slug": "barrow_warden",
+      "family": "Undead",
+      "rank": 3,
+      "scale": 1.4,
+      "skinRgb": [
+        0.788235294117647,
+        0.7058823529411765,
+        0.5450980392156862
+      ],
+      "weapons": "Sword + shield",
+      "preset": {
+        "name": "Barrow Warden",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 25,
+        "skinRgb": [
+          0.34,
+          0.18,
+          0.11
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 11 Undead"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 08 Undead snarl"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "None"
+          },
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Death Knight open crown"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Death Knight cuirass and cape"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Death Knight tassets"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Death Knight armored boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Death Knight shield"
+          },
+          {
+            "category": "Right hand",
+            "item": "Death Knight sword"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Death Knight steel belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Brown"
+      },
+      "missing": [
+        "Rusted armor",
+        "Tombstone pauldrons",
+        "Broken circlet"
+      ]
+    },
+    {
+      "slug": "bog_runt",
+      "family": "Orcs",
+      "rank": 0,
+      "scale": 0.7,
+      "skinRgb": [
+        0.4470588235294118,
+        0.6509803921568628,
+        0.23137254901960785
+      ],
+      "weapons": "Axe",
+      "preset": {
+        "name": "Bog Runt",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 10,
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "hatColor": "Green",
+        "parts": [
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Eyes",
+            "item": "Monster 02 Feral cat"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 09 Orc sneer"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Hair",
+            "item": "03 Flat top"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "05 Ochre tunic",
+            "rgb": [
+              0.5058823529411764,
+              0.38823529411764707,
+              0.23137254901960785
+            ]
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gnome shorts",
+            "rgb": [
+              0.28627450980392155,
+              0.23529411764705882,
+              0.1607843137254902
+            ]
+          },
+          {
+            "category": "Foot",
+            "item": "13 Strapped ankle boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "None"
+          },
+          {
+            "category": "Right hand",
+            "item": "Berserker axe"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Simple leather belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": [
+        "Patchwork jerkin",
+        "Rope belt",
+        "Short mohawk"
+      ]
+    },
+    {
+      "slug": "tusk_raider",
+      "family": "Orcs",
+      "rank": 1,
+      "scale": 0.9,
+      "skinRgb": [
+        0.4470588235294118,
+        0.6509803921568628,
+        0.23137254901960785
+      ],
+      "weapons": "Twin axes",
+      "preset": {
+        "name": "Tusk Raider",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 28,
+        "skinRgb": [
+          0.79,
+          0.56,
+          0.4
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 14 Berserk beast"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 10 Orc roar"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Hair",
+            "item": "05 Twist crop"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Berserker harness"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Berserker fur kilt"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Berserker fur boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Berserker axe"
+          },
+          {
+            "category": "Right hand",
+            "item": "Berserker axe"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Berserker hexagon belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Single iron pauldron",
+        "Leather battle kilt",
+        "Tribal bracers"
+      ]
+    },
+    {
+      "slug": "mire_shaman",
+      "family": "Orcs",
+      "rank": 2,
+      "scale": 1.1,
+      "skinRgb": [
+        0.4470588235294118,
+        0.6509803921568628,
+        0.23137254901960785
+      ],
+      "weapons": "Druid staff + orb",
+      "preset": {
+        "name": "Mire Shaman",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 12,
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 07 Cursed goat"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 09 Orc sneer"
+          },
+          {
+            "category": "Brow",
+            "item": "12 Sweeping"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gnome feather"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Druid Warden bark mantle"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Druid Warden leaf skirt"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Druid Warden boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Druid orb"
+          },
+          {
+            "category": "Right hand",
+            "item": "Druid staff"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Druid Warden hexagon belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Bone-bead collar",
+        "Feather headband",
+        "Ragged shaman robe"
+      ]
+    },
+    {
+      "slug": "ironhide_chief",
+      "family": "Orcs",
+      "rank": 3,
+      "scale": 1.4,
+      "skinRgb": [
+        0.4470588235294118,
+        0.6509803921568628,
+        0.23137254901960785
+      ],
+      "weapons": "Axe + shield",
+      "preset": {
+        "name": "Ironhide Chief",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 25,
+        "skinRgb": [
+          0.34,
+          0.18,
+          0.11
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 14 Berserk beast"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 10 Orc roar"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Hair",
+            "item": "08 Braided bun"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Death Knight cuirass and cape"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Death Knight tassets"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Death Knight armored boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Death Knight shield"
+          },
+          {
+            "category": "Right hand",
+            "item": "Berserker axe"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Death Knight steel belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Black iron tribal armor",
+        "Fur collar",
+        "Studded belt"
+      ]
+    },
+    {
+      "slug": "dusk_thrall",
+      "family": "Vampires",
+      "rank": 0,
+      "scale": 0.7,
+      "skinRgb": [
+        0.6549019607843137,
+        0.4745098039215686,
+        0.7843137254901961
+      ],
+      "weapons": "Dagger",
+      "preset": {
+        "name": "Dusk Thrall",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 10,
+        "hairColor": "Jet black",
+        "pupilColor": "Red",
+        "hatColor": "Green",
+        "parts": [
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Eyes",
+            "item": "08 Sly"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 13 Vampire smirk"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Hair",
+            "item": "12 Wolf cut"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "08 Plum wrap tunic",
+            "rgb": [
+              0.26666666666666666,
+              0.20784313725490197,
+              0.28627450980392155
+            ]
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "12 Cuffed charcoal trousers",
+            "rgb": [
+              0.1450980392156863,
+              0.1450980392156863,
+              0.20784313725490197
+            ]
+          },
+          {
+            "category": "Foot",
+            "item": "13 Strapped ankle boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "None"
+          },
+          {
+            "category": "Right hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Simple leather belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": [
+        "Servant vest",
+        "Rolled sleeves",
+        "Simple shoes"
+      ]
+    },
+    {
+      "slug": "velvet_stalker",
+      "family": "Vampires",
+      "rank": 1,
+      "scale": 0.9,
+      "skinRgb": [
+        0.6549019607843137,
+        0.4745098039215686,
+        0.7843137254901961
+      ],
+      "weapons": "Twin daggers",
+      "preset": {
+        "name": "Velvet Stalker",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 10,
+        "hairColor": "Jet black",
+        "pupilColor": "Red",
+        "hatColor": "Green",
+        "parts": [
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Eyes",
+            "item": "10 Sharp"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 14 Vampire grin"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Hair",
+            "item": "01 French crop"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "Gnome tucked shirt",
+            "rgb": [
+              0.27058823529411763,
+              0.25882352941176473,
+              0.3333333333333333
+            ]
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "12 Cuffed charcoal trousers",
+            "rgb": [
+              0.13333333333333333,
+              0.15294117647058825,
+              0.21176470588235294
+            ]
+          },
+          {
+            "category": "Foot",
+            "item": "15 Tall leather boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Right hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Jacket",
+            "item": "Gnome long coat",
+            "rgb": [
+              0.12549019607843137,
+              0.2,
+              0.27450980392156865
+            ]
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Crossbowman belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": [
+        "Fitted split-tail coat",
+        "High narrow collar"
+      ]
+    },
+    {
+      "slug": "blood_cantor",
+      "family": "Vampires",
+      "rank": 2,
+      "scale": 1.1,
+      "skinRgb": [
+        0.6549019607843137,
+        0.4745098039215686,
+        0.7843137254901961
+      ],
+      "weapons": "Warlock staff + censer",
+      "preset": {
+        "name": "Blood Cantor",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 27,
+        "skinRgb": [
+          0.55,
+          0.36,
+          0.25
+        ],
+        "hairColor": "White",
+        "pupilColor": "Red",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "14 Angular"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 15 Vampire hiss"
+          },
+          {
+            "category": "Brow",
+            "item": "10 Mischievous"
+          },
+          {
+            "category": "Hair",
+            "item": "12 Wolf cut"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Warlock robe"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Warlock trousers"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Warlock boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Warlock censer"
+          },
+          {
+            "category": "Right hand",
+            "item": "Warlock staff"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Warlock belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Black shoulder mantle",
+        "Silver trim",
+        "Fang brooch"
+      ]
+    },
+    {
+      "slug": "dread_count",
+      "family": "Vampires",
+      "rank": 3,
+      "scale": 1.4,
+      "skinRgb": [
+        0.6549019607843137,
+        0.4745098039215686,
+        0.7843137254901961
+      ],
+      "weapons": "Sword + orb",
+      "preset": {
+        "name": "Dread Count",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 31,
+        "skinRgb": [
+          0.72,
+          0.61,
+          0.59
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Red",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "14 Angular"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 14 Vampire grin"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Hair",
+            "item": "Gota Hades swept hair"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Hades obsidian crown"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Hades royal armor"
+          },
+          {
+            "category": "Back",
+            "item": "Gota Hades burgundy cape"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Hades layered skirt"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Hades armored boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Lich orb"
+          },
+          {
+            "category": "Right hand",
+            "item": "Death Knight sword"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Hades skull belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Bat-shaped high collar",
+        "Silver coronet",
+        "Silver armor trim",
+        "White swept hair compatible with the crown"
+      ]
+    },
+    {
+      "slug": "cinder_imp",
+      "family": "Demons",
+      "rank": 0,
+      "scale": 0.7,
+      "skinRgb": [
+        0.8509803921568627,
+        0.2627450980392157,
+        0.19607843137254902
+      ],
+      "weapons": "Dagger",
+      "preset": {
+        "name": "Cinder Imp",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 10,
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "hatColor": "Green",
+        "parts": [
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Eyes",
+            "item": "Monster 09 Demon"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 16 Demon grin"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Hair",
+            "item": "Gota Demon Hunter spiky hair"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "04 Red work shirt",
+            "rgb": [
+              0.1607843137254902,
+              0.1411764705882353,
+              0.16470588235294117
+            ]
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gnome shorts",
+            "rgb": [
+              0.21176470588235294,
+              0.17254901960784313,
+              0.16470588235294117
+            ]
+          },
+          {
+            "category": "Foot",
+            "item": "13 Strapped ankle boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "None"
+          },
+          {
+            "category": "Right hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Simple leather belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": [
+        "Separate small horns",
+        "Cropped vest",
+        "Ragged shorts",
+        "Foot wraps"
+      ]
+    },
+    {
+      "slug": "ash_reaver",
+      "family": "Demons",
+      "rank": 1,
+      "scale": 0.9,
+      "skinRgb": [
+        0.8509803921568627,
+        0.2627450980392157,
+        0.19607843137254902
+      ],
+      "weapons": "Twin daggers",
+      "preset": {
+        "name": "Ash Reaver",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 14,
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 09 Demon"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 16 Demon grin"
+          },
+          {
+            "category": "Brow",
+            "item": "04 Heroic"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Hair",
+            "item": "Gota Demon Hunter spiky hair"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "None"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Demon Hunter harness"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Berserker fur kilt"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Demon Hunter boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Right hand",
+            "item": "Demon Hunter dagger"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Demon Hunter belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Separate swept horns",
+        "Charcoal pauldrons",
+        "Dark battle skirt"
+      ]
+    },
+    {
+      "slug": "ember_hexer",
+      "family": "Demons",
+      "rank": 2,
+      "scale": 1.1,
+      "skinRgb": [
+        0.8509803921568627,
+        0.2627450980392157,
+        0.19607843137254902
+      ],
+      "weapons": "Warlock staff + censer",
+      "preset": {
+        "name": "Ember Hexer",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 27,
+        "skinRgb": [
+          0.55,
+          0.36,
+          0.25
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 09 Demon"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 16 Demon grin"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Ears",
+            "item": "None"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Warlock horned hood"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Warlock robe"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Warlock trousers"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Warlock boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Warlock censer"
+          },
+          {
+            "category": "Right hand",
+            "item": "Warlock staff"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Warlock belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Charcoal and ember robe variant"
+      ]
+    },
+    {
+      "slug": "infernal_duke",
+      "family": "Demons",
+      "rank": 3,
+      "scale": 1.4,
+      "skinRgb": [
+        0.8509803921568627,
+        0.2627450980392157,
+        0.19607843137254902
+      ],
+      "weapons": "Bident + soul orb",
+      "preset": {
+        "name": "Infernal Duke",
+        "group": "CTA previews",
+        "pose": "A_TPose",
+        "skin": 31,
+        "skinRgb": [
+          0.72,
+          0.61,
+          0.59
+        ],
+        "hairColor": "Jet black",
+        "pupilColor": "Amber",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "Monster 09 Demon"
+          },
+          {
+            "category": "Mouth",
+            "item": "Evil 16 Demon grin"
+          },
+          {
+            "category": "Brow",
+            "item": "08 Stern"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Ears",
+            "item": "None"
+          },
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Warlock horned hood"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Hades royal armor"
+          },
+          {
+            "category": "Back",
+            "item": "Gota Hades burgundy cape"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Hades layered skirt"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Hades armored boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Hades soul"
+          },
+          {
+            "category": "Right hand",
+            "item": "Hades bident"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Hades skull belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "hatColor": "Green"
+      },
+      "missing": [
+        "Separate great horns",
+        "Bronze-edged obsidian armor"
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "slug": "vanguard_knight",
+      "family": "Fighter",
+      "rank": 0,
+      "scale": 1.0,
+      "skinRgb": [],
+      "weapons": "Sword + shield",
+      "preset": {
+        "name": "Vanguard Knight",
+        "group": "Gota",
+        "pose": "A_TPose",
+        "skin": 17,
+        "hairColor": "Chestnut",
+        "pupilColor": "Blue",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "16 Determined"
+          },
+          {
+            "category": "Mouth",
+            "item": "03 Neutral"
+          },
+          {
+            "category": "Brow",
+            "item": "04 Heroic"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "None"
+          },
+          {
+            "category": "Hair",
+            "item": "None"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Vanguard Knight helmet"
+          },
+          {
+            "category": "Chest",
+            "item": "Vanguard Knight body"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Vanguard Knight legs"
+          },
+          {
+            "category": "Foot",
+            "item": "Vanguard Knight boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Vanguard shield"
+          },
+          {
+            "category": "Right hand",
+            "item": "Vanguard sword"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Vanguard Knight belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": []
+    },
+    {
+      "slug": "arcanist",
+      "family": "Wizard",
+      "rank": 0,
+      "scale": 1.0,
+      "skinRgb": [],
+      "weapons": "Staff + arcane orbs",
+      "preset": {
+        "name": "Arcanist",
+        "group": "Gota",
+        "pose": "A_TPose",
+        "skin": 20,
+        "hairColor": "White",
+        "pupilColor": "Blue",
+        "parts": [
+          {
+            "category": "Hair",
+            "item": "12 Wolf cut"
+          },
+          {
+            "category": "Eyes",
+            "item": "01 Bright"
+          },
+          {
+            "category": "Mouth",
+            "item": "03 Neutral"
+          },
+          {
+            "category": "Brow",
+            "item": "01 Soft arch"
+          },
+          {
+            "category": "Ears",
+            "item": "Round"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Arcanist circlet"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Arcanist violet robe"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Arcanist leggings"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Arcanist boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Arcanist orbs"
+          },
+          {
+            "category": "Right hand",
+            "item": "Arcanist staff"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Arcanist amethyst belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": []
+    },
+    {
+      "slug": "ranger",
+      "family": "Rogue",
+      "rank": 0,
+      "scale": 1.0,
+      "skinRgb": [],
+      "weapons": "Bow + arrow + quiver",
+      "preset": {
+        "name": "Ranger",
+        "group": "Gota",
+        "skin": 13,
+        "hairColor": "Copper",
+        "pupilColor": "Brown",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "12 Sleepy"
+          },
+          {
+            "category": "Brow",
+            "item": "02 Confident"
+          },
+          {
+            "category": "Mouth",
+            "item": "03 Neutral"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Ears",
+            "item": "Round"
+          },
+          {
+            "category": "Hair",
+            "item": "Ranger hood braids"
+          },
+          {
+            "category": "Foot",
+            "item": "Ranger cuff boots"
+          },
+          {
+            "category": "Leg",
+            "item": "Ranger trousers"
+          },
+          {
+            "category": "Belt",
+            "item": "Ranger buckle belt"
+          },
+          {
+            "category": "Chest",
+            "item": "Ranger tunic and cape"
+          },
+          {
+            "category": "Headgear",
+            "item": "Ranger fitted hood"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Beard",
+            "item": "None"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Back",
+            "item": "Ranger light quiver"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Left hand",
+            "item": "Ranger bow"
+          },
+          {
+            "category": "Right hand",
+            "item": "Ranger arrow"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ],
+        "pose": "A_TPose"
+      },
+      "missing": []
+    },
+    {
+      "slug": "druid_warden",
+      "family": "Cleric",
+      "rank": 0,
+      "scale": 1.0,
+      "skinRgb": [],
+      "weapons": "Staff + nature orb",
+      "preset": {
+        "name": "Druid Warden",
+        "group": "Gota",
+        "pose": "A_TPose",
+        "skin": 12,
+        "hairColor": "Moss",
+        "pupilColor": "Green",
+        "parts": [
+          {
+            "category": "Eyes",
+            "item": "04 Calm"
+          },
+          {
+            "category": "Mouth",
+            "item": "03 Neutral"
+          },
+          {
+            "category": "Brow",
+            "item": "12 Sweeping"
+          },
+          {
+            "category": "Ears",
+            "item": "Elf"
+          },
+          {
+            "category": "Body",
+            "item": "Gota base"
+          },
+          {
+            "category": "Face",
+            "item": "Base"
+          },
+          {
+            "category": "Nose",
+            "item": "Tiny"
+          },
+          {
+            "category": "Hair",
+            "item": "Gota Druid Warden leaf hair"
+          },
+          {
+            "category": "Beard",
+            "item": "Gota Druid Warden leaf beard"
+          },
+          {
+            "category": "Earring",
+            "item": "None"
+          },
+          {
+            "category": "Eyewear",
+            "item": "None"
+          },
+          {
+            "category": "Headgear",
+            "item": "Gota Druid Warden antler crown"
+          },
+          {
+            "category": "Chest",
+            "item": "Gota Druid Warden bark mantle"
+          },
+          {
+            "category": "Back",
+            "item": "None"
+          },
+          {
+            "category": "Hand",
+            "item": "None"
+          },
+          {
+            "category": "Leg",
+            "item": "Gota Druid Warden leaf skirt"
+          },
+          {
+            "category": "Foot",
+            "item": "Gota Druid Warden boots"
+          },
+          {
+            "category": "Left hand",
+            "item": "Druid orb"
+          },
+          {
+            "category": "Right hand",
+            "item": "Druid staff"
+          },
+          {
+            "category": "Jacket",
+            "item": "None"
+          },
+          {
+            "category": "Belt",
+            "item": "Gota Druid Warden hexagon belt"
+          },
+          {
+            "category": "Suspenders",
+            "item": "None"
+          }
+        ]
+      },
+      "missing": []
+    }
+  ]
+}

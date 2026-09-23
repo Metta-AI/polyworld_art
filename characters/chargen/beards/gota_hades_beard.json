@@ -1,0 +1,17 @@
+{
+  "id": "beards/gota_hades_beard",
+  "name": "Gota Hades pointed beard",
+  "files": [
+    "beards/gota_hades_beard.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Beard"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

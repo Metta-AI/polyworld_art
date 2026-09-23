@@ -1,0 +1,15 @@
+{
+  "name": "Monster 03 Hooded lizard",
+  "nodes": [
+    "Eyes_Monster03"
+  ],
+  "texture": "eyes/monster_03_hooded_lizard.png",
+  "pupilMask": "eyes/monster_03_hooded_lizard.mask.png",
+  "id": "eyes/monster_03_hooded_lizard",
+  "files": [
+    "eyes/monster_03_hooded_lizard.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "01 Soft arch",
+  "nodes": [
+    "Brow_Atlas01"
+  ],
+  "id": "eyebrows/01_soft_arch",
+  "files": [
+    "eyebrows/01_soft_arch.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/01_soft_arch.png"
+}

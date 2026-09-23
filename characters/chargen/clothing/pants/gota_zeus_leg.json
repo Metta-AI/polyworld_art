@@ -1,0 +1,25 @@
+{
+  "id": "clothing/pants/gota_zeus_leg",
+  "name": "Zeus skirt",
+  "files": [
+    "clothing/pants/gota_zeus_leg.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_PleatedSkirt",
+    "Gota_zeus_SkirtUndercloth",
+    "Gota_zeus_PointedTabard",
+    "Gota_zeus_BlueSkirtFall-1",
+    "Gota_zeus_HipBlueDrape-1",
+    "Gota_zeus_BlueSkirtFall1",
+    "Gota_zeus_HipBlueDrape1"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

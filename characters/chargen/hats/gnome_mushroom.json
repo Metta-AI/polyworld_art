@@ -1,0 +1,38 @@
+{
+  "name": "Gnome mushroom",
+  "nodes": [
+    "Hat_Mushroom"
+  ],
+  "singleFile": true,
+  "alignment": "gnome",
+  "hides": [
+    "Hair_01",
+    "Hair_02",
+    "Hair_03",
+    "Hair_04",
+    "Hair_05",
+    "Hair_06",
+    "Hair_07",
+    "Hair_08",
+    "Hair_09",
+    "Hair_10",
+    "Hair_11",
+    "Hair_12",
+    "Hair_13",
+    "Hair_14",
+    "Hair_15",
+    "Hair_16"
+  ],
+  "id": "hats/gnome_mushroom",
+  "files": [
+    "hats/gnome_mushroom.glb"
+  ],
+  "hatShades": [
+    {
+      "node": "Hat_Mushroom",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "skinNodes": []
+}

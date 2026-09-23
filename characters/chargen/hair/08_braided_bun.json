@@ -1,0 +1,19 @@
+{
+  "name": "08 Braided bun",
+  "nodes": [
+    "Hair_08"
+  ],
+  "id": "hair/08_braided_bun",
+  "files": [
+    "hair/08_braided_bun.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_08",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

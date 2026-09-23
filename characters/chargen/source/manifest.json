@@ -1,0 +1,7259 @@
+{
+  "model": "character.glb",
+  "base": [],
+  "defaultSkin": 5,
+  "skinNodes": [
+    "Body",
+    "Hand.Left",
+    "Hand.Right",
+    "Foot.Left",
+    "Foot.Right",
+    "Head",
+    "Ears_Round_Left",
+    "Ears_Elf_Left",
+    "Ears_Round_Right",
+    "Ears_Elf_Right",
+    "Nose_Tiny",
+    "Nose_Gnome",
+    "Ears_Gnome_Left",
+    "Ears_Gnome_Right"
+  ],
+  "skins": [
+    {
+      "name": "Clay",
+      "color": [
+        0.4,
+        0.385,
+        0.36,
+        1
+      ]
+    },
+    {
+      "name": "Sand",
+      "color": [
+        0.72,
+        0.48,
+        0.3,
+        1
+      ]
+    },
+    {
+      "name": "Brown",
+      "color": [
+        0.28,
+        0.13,
+        0.075,
+        1
+      ]
+    },
+    {
+      "name": "Green",
+      "color": [
+        0.25,
+        0.42,
+        0.18,
+        1
+      ]
+    },
+    {
+      "name": "Purple",
+      "color": [
+        0.39,
+        0.24,
+        0.46,
+        1
+      ]
+    },
+    {
+      "name": "White",
+      "color": [
+        0.9686274509803922,
+        0.8196078431372549,
+        0.7098039215686275,
+        1
+      ]
+    },
+    {
+      "name": "Red",
+      "color": [
+        0.7647058823529411,
+        0.29411764705882354,
+        0.27058823529411763,
+        1
+      ]
+    },
+    {
+      "name": "Blue",
+      "color": [
+        0.27450980392156865,
+        0.5098039215686274,
+        0.7411764705882353,
+        1
+      ]
+    },
+    {
+      "name": "Porcelain",
+      "color": [
+        0.9568627450980393,
+        0.8509803921568627,
+        0.7843137254901961,
+        1
+      ]
+    },
+    {
+      "name": "Rosy",
+      "color": [
+        0.8745098039215686,
+        0.6745098039215687,
+        0.6078431372549019,
+        1
+      ]
+    },
+    {
+      "name": "Beige",
+      "color": [
+        0.8235294117647058,
+        0.6745098039215687,
+        0.5372549019607843,
+        1
+      ]
+    },
+    {
+      "name": "Golden",
+      "color": [
+        0.7529411764705882,
+        0.5294117647058824,
+        0.3215686274509804,
+        1
+      ]
+    },
+    {
+      "name": "Olive",
+      "color": [
+        0.6470588235294118,
+        0.5294117647058824,
+        0.34509803921568627,
+        1
+      ]
+    },
+    {
+      "name": "Sienna",
+      "color": [
+        0.6,
+        0.3568627450980392,
+        0.2235294117647059,
+        1
+      ]
+    },
+    {
+      "name": "Umber",
+      "color": [
+        0.40784313725490196,
+        0.24705882352941178,
+        0.16862745098039217,
+        1
+      ]
+    },
+    {
+      "name": "Deep brown",
+      "color": [
+        0.22745098039215686,
+        0.13333333333333333,
+        0.10196078431372549,
+        1
+      ]
+    },
+    {
+      "name": "Fair peach",
+      "color": [
+        0.9686274509803922,
+        0.8196078431372549,
+        0.7098039215686275,
+        1
+      ]
+    },
+    {
+      "name": "Fair warm",
+      "color": [
+        0.9372549019607843,
+        0.7725490196078432,
+        0.6745098039215687,
+        1
+      ]
+    },
+    {
+      "name": "Fair ivory",
+      "color": [
+        0.9568627450980393,
+        0.8509803921568627,
+        0.7843137254901961,
+        1
+      ]
+    },
+    {
+      "name": "Fair rose",
+      "color": [
+        0.9490196078431372,
+        0.7843137254901961,
+        0.7137254901960784,
+        1
+      ]
+    },
+    {
+      "name": "Fair cool",
+      "color": [
+        0.9215686274509803,
+        0.8196078431372549,
+        0.7450980392156863,
+        1
+      ]
+    },
+    {
+      "name": "Fair cream",
+      "color": [
+        0.9529411764705882,
+        0.8352941176470589,
+        0.7647058823529411,
+        1
+      ]
+    },
+    {
+      "name": "Fair sand",
+      "color": [
+        0.9294117647058824,
+        0.8156862745098039,
+        0.7058823529411765,
+        1
+      ]
+    },
+    {
+      "name": "Fair blush",
+      "color": [
+        0.9647058823529412,
+        0.803921568627451,
+        0.7372549019607844,
+        1
+      ]
+    },
+    {
+      "name": "Fair apricot",
+      "color": [
+        0.9411764705882353,
+        0.788235294117647,
+        0.6666666666666666,
+        1
+      ]
+    },
+    {
+      "name": "Gota Death Knight",
+      "color": [
+        0.34,
+        0.18,
+        0.11,
+        1
+      ]
+    },
+    {
+      "name": "Gota Lich",
+      "color": [
+        0.96,
+        0.9,
+        0.85,
+        1
+      ]
+    },
+    {
+      "name": "Gota Warlock",
+      "color": [
+        0.55,
+        0.36,
+        0.25,
+        1
+      ]
+    },
+    {
+      "name": "Gota Berserker",
+      "color": [
+        0.79,
+        0.56,
+        0.4,
+        1
+      ]
+    },
+    {
+      "name": "Gota Blue Creep",
+      "color": [
+        0.23137254901960785,
+        0.5764705882352941,
+        0.7215686274509804,
+        1
+      ]
+    },
+    {
+      "name": "Gota Purple Creep",
+      "color": [
+        0.5137254901960784,
+        0.06274509803921569,
+        0.6235294117647059,
+        1
+      ]
+    },
+    {
+      "name": "Gota Hades",
+      "color": [
+        0.72,
+        0.61,
+        0.59,
+        1
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "key": "Body",
+      "selected": 0,
+      "items": [
+        {
+          "name": "Base",
+          "nodes": [
+            "Body",
+            "Hand.Left",
+            "Hand.Right",
+            "Foot.Left",
+            "Foot.Right"
+          ]
+        },
+        {
+          "id": "body/gota_base",
+          "name": "Gota base",
+          "nodes": [
+            "GotaSkinUpper",
+            "GotaSkinLower",
+            "GotaHand.Left",
+            "GotaHand.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "files": [
+            "body/gota_skin.glb",
+            "body/gota_hand_left.glb",
+            "body/gota_hand_right.glb",
+            "body/gota_foot_left.glb",
+            "body/gota_foot_right.glb"
+          ],
+          "alignment": "both",
+          "skinNodes": [
+            "GotaSkinUpper",
+            "GotaSkinLower",
+            "GotaHand.Left",
+            "GotaHand.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "hairShades": [],
+          "hatShades": []
+        }
+      ]
+    },
+    {
+      "key": "Face",
+      "selected": 0,
+      "items": [
+        {
+          "name": "Base",
+          "nodes": [
+            "Head"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Eyes",
+      "selected": 1,
+      "items": [
+        {
+          "name": "01 Bright",
+          "nodes": [
+            "Eyes_Atlas01"
+          ]
+        },
+        {
+          "name": "02 Focused",
+          "nodes": [
+            "Eyes_Atlas02"
+          ]
+        },
+        {
+          "name": "03 Curious",
+          "nodes": [
+            "Eyes_Atlas03"
+          ]
+        },
+        {
+          "name": "04 Calm",
+          "nodes": [
+            "Eyes_Atlas04"
+          ]
+        },
+        {
+          "name": "05 Open",
+          "nodes": [
+            "Eyes_Atlas05"
+          ]
+        },
+        {
+          "name": "06 Fierce",
+          "nodes": [
+            "Eyes_Atlas06"
+          ]
+        },
+        {
+          "name": "07 Simple",
+          "nodes": [
+            "Eyes_Atlas07"
+          ]
+        },
+        {
+          "name": "08 Sly",
+          "nodes": [
+            "Eyes_Atlas08"
+          ]
+        },
+        {
+          "name": "09 Soft",
+          "nodes": [
+            "Eyes_Atlas09"
+          ]
+        },
+        {
+          "name": "10 Sharp",
+          "nodes": [
+            "Eyes_Atlas10"
+          ]
+        },
+        {
+          "name": "11 Alert",
+          "nodes": [
+            "Eyes_Atlas11"
+          ]
+        },
+        {
+          "name": "12 Sleepy",
+          "nodes": [
+            "Eyes_Atlas12"
+          ]
+        },
+        {
+          "name": "13 Star",
+          "nodes": [
+            "Eyes_Atlas13"
+          ]
+        },
+        {
+          "name": "14 Angular",
+          "nodes": [
+            "Eyes_Atlas14"
+          ]
+        },
+        {
+          "name": "15 Sweet",
+          "nodes": [
+            "Eyes_Atlas15"
+          ]
+        },
+        {
+          "name": "16 Determined",
+          "nodes": [
+            "Eyes_Atlas16"
+          ]
+        },
+        {
+          "name": "Monster 01 Stalking cat",
+          "nodes": [
+            "Eyes_Monster01"
+          ],
+          "texture": "eyes/monster_01_stalking_cat.png",
+          "pupilMask": "eyes/monster_01_stalking_cat.mask.png"
+        },
+        {
+          "name": "Monster 02 Feral cat",
+          "nodes": [
+            "Eyes_Monster02"
+          ],
+          "texture": "eyes/monster_02_feral_cat.png",
+          "pupilMask": "eyes/monster_02_feral_cat.mask.png"
+        },
+        {
+          "name": "Monster 03 Hooded lizard",
+          "nodes": [
+            "Eyes_Monster03"
+          ],
+          "texture": "eyes/monster_03_hooded_lizard.png",
+          "pupilMask": "eyes/monster_03_hooded_lizard.mask.png"
+        },
+        {
+          "name": "Monster 04 Dragon",
+          "nodes": [
+            "Eyes_Monster04"
+          ],
+          "texture": "eyes/monster_04_dragon.png",
+          "pupilMask": "eyes/monster_04_dragon.mask.png"
+        },
+        {
+          "name": "Monster 05 Viper",
+          "nodes": [
+            "Eyes_Monster05"
+          ],
+          "texture": "eyes/monster_05_viper.png",
+          "pupilMask": "eyes/monster_05_viper.mask.png"
+        },
+        {
+          "name": "Monster 06 Crocodile",
+          "nodes": [
+            "Eyes_Monster06"
+          ],
+          "texture": "eyes/monster_06_crocodile.png",
+          "pupilMask": "eyes/monster_06_crocodile.mask.png"
+        },
+        {
+          "name": "Monster 07 Cursed goat",
+          "nodes": [
+            "Eyes_Monster07"
+          ],
+          "texture": "eyes/monster_07_cursed_goat.png",
+          "pupilMask": "eyes/monster_07_cursed_goat.mask.png"
+        },
+        {
+          "name": "Monster 08 Deep sea",
+          "nodes": [
+            "Eyes_Monster08"
+          ],
+          "texture": "eyes/monster_08_deep_sea.png",
+          "pupilMask": "eyes/monster_08_deep_sea.mask.png"
+        },
+        {
+          "name": "Monster 09 Demon",
+          "nodes": [
+            "Eyes_Monster09"
+          ],
+          "texture": "eyes/monster_09_demon.png",
+          "pupilMask": "eyes/monster_09_demon.mask.png"
+        },
+        {
+          "name": "Monster 10 Possessed",
+          "nodes": [
+            "Eyes_Monster10"
+          ],
+          "texture": "eyes/monster_10_possessed.png",
+          "pupilMask": "eyes/monster_10_possessed.mask.png"
+        },
+        {
+          "name": "Monster 11 Undead",
+          "nodes": [
+            "Eyes_Monster11"
+          ],
+          "texture": "eyes/monster_11_undead.png",
+          "pupilMask": "eyes/monster_11_undead.mask.png"
+        },
+        {
+          "name": "Monster 12 Shadow wraith",
+          "nodes": [
+            "Eyes_Monster12"
+          ],
+          "texture": "eyes/monster_12_shadow_wraith.png",
+          "pupilMask": "eyes/monster_12_shadow_wraith.mask.png"
+        },
+        {
+          "name": "Monster 14 Berserk beast",
+          "nodes": [
+            "Eyes_Monster14"
+          ],
+          "texture": "eyes/monster_14_berserk_beast.png",
+          "pupilMask": "eyes/monster_14_berserk_beast.mask.png"
+        },
+        {
+          "name": "Monster 15 Pirate",
+          "nodes": [
+            "Eyes_Monster15"
+          ],
+          "texture": "eyes/monster_15_pirate.png",
+          "pupilMask": "eyes/monster_15_pirate.mask.png"
+        },
+        {
+          "name": "Monster 16 Reptile raider",
+          "nodes": [
+            "Eyes_Monster16"
+          ],
+          "texture": "eyes/monster_16_reptile_raider.png",
+          "pupilMask": "eyes/monster_16_reptile_raider.mask.png"
+        },
+        {
+          "name": "Gnome kind",
+          "nodes": [
+            "Eyes_Gnome"
+          ],
+          "texture": "eyes/gnome_kind.png",
+          "pupilMask": "eyes/gnome_kind.mask.png",
+          "singleFile": true,
+          "alignment": "gnome"
+        },
+        {
+          "name": "Dead X",
+          "nodes": [
+            "Eyes_DeadX"
+          ],
+          "id": "eyes/dead_x",
+          "texture": "eyes/dead_x.png",
+          "alignment": "both",
+          "singleFile": true
+        }
+      ]
+    },
+    {
+      "key": "Mouth",
+      "selected": 0,
+      "items": [
+        {
+          "name": "01 Relaxed smile",
+          "nodes": [
+            "Mouth_Atlas01"
+          ]
+        },
+        {
+          "name": "02 Confident smirk",
+          "nodes": [
+            "Mouth_Atlas02"
+          ]
+        },
+        {
+          "name": "03 Neutral",
+          "nodes": [
+            "Mouth_Atlas03"
+          ]
+        },
+        {
+          "name": "04 Frown",
+          "nodes": [
+            "Mouth_Atlas04"
+          ]
+        },
+        {
+          "name": "05 Playful smile",
+          "nodes": [
+            "Mouth_Atlas05"
+          ]
+        },
+        {
+          "name": "06 Tense",
+          "nodes": [
+            "Mouth_Atlas06"
+          ]
+        },
+        {
+          "name": "07 Surprised",
+          "nodes": [
+            "Mouth_Atlas07"
+          ]
+        },
+        {
+          "name": "08 Happy open",
+          "nodes": [
+            "Mouth_Atlas08"
+          ]
+        },
+        {
+          "name": "09 Tongue out",
+          "nodes": [
+            "Mouth_Atlas09"
+          ]
+        },
+        {
+          "name": "10 Laugh",
+          "nodes": [
+            "Mouth_Atlas10"
+          ]
+        },
+        {
+          "name": "11 Toothy grin",
+          "nodes": [
+            "Mouth_Atlas11"
+          ]
+        },
+        {
+          "name": "12 Grimace",
+          "nodes": [
+            "Mouth_Atlas12"
+          ]
+        },
+        {
+          "name": "13 Side smile",
+          "nodes": [
+            "Mouth_Atlas13"
+          ]
+        },
+        {
+          "name": "14 Shout",
+          "nodes": [
+            "Mouth_Atlas14"
+          ]
+        },
+        {
+          "name": "15 Big laugh",
+          "nodes": [
+            "Mouth_Atlas15"
+          ]
+        },
+        {
+          "name": "16 Sly grin",
+          "nodes": [
+            "Mouth_Atlas16"
+          ]
+        },
+        {
+          "name": "Smile",
+          "nodes": [
+            "Mouth_Smile"
+          ]
+        },
+        {
+          "name": "Neutral",
+          "nodes": [
+            "Mouth_Neutral"
+          ]
+        },
+        {
+          "name": "Open",
+          "nodes": [
+            "Mouth_Open"
+          ]
+        },
+        {
+          "name": "Evil 01 Villain smirk",
+          "nodes": [
+            "Mouth_Evil01"
+          ],
+          "texture": "mouths/evil_01_villain_smirk.png"
+        },
+        {
+          "name": "Evil 02 Hard scowl",
+          "nodes": [
+            "Mouth_Evil02"
+          ],
+          "texture": "mouths/evil_02_hard_scowl.png"
+        },
+        {
+          "name": "Evil 03 Cruel grin",
+          "nodes": [
+            "Mouth_Evil03"
+          ],
+          "texture": "mouths/evil_03_cruel_grin.png"
+        },
+        {
+          "name": "Evil 04 Cackle",
+          "nodes": [
+            "Mouth_Evil04"
+          ],
+          "texture": "mouths/evil_04_cackle.png"
+        },
+        {
+          "name": "Evil 05 Sewn shut",
+          "nodes": [
+            "Mouth_Evil05"
+          ],
+          "texture": "mouths/evil_05_sewn_shut.png"
+        },
+        {
+          "name": "Evil 06 Stitched smile",
+          "nodes": [
+            "Mouth_Evil06"
+          ],
+          "texture": "mouths/evil_06_stitched_smile.png"
+        },
+        {
+          "name": "Evil 07 Broken teeth",
+          "nodes": [
+            "Mouth_Evil07"
+          ],
+          "texture": "mouths/evil_07_broken_teeth.png"
+        },
+        {
+          "name": "Evil 08 Undead snarl",
+          "nodes": [
+            "Mouth_Evil08"
+          ],
+          "texture": "mouths/evil_08_undead_snarl.png"
+        },
+        {
+          "name": "Evil 09 Orc sneer",
+          "nodes": [
+            "Mouth_Evil09"
+          ],
+          "texture": "mouths/evil_09_orc_sneer.png"
+        },
+        {
+          "name": "Evil 10 Orc roar",
+          "nodes": [
+            "Mouth_Evil10"
+          ],
+          "texture": "mouths/evil_10_orc_roar.png"
+        },
+        {
+          "name": "Evil 11 Goblin grin",
+          "nodes": [
+            "Mouth_Evil11"
+          ],
+          "texture": "mouths/evil_11_goblin_grin.png"
+        },
+        {
+          "name": "Evil 12 Beast maw",
+          "nodes": [
+            "Mouth_Evil12"
+          ],
+          "texture": "mouths/evil_12_beast_maw.png"
+        },
+        {
+          "name": "Evil 13 Vampire smirk",
+          "nodes": [
+            "Mouth_Evil13"
+          ],
+          "texture": "mouths/evil_13_vampire_smirk.png"
+        },
+        {
+          "name": "Evil 14 Vampire grin",
+          "nodes": [
+            "Mouth_Evil14"
+          ],
+          "texture": "mouths/evil_14_vampire_grin.png"
+        },
+        {
+          "name": "Evil 15 Vampire hiss",
+          "nodes": [
+            "Mouth_Evil15"
+          ],
+          "texture": "mouths/evil_15_vampire_hiss.png"
+        },
+        {
+          "name": "Evil 16 Demon grin",
+          "nodes": [
+            "Mouth_Evil16"
+          ],
+          "texture": "mouths/evil_16_demon_grin.png"
+        }
+      ]
+    },
+    {
+      "key": "Nose",
+      "selected": 0,
+      "items": [
+        {
+          "name": "Tiny",
+          "nodes": [
+            "Nose_Tiny"
+          ]
+        },
+        {
+          "name": "Gnome bulb",
+          "nodes": [
+            "Nose_Gnome"
+          ],
+          "skinNodes": [
+            "Nose_Gnome"
+          ],
+          "singleFile": true,
+          "alignment": "gnome"
+        }
+      ]
+    },
+    {
+      "key": "Ears",
+      "selected": -1,
+      "items": [
+        {
+          "name": "Round",
+          "nodes": [
+            "Ears_Round_Left",
+            "Ears_Round_Right"
+          ]
+        },
+        {
+          "name": "Elf",
+          "nodes": [
+            "Ears_Elf_Left",
+            "Ears_Elf_Right"
+          ]
+        },
+        {
+          "name": "Gnome cups",
+          "nodes": [
+            "Ears_Gnome_Left",
+            "Ears_Gnome_Right"
+          ],
+          "skinNodes": [
+            "Ears_Gnome_Left",
+            "Ears_Gnome_Right"
+          ],
+          "singleFile": true,
+          "alignment": "gnome"
+        }
+      ]
+    },
+    {
+      "key": "Brow",
+      "selected": 0,
+      "items": [
+        {
+          "name": "01 Soft arch",
+          "nodes": [
+            "Brow_Atlas01"
+          ]
+        },
+        {
+          "name": "02 Confident",
+          "nodes": [
+            "Brow_Atlas02"
+          ]
+        },
+        {
+          "name": "03 Focused",
+          "nodes": [
+            "Brow_Atlas03"
+          ]
+        },
+        {
+          "name": "04 Heroic",
+          "nodes": [
+            "Brow_Atlas04"
+          ]
+        },
+        {
+          "name": "05 Skeptical",
+          "nodes": [
+            "Brow_Atlas05"
+          ]
+        },
+        {
+          "name": "06 Worried",
+          "nodes": [
+            "Brow_Atlas06"
+          ]
+        },
+        {
+          "name": "07 Surprised",
+          "nodes": [
+            "Brow_Atlas07"
+          ]
+        },
+        {
+          "name": "08 Stern",
+          "nodes": [
+            "Brow_Atlas08"
+          ]
+        },
+        {
+          "name": "09 Bold curve",
+          "nodes": [
+            "Brow_Atlas09"
+          ]
+        },
+        {
+          "name": "10 Mischievous",
+          "nodes": [
+            "Brow_Atlas10"
+          ]
+        },
+        {
+          "name": "11 Bushy",
+          "nodes": [
+            "Brow_Atlas11"
+          ]
+        },
+        {
+          "name": "12 Sweeping",
+          "nodes": [
+            "Brow_Atlas12"
+          ]
+        },
+        {
+          "name": "13 Slit",
+          "nodes": [
+            "Brow_Atlas13"
+          ]
+        },
+        {
+          "name": "14 Cocky",
+          "nodes": [
+            "Brow_Atlas14"
+          ]
+        },
+        {
+          "name": "15 Concerned",
+          "nodes": [
+            "Brow_Atlas15"
+          ]
+        },
+        {
+          "name": "16 Tousled",
+          "nodes": [
+            "Brow_Atlas16"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hair",
+      "selected": 0,
+      "items": [
+        {
+          "name": "01 French crop",
+          "nodes": [
+            "Hair_01"
+          ]
+        },
+        {
+          "name": "02 Bowl cut",
+          "nodes": [
+            "Hair_02"
+          ]
+        },
+        {
+          "name": "03 Flat top",
+          "nodes": [
+            "Hair_03"
+          ]
+        },
+        {
+          "name": "04 Clustered afro",
+          "nodes": [
+            "Hair_04"
+          ]
+        },
+        {
+          "name": "05 Twist crop",
+          "nodes": [
+            "Hair_05"
+          ]
+        },
+        {
+          "name": "06 Asymmetric bob",
+          "nodes": [
+            "Hair_06"
+          ]
+        },
+        {
+          "name": "07 Dutch braid",
+          "nodes": [
+            "Hair_07"
+          ]
+        },
+        {
+          "name": "08 Braided bun",
+          "nodes": [
+            "Hair_08"
+          ]
+        },
+        {
+          "name": "09 Twin braids",
+          "nodes": [
+            "Hair_09"
+          ]
+        },
+        {
+          "name": "10 Blunt bob",
+          "nodes": [
+            "Hair_10"
+          ]
+        },
+        {
+          "name": "11 Wavy panels",
+          "nodes": [
+            "Hair_11"
+          ]
+        },
+        {
+          "name": "12 Wolf cut",
+          "nodes": [
+            "Hair_12"
+          ]
+        },
+        {
+          "name": "13 Pixie",
+          "nodes": [
+            "Hair_13"
+          ]
+        },
+        {
+          "name": "14 Low ponytail",
+          "nodes": [
+            "Hair_14"
+          ]
+        },
+        {
+          "name": "15 Swept locs",
+          "nodes": [
+            "Hair_15"
+          ]
+        },
+        {
+          "name": "16 Side braid",
+          "nodes": [
+            "Hair_16"
+          ]
+        },
+        {
+          "id": "hair/gota_ranger_hair",
+          "name": "Ranger hood braids",
+          "files": [
+            "hair/gota_ranger_hair.glb"
+          ],
+          "nodes": [
+            "Gota_ranger_HoodBraids"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hair/gota_druid_warden_hair",
+          "name": "Gota Druid Warden leaf hair",
+          "files": [
+            "hair/gota_druid_warden_hair.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_green_hair",
+            "Gota_druid_warden_hair_peak"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hair/gota_demon_hunter_hair",
+          "name": "Gota Demon Hunter spiky hair",
+          "files": [
+            "hair/gota_demon_hunter_hair.glb"
+          ],
+          "nodes": [
+            "Gota_demon_hunter_HairBase",
+            "Gota_demon_hunter_HairSpike0",
+            "Gota_demon_hunter_HairSpike1",
+            "Gota_demon_hunter_HairSpike2",
+            "Gota_demon_hunter_HairSpike3",
+            "Gota_demon_hunter_HairSpike4",
+            "Gota_demon_hunter_HairSpike5",
+            "Gota_demon_hunter_HairSpike6",
+            "Gota_demon_hunter_HairSpike7"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hair/gota_crossbowman_hair",
+          "name": "Gota Crossbowman hood fringe",
+          "files": [
+            "hair/gota_crossbowman_hair.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_hair"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hair/gota_berserker_hair",
+          "name": "Gota Berserker flame mane",
+          "files": [
+            "hair/gota_berserker_hair.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_mane",
+            "Gota_berserker_mane_spike_0",
+            "Gota_berserker_mane_spike_1",
+            "Gota_berserker_mane_spike_2",
+            "Gota_berserker_mane_spike_3",
+            "Gota_berserker_mane_spike_4",
+            "Gota_berserker_mane_spike_5",
+            "Gota_berserker_mane_spike_6",
+            "Gota_berserker_mane_spike_7",
+            "Gota_berserker_mane_spike_8",
+            "Gota_berserker_mane_spike_9",
+            "Gota_berserker_mane_spike_10",
+            "Gota_berserker_mane_spike_11"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hair/gota_zeus_hair",
+          "name": "Zeus hair",
+          "files": [
+            "hair/gota_zeus_hair.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_flowing_hair"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hair/gota_hades_hair",
+          "name": "Gota Hades swept hair",
+          "files": [
+            "hair/gota_hades_hair.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Hair",
+            "Gota_hades_SweptLock-10",
+            "Gota_hades_SweptLock-11",
+            "Gota_hades_SweptLock-12",
+            "Gota_hades_SweptLock10",
+            "Gota_hades_SweptLock11",
+            "Gota_hades_SweptLock12"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Beard",
+      "selected": -1,
+      "items": [
+        {
+          "name": "01 Split chin tuft",
+          "nodes": [
+            "Beard_01"
+          ]
+        },
+        {
+          "name": "02 Parted chevron",
+          "nodes": [
+            "Beard_02"
+          ]
+        },
+        {
+          "name": "03 Handlebar",
+          "nodes": [
+            "Beard_03"
+          ]
+        },
+        {
+          "name": "04 Anchor goatee",
+          "nodes": [
+            "Beard_04"
+          ]
+        },
+        {
+          "name": "05 Square jaw",
+          "nodes": [
+            "Beard_05"
+          ]
+        },
+        {
+          "name": "06 Swept chops",
+          "nodes": [
+            "Beard_06"
+          ]
+        },
+        {
+          "name": "07 Rounded beard",
+          "nodes": [
+            "Beard_07"
+          ]
+        },
+        {
+          "name": "08 Fork beard",
+          "nodes": [
+            "Beard_08"
+          ]
+        },
+        {
+          "name": "09 Tapered wedge",
+          "nodes": [
+            "Beard_09"
+          ]
+        },
+        {
+          "name": "10 Spade beard",
+          "nodes": [
+            "Beard_10"
+          ]
+        },
+        {
+          "name": "11 Van Dyke",
+          "nodes": [
+            "Beard_11"
+          ]
+        },
+        {
+          "name": "12 Single tassel",
+          "nodes": [
+            "Beard_12"
+          ]
+        },
+        {
+          "name": "13 Twin tassels",
+          "nodes": [
+            "Beard_13"
+          ]
+        },
+        {
+          "name": "14 Tiered fan",
+          "nodes": [
+            "Beard_14"
+          ]
+        },
+        {
+          "name": "15 Tied jaw beard",
+          "nodes": [
+            "Beard_15"
+          ]
+        },
+        {
+          "name": "16 Windswept beard",
+          "nodes": [
+            "Beard_16"
+          ]
+        },
+        {
+          "name": "Gnome pointed",
+          "nodes": [
+            "Beard_Gnome",
+            "Beard_Gnome_Moustache"
+          ],
+          "singleFile": true,
+          "alignment": "gnome"
+        },
+        {
+          "id": "beards/gota_druid_warden_beard",
+          "name": "Gota Druid Warden leaf beard",
+          "files": [
+            "beards/gota_druid_warden_beard.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_green_beard",
+            "Gota_druid_warden_beard_leaf"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "beards/gota_crossbowman_beard",
+          "name": "Gota Crossbowman mustache",
+          "files": [
+            "beards/gota_crossbowman_beard.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_mustache"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "beards/gota_berserker_beard",
+          "name": "Gota Berserker pointed beard",
+          "files": [
+            "beards/gota_berserker_beard.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_beard"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "beards/gota_zeus_beard",
+          "name": "Zeus beard",
+          "files": [
+            "beards/gota_zeus_beard.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_tapered_beard"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "beards/gota_hades_beard",
+          "name": "Gota Hades pointed beard",
+          "files": [
+            "beards/gota_hades_beard.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Beard"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Earring",
+      "selected": -1,
+      "items": []
+    },
+    {
+      "key": "Eyewear",
+      "selected": -1,
+      "items": []
+    },
+    {
+      "key": "Headgear",
+      "selected": -1,
+      "items": [
+        {
+          "name": "Gnome pointed",
+          "nodes": [
+            "Hat_Pointed"
+          ],
+          "singleFile": true,
+          "alignment": "gnome",
+          "hides": [
+            "Hair_01",
+            "Hair_02",
+            "Hair_03",
+            "Hair_04",
+            "Hair_05",
+            "Hair_06",
+            "Hair_07",
+            "Hair_08",
+            "Hair_09",
+            "Hair_10",
+            "Hair_11",
+            "Hair_12",
+            "Hair_13",
+            "Hair_14",
+            "Hair_15",
+            "Hair_16"
+          ]
+        },
+        {
+          "name": "Gnome folded",
+          "nodes": [
+            "Hat_Folded"
+          ],
+          "singleFile": true,
+          "alignment": "gnome",
+          "hides": [
+            "Hair_01",
+            "Hair_02",
+            "Hair_03",
+            "Hair_04",
+            "Hair_05",
+            "Hair_06",
+            "Hair_07",
+            "Hair_08",
+            "Hair_09",
+            "Hair_10",
+            "Hair_11",
+            "Hair_12",
+            "Hair_13",
+            "Hair_14",
+            "Hair_15",
+            "Hair_16"
+          ]
+        },
+        {
+          "name": "Gnome wide brim",
+          "nodes": [
+            "Hat_Wide_brim"
+          ],
+          "singleFile": true,
+          "alignment": "gnome",
+          "hides": [
+            "Hair_01",
+            "Hair_02",
+            "Hair_03",
+            "Hair_04",
+            "Hair_05",
+            "Hair_06",
+            "Hair_07",
+            "Hair_08",
+            "Hair_09",
+            "Hair_10",
+            "Hair_11",
+            "Hair_12",
+            "Hair_13",
+            "Hair_14",
+            "Hair_15",
+            "Hair_16"
+          ]
+        },
+        {
+          "name": "Gnome mushroom",
+          "nodes": [
+            "Hat_Mushroom"
+          ],
+          "singleFile": true,
+          "alignment": "gnome",
+          "hides": [
+            "Hair_01",
+            "Hair_02",
+            "Hair_03",
+            "Hair_04",
+            "Hair_05",
+            "Hair_06",
+            "Hair_07",
+            "Hair_08",
+            "Hair_09",
+            "Hair_10",
+            "Hair_11",
+            "Hair_12",
+            "Hair_13",
+            "Hair_14",
+            "Hair_15",
+            "Hair_16"
+          ]
+        },
+        {
+          "name": "Gnome leaf",
+          "nodes": [
+            "Hat_Leaf"
+          ],
+          "singleFile": true,
+          "alignment": "gnome",
+          "hides": [
+            "Hair_01",
+            "Hair_02",
+            "Hair_03",
+            "Hair_04",
+            "Hair_05",
+            "Hair_06",
+            "Hair_07",
+            "Hair_08",
+            "Hair_09",
+            "Hair_10",
+            "Hair_11",
+            "Hair_12",
+            "Hair_13",
+            "Hair_14",
+            "Hair_15",
+            "Hair_16"
+          ]
+        },
+        {
+          "name": "Gnome feather",
+          "nodes": [
+            "Hat_Feather"
+          ],
+          "singleFile": true,
+          "alignment": "gnome",
+          "hides": [
+            "Hair_01",
+            "Hair_02",
+            "Hair_03",
+            "Hair_04",
+            "Hair_05",
+            "Hair_06",
+            "Hair_07",
+            "Hair_08",
+            "Hair_09",
+            "Hair_10",
+            "Hair_11",
+            "Hair_12",
+            "Hair_13",
+            "Hair_14",
+            "Hair_15",
+            "Hair_16"
+          ]
+        },
+        {
+          "id": "hats/gota_vanguard_knight_headgear",
+          "name": "Vanguard Knight helmet",
+          "files": [
+            "hats/gota_vanguard_knight_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_vanguard_knight_HelmetShell",
+            "Gota_vanguard_knight_HelmetGoldBrow",
+            "Gota_vanguard_knight_HelmetCrest27",
+            "Gota_vanguard_knight_TempleGold28",
+            "Gota_vanguard_knight_TempleGold29",
+            "Gota_vanguard_knight_UpperGoldDiamond30",
+            "Gota_vanguard_knight_BluePlume31"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_ranger_headgear",
+          "name": "Ranger fitted hood",
+          "files": [
+            "hats/gota_ranger_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_ranger_Hood"
+          ],
+          "hides": [
+            "Ears_Round_Left",
+            "Ears_Round_Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_arcanist_headgear",
+          "name": "Gota Arcanist circlet",
+          "files": [
+            "hats/gota_arcanist_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_arcanist_circlet"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_druid_warden_headgear",
+          "name": "Gota Druid Warden antler crown",
+          "files": [
+            "hats/gota_druid_warden_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_antler_-1",
+            "Gota_druid_warden_antler_outer_-1",
+            "Gota_druid_warden_antler_leaf_-1_0",
+            "Gota_druid_warden_antler_leaf_-1_1",
+            "Gota_druid_warden_antler_1",
+            "Gota_druid_warden_antler_outer_1",
+            "Gota_druid_warden_antler_leaf_1_0",
+            "Gota_druid_warden_antler_leaf_1_1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_demon_hunter_headgear",
+          "name": "Gota Demon Hunter blindfold",
+          "files": [
+            "hats/gota_demon_hunter_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_demon_hunter_Blindfold",
+            "Gota_demon_hunter_BlindfoldOverlap",
+            "Gota_demon_hunter_BlindfoldKnot",
+            "Gota_demon_hunter_BlindfoldTail-1",
+            "Gota_demon_hunter_BlindfoldTail1"
+          ],
+          "hides": [
+            "Brow_Atlas04",
+            "Eyes_Atlas02"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_death_knight_headgear",
+          "name": "Gota Death Knight open crown",
+          "files": [
+            "hats/gota_death_knight_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_death_knight_HelmetShell",
+            "Gota_death_knight_CrownSpike_0",
+            "Gota_death_knight_CrownSpike_1",
+            "Gota_death_knight_CrownSpike_2",
+            "Gota_death_knight_CrownSpike_3",
+            "Gota_death_knight_CrownSpike_4",
+            "Gota_death_knight_ForeheadGem"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_crossbowman_headgear",
+          "name": "Gota Crossbowman hood",
+          "files": [
+            "hats/gota_crossbowman_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_hood"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_lich_headgear",
+          "name": "Gota Lich crystal hood",
+          "files": [
+            "hats/gota_lich_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_lich_hood"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_warlock_headgear",
+          "name": "Gota Warlock horned hood",
+          "files": [
+            "hats/gota_warlock_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_warlock_Hood",
+            "Gota_warlock_Horn-1",
+            "Gota_warlock_Horn1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_berserker_headgear",
+          "name": "Gota Berserker gold crest",
+          "files": [
+            "hats/gota_berserker_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_headband",
+            "Gota_berserker_gold_crest"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_zeus_headgear",
+          "name": "Zeus laurel crown",
+          "files": [
+            "hats/gota_zeus_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_laurel_band",
+            "Gota_zeus_laurel_stem_-1",
+            "Gota_zeus_laurel_-1_0",
+            "Gota_zeus_laurel_-1_1",
+            "Gota_zeus_laurel_-1_2",
+            "Gota_zeus_laurel_-1_3",
+            "Gota_zeus_laurel_stem_1",
+            "Gota_zeus_laurel_1_0",
+            "Gota_zeus_laurel_1_1",
+            "Gota_zeus_laurel_1_2",
+            "Gota_zeus_laurel_1_3",
+            "Gota_zeus_gem_mount",
+            "Gota_zeus_blue_gem"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "hats/gota_hades_headgear",
+          "name": "Gota Hades obsidian crown",
+          "files": [
+            "hats/gota_hades_headgear.glb"
+          ],
+          "nodes": [
+            "Gota_hades_CrownBand",
+            "Gota_hades_CrownSpike0",
+            "Gota_hades_CrownSpike1",
+            "Gota_hades_CrownSpike2",
+            "Gota_hades_CrownSpike3",
+            "Gota_hades_CrownSpike4",
+            "Gota_hades_CrownSpike5",
+            "Gota_hades_CrownSpike6",
+            "Gota_hades_CrownSpike7",
+            "Gota_hades_CrownSpike8",
+            "Gota_hades_CrownSpike9",
+            "Gota_hades_CrownEmeraldFrame",
+            "Gota_hades_CrownEmeraldStone",
+            "Gota_hades_CrownGold-1",
+            "Gota_hades_CrownGold1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Chest",
+      "selected": -1,
+      "items": [
+        {
+          "name": "01 Linen tunic",
+          "nodes": [
+            "Clothing_01"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_01",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "02 Bound blue tunic",
+          "nodes": [
+            "Clothing_02"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_02",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "03 Green tabard",
+          "nodes": [
+            "Clothing_03"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_03",
+              "primitive": 0,
+              "shade": 1
+            }
+          ],
+          "id": "clothing/torsos/03_belted_green_tabard"
+        },
+        {
+          "name": "04 Red work shirt",
+          "nodes": [
+            "Clothing_04"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_04",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "05 Ochre tunic",
+          "nodes": [
+            "Clothing_05"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_05",
+              "primitive": 0,
+              "shade": 1
+            }
+          ],
+          "id": "clothing/torsos/05_belted_ochre_tunic"
+        },
+        {
+          "name": "06 Leather jerkin",
+          "nodes": [
+            "Clothing_06"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_06",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "07 Blue linen shirt",
+          "nodes": [
+            "Clothing_07"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_07",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "08 Plum wrap tunic",
+          "nodes": [
+            "Clothing_08"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_08",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "Gnome tucked shirt",
+          "nodes": [
+            "Gnome_Shirt"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Shirt",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Shirt",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        },
+        {
+          "id": "clothing/torsos/gota_vanguard_knight_chest",
+          "name": "Vanguard Knight body",
+          "files": [
+            "clothing/torsos/gota_vanguard_knight_chest.glb"
+          ],
+          "nodes": [
+            "Gota_vanguard_knight_FittedUnderShirt",
+            "Gota_vanguard_knight_CuirassShell",
+            "Gota_vanguard_knight_Breastplate9",
+            "Gota_vanguard_knight_PauldronTrim10",
+            "Gota_vanguard_knight_PauldronPlate11",
+            "Gota_vanguard_knight_PauldronBackTrim12",
+            "Gota_vanguard_knight_PauldronBackPlate13",
+            "Gota_vanguard_knight_ShoulderRoof14",
+            "Gota_vanguard_knight_Bracer",
+            "Gota_vanguard_knight_BracerGold14",
+            "Gota_vanguard_knight_BracerGold15",
+            "Gota_vanguard_knight_PauldronTrim17",
+            "Gota_vanguard_knight_PauldronPlate18",
+            "Gota_vanguard_knight_PauldronBackTrim19",
+            "Gota_vanguard_knight_PauldronBackPlate20",
+            "Gota_vanguard_knight_ShoulderRoof21",
+            "Gota_vanguard_knight_Bracer.001",
+            "Gota_vanguard_knight_BracerGold21",
+            "Gota_vanguard_knight_BracerGold22",
+            "Gota_vanguard_knight_TabardTrim24",
+            "Gota_vanguard_knight_TabardPlate25",
+            "Gota_vanguard_knight_Cape26"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_ranger_chest",
+          "name": "Ranger tunic and cape",
+          "files": [
+            "clothing/torsos/gota_ranger_chest.glb"
+          ],
+          "nodes": [
+            "Gota_ranger_Tunic",
+            "Gota_ranger_Bracers",
+            "Gota_ranger_Cape",
+            "Gota_ranger_Cowl",
+            "Gota_ranger_Strap-1",
+            "Gota_ranger_Strap1",
+            "Gota_ranger_SkirtPanel-1",
+            "Gota_ranger_SkirtPanel1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_arcanist_chest",
+          "name": "Gota Arcanist violet robe",
+          "files": [
+            "clothing/torsos/gota_arcanist_chest.glb"
+          ],
+          "nodes": [
+            "Gota_arcanist_robe"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_druid_warden_chest",
+          "name": "Gota Druid Warden bark mantle",
+          "files": [
+            "clothing/torsos/gota_druid_warden_chest.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_bark_body",
+            "Gota_druid_warden_bark_center_False",
+            "Gota_druid_warden_bark_cross_left",
+            "Gota_druid_warden_bark_cross_right",
+            "Gota_druid_warden_mantle_False_-1_0",
+            "Gota_druid_warden_mantle_False_-1_1",
+            "Gota_druid_warden_mantle_False_-1_2",
+            "Gota_druid_warden_mantle_False_1_0",
+            "Gota_druid_warden_mantle_False_1_1",
+            "Gota_druid_warden_mantle_False_1_2",
+            "Gota_druid_warden_bark_center_True",
+            "Gota_druid_warden_mantle_back_leaf",
+            "Gota_druid_warden_mantle_True_-1_0",
+            "Gota_druid_warden_mantle_True_-1_1",
+            "Gota_druid_warden_mantle_True_-1_2",
+            "Gota_druid_warden_mantle_True_1_0",
+            "Gota_druid_warden_mantle_True_1_1",
+            "Gota_druid_warden_mantle_True_1_2",
+            "Gota_druid_warden_cuff_-1",
+            "Gota_druid_warden_cuff_1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_demon_hunter_chest",
+          "name": "Gota Demon Hunter harness",
+          "files": [
+            "clothing/torsos/gota_demon_hunter_chest.glb"
+          ],
+          "nodes": [
+            "Gota_demon_hunter_Body",
+            "Gota_demon_hunter_Scarf",
+            "Gota_demon_hunter_ScarfFront",
+            "Gota_demon_hunter_ScarfFold",
+            "Gota_demon_hunter_ScarfBack",
+            "Gota_demon_hunter_GloveLeft",
+            "Gota_demon_hunter_GloveRight"
+          ],
+          "hides": [
+            "GotaHand.Left",
+            "GotaHand.Right",
+            "Hand.Left",
+            "Hand.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_death_knight_chest",
+          "name": "Gota Death Knight cuirass and cape",
+          "files": [
+            "clothing/torsos/gota_death_knight_chest.glb"
+          ],
+          "nodes": [
+            "Gota_death_knight_Undersuit",
+            "Gota_death_knight_Cuirass",
+            "Gota_death_knight_Breastplate",
+            "Gota_death_knight_ChestGem",
+            "Gota_death_knight_AbdomenUpper",
+            "Gota_death_knight_AbdomenLower",
+            "Gota_death_knight_Pauldron_Left",
+            "Gota_death_knight_PauldronBack_Left",
+            "Gota_death_knight_ShoulderSpike_Left",
+            "Gota_death_knight_Vambrace_Left",
+            "Gota_death_knight_Glove_Left",
+            "Gota_death_knight_Pauldron_Right",
+            "Gota_death_knight_PauldronBack_Right",
+            "Gota_death_knight_ShoulderSpike_Right",
+            "Gota_death_knight_Vambrace_Right",
+            "Gota_death_knight_Glove_Right",
+            "Gota_death_knight_Cape"
+          ],
+          "hides": [
+            "GotaHand.Left",
+            "GotaHand.Right",
+            "Hand.Left",
+            "Hand.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_crossbowman_chest",
+          "name": "Gota Crossbowman leather tunic",
+          "files": [
+            "clothing/torsos/gota_crossbowman_chest.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_body"
+          ],
+          "hides": [
+            "GotaHand.Left",
+            "GotaHand.Right",
+            "Hand.Left",
+            "Hand.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_lich_chest",
+          "name": "Gota Lich ivory edged robe",
+          "files": [
+            "clothing/torsos/gota_lich_chest.glb"
+          ],
+          "nodes": [
+            "Gota_lich_robe"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_warlock_chest",
+          "name": "Gota Warlock robe",
+          "files": [
+            "clothing/torsos/gota_warlock_chest.glb"
+          ],
+          "nodes": [
+            "Gota_warlock_Torso",
+            "Gota_warlock_Sleeve-1",
+            "Gota_warlock_Sleeve1",
+            "Gota_warlock_RobeTails",
+            "Gota_warlock_TabardGold",
+            "Gota_warlock_Tabard",
+            "Gota_warlock_WaistLining",
+            "Gota_warlock_Collar-1",
+            "Gota_warlock_Strap-1False",
+            "Gota_warlock_Strap-1True",
+            "Gota_warlock_Collar1",
+            "Gota_warlock_Strap1False",
+            "Gota_warlock_Strap1True",
+            "Gota_warlock_GloveLeft",
+            "Gota_warlock_GloveCuffLeft",
+            "Gota_warlock_GloveRight",
+            "Gota_warlock_GloveCuffRight"
+          ],
+          "hides": [
+            "GotaHand.Left",
+            "GotaHand.Right",
+            "Hand.Left",
+            "Hand.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_berserker_chest",
+          "name": "Gota Berserker harness",
+          "files": [
+            "clothing/torsos/gota_berserker_chest.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_harness",
+            "Gota_berserker_wrist_cuffs"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_zeus_chest",
+          "name": "Zeus tunic",
+          "files": [
+            "clothing/torsos/gota_zeus_chest.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_TunicShell",
+            "Gota_zeus_LapelGold-1",
+            "Gota_zeus_LapelBlue-1",
+            "Gota_zeus_Shoulder-1Round",
+            "Gota_zeus_Shoulder-1Eagle",
+            "Gota_zeus_ShoulderBlue-1",
+            "Gota_zeus_Cuff-1",
+            "Gota_zeus_CuffRim-10",
+            "Gota_zeus_CuffRim-11",
+            "Gota_zeus_CuffGemRim-1",
+            "Gota_zeus_CuffGem-1",
+            "Gota_zeus_LapelGold1",
+            "Gota_zeus_LapelBlue1",
+            "Gota_zeus_Shoulder1Round",
+            "Gota_zeus_Shoulder1Eagle",
+            "Gota_zeus_ShoulderBlue1",
+            "Gota_zeus_Cuff1",
+            "Gota_zeus_CuffRim10",
+            "Gota_zeus_CuffRim11",
+            "Gota_zeus_CuffGemRim1",
+            "Gota_zeus_CuffGem1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/torsos/gota_hades_chest",
+          "name": "Gota Hades royal armor",
+          "files": [
+            "clothing/torsos/gota_hades_chest.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Cuirass",
+            "Gota_hades_Breastplate-1",
+            "Gota_hades_Collar-1",
+            "Gota_hades_Breastplate1",
+            "Gota_hades_Collar1",
+            "Gota_hades_ChestEmeraldFrame",
+            "Gota_hades_ChestEmeraldStone",
+            "Gota_hades_PauldronRight",
+            "Gota_hades_ShoulderStudRight",
+            "Gota_hades_PauldronLeft",
+            "Gota_hades_ShoulderStudLeft",
+            "Gota_hades_BracerRight",
+            "Gota_hades_BracerGoldRight0",
+            "Gota_hades_BracerGoldRight1",
+            "Gota_hades_BracerEmeraldRightFrame",
+            "Gota_hades_BracerEmeraldRightStone",
+            "Gota_hades_BracerLeft",
+            "Gota_hades_BracerGoldLeft0",
+            "Gota_hades_BracerGoldLeft1",
+            "Gota_hades_BracerEmeraldLeftFrame",
+            "Gota_hades_BracerEmeraldLeftStone"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Back",
+      "selected": -1,
+      "items": [
+        {
+          "id": "clothing/backs/gota_ranger_back",
+          "name": "Ranger light quiver",
+          "files": [
+            "clothing/backs/gota_ranger_back.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_ranger_back"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "Spine2",
+          "triangles": 804,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "clothing/backs/gota_crossbowman_back",
+          "name": "Heavy bolt quiver",
+          "files": [
+            "clothing/backs/gota_crossbowman_back.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_crossbowman_back"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "Spine2",
+          "triangles": 1860,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "clothing/backs/gota_zeus_back",
+          "name": "Zeus cape",
+          "files": [
+            "clothing/backs/gota_zeus_back.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_Cape"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/backs/gota_hades_back",
+          "name": "Gota Hades burgundy cape",
+          "files": [
+            "clothing/backs/gota_hades_back.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Cape"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Hand",
+      "selected": -1,
+      "items": []
+    },
+    {
+      "key": "Leg",
+      "selected": -1,
+      "items": [
+        {
+          "name": "09 Brown trousers",
+          "nodes": [
+            "Clothing_09",
+            "Clothing_09_BootCut0",
+            "Clothing_09_BootCut1",
+            "Clothing_09_BootCut2",
+            "Clothing_09_BootCut3"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_09",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_09_BootCut0",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_09_BootCut1",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_09_BootCut2",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_09_BootCut3",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "10 Loose blue breeches",
+          "nodes": [
+            "Clothing_10",
+            "Clothing_10_BootCut0",
+            "Clothing_10_BootCut1",
+            "Clothing_10_BootCut2",
+            "Clothing_10_BootCut3"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_10",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_10_BootCut0",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_10_BootCut1",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_10_BootCut2",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_10_BootCut3",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "11 Tan knee breeches",
+          "nodes": [
+            "Clothing_11",
+            "Clothing_11_BootCut3"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_11",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_11_BootCut3",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "12 Cuffed charcoal trousers",
+          "nodes": [
+            "Clothing_12",
+            "Clothing_12_BootCut0",
+            "Clothing_12_BootCut1",
+            "Clothing_12_BootCut2",
+            "Clothing_12_BootCut3"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_12",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_12_BootCut0",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_12_BootCut1",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_12_BootCut2",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Clothing_12_BootCut3",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "Gnome shorts",
+          "nodes": [
+            "Gnome_Shorts"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Shorts",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Shorts",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        },
+        {
+          "id": "clothing/pants/gota_vanguard_knight_leg",
+          "name": "Vanguard Knight legs",
+          "files": [
+            "clothing/pants/gota_vanguard_knight_leg.glb"
+          ],
+          "nodes": [
+            "Gota_vanguard_knight_Legs",
+            "Gota_vanguard_knight_Legs_BootCut0",
+            "Gota_vanguard_knight_Legs_BootCut1",
+            "Gota_vanguard_knight_Legs_BootCut2",
+            "Gota_vanguard_knight_Legs_BootCut3",
+            "Gota_vanguard_knight_KneeTrim1",
+            "Gota_vanguard_knight_KneePlate2",
+            "Gota_vanguard_knight_FauldTrim3",
+            "Gota_vanguard_knight_FauldPlate4",
+            "Gota_vanguard_knight_KneeTrim5",
+            "Gota_vanguard_knight_KneePlate6",
+            "Gota_vanguard_knight_FauldTrim7",
+            "Gota_vanguard_knight_FauldPlate8"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_ranger_leg",
+          "name": "Ranger trousers",
+          "files": [
+            "clothing/pants/gota_ranger_leg.glb"
+          ],
+          "nodes": [
+            "Gota_ranger_Trousers",
+            "Gota_ranger_Trousers_BootCut0",
+            "Gota_ranger_Trousers_BootCut1",
+            "Gota_ranger_Trousers_BootCut2",
+            "Gota_ranger_Trousers_BootCut3"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_arcanist_leg",
+          "name": "Gota Arcanist leggings",
+          "files": [
+            "clothing/pants/gota_arcanist_leg.glb"
+          ],
+          "nodes": [
+            "Gota_arcanist_legs",
+            "Gota_arcanist_legs_BootCut1",
+            "Gota_arcanist_legs_BootCut2",
+            "Gota_arcanist_legs_BootCut3"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_druid_warden_leg",
+          "name": "Gota Druid Warden leaf skirt",
+          "files": [
+            "clothing/pants/gota_druid_warden_leg.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_legs",
+            "Gota_druid_warden_legs_BootCut3",
+            "Gota_druid_warden_hip_leaf_-1_False_0",
+            "Gota_druid_warden_hip_leaf_-1_False_1",
+            "Gota_druid_warden_hip_leaf_-1_True_0",
+            "Gota_druid_warden_hip_leaf_-1_True_1",
+            "Gota_druid_warden_hip_leaf_1_False_0",
+            "Gota_druid_warden_hip_leaf_1_False_1",
+            "Gota_druid_warden_hip_leaf_1_True_0",
+            "Gota_druid_warden_hip_leaf_1_True_1",
+            "Gota_druid_warden_center_skirt_False",
+            "Gota_druid_warden_center_skirt_True"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_demon_hunter_leg",
+          "name": "Gota Demon Hunter leggings",
+          "files": [
+            "clothing/pants/gota_demon_hunter_leg.glb"
+          ],
+          "nodes": [
+            "Gota_demon_hunter_Trousers",
+            "Gota_demon_hunter_Trousers_BootCut2",
+            "Gota_demon_hunter_Trousers_BootCut3",
+            "Gota_demon_hunter_Hip-1Front0",
+            "Gota_demon_hunter_Hip-1Front1",
+            "Gota_demon_hunter_Hip-1Back0",
+            "Gota_demon_hunter_Hip-1Back1",
+            "Gota_demon_hunter_Hip1Front0",
+            "Gota_demon_hunter_Hip1Front1",
+            "Gota_demon_hunter_Hip1Back0",
+            "Gota_demon_hunter_Hip1Back1"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_death_knight_leg",
+          "name": "Gota Death Knight tassets",
+          "files": [
+            "clothing/pants/gota_death_knight_leg.glb"
+          ],
+          "nodes": [
+            "Gota_death_knight_Legs",
+            "Gota_death_knight_Tasset_Left0",
+            "Gota_death_knight_Tasset_Left1",
+            "Gota_death_knight_Tasset_Right0",
+            "Gota_death_knight_Tasset_Right1",
+            "Gota_death_knight_Tabard",
+            "Gota_death_knight_TabardGem"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_crossbowman_leg",
+          "name": "Gota Crossbowman trousers",
+          "files": [
+            "clothing/pants/gota_crossbowman_leg.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_legs",
+            "Gota_crossbowman_legs_BootCut2",
+            "Gota_crossbowman_legs_BootCut3"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_lich_leg",
+          "name": "Gota Lich trousers",
+          "files": [
+            "clothing/pants/gota_lich_leg.glb"
+          ],
+          "nodes": [
+            "Gota_lich_legs",
+            "Gota_lich_legs_BootCut0",
+            "Gota_lich_legs_BootCut1",
+            "Gota_lich_legs_BootCut2",
+            "Gota_lich_legs_BootCut3"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_warlock_leg",
+          "name": "Gota Warlock trousers",
+          "files": [
+            "clothing/pants/gota_warlock_leg.glb"
+          ],
+          "nodes": [
+            "Gota_warlock_Legs",
+            "Gota_warlock_Legs_BootCut0",
+            "Gota_warlock_Legs_BootCut1",
+            "Gota_warlock_Legs_BootCut2",
+            "Gota_warlock_Legs_BootCut3"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_berserker_leg",
+          "name": "Gota Berserker fur kilt",
+          "files": [
+            "clothing/pants/gota_berserker_leg.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_trousers",
+            "Gota_berserker_fur_-1_-1_0",
+            "Gota_berserker_fur_-1_-1_1",
+            "Gota_berserker_fur_-1_1_0",
+            "Gota_berserker_fur_-1_1_1",
+            "Gota_berserker_fur_1_-1_0",
+            "Gota_berserker_fur_1_-1_1",
+            "Gota_berserker_fur_1_1_0",
+            "Gota_berserker_fur_1_1_1",
+            "Gota_berserker_front_leather_panel",
+            "Gota_berserker_back_leather_panel"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_zeus_leg",
+          "name": "Zeus skirt",
+          "files": [
+            "clothing/pants/gota_zeus_leg.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_PleatedSkirt",
+            "Gota_zeus_SkirtUndercloth",
+            "Gota_zeus_PointedTabard",
+            "Gota_zeus_BlueSkirtFall-1",
+            "Gota_zeus_HipBlueDrape-1",
+            "Gota_zeus_BlueSkirtFall1",
+            "Gota_zeus_HipBlueDrape1"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/pants/gota_hades_leg",
+          "name": "Gota Hades layered skirt",
+          "files": [
+            "clothing/pants/gota_hades_leg.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Trousers",
+            "Gota_hades_SkirtRightFalse",
+            "Gota_hades_HipPlateGoldRightFalse",
+            "Gota_hades_HipPlateRightFalse",
+            "Gota_hades_SkirtRightTrue",
+            "Gota_hades_HipPlateGoldRightTrue",
+            "Gota_hades_HipPlateRightTrue",
+            "Gota_hades_SkirtLeftFalse",
+            "Gota_hades_HipPlateGoldLeftFalse",
+            "Gota_hades_HipPlateLeftFalse",
+            "Gota_hades_SkirtLeftTrue",
+            "Gota_hades_HipPlateGoldLeftTrue",
+            "Gota_hades_HipPlateLeftTrue",
+            "Gota_hades_TabardFalse",
+            "Gota_hades_TabardTrue",
+            "Gota_hades_TabardMark-1",
+            "Gota_hades_TabardMark1"
+          ],
+          "hides": [
+            "GotaSkinLower"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Foot",
+      "selected": -1,
+      "items": [
+        {
+          "name": "13 Strapped ankle boots",
+          "nodes": [
+            "Clothing_13"
+          ],
+          "alignment": "both",
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "Clothing_09_BootCut0",
+            "Clothing_10_BootCut0",
+            "Clothing_11_BootCut0",
+            "Clothing_12_BootCut0"
+          ],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_13",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "14 Tan cuff boots",
+          "nodes": [
+            "Clothing_14"
+          ],
+          "alignment": "both",
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "Clothing_09_BootCut0",
+            "Clothing_10_BootCut0",
+            "Clothing_11_BootCut0",
+            "Clothing_12_BootCut0",
+            "Clothing_09_BootCut1",
+            "Clothing_10_BootCut1",
+            "Clothing_11_BootCut1",
+            "Clothing_12_BootCut1",
+            "Clothing_09_BootCut2",
+            "Clothing_10_BootCut2",
+            "Clothing_11_BootCut2",
+            "Clothing_12_BootCut2"
+          ],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_14",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "15 Tall leather boots",
+          "nodes": [
+            "Clothing_15"
+          ],
+          "alignment": "both",
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "Clothing_09_BootCut0",
+            "Clothing_10_BootCut0",
+            "Clothing_11_BootCut0",
+            "Clothing_12_BootCut0",
+            "Clothing_09_BootCut1",
+            "Clothing_10_BootCut1",
+            "Clothing_11_BootCut1",
+            "Clothing_12_BootCut1",
+            "Clothing_09_BootCut2",
+            "Clothing_10_BootCut2",
+            "Clothing_11_BootCut2",
+            "Clothing_12_BootCut2",
+            "Clothing_09_BootCut3",
+            "Clothing_10_BootCut3",
+            "Clothing_11_BootCut3",
+            "Clothing_12_BootCut3"
+          ],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_15",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "16 Folded travel boots",
+          "nodes": [
+            "Clothing_16"
+          ],
+          "alignment": "both",
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "Clothing_09_BootCut0",
+            "Clothing_10_BootCut0",
+            "Clothing_11_BootCut0",
+            "Clothing_12_BootCut0",
+            "Clothing_09_BootCut1",
+            "Clothing_10_BootCut1",
+            "Clothing_11_BootCut1",
+            "Clothing_12_BootCut1"
+          ],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Clothing_16",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "Gnome pointed cuff boots",
+          "nodes": [
+            "Gnome_Boots"
+          ],
+          "alignment": "good",
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "Clothing_09_BootCut0",
+            "Clothing_10_BootCut0",
+            "Clothing_11_BootCut0",
+            "Clothing_12_BootCut0"
+          ],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Boots",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Boots",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        },
+        {
+          "id": "clothing/boots/gota_vanguard_knight_foot",
+          "name": "Vanguard Knight boots",
+          "files": [
+            "clothing/boots/gota_vanguard_knight_foot.glb"
+          ],
+          "nodes": [
+            "Gota_vanguard_knight_Boots"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right",
+            "Gota_vanguard_knight_Legs_BootCut0",
+            "Gota_vanguard_knight_Legs_BootCut1",
+            "Gota_vanguard_knight_Legs_BootCut2"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_ranger_foot",
+          "name": "Ranger cuff boots",
+          "files": [
+            "clothing/boots/gota_ranger_foot.glb"
+          ],
+          "nodes": [
+            "Gota_ranger_Boots"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right",
+            "Gota_ranger_Trousers_BootCut0",
+            "Gota_ranger_Trousers_BootCut1",
+            "Gota_ranger_Trousers_BootCut2"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_arcanist_foot",
+          "name": "Gota Arcanist boots",
+          "files": [
+            "clothing/boots/gota_arcanist_foot.glb"
+          ],
+          "nodes": [
+            "Gota_arcanist_boots",
+            "Gota_arcanist_insteps"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_druid_warden_foot",
+          "name": "Gota Druid Warden boots",
+          "files": [
+            "clothing/boots/gota_druid_warden_foot.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_boots"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_demon_hunter_foot",
+          "name": "Gota Demon Hunter boots",
+          "files": [
+            "clothing/boots/gota_demon_hunter_foot.glb"
+          ],
+          "nodes": [
+            "Gota_demon_hunter_Boots",
+            "Gota_demon_hunter_BootCuffs"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_death_knight_foot",
+          "name": "Gota Death Knight armored boots",
+          "files": [
+            "clothing/boots/gota_death_knight_foot.glb"
+          ],
+          "nodes": [
+            "Gota_death_knight_Boots",
+            "Gota_death_knight_Shin_Left",
+            "Gota_death_knight_KneeGem_Left",
+            "Gota_death_knight_Toe_Left",
+            "Gota_death_knight_Shin_Right",
+            "Gota_death_knight_KneeGem_Right",
+            "Gota_death_knight_Toe_Right"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_crossbowman_foot",
+          "name": "Gota Crossbowman boots",
+          "files": [
+            "clothing/boots/gota_crossbowman_foot.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_boots"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_lich_foot",
+          "name": "Gota Lich boots",
+          "files": [
+            "clothing/boots/gota_lich_foot.glb"
+          ],
+          "nodes": [
+            "Gota_lich_boots"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_warlock_foot",
+          "name": "Gota Warlock boots",
+          "files": [
+            "clothing/boots/gota_warlock_foot.glb"
+          ],
+          "nodes": [
+            "Gota_warlock_Boots"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right",
+            "Gota_warlock_Legs_BootCut0"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_berserker_foot",
+          "name": "Gota Berserker fur boots",
+          "files": [
+            "clothing/boots/gota_berserker_foot.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_boots",
+            "Gota_berserker_fur_cuff_left",
+            "Gota_berserker_fur_cuff_right"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_zeus_foot",
+          "name": "Zeus sandals",
+          "files": [
+            "clothing/boots/gota_zeus_foot.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_GoldGreave-1",
+            "Gota_zeus_GreaveRim-10",
+            "Gota_zeus_GreaveRim-11",
+            "Gota_zeus_ShinRidge-1",
+            "Gota_zeus_KneeGemGold-1",
+            "Gota_zeus_KneeGem-1",
+            "Gota_zeus_SandalSole-1",
+            "Gota_zeus_SandalStrap-10",
+            "Gota_zeus_SandalStrap-11",
+            "Gota_zeus_GoldGreave1",
+            "Gota_zeus_GreaveRim10",
+            "Gota_zeus_GreaveRim11",
+            "Gota_zeus_ShinRidge1",
+            "Gota_zeus_KneeGemGold1",
+            "Gota_zeus_KneeGem1",
+            "Gota_zeus_SandalSole1",
+            "Gota_zeus_SandalStrap10",
+            "Gota_zeus_SandalStrap11"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/boots/gota_hades_foot",
+          "name": "Gota Hades armored boots",
+          "files": [
+            "clothing/boots/gota_hades_foot.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Boots",
+            "Gota_hades_GreaveGoldRight",
+            "Gota_hades_GreaveRight",
+            "Gota_hades_KneeEmeraldRightFrame",
+            "Gota_hades_KneeEmeraldRightStone",
+            "Gota_hades_ToeGoldRight",
+            "Gota_hades_GreaveGoldLeft",
+            "Gota_hades_GreaveLeft",
+            "Gota_hades_KneeEmeraldLeftFrame",
+            "Gota_hades_KneeEmeraldLeftStone",
+            "Gota_hades_ToeGoldLeft"
+          ],
+          "hides": [
+            "Foot.Left",
+            "Foot.Right",
+            "GotaFoot.Left",
+            "GotaFoot.Right"
+          ],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Left hand",
+      "selected": -1,
+      "items": [
+        {
+          "id": "props/left/gota_vanguard_knight_left_hand",
+          "name": "Vanguard shield",
+          "files": [
+            "props/left/gota_vanguard_knight_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_vanguard_knight_left_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftForeArm",
+          "triangles": 1526,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_ranger_left_hand",
+          "name": "Ranger bow",
+          "files": [
+            "props/left/gota_ranger_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_ranger_left_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 1276,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_arcanist_left_hand",
+          "name": "Arcanist orbs",
+          "files": [
+            "props/left/gota_arcanist_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_arcanist_left_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 240,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_druid_warden_left_hand",
+          "name": "Druid orb",
+          "files": [
+            "props/left/gota_druid_warden_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_druid_warden_left_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 644,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_demon_hunter_left_hand",
+          "name": "Demon Hunter dagger",
+          "files": [
+            "props/left/gota_demon_hunter_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_demon_hunter_left_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 876,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_death_knight_left_hand",
+          "name": "Death Knight shield",
+          "files": [
+            "props/left/gota_death_knight_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_death_knight_left_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftForeArm",
+          "triangles": 1526,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_lich_left_hand",
+          "name": "Lich orb",
+          "files": [
+            "props/left/gota_lich_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_lich_left_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 80,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_warlock_left_hand",
+          "name": "Warlock censer",
+          "files": [
+            "props/left/gota_warlock_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_warlock_left_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 3112,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_berserker_left_hand",
+          "name": "Berserker axe",
+          "files": [
+            "props/left/gota_berserker_left_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_berserker_left_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand",
+          "triangles": 800,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/left/gota_zeus_left_hand",
+          "name": "Zeus lightning orb",
+          "files": [
+            "props/left/gota_zeus_left_hand.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_LightningSpellHeart",
+            "Gota_zeus_LightningSpellGold",
+            "Gota_zeus_LightningSpellBlue-1",
+            "Gota_zeus_LightningSpellBlue1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand"
+        },
+        {
+          "id": "props/left/gota_hades_left_hand",
+          "name": "Hades soul",
+          "files": [
+            "props/left/gota_hades_left_hand.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Soul"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "LeftHand"
+        }
+      ]
+    },
+    {
+      "key": "Right hand",
+      "selected": -1,
+      "items": [
+        {
+          "id": "props/right/gota_vanguard_knight_right_hand",
+          "name": "Vanguard sword",
+          "files": [
+            "props/right/gota_vanguard_knight_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_vanguard_knight_right_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 666,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true,
+          "attachmentPivot": [
+            -1.13,
+            1.73,
+            0.025
+          ],
+          "attachmentRotation": [
+            55.4,
+            -22.7,
+            72.6
+          ]
+        },
+        {
+          "id": "props/right/gota_ranger_right_hand",
+          "name": "Ranger arrow",
+          "files": [
+            "props/right/gota_ranger_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_ranger_right_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 68,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_arcanist_right_hand",
+          "name": "Arcanist staff",
+          "files": [
+            "props/right/gota_arcanist_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_arcanist_right_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 744,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_druid_warden_right_hand",
+          "name": "Druid staff",
+          "files": [
+            "props/right/gota_druid_warden_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_druid_warden_right_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 1572,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_demon_hunter_right_hand",
+          "name": "Demon Hunter dagger",
+          "files": [
+            "props/right/gota_demon_hunter_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_demon_hunter_right_hand"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 876,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_death_knight_right_hand",
+          "name": "Death Knight sword",
+          "files": [
+            "props/right/gota_death_knight_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_death_knight_right_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 882,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true,
+          "attachmentPivot": [
+            -1.13,
+            1.73,
+            0.025
+          ],
+          "attachmentRotation": [
+            55.4,
+            -22.7,
+            72.6
+          ]
+        },
+        {
+          "id": "props/right/gota_crossbowman_right_hand",
+          "name": "Medieval crossbow",
+          "files": [
+            "props/right/gota_crossbowman_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_crossbowman_right_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 2080,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_lich_right_hand",
+          "name": "Lich staff",
+          "files": [
+            "props/right/gota_lich_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_lich_right_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 712,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_warlock_right_hand",
+          "name": "Warlock staff",
+          "files": [
+            "props/right/gota_warlock_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_warlock_right_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 1588,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_berserker_right_hand",
+          "name": "Berserker axe",
+          "files": [
+            "props/right/gota_berserker_right_hand.glb"
+          ],
+          "nodes": [
+            "GotaWeapon_berserker_right_hand"
+          ],
+          "alignment": "evil",
+          "hides": [],
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand",
+          "triangles": 800,
+          "triangleLimitExclusive": 5000,
+          "singleFile": true
+        },
+        {
+          "id": "props/right/gota_zeus_right_hand",
+          "name": "Zeus lightning bolt",
+          "files": [
+            "props/right/gota_zeus_right_hand.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_LightningBlade",
+            "Gota_zeus_LightningGrip",
+            "Gota_zeus_LightningCollarTop",
+            "Gota_zeus_LightningCollarBottom",
+            "Gota_zeus_LightningGuard",
+            "Gota_zeus_LightningPommel",
+            "Gota_zeus_LightningGuardWing-1",
+            "Gota_zeus_LightningGuardWing1",
+            "Gota_zeus_LightningGripBand0",
+            "Gota_zeus_LightningGripBand1",
+            "Gota_zeus_LightningGripBand2",
+            "Gota_zeus_LightningGripBand3",
+            "Gota_zeus_LightningTail"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand"
+        },
+        {
+          "id": "props/right/gota_hades_right_hand",
+          "name": "Hades bident",
+          "files": [
+            "props/right/gota_hades_right_hand.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Bident"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": [],
+          "attachmentBone": "RightHand"
+        }
+      ]
+    },
+    {
+      "key": "Jacket",
+      "selected": -1,
+      "items": [
+        {
+          "name": "Gnome jacket",
+          "nodes": [
+            "Gnome_Jacket"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Jacket",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Jacket",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        },
+        {
+          "name": "Gnome long coat",
+          "nodes": [
+            "Gnome_Coat"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Coat",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Coat",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        },
+        {
+          "name": "Gnome vest",
+          "nodes": [
+            "Gnome_Vest"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Vest",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Vest",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Belt",
+      "selected": -1,
+      "items": [
+        {
+          "name": "Gnome buckle belt",
+          "nodes": [
+            "Gnome_Belt"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Belt",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "Simple leather belt",
+          "nodes": [
+            "Belt_Simple"
+          ],
+          "alignment": "both",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Belt_Simple",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "id": "clothing/belts/gota_vanguard_knight_belt",
+          "name": "Vanguard Knight belt",
+          "files": [
+            "clothing/belts/gota_vanguard_knight_belt.glb"
+          ],
+          "nodes": [
+            "Gota_vanguard_knight_Belt",
+            "Gota_vanguard_knight_Buckle"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_ranger_belt",
+          "name": "Ranger buckle belt",
+          "files": [
+            "clothing/belts/gota_ranger_belt.glb"
+          ],
+          "nodes": [
+            "Gota_ranger_Belt"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_arcanist_belt",
+          "name": "Gota Arcanist amethyst belt",
+          "files": [
+            "clothing/belts/gota_arcanist_belt.glb"
+          ],
+          "nodes": [
+            "Gota_arcanist_belt"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_druid_warden_belt",
+          "name": "Gota Druid Warden hexagon belt",
+          "files": [
+            "clothing/belts/gota_druid_warden_belt.glb"
+          ],
+          "nodes": [
+            "Gota_druid_warden_belt",
+            "Gota_druid_warden_hexagon_buckle"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_demon_hunter_belt",
+          "name": "Gota Demon Hunter belt",
+          "files": [
+            "clothing/belts/gota_demon_hunter_belt.glb"
+          ],
+          "nodes": [
+            "Gota_demon_hunter_Belt",
+            "Gota_demon_hunter_RedTabard"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_death_knight_belt",
+          "name": "Gota Death Knight steel belt",
+          "files": [
+            "clothing/belts/gota_death_knight_belt.glb"
+          ],
+          "nodes": [
+            "Gota_death_knight_Belt",
+            "Gota_death_knight_Buckle",
+            "Gota_death_knight_BeltPlate_-1",
+            "Gota_death_knight_BeltPlate_1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_crossbowman_belt",
+          "name": "Gota Crossbowman belt",
+          "files": [
+            "clothing/belts/gota_crossbowman_belt.glb"
+          ],
+          "nodes": [
+            "Gota_crossbowman_belt"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_lich_belt",
+          "name": "Gota Lich diamond belt",
+          "files": [
+            "clothing/belts/gota_lich_belt.glb"
+          ],
+          "nodes": [
+            "Gota_lich_belt"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_warlock_belt",
+          "name": "Gota Warlock belt",
+          "files": [
+            "clothing/belts/gota_warlock_belt.glb"
+          ],
+          "nodes": [
+            "Gota_warlock_Belt",
+            "Gota_warlock_GoldBuckle"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_berserker_belt",
+          "name": "Gota Berserker hexagon belt",
+          "files": [
+            "clothing/belts/gota_berserker_belt.glb"
+          ],
+          "nodes": [
+            "Gota_berserker_belt",
+            "Gota_berserker_buckle"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_zeus_belt",
+          "name": "Zeus belt",
+          "files": [
+            "clothing/belts/gota_zeus_belt.glb"
+          ],
+          "nodes": [
+            "Gota_zeus_BeltLeather",
+            "Gota_zeus_BeltRim0",
+            "Gota_zeus_BeltRim1",
+            "Gota_zeus_BeltBuckleRound",
+            "Gota_zeus_BeltBuckleEagle",
+            "Gota_zeus_BeltLoop-1",
+            "Gota_zeus_BeltLoop1"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        },
+        {
+          "id": "clothing/belts/gota_hades_belt",
+          "name": "Gota Hades skull belt",
+          "files": [
+            "clothing/belts/gota_hades_belt.glb"
+          ],
+          "nodes": [
+            "Gota_hades_Belt",
+            "Gota_hades_BeltGold1.23",
+            "Gota_hades_BeltGold1.34",
+            "Gota_hades_BuckleWing-1",
+            "Gota_hades_BuckleWing1",
+            "Gota_hades_SkullCranium",
+            "Gota_hades_SkullSocket-1",
+            "Gota_hades_SkullSoul-1",
+            "Gota_hades_SkullSocket1",
+            "Gota_hades_SkullSoul1",
+            "Gota_hades_SkullNose",
+            "Gota_hades_SkullTooth-2",
+            "Gota_hades_SkullTooth-1",
+            "Gota_hades_SkullTooth0",
+            "Gota_hades_SkullTooth1",
+            "Gota_hades_SkullTooth2"
+          ],
+          "hides": [],
+          "alignment": "both",
+          "singleFile": true,
+          "skinNodes": [],
+          "hairShades": [],
+          "hatShades": [],
+          "clothShades": []
+        }
+      ]
+    },
+    {
+      "key": "Suspenders",
+      "selected": -1,
+      "items": [
+        {
+          "name": "Gnome suspenders",
+          "nodes": [
+            "Gnome_Suspenders"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Suspenders",
+              "primitive": 0,
+              "shade": 1
+            }
+          ]
+        },
+        {
+          "name": "Gnome bib",
+          "nodes": [
+            "Gnome_Bib"
+          ],
+          "alignment": "good",
+          "hides": [],
+          "singleFile": true,
+          "clothShades": [
+            {
+              "node": "Gnome_Bib",
+              "primitive": 0,
+              "shade": 1
+            },
+            {
+              "node": "Gnome_Bib",
+              "primitive": 1,
+              "shade": 1.14
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clipSource": "Quaternius Universal Standard (CC0)",
+  "clips": [
+    {
+      "name": "A_TPose",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.5,
+      "loop": false,
+      "hold": true,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Crouch_Fwd_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.0,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Crouch_Idle_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.933333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Dance_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.0,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Death01",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.4,
+      "loop": false,
+      "hold": true,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Driving_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.666667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Fixing_Kneeling",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 5.2,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Hit_Chest",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.333333,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Hit_Head",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.433333,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Idle_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.5,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Idle_Talking_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.933333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Idle_Torch_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.266667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Interact",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.0,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Jog_Fwd_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.933333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Jump_Land",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.266667,
+      "loop": false,
+      "hold": false,
+      "next": "Idle_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "Jump_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.5,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Jump_Start",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.333333,
+      "loop": false,
+      "hold": false,
+      "next": "Jump_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "PickUp_Table",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.833333,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Pistol_Aim_Down",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.166667,
+      "loop": false,
+      "hold": true,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Pistol_Aim_Neutral",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.166667,
+      "loop": false,
+      "hold": true,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Pistol_Aim_Up",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.166667,
+      "loop": false,
+      "hold": true,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Pistol_Idle_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.666667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Pistol_Reload",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.666667,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Pistol_Shoot",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.633333,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Punch_Cross",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.0,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Punch_Jab",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.866667,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Push_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.666667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Roll",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.466667,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Sitting_Enter",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.3,
+      "loop": false,
+      "hold": false,
+      "next": "Sitting_Idle_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "Sitting_Exit",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.033333,
+      "loop": false,
+      "hold": false,
+      "next": "Idle_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "Sitting_Idle_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.666667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Sitting_Talking_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.933333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Spell_Simple_Enter",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.533333,
+      "loop": false,
+      "hold": false,
+      "next": "Spell_Simple_Idle_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "Spell_Simple_Exit",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.433333,
+      "loop": false,
+      "hold": false,
+      "next": "Idle_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "Spell_Simple_Idle_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 2.1,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Spell_Simple_Shoot",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.5,
+      "loop": false,
+      "hold": false,
+      "next": "Spell_Simple_Idle_Loop",
+      "rootMotion": false
+    },
+    {
+      "name": "Sprint_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 0.666667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Swim_Fwd_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.333333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Swim_Idle_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 3.333333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Sword_Attack",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.533333,
+      "loop": false,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Sword_Idle",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.666667,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Walk_Formal_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.333333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    },
+    {
+      "name": "Walk_Loop",
+      "source": "UAL1_Standard.glb",
+      "kind": "universal",
+      "duration": 1.333333,
+      "loop": true,
+      "hold": false,
+      "next": "",
+      "rootMotion": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Base",
+      "pose": "Idle_Loop",
+      "skin": 5,
+      "parts": []
+    },
+    {
+      "name": "Happy",
+      "pose": "Walk_Loop",
+      "skin": 1,
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "05 Open"
+        },
+        {
+          "category": "Mouth",
+          "item": "10 Laugh"
+        },
+        {
+          "category": "Ears",
+          "item": "Round"
+        }
+      ]
+    },
+    {
+      "name": "Elf",
+      "pose": "Dance_Loop",
+      "skin": 0,
+      "parts": [
+        {
+          "category": "Ears",
+          "item": "Elf"
+        }
+      ]
+    },
+    {
+      "name": "Gnome 01",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 16,
+      "hairColor": "White",
+      "pupilColor": "Blue",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome folded"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.9019607843137255,
+            0.8470588235294118,
+            0.7176470588235294
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome jacket",
+          "rgb": [
+            0.2980392156862745,
+            0.4392156862745098,
+            0.1843137254901961
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "11 Tan knee breeches",
+          "rgb": [
+            0.6745098039215687,
+            0.5686274509803921,
+            0.40784313725490196
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Red"
+    },
+    {
+      "name": "Gnome 02",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 17,
+      "hairColor": "Dark brown",
+      "pupilColor": "Brown",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.7725490196078432,
+            0.3607843137254902,
+            0.12549019607843137
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome vest",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "09 Brown trousers",
+          "rgb": [
+            0.2196078431372549,
+            0.2196078431372549,
+            0.23921568627450981
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Blue"
+    },
+    {
+      "name": "Gnome 03",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 18,
+      "hairColor": "White",
+      "pupilColor": "Green",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome mushroom"
+        },
+        {
+          "category": "Chest",
+          "item": "Gnome tucked shirt",
+          "rgb": [
+            0.9019607843137255,
+            0.8470588235294118,
+            0.7176470588235294
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "None",
+          "rgb": [
+            0.2980392156862745,
+            0.4392156862745098,
+            0.1843137254901961
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "09 Brown trousers",
+          "rgb": [
+            0.25098039215686274,
+            0.33725490196078434,
+            0.19607843137254902
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "Gnome bib",
+          "rgb": [
+            0.25098039215686274,
+            0.33725490196078434,
+            0.19607843137254902
+          ]
+        }
+      ],
+      "hatColor": "Mushroom red"
+    },
+    {
+      "name": "Gnome 04",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 19,
+      "hairColor": "Copper",
+      "pupilColor": "Green",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome leaf"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.9019607843137255,
+            0.8470588235294118,
+            0.7176470588235294
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome vest",
+          "rgb": [
+            0.5764705882352941,
+            0.4,
+            0.24705882352941178
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "Gnome shorts",
+          "rgb": [
+            0.3843137254901961,
+            0.4196078431372549,
+            0.19215686274509805
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Green"
+    },
+    {
+      "name": "Gnome 05",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 20,
+      "hairColor": "White",
+      "pupilColor": "Blue",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome folded"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.21568627450980393,
+            0.43137254901960786,
+            0.6666666666666666
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome long coat",
+          "rgb": [
+            0.5215686274509804,
+            0.5294117647058824,
+            0.5725490196078431
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "09 Brown trousers",
+          "rgb": [
+            0.2196078431372549,
+            0.2196078431372549,
+            0.23921568627450981
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Gray"
+    },
+    {
+      "name": "Gnome 06",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 21,
+      "hairColor": "Soft black",
+      "pupilColor": "Amber",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome folded"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.44313725490196076,
+            0.21176470588235294,
+            0.611764705882353
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome jacket",
+          "rgb": [
+            0.4392156862745098,
+            0.19215686274509805,
+            0.596078431372549
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "09 Brown trousers",
+          "rgb": [
+            0.2627450980392157,
+            0.21176470588235294,
+            0.2784313725490196
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "Gnome pointed cuff boots",
+          "rgb": [
+            0.34509803921568627,
+            0.22745098039215686,
+            0.16862745098039217
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Purple"
+    },
+    {
+      "name": "Gnome 07",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 22,
+      "hairColor": "Silver",
+      "pupilColor": "Amber",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome wide brim"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.9019607843137255,
+            0.8470588235294118,
+            0.7176470588235294
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome long coat",
+          "rgb": [
+            0.21568627450980393,
+            0.43137254901960786,
+            0.6666666666666666
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "09 Brown trousers",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Brown"
+    },
+    {
+      "name": "Gnome 08",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 23,
+      "hairColor": "Chestnut",
+      "pupilColor": "Teal",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome feather"
+        },
+        {
+          "category": "Chest",
+          "item": "07 Blue linen shirt",
+          "rgb": [
+            0.9019607843137255,
+            0.8470588235294118,
+            0.7176470588235294
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome jacket",
+          "rgb": [
+            0.7058823529411765,
+            0.32941176470588235,
+            0.39215686274509803
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "11 Tan knee breeches",
+          "rgb": [
+            0.7450980392156863,
+            0.5647058823529412,
+            0.1843137254901961
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "None",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Tan"
+    },
+    {
+      "name": "Gnome 09",
+      "group": "Gnomes",
+      "pose": "A_TPose",
+      "skin": 24,
+      "hairColor": "Copper",
+      "pupilColor": "Amber",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "Gnome kind"
+        },
+        {
+          "category": "Nose",
+          "item": "Gnome bulb"
+        },
+        {
+          "category": "Ears",
+          "item": "Gnome cups"
+        },
+        {
+          "category": "Beard",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "01 Relaxed smile"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gnome pointed"
+        },
+        {
+          "category": "Chest",
+          "item": "Gnome tucked shirt",
+          "rgb": [
+            0.807843137254902,
+            0.596078431372549,
+            0.17647058823529413
+          ]
+        },
+        {
+          "category": "Jacket",
+          "item": "Gnome vest",
+          "rgb": [
+            0.2980392156862745,
+            0.4392156862745098,
+            0.1843137254901961
+          ]
+        },
+        {
+          "category": "Leg",
+          "item": "Gnome shorts",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Foot",
+          "item": "16 Folded travel boots",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Belt",
+          "item": "Gnome buckle belt",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        },
+        {
+          "category": "Suspenders",
+          "item": "Gnome suspenders",
+          "rgb": [
+            0.403921568627451,
+            0.2627450980392157,
+            0.17254901960784313
+          ]
+        }
+      ],
+      "hatColor": "Orange"
+    },
+    {
+      "name": "Vanguard Knight",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 17,
+      "hairColor": "Chestnut",
+      "pupilColor": "Blue",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "16 Determined"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "04 Heroic"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Vanguard Knight helmet"
+        },
+        {
+          "category": "Chest",
+          "item": "Vanguard Knight body"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Vanguard Knight legs"
+        },
+        {
+          "category": "Foot",
+          "item": "Vanguard Knight boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Vanguard shield"
+        },
+        {
+          "category": "Right hand",
+          "item": "Vanguard sword"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Vanguard Knight belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Ranger",
+      "group": "Gota",
+      "skin": 13,
+      "hairColor": "Copper",
+      "pupilColor": "Brown",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "12 Sleepy"
+        },
+        {
+          "category": "Brow",
+          "item": "02 Confident"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "Round"
+        },
+        {
+          "category": "Hair",
+          "item": "Ranger hood braids"
+        },
+        {
+          "category": "Foot",
+          "item": "Ranger cuff boots"
+        },
+        {
+          "category": "Leg",
+          "item": "Ranger trousers"
+        },
+        {
+          "category": "Belt",
+          "item": "Ranger buckle belt"
+        },
+        {
+          "category": "Chest",
+          "item": "Ranger tunic and cape"
+        },
+        {
+          "category": "Headgear",
+          "item": "Ranger fitted hood"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Back",
+          "item": "Ranger light quiver"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Left hand",
+          "item": "Ranger bow"
+        },
+        {
+          "category": "Right hand",
+          "item": "Ranger arrow"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ],
+      "pose": "A_TPose"
+    },
+    {
+      "name": "Arcanist",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 20,
+      "hairColor": "White",
+      "pupilColor": "Blue",
+      "parts": [
+        {
+          "category": "Hair",
+          "item": "12 Wolf cut"
+        },
+        {
+          "category": "Eyes",
+          "item": "01 Bright"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "01 Soft arch"
+        },
+        {
+          "category": "Ears",
+          "item": "Round"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Arcanist circlet"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Arcanist violet robe"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Arcanist leggings"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Arcanist boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Arcanist orbs"
+        },
+        {
+          "category": "Right hand",
+          "item": "Arcanist staff"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Arcanist amethyst belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Druid Warden",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 12,
+      "hairColor": "Moss",
+      "pupilColor": "Green",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "04 Calm"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "12 Sweeping"
+        },
+        {
+          "category": "Ears",
+          "item": "Elf"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Hair",
+          "item": "Gota Druid Warden leaf hair"
+        },
+        {
+          "category": "Beard",
+          "item": "Gota Druid Warden leaf beard"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Druid Warden antler crown"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Druid Warden bark mantle"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Druid Warden leaf skirt"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Druid Warden boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Druid orb"
+        },
+        {
+          "category": "Right hand",
+          "item": "Druid staff"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Druid Warden hexagon belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Demon Hunter",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 14,
+      "hairColor": "Jet black",
+      "pupilColor": "Brown",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "02 Focused"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "04 Heroic"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "Gota Demon Hunter spiky hair"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Demon Hunter blindfold"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Demon Hunter harness"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Demon Hunter leggings"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Demon Hunter boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Demon Hunter dagger"
+        },
+        {
+          "category": "Right hand",
+          "item": "Demon Hunter dagger"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Demon Hunter belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Death Knight",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 25,
+      "skinRgb": [
+        0.34,
+        0.18,
+        0.11
+      ],
+      "hairColor": "Jet black",
+      "pupilColor": "Brown",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "14 Angular"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "08 Stern"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Death Knight open crown"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Death Knight cuirass and cape"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Death Knight tassets"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Death Knight armored boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Death Knight shield"
+        },
+        {
+          "category": "Right hand",
+          "item": "Death Knight sword"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Death Knight steel belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Crossbowman",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 10,
+      "hairColor": "Dark brown",
+      "pupilColor": "Brown",
+      "parts": [
+        {
+          "category": "Hair",
+          "item": "Gota Crossbowman hood fringe"
+        },
+        {
+          "category": "Beard",
+          "item": "Gota Crossbowman mustache"
+        },
+        {
+          "category": "Eyes",
+          "item": "10 Sharp"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "11 Bushy"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Crossbowman hood"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Crossbowman leather tunic"
+        },
+        {
+          "category": "Back",
+          "item": "Heavy bolt quiver"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Crossbowman trousers"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Crossbowman boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "None"
+        },
+        {
+          "category": "Right hand",
+          "item": "Medieval crossbow"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Crossbowman belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Lich",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 26,
+      "skinRgb": [
+        0.96,
+        0.9,
+        0.85
+      ],
+      "hairColor": "White",
+      "pupilColor": "Blue",
+      "parts": [
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Eyes",
+          "item": "12 Sleepy"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "03 Focused"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Lich crystal hood"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Lich ivory edged robe"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Lich trousers"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Lich boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Lich orb"
+        },
+        {
+          "category": "Right hand",
+          "item": "Lich staff"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Lich diamond belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Warlock",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 27,
+      "skinRgb": [
+        0.55,
+        0.36,
+        0.25
+      ],
+      "hairColor": "Soft black",
+      "pupilColor": "Amber",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "08 Sly"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "10 Mischievous"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Warlock horned hood"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Warlock robe"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Warlock trousers"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Warlock boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Warlock censer"
+        },
+        {
+          "category": "Right hand",
+          "item": "Warlock staff"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Warlock belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Berserker",
+      "group": "Gota",
+      "pose": "A_TPose",
+      "skin": 28,
+      "skinRgb": [
+        0.79,
+        0.56,
+        0.4
+      ],
+      "hairColor": "Electric orange",
+      "pupilColor": "Brown",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "06 Fierce"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "08 Stern"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "Gota Berserker flame mane"
+        },
+        {
+          "category": "Beard",
+          "item": "Gota Berserker pointed beard"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Berserker gold crest"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Berserker harness"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Berserker fur kilt"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Berserker fur boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Berserker axe"
+        },
+        {
+          "category": "Right hand",
+          "item": "Berserker axe"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Berserker hexagon belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Blue Creep",
+      "group": "Gota",
+      "lineupHidden": true,
+      "skinRgb": [
+        0.23137254901960785,
+        0.5764705882352941,
+        0.7215686274509804
+      ],
+      "hairColor": "Caramel",
+      "hatColor": "Green",
+      "pupilColor": "Blue",
+      "pose": "Sword_Idle",
+      "parts": [
+        {
+          "category": "Body",
+          "item": "Base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Eyes",
+          "item": "01 Bright"
+        },
+        {
+          "category": "Mouth",
+          "item": "None"
+        },
+        {
+          "category": "Nose",
+          "item": "None"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Brow",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "None"
+        },
+        {
+          "category": "Chest",
+          "item": "None"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "None"
+        },
+        {
+          "category": "Foot",
+          "item": "None"
+        },
+        {
+          "category": "Left hand",
+          "item": "None"
+        },
+        {
+          "category": "Right hand",
+          "item": "Vanguard sword"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "None"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ],
+      "skin": 29
+    },
+    {
+      "name": "Purple Creep",
+      "group": "Gota",
+      "lineupHidden": true,
+      "skinRgb": [
+        0.5137254901960784,
+        0.06274509803921569,
+        0.6235294117647059
+      ],
+      "hairColor": "Caramel",
+      "hatColor": "Green",
+      "pupilColor": "Pure red",
+      "pose": "Sword_Idle",
+      "parts": [
+        {
+          "category": "Body",
+          "item": "Base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Eyes",
+          "item": "02 Focused"
+        },
+        {
+          "category": "Mouth",
+          "item": "Evil 13 Vampire smirk"
+        },
+        {
+          "category": "Nose",
+          "item": "None"
+        },
+        {
+          "category": "Ears",
+          "item": "Elf"
+        },
+        {
+          "category": "Brow",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "None"
+        },
+        {
+          "category": "Chest",
+          "item": "None"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "None"
+        },
+        {
+          "category": "Foot",
+          "item": "None"
+        },
+        {
+          "category": "Left hand",
+          "item": "None"
+        },
+        {
+          "category": "Right hand",
+          "item": "Death Knight sword"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "None"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ],
+      "skin": 30
+    },
+    {
+      "name": "Zeus",
+      "group": "Gota Gods",
+      "pose": "A_TPose",
+      "skin": 17,
+      "hairColor": "White",
+      "pupilColor": "Blue",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "16 Determined"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "04 Heroic"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "Zeus hair"
+        },
+        {
+          "category": "Beard",
+          "item": "Zeus beard"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Zeus laurel crown"
+        },
+        {
+          "category": "Chest",
+          "item": "Zeus tunic"
+        },
+        {
+          "category": "Back",
+          "item": "Zeus cape"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Zeus skirt"
+        },
+        {
+          "category": "Foot",
+          "item": "Zeus sandals"
+        },
+        {
+          "category": "Left hand",
+          "item": "Zeus lightning orb"
+        },
+        {
+          "category": "Right hand",
+          "item": "Zeus lightning bolt"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Zeus belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    },
+    {
+      "name": "Hades",
+      "group": "Gota Gods",
+      "pose": "A_TPose",
+      "skin": 31,
+      "skinRgb": [
+        0.72,
+        0.61,
+        0.59
+      ],
+      "hairColor": "Jet black",
+      "pupilColor": "Green",
+      "parts": [
+        {
+          "category": "Eyes",
+          "item": "06 Fierce"
+        },
+        {
+          "category": "Mouth",
+          "item": "03 Neutral"
+        },
+        {
+          "category": "Brow",
+          "item": "08 Stern"
+        },
+        {
+          "category": "Nose",
+          "item": "Tiny"
+        },
+        {
+          "category": "Body",
+          "item": "Gota base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "Gota Hades swept hair"
+        },
+        {
+          "category": "Beard",
+          "item": "Gota Hades pointed beard"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Gota Hades obsidian crown"
+        },
+        {
+          "category": "Chest",
+          "item": "Gota Hades royal armor"
+        },
+        {
+          "category": "Back",
+          "item": "Gota Hades burgundy cape"
+        },
+        {
+          "category": "Hand",
+          "item": "None"
+        },
+        {
+          "category": "Leg",
+          "item": "Gota Hades layered skirt"
+        },
+        {
+          "category": "Foot",
+          "item": "Gota Hades armored boots"
+        },
+        {
+          "category": "Left hand",
+          "item": "Hades soul"
+        },
+        {
+          "category": "Right hand",
+          "item": "Hades bident"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Gota Hades skull belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
+    }
+  ],
+  "hairShades": [
+    {
+      "node": "Beard_01",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_02",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_03",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_04",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_05",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_06",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_07",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_08",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_09",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_10",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_11",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_12",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_13",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_14",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_15",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_16",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_01",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_02",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_03",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_04",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_05",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_05",
+      "primitive": 1,
+      "shade": 1.1
+    },
+    {
+      "node": "Hair_06",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_07",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_08",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_09",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_10",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_11",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_12",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_13",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_14",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_15",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_16",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Beard_Gnome",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Beard_Gnome_Moustache",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "defaultAnimation": "Walk_Loop",
+  "hatShades": [
+    {
+      "node": "Hat_Pointed",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Hat_Folded",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Hat_Wide_brim",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Hat_Mushroom",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Hat_Leaf",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Hat_Feather",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

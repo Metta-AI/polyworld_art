@@ -1,0 +1,19 @@
+{
+  "name": "04 Anchor goatee",
+  "nodes": [
+    "Beard_04"
+  ],
+  "id": "beards/04_anchor_goatee",
+  "files": [
+    "beards/04_anchor_goatee.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_04",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

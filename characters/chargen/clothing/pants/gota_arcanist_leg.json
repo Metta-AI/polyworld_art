@@ -1,0 +1,22 @@
+{
+  "id": "clothing/pants/gota_arcanist_leg",
+  "name": "Gota Arcanist leggings",
+  "files": [
+    "clothing/pants/gota_arcanist_leg.glb"
+  ],
+  "nodes": [
+    "Gota_arcanist_legs",
+    "Gota_arcanist_legs_BootCut1",
+    "Gota_arcanist_legs_BootCut2",
+    "Gota_arcanist_legs_BootCut3"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_warlock_foot",
+    "name": "Gota Warlock boots",
+    "files": [
+      "clothing/boots/gota_warlock_foot.glb"
+    ],
+    "nodes": [
+      "Gota_warlock_Boots"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right",
+      "Gota_warlock_Legs_BootCut0"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_warlock_leg",
+    "name": "Gota Warlock trousers",
+    "files": [
+      "clothing/pants/gota_warlock_leg.glb"
+    ],
+    "nodes": [
+      "Gota_warlock_Legs",
+      "Gota_warlock_Legs_BootCut0",
+      "Gota_warlock_Legs_BootCut1",
+      "Gota_warlock_Legs_BootCut2",
+      "Gota_warlock_Legs_BootCut3"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_warlock_belt",
+    "name": "Gota Warlock belt",
+    "files": [
+      "clothing/belts/gota_warlock_belt.glb"
+    ],
+    "nodes": [
+      "Gota_warlock_Belt",
+      "Gota_warlock_GoldBuckle"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_warlock_chest",
+    "name": "Gota Warlock robe",
+    "files": [
+      "clothing/torsos/gota_warlock_chest.glb"
+    ],
+    "nodes": [
+      "Gota_warlock_Torso",
+      "Gota_warlock_Sleeve-1",
+      "Gota_warlock_Sleeve1",
+      "Gota_warlock_RobeTails",
+      "Gota_warlock_TabardGold",
+      "Gota_warlock_Tabard",
+      "Gota_warlock_WaistLining",
+      "Gota_warlock_Collar-1",
+      "Gota_warlock_Strap-1False",
+      "Gota_warlock_Strap-1True",
+      "Gota_warlock_Collar1",
+      "Gota_warlock_Strap1False",
+      "Gota_warlock_Strap1True",
+      "Gota_warlock_GloveLeft",
+      "Gota_warlock_GloveCuffLeft",
+      "Gota_warlock_GloveRight",
+      "Gota_warlock_GloveCuffRight"
+    ],
+    "hides": [
+      "GotaHand.Left",
+      "GotaHand.Right",
+      "Hand.Left",
+      "Hand.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_warlock_headgear",
+    "name": "Gota Warlock horned hood",
+    "files": [
+      "hats/gota_warlock_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_warlock_Hood",
+      "Gota_warlock_Horn-1",
+      "Gota_warlock_Horn1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

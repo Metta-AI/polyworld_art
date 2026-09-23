@@ -1,0 +1,32 @@
+{
+  "id": "clothing/boots/gota_hades_foot",
+  "name": "Gota Hades armored boots",
+  "files": [
+    "clothing/boots/gota_hades_foot.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Boots",
+    "Gota_hades_GreaveGoldRight",
+    "Gota_hades_GreaveRight",
+    "Gota_hades_KneeEmeraldRightFrame",
+    "Gota_hades_KneeEmeraldRightStone",
+    "Gota_hades_ToeGoldRight",
+    "Gota_hades_GreaveGoldLeft",
+    "Gota_hades_GreaveLeft",
+    "Gota_hades_KneeEmeraldLeftFrame",
+    "Gota_hades_KneeEmeraldLeftStone",
+    "Gota_hades_ToeGoldLeft"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

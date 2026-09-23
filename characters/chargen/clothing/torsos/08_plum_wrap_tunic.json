@@ -1,0 +1,22 @@
+{
+  "name": "08 Plum wrap tunic",
+  "nodes": [
+    "Clothing_08"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/torsos/08_plum_wrap_tunic",
+  "files": [
+    "clothing/torsos/08_plum_wrap_tunic.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_08",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

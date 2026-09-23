@@ -1,0 +1,16 @@
+{
+  "name": "Gnome kind",
+  "nodes": [
+    "Eyes_Gnome"
+  ],
+  "texture": "eyes/gnome_kind.png",
+  "pupilMask": "eyes/gnome_kind.mask.png",
+  "singleFile": true,
+  "alignment": "gnome",
+  "id": "eyes/gnome_kind",
+  "files": [
+    "eyes/gnome_kind.glb"
+  ],
+  "hairShades": [],
+  "skinNodes": []
+}

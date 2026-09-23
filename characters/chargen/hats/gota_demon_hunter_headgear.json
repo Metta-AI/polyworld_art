@@ -1,0 +1,24 @@
+{
+  "id": "hats/gota_demon_hunter_headgear",
+  "name": "Gota Demon Hunter blindfold",
+  "files": [
+    "hats/gota_demon_hunter_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_demon_hunter_Blindfold",
+    "Gota_demon_hunter_BlindfoldOverlap",
+    "Gota_demon_hunter_BlindfoldKnot",
+    "Gota_demon_hunter_BlindfoldTail-1",
+    "Gota_demon_hunter_BlindfoldTail1"
+  ],
+  "hides": [
+    "Brow_Atlas04",
+    "Eyes_Atlas02"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

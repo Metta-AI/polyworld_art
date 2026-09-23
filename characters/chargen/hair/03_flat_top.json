@@ -1,0 +1,19 @@
+{
+  "name": "03 Flat top",
+  "nodes": [
+    "Hair_03"
+  ],
+  "id": "hair/03_flat_top",
+  "files": [
+    "hair/03_flat_top.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_03",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

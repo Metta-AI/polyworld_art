@@ -1,0 +1,17 @@
+{
+  "id": "clothing/backs/gota_hades_back",
+  "name": "Gota Hades burgundy cape",
+  "files": [
+    "clothing/backs/gota_hades_back.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Cape"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

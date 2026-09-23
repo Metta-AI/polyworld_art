@@ -1,0 +1,18 @@
+{
+  "id": "props/right/gota_hades_right_hand",
+  "name": "Hades bident",
+  "files": [
+    "props/right/gota_hades_right_hand.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Bident"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand"
+}

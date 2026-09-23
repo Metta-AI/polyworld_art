@@ -1,0 +1,15 @@
+{
+  "name": "16 Tousled",
+  "nodes": [
+    "Brow_Atlas16"
+  ],
+  "id": "eyebrows/16_tousled",
+  "files": [
+    "eyebrows/16_tousled.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/16_tousled.png"
+}

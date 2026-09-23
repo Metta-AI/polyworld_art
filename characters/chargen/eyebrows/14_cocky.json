@@ -1,0 +1,15 @@
+{
+  "name": "14 Cocky",
+  "nodes": [
+    "Brow_Atlas14"
+  ],
+  "id": "eyebrows/14_cocky",
+  "files": [
+    "eyebrows/14_cocky.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/14_cocky.png"
+}

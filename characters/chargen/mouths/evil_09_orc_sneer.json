@@ -1,0 +1,14 @@
+{
+  "name": "Evil 09 Orc sneer",
+  "nodes": [
+    "Mouth_Evil09"
+  ],
+  "texture": "mouths/evil_09_orc_sneer.png",
+  "id": "mouths/evil_09_orc_sneer",
+  "files": [
+    "mouths/evil_09_orc_sneer.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

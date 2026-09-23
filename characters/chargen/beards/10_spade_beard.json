@@ -1,0 +1,19 @@
+{
+  "name": "10 Spade beard",
+  "nodes": [
+    "Beard_10"
+  ],
+  "id": "beards/10_spade_beard",
+  "files": [
+    "beards/10_spade_beard.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_10",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

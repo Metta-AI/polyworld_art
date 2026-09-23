@@ -1,0 +1,14 @@
+{
+  "name": "10 Laugh",
+  "nodes": [
+    "Mouth_Atlas10"
+  ],
+  "id": "mouths/10_laugh",
+  "files": [
+    "mouths/10_laugh.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/10_laugh.png"
+}

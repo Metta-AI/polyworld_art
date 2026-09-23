@@ -1,0 +1,23 @@
+{
+  "id": "clothing/boots/gota_arcanist_foot",
+  "name": "Gota Arcanist boots",
+  "files": [
+    "clothing/boots/gota_arcanist_foot.glb"
+  ],
+  "nodes": [
+    "Gota_arcanist_boots",
+    "Gota_arcanist_insteps"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

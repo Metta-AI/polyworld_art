@@ -1,0 +1,14 @@
+{
+  "name": "Evil 07 Broken teeth",
+  "nodes": [
+    "Mouth_Evil07"
+  ],
+  "texture": "mouths/evil_07_broken_teeth.png",
+  "id": "mouths/evil_07_broken_teeth",
+  "files": [
+    "mouths/evil_07_broken_teeth.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

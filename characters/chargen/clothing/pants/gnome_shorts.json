@@ -1,0 +1,26 @@
+{
+  "name": "Gnome shorts",
+  "nodes": [
+    "Gnome_Shorts"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Shorts",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Shorts",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/pants/gnome_shorts",
+  "files": [
+    "clothing/pants/gnome_shorts.glb"
+  ],
+  "skinNodes": []
+}

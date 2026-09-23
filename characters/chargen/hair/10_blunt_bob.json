@@ -1,0 +1,19 @@
+{
+  "name": "10 Blunt bob",
+  "nodes": [
+    "Hair_10"
+  ],
+  "id": "hair/10_blunt_bob",
+  "files": [
+    "hair/10_blunt_bob.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_10",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "clothing/boots/gota_berserker_foot",
+  "name": "Gota Berserker fur boots",
+  "files": [
+    "clothing/boots/gota_berserker_foot.glb"
+  ],
+  "nodes": [
+    "Gota_berserker_boots",
+    "Gota_berserker_fur_cuff_left",
+    "Gota_berserker_fur_cuff_right"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

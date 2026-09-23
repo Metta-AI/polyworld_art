@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Hair",
+    "id": "hair/gota_crossbowman_hair",
+    "name": "Gota Crossbowman hood fringe",
+    "files": [
+      "hair/gota_crossbowman_hair.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_hair"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Beard",
+    "id": "beards/gota_crossbowman_beard",
+    "name": "Gota Crossbowman mustache",
+    "files": [
+      "beards/gota_crossbowman_beard.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_mustache"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_crossbowman_foot",
+    "name": "Gota Crossbowman boots",
+    "files": [
+      "clothing/boots/gota_crossbowman_foot.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_boots"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_crossbowman_leg",
+    "name": "Gota Crossbowman trousers",
+    "files": [
+      "clothing/pants/gota_crossbowman_leg.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_legs",
+      "Gota_crossbowman_legs_BootCut2",
+      "Gota_crossbowman_legs_BootCut3"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_crossbowman_belt",
+    "name": "Gota Crossbowman belt",
+    "files": [
+      "clothing/belts/gota_crossbowman_belt.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_belt"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_crossbowman_chest",
+    "name": "Gota Crossbowman leather tunic",
+    "files": [
+      "clothing/torsos/gota_crossbowman_chest.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_body"
+    ],
+    "hides": [
+      "GotaHand.Left",
+      "GotaHand.Right",
+      "Hand.Left",
+      "Hand.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_crossbowman_headgear",
+    "name": "Gota Crossbowman hood",
+    "files": [
+      "hats/gota_crossbowman_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_crossbowman_hood"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

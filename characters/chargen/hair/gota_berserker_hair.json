@@ -1,0 +1,29 @@
+{
+  "id": "hair/gota_berserker_hair",
+  "name": "Gota Berserker flame mane",
+  "files": [
+    "hair/gota_berserker_hair.glb"
+  ],
+  "nodes": [
+    "Gota_berserker_mane",
+    "Gota_berserker_mane_spike_0",
+    "Gota_berserker_mane_spike_1",
+    "Gota_berserker_mane_spike_2",
+    "Gota_berserker_mane_spike_3",
+    "Gota_berserker_mane_spike_4",
+    "Gota_berserker_mane_spike_5",
+    "Gota_berserker_mane_spike_6",
+    "Gota_berserker_mane_spike_7",
+    "Gota_berserker_mane_spike_8",
+    "Gota_berserker_mane_spike_9",
+    "Gota_berserker_mane_spike_10",
+    "Gota_berserker_mane_spike_11"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

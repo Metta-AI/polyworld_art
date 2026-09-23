@@ -1,0 +1,14 @@
+{
+  "name": "06 Tense",
+  "nodes": [
+    "Mouth_Atlas06"
+  ],
+  "id": "mouths/06_tense",
+  "files": [
+    "mouths/06_tense.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/06_tense.png"
+}

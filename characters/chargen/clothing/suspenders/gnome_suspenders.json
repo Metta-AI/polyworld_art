@@ -1,0 +1,21 @@
+{
+  "name": "Gnome suspenders",
+  "nodes": [
+    "Gnome_Suspenders"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Suspenders",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "id": "clothing/suspenders/gnome_suspenders",
+  "files": [
+    "clothing/suspenders/gnome_suspenders.glb"
+  ],
+  "skinNodes": []
+}

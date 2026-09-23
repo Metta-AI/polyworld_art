@@ -1,0 +1,33 @@
+{
+  "name": "16 Folded travel boots",
+  "nodes": [
+    "Clothing_16"
+  ],
+  "alignment": "both",
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "Clothing_09_BootCut0",
+    "Clothing_10_BootCut0",
+    "Clothing_11_BootCut0",
+    "Clothing_12_BootCut0",
+    "Clothing_09_BootCut1",
+    "Clothing_10_BootCut1",
+    "Clothing_11_BootCut1",
+    "Clothing_12_BootCut1"
+  ],
+  "singleFile": true,
+  "id": "clothing/boots/16_folded_travel_boots",
+  "files": [
+    "clothing/boots/16_folded_travel_boots.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_16",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

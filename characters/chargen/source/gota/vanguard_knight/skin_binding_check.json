@@ -1,0 +1,42 @@
+[
+  {
+    "slot": "Foot",
+    "joints": 22,
+    "sharedJointNames": true,
+    "files": [
+      "clothing/boots/gota_vanguard_knight_foot.glb"
+    ]
+  },
+  {
+    "slot": "Leg",
+    "joints": 22,
+    "sharedJointNames": true,
+    "files": [
+      "clothing/pants/gota_vanguard_knight_leg.glb"
+    ]
+  },
+  {
+    "slot": "Belt",
+    "joints": 22,
+    "sharedJointNames": true,
+    "files": [
+      "clothing/belts/gota_vanguard_knight_belt.glb"
+    ]
+  },
+  {
+    "slot": "Chest",
+    "joints": 22,
+    "sharedJointNames": true,
+    "files": [
+      "clothing/torsos/gota_vanguard_knight_chest.glb"
+    ]
+  },
+  {
+    "slot": "Headgear",
+    "joints": 22,
+    "sharedJointNames": true,
+    "files": [
+      "hats/gota_vanguard_knight_headgear.glb"
+    ]
+  }
+]

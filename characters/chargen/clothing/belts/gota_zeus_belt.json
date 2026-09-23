@@ -1,0 +1,23 @@
+{
+  "id": "clothing/belts/gota_zeus_belt",
+  "name": "Zeus belt",
+  "files": [
+    "clothing/belts/gota_zeus_belt.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_BeltLeather",
+    "Gota_zeus_BeltRim0",
+    "Gota_zeus_BeltRim1",
+    "Gota_zeus_BeltBuckleRound",
+    "Gota_zeus_BeltBuckleEagle",
+    "Gota_zeus_BeltLoop-1",
+    "Gota_zeus_BeltLoop1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "clothing/pants/gota_berserker_leg",
+  "name": "Gota Berserker fur kilt",
+  "files": [
+    "clothing/pants/gota_berserker_leg.glb"
+  ],
+  "nodes": [
+    "Gota_berserker_trousers",
+    "Gota_berserker_fur_-1_-1_0",
+    "Gota_berserker_fur_-1_-1_1",
+    "Gota_berserker_fur_-1_1_0",
+    "Gota_berserker_fur_-1_1_1",
+    "Gota_berserker_fur_1_-1_0",
+    "Gota_berserker_fur_1_-1_1",
+    "Gota_berserker_fur_1_1_0",
+    "Gota_berserker_fur_1_1_1",
+    "Gota_berserker_front_leather_panel",
+    "Gota_berserker_back_leather_panel"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

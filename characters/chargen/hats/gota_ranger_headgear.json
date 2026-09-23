@@ -1,0 +1,20 @@
+{
+  "id": "hats/gota_ranger_headgear",
+  "name": "Ranger fitted hood",
+  "files": [
+    "hats/gota_ranger_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_ranger_Hood"
+  ],
+  "hides": [
+    "Ears_Round_Left",
+    "Ears_Round_Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

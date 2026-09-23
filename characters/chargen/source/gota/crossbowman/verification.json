@@ -1,0 +1,42 @@
+{
+  "name": "Crossbowman",
+  "slug": "crossbowman",
+  "triangles": 15462,
+  "underBudget": true,
+  "budgetExclusive": 20000,
+  "nodes": {
+    "Gota_crossbowman_hair": 406,
+    "Gota_crossbowman_mustache": 408,
+    "Eyes_Atlas10": 576,
+    "Mouth_Atlas03": 576,
+    "Brow_Atlas11": 576,
+    "GotaSkinUpper": 1824,
+    "Head": 284,
+    "Nose_Tiny": 60,
+    "Gota_crossbowman_hood": 1060,
+    "Gota_crossbowman_body": 5142,
+    "Gota_crossbowman_legs": 1446,
+    "Gota_crossbowman_legs_BootCut2": 298,
+    "Gota_crossbowman_legs_BootCut3": 448,
+    "Gota_crossbowman_boots": 1878,
+    "Gota_crossbowman_belt": 480
+  },
+  "slots": [
+    "Hair",
+    "Beard",
+    "Foot",
+    "Leg",
+    "Belt",
+    "Chest",
+    "Headgear"
+  ],
+  "newClothingTextures": 0,
+  "normalizedWeights": true,
+  "reusedParts": [
+    "eyes/10_sharp",
+    "mouths/03_neutral",
+    "eyebrows/11_bushy",
+    "heads/base",
+    "noses/tiny"
+  ]
+}

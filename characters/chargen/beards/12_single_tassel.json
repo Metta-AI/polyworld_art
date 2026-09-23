@@ -1,0 +1,19 @@
+{
+  "name": "12 Single tassel",
+  "nodes": [
+    "Beard_12"
+  ],
+  "id": "beards/12_single_tassel",
+  "files": [
+    "beards/12_single_tassel.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_12",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

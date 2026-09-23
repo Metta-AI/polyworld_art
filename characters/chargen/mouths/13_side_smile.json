@@ -1,0 +1,14 @@
+{
+  "name": "13 Side smile",
+  "nodes": [
+    "Mouth_Atlas13"
+  ],
+  "id": "mouths/13_side_smile",
+  "files": [
+    "mouths/13_side_smile.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/13_side_smile.png"
+}

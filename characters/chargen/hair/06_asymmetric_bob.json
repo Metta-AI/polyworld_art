@@ -1,0 +1,19 @@
+{
+  "name": "06 Asymmetric bob",
+  "nodes": [
+    "Hair_06"
+  ],
+  "id": "hair/06_asymmetric_bob",
+  "files": [
+    "hair/06_asymmetric_bob.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_06",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

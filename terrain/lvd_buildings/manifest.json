@@ -1,0 +1,123 @@
+{
+  "pack": "lvd_buildings",
+  "format": "glTF 2.0 binary",
+  "model_count": 9,
+  "coordinates": "Y up, front +Z, meters; origin at footprint center on ground",
+  "textures": "One shared external PNG referenced by relative URI from every GLB",
+  "models": [
+    {
+      "name": "town_hall",
+      "file": "models/town_hall.glb",
+      "triangles": 6842,
+      "dimensions": [
+        7.486725,
+        6.79646,
+        4.909719
+      ],
+      "sha256": "f89319a7bd948825928bd688d4c6a2cfa9719c99aef962ed814bc3eb7daa9291",
+      "scale_from_original": 1.3274336283185841
+    },
+    {
+      "name": "farm",
+      "file": "models/farm.glb",
+      "triangles": 12396,
+      "dimensions": [
+        3.475,
+        0.95,
+        3.475
+      ],
+      "sha256": "62d3350ac8a45e099e54e1811552b19c1d815b02d808c38b01632a254fbd14b0",
+      "scale_from_original": 1.0
+    },
+    {
+      "name": "barracks",
+      "file": "models/barracks.glb",
+      "triangles": 2604,
+      "dimensions": [
+        3.317869,
+        3.327273,
+        3.113636
+      ],
+      "sha256": "8db69696368fed803f62c3cef484addbdcd23a0860b785429e48ecbb35e64dfe",
+      "scale_from_original": 0.9090909090909092
+    },
+    {
+      "name": "lumber_mill",
+      "file": "models/lumber_mill.glb",
+      "triangles": 4324,
+      "dimensions": [
+        3.057325,
+        3.191083,
+        3.062102
+      ],
+      "sha256": "af7260bd8d4b6fa799fea85663b8441f7e6be41a687503c6804157f9728f9068",
+      "scale_from_original": 0.9554140127388535
+    },
+    {
+      "name": "tower",
+      "file": "models/tower.glb",
+      "triangles": 2046,
+      "dimensions": [
+        3.472,
+        6.585196,
+        3.62217
+      ],
+      "sha256": "47ff891b9783d8c593e5c2f50bab56edda4c6505b2a80dfbd5c77f3b9591882e",
+      "scale_from_original": 1.4
+    },
+    {
+      "name": "stables",
+      "file": "models/stables.glb",
+      "triangles": 2360,
+      "dimensions": [
+        4.673684,
+        3.221053,
+        2.916549
+      ],
+      "sha256": "b86e0bee8f85553c0db38c0137c52fed7c361958bcda10000d06b3cefb524b69",
+      "scale_from_original": 1.0526315789473684
+    },
+    {
+      "name": "church",
+      "file": "models/church.glb",
+      "triangles": 2540,
+      "dimensions": [
+        2.998725,
+        5.672535,
+        4.001678
+      ],
+      "sha256": "e357350b657eff358968d0abd385b762ecf31b77c4a110472d501bbedc0efa9a",
+      "scale_from_original": 1.0067114093959733
+    },
+    {
+      "name": "blacksmith",
+      "file": "models/blacksmith.glb",
+      "triangles": 2752,
+      "dimensions": [
+        3.561257,
+        4.41125,
+        4.3875
+      ],
+      "sha256": "05e8ba328b01569288e91cd362d4f1c094cd2b4b9ba1a2b66eafe8159ba74bc2",
+      "scale_from_original": 1.25
+    },
+    {
+      "name": "gold_mine",
+      "file": "models/gold_mine.glb",
+      "triangles": 1332,
+      "dimensions": [
+        1.63,
+        2.05,
+        2.765
+      ],
+      "sha256": "729d8ee01229adbf79dc1d4153ff883580bfaeca9ba1702b51aa15bc32288857",
+      "scale_from_original": 1.0
+    }
+  ],
+  "door_reference_height": 1.5,
+  "texture_size": [
+    512,
+    512
+  ],
+  "texture_source": "textures/buildings-atlas.png"
+}

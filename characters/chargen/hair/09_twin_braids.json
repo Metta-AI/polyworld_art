@@ -1,0 +1,19 @@
+{
+  "name": "09 Twin braids",
+  "nodes": [
+    "Hair_09"
+  ],
+  "id": "hair/09_twin_braids",
+  "files": [
+    "hair/09_twin_braids.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_09",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

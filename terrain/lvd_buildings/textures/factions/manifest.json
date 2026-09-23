@@ -1,0 +1,111 @@
+{
+  "pack": "lvd_buildings_faction_trims",
+  "texture_size": [
+    512,
+    512
+  ],
+  "color_space": "sRGB",
+  "layout": {
+    "columns": 4,
+    "rows": 4,
+    "tile_size": [
+      128,
+      128
+    ],
+    "origin": "top-left",
+    "tiles": [
+      [
+        "stone",
+        "plaster",
+        "window",
+        "gray"
+      ],
+      [
+        "roof",
+        "wood",
+        "gold",
+        "door"
+      ],
+      [
+        "pumpkin",
+        "banner",
+        "leaf",
+        "doubleDoor"
+      ],
+      [
+        "bark",
+        "soil",
+        "archWindow",
+        "archDoor"
+      ]
+    ]
+  },
+  "usage": "External albedo atlas variants with the existing building UV layout. Select the faction texture when loading the building material.",
+  "neutral_mine_texture": "../buildings-atlas.png",
+  "factions": [
+    {
+      "faction": "PeterRiver",
+      "color": "#3498DB",
+      "file": "peter_river.png",
+      "theme": "Good medieval realm, retain the existing warm ivory limestone, cream plaster, honey-brown timber and friendly craftsmanship of reference 1. Change the deep cobalt roofs and banner to noticeably lighter sky blue matching #3498DB. Keep the established window and door designs very close to reference 1; simple elegant stone arches.",
+      "emblem": "sword",
+      "sha256": "fa0ab7ded30117cd63b42779de28b33af8da5e982edb238a6fde3844767c7fd6"
+    },
+    {
+      "faction": "Amethyst",
+      "color": "#9B59B6",
+      "file": "amethyst.png",
+      "theme": "Evil black-rock kingdom. Purple #9B59B6 shingle roofs and cloth. Architectural masonry and plaster become carved charcoal-black basalt with readable gray-purple edge highlights, soot-dark timber, heavy black-iron straps. Ominous elegant rounded and pointed stone arches, deep dark glass. Dark material surfaces must remain legible. No gems or crystals.",
+      "emblem": "bat",
+      "sha256": "8e46ae12c025f152118fc812c261ee04605557d2360b06b67a6d31faec97be2a"
+    },
+    {
+      "faction": "Alizarin",
+      "color": "#E74C3C",
+      "file": "alizarin.png",
+      "theme": "Evil orc stronghold. Red #E74C3C coarse wooden shingle roofs and red cloth. Rough square gray-rock blocks, coarse gray earthen infill, splintered heavy timber, chunky black-iron straps and square openings. Door and window frames rugged, squared, functional, crudely hewn; even the two tall opening slots should have square lintels instead of arches. Broad rugged hand-painted shapes, no skulls or decorative gold.",
+      "emblem": "crossed_axes",
+      "sha256": "fa4bb4abd6a1e71f5a4eb47baff2b29a6f20dc9d1147454fdf19a2c60ea7f997"
+    },
+    {
+      "faction": "Emerald",
+      "color": "#2ECC71",
+      "file": "emerald.png",
+      "theme": "Good enchanted forest realm. Emerald green #2ECC71 shingle roofs and green cloth. White stone masonry and pale lime plaster, naturally curving wood grain, elegant gently curving arches and rounded openings, light-to-medium brown living timber. Moss along stone seams and restrained small ivy tendrils at architectural edges for an overgrown woodland feel. Keep doors/windows readable and uncluttered, no vines crossing tile boundaries.",
+      "emblem": "leaf",
+      "sha256": "079d04cdb9e455cf5d006040ac21fe68f5f28e09ece462a7078469a04d60b866"
+    },
+    {
+      "faction": "Carrot",
+      "color": "#E67E22",
+      "file": "carrot.png",
+      "theme": "Good desert and sand civilization. Warm orange #E67E22 terracotta shingle roofs and orange cloth. Square pale sandstone blocks, buff rammed-earth plaster with subtle horizontal strata, sun-bleached warm brown timber and spare dark-iron hardware. Square lintels and square geometric door/window frames, including tall bottom-row slots. Dry earthen palette, broad simple shapes. No gold architectural decoration.",
+      "emblem": "sun",
+      "sha256": "12e99082307e4ab46de896240d93700d951e87e39b6beaa2a6f5fc9c2d834070"
+    },
+    {
+      "faction": "WetAsphalt",
+      "color": "#34495E",
+      "file": "wet_asphalt.png",
+      "theme": "Evil dragon kingdom in black-stone Gothic style. Slate blue-gray #34495E shingle roofs and cloth. Very dark basalt masonry, smoky charcoal plaster, near-black scorched timber with visible grain, angular beveled stonework, high pointed Gothic arches and narrow dark lancet glass. Subtle dragon-claw angularity in black-iron straps, no literal dragon images. Readable cool edge highlights, distinguish darkest stone from roof. No crystals, no gold architectural trim.",
+      "emblem": "dragon",
+      "sha256": "3966880ca799197e15faaad1fbf55c93f6421f8053c3b0d42a7cb775bf2a65c4"
+    },
+    {
+      "faction": "Turquoise",
+      "color": "#1ABC9C",
+      "file": "turquoise.png",
+      "theme": "Good classical Greek realm. Turquoise teal #1ABC9C glazed shingle roofs and cloth. Bright white marble masonry, white lime plaster, subtly veined pale stone, refined sun-warmed timber, clean classical rounded arches, restrained carved stone frame moldings. Airy orderly and luminous, simple Greek proportions, no gold architectural trim or decorative symbols outside the banner.",
+      "emblem": "laurel_wreath",
+      "sha256": "efbf480e4ab131c4728193fc4c89b55dfa7fdf78aa0195b2d72e4730f1217dd6"
+    },
+    {
+      "faction": "SunFlower",
+      "color": "#F1C40F",
+      "file": "sun_flower.png",
+      "theme": "Evil ancient Egyptian crypt realm. Sunflower yellow #F1C40F painted ochre shingle roofs and yellow cloth, clearly matte yellow pigment rather than gold metal. Aged sandy limestone masonry, pale dusty sandstone plaster, charcoal-brown ancient timber, massive worn sandstone arches and somber deep window recesses. Subtle funerary geometric grooves in stone frames, heavy dark iron door straps. No hieroglyph text, no skulls, no gold trim; raw gold appears only in its ore tile.",
+      "emblem": "scarab",
+      "sha256": "f0af04b45fa6964ff93a797869f0bc1fed61894074ab1b6e6f47077c6ee0f8ff"
+    }
+  ]
+}

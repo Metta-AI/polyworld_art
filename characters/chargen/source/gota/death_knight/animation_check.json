@@ -1,0 +1,15 @@
+{
+  "actions": [
+    "Idle",
+    "Walk",
+    "Walk_Loop"
+  ],
+  "frames": [
+    1,
+    10,
+    20
+  ],
+  "finiteDeformedVertices": true,
+  "sharedRig": true,
+  "clothingNodes": 45
+}

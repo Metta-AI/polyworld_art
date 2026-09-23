@@ -1,0 +1,17 @@
+{
+  "id": "hats/gota_crossbowman_headgear",
+  "name": "Gota Crossbowman hood",
+  "files": [
+    "hats/gota_crossbowman_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_crossbowman_hood"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

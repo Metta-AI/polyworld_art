@@ -1,0 +1,103 @@
+{
+  "name": "Death Knight",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 32,
+  "skinRgb": [
+    0.34,
+    0.18,
+    0.11
+  ],
+  "hairColor": "Jet black",
+  "pupilColor": "Brown",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "14 Angular"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "08 Stern"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "None"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Death Knight open crown"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Death Knight cuirass and cape"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Death Knight tassets"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Death Knight armored boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Death Knight steel belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

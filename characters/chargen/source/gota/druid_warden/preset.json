@@ -1,0 +1,98 @@
+{
+  "name": "Druid Warden",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 12,
+  "hairColor": "Moss",
+  "pupilColor": "Green",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "04 Calm"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "12 Sweeping"
+    },
+    {
+      "category": "Ears",
+      "item": "Elf"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Hair",
+      "item": "Gota Druid Warden leaf hair"
+    },
+    {
+      "category": "Beard",
+      "item": "Gota Druid Warden leaf beard"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Druid Warden antler crown"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Druid Warden bark mantle"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Druid Warden leaf skirt"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Druid Warden boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Druid Warden hexagon belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

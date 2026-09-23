@@ -1,0 +1,17 @@
+{
+  "id": "clothing/torsos/gota_arcanist_chest",
+  "name": "Gota Arcanist violet robe",
+  "files": [
+    "clothing/torsos/gota_arcanist_chest.glb"
+  ],
+  "nodes": [
+    "Gota_arcanist_robe"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "08 Happy open",
+  "nodes": [
+    "Mouth_Atlas08"
+  ],
+  "id": "mouths/08_happy_open",
+  "files": [
+    "mouths/08_happy_open.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/08_happy_open.png"
+}

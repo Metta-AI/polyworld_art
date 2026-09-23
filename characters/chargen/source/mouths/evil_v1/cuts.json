@@ -1,0 +1,281 @@
+{
+  "size": [
+    1254,
+    1254
+  ],
+  "parts": [
+    {
+      "category": "Mouth",
+      "name": "Evil 01 Villain smirk",
+      "node": "Mouth_Evil01",
+      "texture": "mouths/evil_01_villain_smirk.png",
+      "size": [
+        223,
+        82
+      ],
+      "sourceRect": [
+        54,
+        134,
+        277,
+        216
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 02 Hard scowl",
+      "node": "Mouth_Evil02",
+      "texture": "mouths/evil_02_hard_scowl.png",
+      "size": [
+        216,
+        71
+      ],
+      "sourceRect": [
+        369,
+        153,
+        585,
+        224
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 03 Cruel grin",
+      "node": "Mouth_Evil03",
+      "texture": "mouths/evil_03_cruel_grin.png",
+      "size": [
+        233,
+        91
+      ],
+      "sourceRect": [
+        653,
+        130,
+        886,
+        221
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 04 Cackle",
+      "node": "Mouth_Evil04",
+      "texture": "mouths/evil_04_cackle.png",
+      "size": [
+        252,
+        160
+      ],
+      "sourceRect": [
+        960,
+        97,
+        1212,
+        257
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 05 Sewn shut",
+      "node": "Mouth_Evil05",
+      "texture": "mouths/evil_05_sewn_shut.png",
+      "size": [
+        239,
+        64
+      ],
+      "sourceRect": [
+        47,
+        429,
+        286,
+        493
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 06 Stitched smile",
+      "node": "Mouth_Evil06",
+      "texture": "mouths/evil_06_stitched_smile.png",
+      "size": [
+        261,
+        93
+      ],
+      "sourceRect": [
+        345,
+        415,
+        606,
+        508
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 07 Broken teeth",
+      "node": "Mouth_Evil07",
+      "texture": "mouths/evil_07_broken_teeth.png",
+      "size": [
+        253,
+        111
+      ],
+      "sourceRect": [
+        648,
+        403,
+        901,
+        514
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 08 Undead snarl",
+      "node": "Mouth_Evil08",
+      "texture": "mouths/evil_08_undead_snarl.png",
+      "size": [
+        251,
+        139
+      ],
+      "sourceRect": [
+        963,
+        384,
+        1214,
+        523
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 09 Orc sneer",
+      "node": "Mouth_Evil09",
+      "texture": "mouths/evil_09_orc_sneer.png",
+      "size": [
+        242,
+        89
+      ],
+      "sourceRect": [
+        43,
+        704,
+        285,
+        793
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 10 Orc roar",
+      "node": "Mouth_Evil10",
+      "texture": "mouths/evil_10_orc_roar.png",
+      "size": [
+        259,
+        167
+      ],
+      "sourceRect": [
+        346,
+        655,
+        605,
+        822
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 11 Goblin grin",
+      "node": "Mouth_Evil11",
+      "texture": "mouths/evil_11_goblin_grin.png",
+      "size": [
+        253,
+        82
+      ],
+      "sourceRect": [
+        652,
+        709,
+        905,
+        817
+      ],
+      "source": "source/mouths/evil_v1/transparent.png",
+      "override": "source/mouths/evil_v1/overrides/evil_11_goblin_grin.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 12 Beast maw",
+      "node": "Mouth_Evil12",
+      "texture": "mouths/evil_12_beast_maw.png",
+      "size": [
+        251,
+        173
+      ],
+      "sourceRect": [
+        962,
+        657,
+        1213,
+        830
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 13 Vampire smirk",
+      "node": "Mouth_Evil13",
+      "texture": "mouths/evil_13_vampire_smirk.png",
+      "size": [
+        233,
+        76
+      ],
+      "sourceRect": [
+        48,
+        1018,
+        281,
+        1094
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 14 Vampire grin",
+      "node": "Mouth_Evil14",
+      "texture": "mouths/evil_14_vampire_grin.png",
+      "size": [
+        241,
+        114
+      ],
+      "sourceRect": [
+        351,
+        995,
+        592,
+        1109
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 15 Vampire hiss",
+      "node": "Mouth_Evil15",
+      "texture": "mouths/evil_15_vampire_hiss.png",
+      "size": [
+        232,
+        177
+      ],
+      "sourceRect": [
+        657,
+        967,
+        889,
+        1144
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    },
+    {
+      "category": "Mouth",
+      "name": "Evil 16 Demon grin",
+      "node": "Mouth_Evil16",
+      "texture": "mouths/evil_16_demon_grin.png",
+      "size": [
+        264,
+        151
+      ],
+      "sourceRect": [
+        955,
+        973,
+        1219,
+        1124
+      ],
+      "source": "source/mouths/evil_v1/transparent.png"
+    }
+  ]
+}

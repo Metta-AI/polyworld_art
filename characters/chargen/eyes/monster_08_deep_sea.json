@@ -1,0 +1,15 @@
+{
+  "name": "Monster 08 Deep sea",
+  "nodes": [
+    "Eyes_Monster08"
+  ],
+  "texture": "eyes/monster_08_deep_sea.png",
+  "pupilMask": "eyes/monster_08_deep_sea.mask.png",
+  "id": "eyes/monster_08_deep_sea",
+  "files": [
+    "eyes/monster_08_deep_sea.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

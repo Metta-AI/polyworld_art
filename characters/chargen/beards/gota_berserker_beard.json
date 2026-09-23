@@ -1,0 +1,17 @@
+{
+  "id": "beards/gota_berserker_beard",
+  "name": "Gota Berserker pointed beard",
+  "files": [
+    "beards/gota_berserker_beard.glb"
+  ],
+  "nodes": [
+    "Gota_berserker_beard"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

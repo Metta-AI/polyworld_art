@@ -1,0 +1,14 @@
+{
+  "name": "Evil 08 Undead snarl",
+  "nodes": [
+    "Mouth_Evil08"
+  ],
+  "texture": "mouths/evil_08_undead_snarl.png",
+  "id": "mouths/evil_08_undead_snarl",
+  "files": [
+    "mouths/evil_08_undead_snarl.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

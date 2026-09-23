@@ -1,0 +1,15 @@
+{
+  "name": "10 Sharp",
+  "nodes": [
+    "Eyes_Atlas10"
+  ],
+  "id": "eyes/10_sharp",
+  "files": [
+    "eyes/10_sharp.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/10_sharp.mask.png",
+  "texture": "eyes/10_sharp.png"
+}

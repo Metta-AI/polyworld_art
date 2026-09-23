@@ -1,0 +1,19 @@
+{
+  "name": "02 Parted chevron",
+  "nodes": [
+    "Beard_02"
+  ],
+  "id": "beards/02_parted_chevron",
+  "files": [
+    "beards/02_parted_chevron.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_02",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

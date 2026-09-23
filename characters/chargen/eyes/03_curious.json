@@ -1,0 +1,15 @@
+{
+  "name": "03 Curious",
+  "nodes": [
+    "Eyes_Atlas03"
+  ],
+  "id": "eyes/03_curious",
+  "files": [
+    "eyes/03_curious.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/03_curious.mask.png",
+  "texture": "eyes/03_curious.png"
+}

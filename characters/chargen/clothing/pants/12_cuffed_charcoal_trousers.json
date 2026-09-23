@@ -1,0 +1,46 @@
+{
+  "name": "12 Cuffed charcoal trousers",
+  "nodes": [
+    "Clothing_12",
+    "Clothing_12_BootCut0",
+    "Clothing_12_BootCut1",
+    "Clothing_12_BootCut2",
+    "Clothing_12_BootCut3"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/pants/12_cuffed_charcoal_trousers",
+  "files": [
+    "clothing/pants/12_cuffed_charcoal_trousers.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_12",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_12_BootCut0",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_12_BootCut1",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_12_BootCut2",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_12_BootCut3",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

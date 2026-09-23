@@ -1,0 +1,20 @@
+{
+  "id": "props/right/gota_crossbowman_right_hand",
+  "name": "Medieval crossbow",
+  "files": [
+    "props/right/gota_crossbowman_right_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_crossbowman_right_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand",
+  "triangles": 2080,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

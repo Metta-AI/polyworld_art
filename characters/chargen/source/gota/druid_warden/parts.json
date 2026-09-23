@@ -1,0 +1,175 @@
+[
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_druid_warden_foot",
+    "name": "Gota Druid Warden boots",
+    "files": [
+      "clothing/boots/gota_druid_warden_foot.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_boots"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_druid_warden_leg",
+    "name": "Gota Druid Warden leaf skirt",
+    "files": [
+      "clothing/pants/gota_druid_warden_leg.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_legs",
+      "Gota_druid_warden_legs_BootCut3",
+      "Gota_druid_warden_hip_leaf_-1_False_0",
+      "Gota_druid_warden_hip_leaf_-1_False_1",
+      "Gota_druid_warden_hip_leaf_-1_True_0",
+      "Gota_druid_warden_hip_leaf_-1_True_1",
+      "Gota_druid_warden_hip_leaf_1_False_0",
+      "Gota_druid_warden_hip_leaf_1_False_1",
+      "Gota_druid_warden_hip_leaf_1_True_0",
+      "Gota_druid_warden_hip_leaf_1_True_1",
+      "Gota_druid_warden_center_skirt_False",
+      "Gota_druid_warden_center_skirt_True"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_druid_warden_belt",
+    "name": "Gota Druid Warden hexagon belt",
+    "files": [
+      "clothing/belts/gota_druid_warden_belt.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_belt",
+      "Gota_druid_warden_hexagon_buckle"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_druid_warden_chest",
+    "name": "Gota Druid Warden bark mantle",
+    "files": [
+      "clothing/torsos/gota_druid_warden_chest.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_bark_body",
+      "Gota_druid_warden_bark_center_False",
+      "Gota_druid_warden_bark_cross_left",
+      "Gota_druid_warden_bark_cross_right",
+      "Gota_druid_warden_mantle_False_-1_0",
+      "Gota_druid_warden_mantle_False_-1_1",
+      "Gota_druid_warden_mantle_False_-1_2",
+      "Gota_druid_warden_mantle_False_1_0",
+      "Gota_druid_warden_mantle_False_1_1",
+      "Gota_druid_warden_mantle_False_1_2",
+      "Gota_druid_warden_bark_center_True",
+      "Gota_druid_warden_mantle_back_leaf",
+      "Gota_druid_warden_mantle_True_-1_0",
+      "Gota_druid_warden_mantle_True_-1_1",
+      "Gota_druid_warden_mantle_True_-1_2",
+      "Gota_druid_warden_mantle_True_1_0",
+      "Gota_druid_warden_mantle_True_1_1",
+      "Gota_druid_warden_mantle_True_1_2",
+      "Gota_druid_warden_cuff_-1",
+      "Gota_druid_warden_cuff_1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_druid_warden_headgear",
+    "name": "Gota Druid Warden antler crown",
+    "files": [
+      "hats/gota_druid_warden_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_antler_-1",
+      "Gota_druid_warden_antler_outer_-1",
+      "Gota_druid_warden_antler_leaf_-1_0",
+      "Gota_druid_warden_antler_leaf_-1_1",
+      "Gota_druid_warden_antler_1",
+      "Gota_druid_warden_antler_outer_1",
+      "Gota_druid_warden_antler_leaf_1_0",
+      "Gota_druid_warden_antler_leaf_1_1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Hair",
+    "id": "hair/gota_druid_warden_hair",
+    "name": "Gota Druid Warden leaf hair",
+    "files": [
+      "hair/gota_druid_warden_hair.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_green_hair",
+      "Gota_druid_warden_hair_peak"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Beard",
+    "id": "beards/gota_druid_warden_beard",
+    "name": "Gota Druid Warden leaf beard",
+    "files": [
+      "beards/gota_druid_warden_beard.glb"
+    ],
+    "nodes": [
+      "Gota_druid_warden_green_beard",
+      "Gota_druid_warden_beard_leaf"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

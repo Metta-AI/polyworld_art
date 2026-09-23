@@ -1,0 +1,20 @@
+{
+  "id": "clothing/backs/gota_ranger_back",
+  "name": "Ranger light quiver",
+  "files": [
+    "clothing/backs/gota_ranger_back.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_ranger_back"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "Spine2",
+  "triangles": 804,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

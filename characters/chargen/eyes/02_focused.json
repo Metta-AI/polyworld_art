@@ -1,0 +1,15 @@
+{
+  "name": "02 Focused",
+  "nodes": [
+    "Eyes_Atlas02"
+  ],
+  "id": "eyes/02_focused",
+  "files": [
+    "eyes/02_focused.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/02_focused.mask.png",
+  "texture": "eyes/02_focused.png"
+}

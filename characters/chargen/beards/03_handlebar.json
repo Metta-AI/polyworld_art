@@ -1,0 +1,19 @@
+{
+  "name": "03 Handlebar",
+  "nodes": [
+    "Beard_03"
+  ],
+  "id": "beards/03_handlebar",
+  "files": [
+    "beards/03_handlebar.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_03",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

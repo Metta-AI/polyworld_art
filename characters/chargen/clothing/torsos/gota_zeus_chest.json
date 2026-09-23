@@ -1,0 +1,37 @@
+{
+  "id": "clothing/torsos/gota_zeus_chest",
+  "name": "Zeus tunic",
+  "files": [
+    "clothing/torsos/gota_zeus_chest.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_TunicShell",
+    "Gota_zeus_LapelGold-1",
+    "Gota_zeus_LapelBlue-1",
+    "Gota_zeus_Shoulder-1Round",
+    "Gota_zeus_Shoulder-1Eagle",
+    "Gota_zeus_ShoulderBlue-1",
+    "Gota_zeus_Cuff-1",
+    "Gota_zeus_CuffRim-10",
+    "Gota_zeus_CuffRim-11",
+    "Gota_zeus_CuffGemRim-1",
+    "Gota_zeus_CuffGem-1",
+    "Gota_zeus_LapelGold1",
+    "Gota_zeus_LapelBlue1",
+    "Gota_zeus_Shoulder1Round",
+    "Gota_zeus_Shoulder1Eagle",
+    "Gota_zeus_ShoulderBlue1",
+    "Gota_zeus_Cuff1",
+    "Gota_zeus_CuffRim10",
+    "Gota_zeus_CuffRim11",
+    "Gota_zeus_CuffGemRim1",
+    "Gota_zeus_CuffGem1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

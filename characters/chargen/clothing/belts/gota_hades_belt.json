@@ -1,0 +1,32 @@
+{
+  "id": "clothing/belts/gota_hades_belt",
+  "name": "Gota Hades skull belt",
+  "files": [
+    "clothing/belts/gota_hades_belt.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Belt",
+    "Gota_hades_BeltGold1.23",
+    "Gota_hades_BeltGold1.34",
+    "Gota_hades_BuckleWing-1",
+    "Gota_hades_BuckleWing1",
+    "Gota_hades_SkullCranium",
+    "Gota_hades_SkullSocket-1",
+    "Gota_hades_SkullSoul-1",
+    "Gota_hades_SkullSocket1",
+    "Gota_hades_SkullSoul1",
+    "Gota_hades_SkullNose",
+    "Gota_hades_SkullTooth-2",
+    "Gota_hades_SkullTooth-1",
+    "Gota_hades_SkullTooth0",
+    "Gota_hades_SkullTooth1",
+    "Gota_hades_SkullTooth2"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

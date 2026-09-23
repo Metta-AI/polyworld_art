@@ -1,0 +1,25 @@
+{
+  "id": "clothing/boots/gota_ranger_foot",
+  "name": "Ranger cuff boots",
+  "files": [
+    "clothing/boots/gota_ranger_foot.glb"
+  ],
+  "nodes": [
+    "Gota_ranger_Boots"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right",
+    "Gota_ranger_Trousers_BootCut0",
+    "Gota_ranger_Trousers_BootCut1",
+    "Gota_ranger_Trousers_BootCut2"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

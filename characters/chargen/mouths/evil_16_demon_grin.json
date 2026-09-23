@@ -1,0 +1,14 @@
+{
+  "name": "Evil 16 Demon grin",
+  "nodes": [
+    "Mouth_Evil16"
+  ],
+  "texture": "mouths/evil_16_demon_grin.png",
+  "id": "mouths/evil_16_demon_grin",
+  "files": [
+    "mouths/evil_16_demon_grin.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

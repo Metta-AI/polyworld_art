@@ -1,0 +1,17 @@
+name: Verify open assets
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tools/verify_assets.py
+      - run: python3 characters/chargen/source/scripts/verify_clean.py
+      - run: git lfs fsck

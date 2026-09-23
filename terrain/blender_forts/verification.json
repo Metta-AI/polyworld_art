@@ -1,0 +1,700 @@
+{
+  "blender_file": "fort_kit.blend",
+  "assets": [
+    {
+      "asset": "dark_tower",
+      "triangles": 210,
+      "glb_triangles": 210,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 4.470348358154297e-07,
+      "square_pixel_triangles_checked": 195,
+      "maximum_pixel_aspect_ratio": 1.000002901369836,
+      "pixels_per_meter_range": [
+        126.1882259108183,
+        128.00036149010424
+      ],
+      "self_contained_glb": true,
+      "sha256": "b1e6e82eac7d1a8c6b682d50952b6bfd9aa652c3c209541b3c06314b39eca4eb",
+      "attachments": [
+        {
+          "name": "fire",
+          "position_blender": [
+            0.0,
+            0.0,
+            4.224999904632568
+          ],
+          "position_glb": [
+            0.0,
+            4.224999904632568,
+            0.0
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "dark_barracks",
+      "triangles": 232,
+      "glb_triangles": 232,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 0.0,
+      "square_pixel_triangles_checked": 216,
+      "maximum_pixel_aspect_ratio": 1.0000039266560055,
+      "pixels_per_meter_range": [
+        127.99979715942446,
+        128.00044973072255
+      ],
+      "self_contained_glb": true,
+      "sha256": "e56f4a36a099ce8150211ccac5e6f618bc5b04d0d21535eebc1091d9bf4668e9",
+      "attachments": [
+        {
+          "name": "spawn",
+          "position_blender": [
+            0.0,
+            -1.7610000371932983,
+            0.3199999928474426
+          ],
+          "position_glb": [
+            0.0,
+            0.3199999928474426,
+            1.7610000371932983
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "dark_pillar",
+      "triangles": 128,
+      "glb_triangles": 128,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 0.0,
+      "square_pixel_triangles_checked": 128,
+      "maximum_pixel_aspect_ratio": 1.0000076682806693,
+      "pixels_per_meter_range": [
+        127.99934653623689,
+        128.00059318926273
+      ],
+      "self_contained_glb": true,
+      "sha256": "d1cc575371044f3468ae9680896ffa732a229a773ee5c628ec382c4e1dc52a1f",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "dark_wall",
+      "triangles": 104,
+      "glb_triangles": 104,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 0.0,
+      "square_pixel_triangles_checked": 104,
+      "maximum_pixel_aspect_ratio": 1.0000080033023249,
+      "pixels_per_meter_range": [
+        127.99979641058911,
+        128.0009790130571
+      ],
+      "self_contained_glb": true,
+      "sha256": "ff992f5664e02a9e78cbe1fe0fdfcb4d2e84cd72e20e217bee36473650db51ad",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "dark_tree",
+      "triangles": 188,
+      "glb_triangles": 188,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 0,
+      "maximum_pixel_aspect_ratio": null,
+      "pixels_per_meter_range": null,
+      "self_contained_glb": true,
+      "sha256": "5d45a5119a88b676662845482d00cc40697662dfcaaf590eee0258ca1b0d43e8",
+      "attachments": [],
+      "tree_shape": {
+        "branches": 5,
+        "horizontal_depth_ratio": 0.6420848140088896,
+        "ground_level_origin": true
+      },
+      "foliage": null
+    },
+    {
+      "asset": "dark_tower_level1",
+      "triangles": 234,
+      "glb_triangles": 234,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 4.053554221172817e-07,
+      "square_pixel_triangles_checked": 210,
+      "maximum_pixel_aspect_ratio": 1.0000026902326904,
+      "pixels_per_meter_range": [
+        127.99985808439247,
+        128.00027089373722
+      ],
+      "self_contained_glb": true,
+      "sha256": "a5ed313afb2fe1ae45d8097f4c2617505607b30962de78099311d344c4bd7008",
+      "attachments": [
+        {
+          "name": "fire",
+          "position_blender": [
+            0.0,
+            0.0,
+            3.359999895095825
+          ],
+          "position_glb": [
+            0.0,
+            3.359999895095825,
+            0.0
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "dark_tower_level3",
+      "triangles": 246,
+      "glb_triangles": 246,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 6.2815064438837e-07,
+      "square_pixel_triangles_checked": 210,
+      "maximum_pixel_aspect_ratio": 1.0000019350321856,
+      "pixels_per_meter_range": [
+        114.38077278292363,
+        128.0001234807304
+      ],
+      "self_contained_glb": true,
+      "sha256": "328004b6bdb6f07f84c463315f991e66794e31eb81538b58ddf650592c8328ee",
+      "attachments": [
+        {
+          "name": "fire",
+          "position_blender": [
+            0.0,
+            0.0,
+            4.994999885559082
+          ],
+          "position_glb": [
+            0.0,
+            4.994999885559082,
+            0.0
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "light_tower",
+      "triangles": 234,
+      "glb_triangles": 234,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 3.2782554626464844e-07,
+      "square_pixel_triangles_checked": 219,
+      "maximum_pixel_aspect_ratio": 1.0000025105833004,
+      "pixels_per_meter_range": [
+        153.5237310601937,
+        155.72834068324394
+      ],
+      "self_contained_glb": true,
+      "sha256": "059fbcae35a599377a97d171e4e4b2c4891f48adbf43148e651830635bcc270d",
+      "attachments": [
+        {
+          "name": "fire",
+          "position_blender": [
+            0.0,
+            0.0,
+            3.4727230072021484
+          ],
+          "position_glb": [
+            0.0,
+            3.4727230072021484,
+            0.0
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "light_barracks",
+      "triangles": 220,
+      "glb_triangles": 220,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 0.0,
+      "square_pixel_triangles_checked": 84,
+      "maximum_pixel_aspect_ratio": 1.0000010703171192,
+      "pixels_per_meter_range": [
+        127.99992643901312,
+        128.0000960024709
+      ],
+      "self_contained_glb": true,
+      "sha256": "398afb64bbfb7eee65c74c3a6d64f5dd608b3cf59e0eb7ddee75ef7a0e6c4bfb",
+      "attachments": [
+        {
+          "name": "spawn",
+          "position_blender": [
+            0.0,
+            -1.7610000371932983,
+            0.3199999928474426
+          ],
+          "position_glb": [
+            0.0,
+            0.3199999928474426,
+            1.7610000371932983
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "light_pillar",
+      "triangles": 176,
+      "glb_triangles": 176,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 0.0,
+      "square_pixel_triangles_checked": 168,
+      "maximum_pixel_aspect_ratio": 1.0000076682806693,
+      "pixels_per_meter_range": [
+        127.99934653623689,
+        128.00059318926273
+      ],
+      "self_contained_glb": true,
+      "sha256": "9fbed4a0e6c16dd0e3a0334adc250f8102eed0135dbd839b83da70581110ed35",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "light_wall",
+      "triangles": 176,
+      "glb_triangles": 176,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 0.0,
+      "square_pixel_triangles_checked": 176,
+      "maximum_pixel_aspect_ratio": 1.0000080033023249,
+      "pixels_per_meter_range": [
+        127.99979641058911,
+        128.0009790130571
+      ],
+      "self_contained_glb": true,
+      "sha256": "56aa25fee914efdf78708969bbe7a896fd0d4bea631eb2a28817e122ce5329b9",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "light_tower_level2",
+      "triangles": 234,
+      "glb_triangles": 234,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 4.339283634635649e-07,
+      "square_pixel_triangles_checked": 219,
+      "maximum_pixel_aspect_ratio": 1.0000072408395158,
+      "pixels_per_meter_range": [
+        125.12135536783383,
+        128.00035575205104
+      ],
+      "self_contained_glb": true,
+      "sha256": "3972fd37b4f5a4c986bc564ea018a9c63b5b6a2b79d738912937a075836c810f",
+      "attachments": [
+        {
+          "name": "fire",
+          "position_blender": [
+            0.0,
+            0.0,
+            4.224999904632568
+          ],
+          "position_glb": [
+            0.0,
+            4.224999904632568,
+            0.0
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "light_tower_level3",
+      "triangles": 240,
+      "glb_triangles": 240,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": 4.805480102731963e-07,
+      "square_pixel_triangles_checked": 225,
+      "maximum_pixel_aspect_ratio": 1.000002087244997,
+      "pixels_per_meter_range": [
+        108.65595001522411,
+        128.0001654782295
+      ],
+      "self_contained_glb": true,
+      "sha256": "1b5b092d488578835345b7de9716ed3e17d42a960f7cb885f9f3d5f71295bb38",
+      "attachments": [
+        {
+          "name": "fire",
+          "position_blender": [
+            0.0,
+            0.0,
+            5.105000019073486
+          ],
+          "position_glb": [
+            0.0,
+            5.105000019073486,
+            0.0
+          ],
+          "meshless": true
+        }
+      ],
+      "tree_shape": null,
+      "foliage": null
+    },
+    {
+      "asset": "dark_tree_2",
+      "triangles": 118,
+      "glb_triangles": 118,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 0,
+      "maximum_pixel_aspect_ratio": null,
+      "pixels_per_meter_range": null,
+      "self_contained_glb": true,
+      "sha256": "306814eed4fb29d016bbd35ccc06bba871811ebf233a7bcf7167f9295be83780",
+      "attachments": [],
+      "tree_shape": {
+        "branches": 2,
+        "horizontal_depth_ratio": 0.4792307682891224,
+        "ground_level_origin": true
+      },
+      "foliage": null
+    },
+    {
+      "asset": "dark_tree_3",
+      "triangles": 172,
+      "glb_triangles": 172,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 0,
+      "maximum_pixel_aspect_ratio": null,
+      "pixels_per_meter_range": null,
+      "self_contained_glb": true,
+      "sha256": "f61986b6243de004a3d966d05d112eae39d0954d8f3f6f1ad5b44e6f4091a122",
+      "attachments": [],
+      "tree_shape": {
+        "branches": 4,
+        "horizontal_depth_ratio": 0.6836187281452173,
+        "ground_level_origin": true
+      },
+      "foliage": null
+    },
+    {
+      "asset": "dark_tree_4",
+      "triangles": 248,
+      "glb_triangles": 248,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 0,
+      "maximum_pixel_aspect_ratio": null,
+      "pixels_per_meter_range": null,
+      "self_contained_glb": true,
+      "sha256": "00e3800587e9cf6f72439fed25d023d34d830713ff45f070956ebe00cd5eb2ca",
+      "attachments": [],
+      "tree_shape": {
+        "branches": 7,
+        "horizontal_depth_ratio": 0.85980545354575,
+        "ground_level_origin": true
+      },
+      "foliage": null
+    },
+    {
+      "asset": "light_tree_1",
+      "triangles": 206,
+      "glb_triangles": 206,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 138,
+      "maximum_pixel_aspect_ratio": 1.0000002647613844,
+      "pixels_per_meter_range": [
+        202.5784231023767,
+        557.6623884636061
+      ],
+      "self_contained_glb": true,
+      "sha256": "f948f91f3ef16f94040c0968b0b9380422b644fbd8a6038425365750605e8977",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": {
+        "foliage_quads": 69,
+        "separate_meshes": true,
+        "neutral_tint": true,
+        "double_sided_alpha_mask": true,
+        "radial_rings": [
+          {
+            "ring": 0,
+            "quads": 7,
+            "attachment_radius": 0.025093564486000076,
+            "tip_radius": 0.4129736903413881,
+            "attachment_height": 4.1000606673104425,
+            "mean_texture_gray": 218.21
+          },
+          {
+            "ring": 1,
+            "quads": 10,
+            "attachment_radius": 0.28135320325059376,
+            "tip_radius": 0.853145334787573,
+            "attachment_height": 3.602167272567749,
+            "mean_texture_gray": 192.88
+          },
+          {
+            "ring": 2,
+            "quads": 13,
+            "attachment_radius": 0.5011902977722896,
+            "tip_radius": 1.1963242406535455,
+            "attachment_height": 3.07175298837515,
+            "mean_texture_gray": 192.88
+          },
+          {
+            "ring": 3,
+            "quads": 17,
+            "attachment_radius": 0.7471732311615401,
+            "tip_radius": 1.5620279903369823,
+            "attachment_height": 2.5388395505792953,
+            "mean_texture_gray": 155.87
+          },
+          {
+            "ring": 4,
+            "quads": 22,
+            "attachment_radius": 0.9899183850538322,
+            "tip_radius": 1.9276539654382212,
+            "attachment_height": 2.0390689156272193,
+            "mean_texture_gray": 132.9
+          }
+        ],
+        "outward_descending_flow_verified": true,
+        "lower_rings_darker": true,
+        "ring_overlap_verified": true,
+        "upward_facing_cards": true
+      }
+    },
+    {
+      "asset": "light_tree_2",
+      "triangles": 172,
+      "glb_triangles": 172,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 78,
+      "maximum_pixel_aspect_ratio": 1.0000002811305144,
+      "pixels_per_meter_range": [
+        368.4743955634919,
+        677.6142219630551
+      ],
+      "self_contained_glb": true,
+      "sha256": "23d4ab2aec9fbc9581e18a1b9ce8bbf0fec63963a599bf1a13231c7f9e8fb567",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": {
+        "foliage_quads": 39,
+        "separate_meshes": true,
+        "neutral_tint": true,
+        "double_sided_alpha_mask": true,
+        "radial_rings": [
+          {
+            "ring": 0,
+            "quads": 6,
+            "attachment_radius": 0.023930936430495778,
+            "tip_radius": 0.508564156524538,
+            "attachment_height": 2.6228592793146768,
+            "mean_texture_gray": 228.06500000000003
+          },
+          {
+            "ring": 1,
+            "quads": 8,
+            "attachment_radius": 0.3878303739672108,
+            "tip_radius": 0.9311349989155548,
+            "attachment_height": 2.5469899773597717,
+            "mean_texture_gray": 200.595
+          },
+          {
+            "ring": 2,
+            "quads": 11,
+            "attachment_radius": 0.6939533889495121,
+            "tip_radius": 1.1736195816157156,
+            "attachment_height": 2.3497528596357866,
+            "mean_texture_gray": 160.58727272727273
+          },
+          {
+            "ring": 3,
+            "quads": 14,
+            "attachment_radius": 0.8951875221020604,
+            "tip_radius": 1.1799623050780137,
+            "attachment_height": 2.045081547328404,
+            "mean_texture_gray": 133.29000000000002
+          }
+        ],
+        "outward_descending_flow_verified": true,
+        "lower_rings_darker": true,
+        "ring_overlap_verified": true,
+        "upward_facing_cards": true
+      }
+    },
+    {
+      "asset": "light_tree_3",
+      "triangles": 228,
+      "glb_triangles": 228,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 104,
+      "maximum_pixel_aspect_ratio": 1.0000002594325714,
+      "pixels_per_meter_range": [
+        259.1956275088011,
+        476.61704463073585
+      ],
+      "self_contained_glb": true,
+      "sha256": "a2a2b20e32af1dfff6e0e883ef644544789c9d4911f9ad330299c4615e1b22bd",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": {
+        "foliage_quads": 52,
+        "separate_meshes": true,
+        "neutral_tint": true,
+        "double_sided_alpha_mask": true,
+        "radial_rings": [
+          {
+            "ring": 0,
+            "quads": 7,
+            "attachment_radius": 0.033576352657236797,
+            "tip_radius": 0.7162556753316567,
+            "attachment_height": 3.621006863457816,
+            "mean_texture_gray": 228.45142857142858
+          },
+          {
+            "ring": 1,
+            "quads": 11,
+            "attachment_radius": 0.5499732376209749,
+            "tip_radius": 1.3164109221150164,
+            "attachment_height": 3.515690391713923,
+            "mean_texture_gray": 200.32636363636365
+          },
+          {
+            "ring": 2,
+            "quads": 15,
+            "attachment_radius": 0.9864928544724009,
+            "tip_radius": 1.6690584688024641,
+            "attachment_height": 3.239043394724528,
+            "mean_texture_gray": 159.88133333333332
+          },
+          {
+            "ring": 3,
+            "quads": 19,
+            "attachment_radius": 1.275017056959311,
+            "tip_radius": 1.6781800686637143,
+            "attachment_height": 2.810131223578202,
+            "mean_texture_gray": 133.16210526315788
+          }
+        ],
+        "outward_descending_flow_verified": true,
+        "lower_rings_darker": true,
+        "ring_overlap_verified": true,
+        "upward_facing_cards": true
+      }
+    },
+    {
+      "asset": "light_tree_4",
+      "triangles": 248,
+      "glb_triangles": 248,
+      "symmetry_verified": true,
+      "uv_tile_insets_verified": true,
+      "maximum_symmetry_distance": null,
+      "square_pixel_triangles_checked": 110,
+      "maximum_pixel_aspect_ratio": 1.0000002808510564,
+      "pixels_per_meter_range": [
+        205.87880553710264,
+        377.8684434857313
+      ],
+      "self_contained_glb": true,
+      "sha256": "9f1dd4715981018303b1726b2957e959018c39ef70c88593416b6449a1cf7fd2",
+      "attachments": [],
+      "tree_shape": null,
+      "foliage": {
+        "foliage_quads": 55,
+        "separate_meshes": true,
+        "neutral_tint": true,
+        "double_sided_alpha_mask": true,
+        "radial_rings": [
+          {
+            "ring": 0,
+            "quads": 8,
+            "attachment_radius": 0.04250462748644282,
+            "tip_radius": 0.8955899509323336,
+            "attachment_height": 4.698682129383087,
+            "mean_texture_gray": 228.065
+          },
+          {
+            "ring": 1,
+            "quads": 12,
+            "attachment_radius": 0.6912018267313016,
+            "tip_radius": 1.6578114953992025,
+            "attachment_height": 4.5672101577123,
+            "mean_texture_gray": 200.595
+          },
+          {
+            "ring": 2,
+            "quads": 16,
+            "attachment_radius": 1.241522740116694,
+            "tip_radius": 2.1061868141115885,
+            "attachment_height": 4.209255337715149,
+            "mean_texture_gray": 160.18
+          },
+          {
+            "ring": 3,
+            "quads": 19,
+            "attachment_radius": 1.6089886907826643,
+            "tip_radius": 2.117371760608188,
+            "attachment_height": 3.653919496034321,
+            "mean_texture_gray": 133.4178947368421
+          }
+        ],
+        "outward_descending_flow_verified": true,
+        "lower_rings_darker": true,
+        "ring_overlap_verified": true,
+        "upward_facing_cards": true
+      }
+    }
+  ],
+  "packed_trim_atlases": 2,
+  "reference_meshes": 18,
+  "all_models_under_250_triangles": true,
+  "tower_concept_references": 4,
+  "tree_style_references": 3,
+  "tree_variants_verified": 4,
+  "light_tree_variants_verified": 4,
+  "packed_foliage_atlases": 1,
+  "square_pixel_mapping_verified": true,
+  "gameplay_attachments_verified": 8,
+  "maximum_allowed_pixel_aspect_ratio": 1.001
+}

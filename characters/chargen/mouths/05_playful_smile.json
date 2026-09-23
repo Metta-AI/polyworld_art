@@ -1,0 +1,14 @@
+{
+  "name": "05 Playful smile",
+  "nodes": [
+    "Mouth_Atlas05"
+  ],
+  "id": "mouths/05_playful_smile",
+  "files": [
+    "mouths/05_playful_smile.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/05_playful_smile.png"
+}

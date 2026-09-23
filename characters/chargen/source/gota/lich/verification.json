@@ -1,0 +1,42 @@
+{
+  "name": "Lich",
+  "slug": "lich",
+  "triangles": 13231,
+  "underBudget": true,
+  "budgetExclusive": 20000,
+  "nodes": {
+    "Eyes_Atlas12": 576,
+    "Mouth_Atlas03": 576,
+    "Brow_Atlas03": 576,
+    "GotaSkinUpper": 1824,
+    "GotaHand.Left": 540,
+    "GotaHand.Right": 540,
+    "Head": 284,
+    "Nose_Tiny": 60,
+    "Gota_lich_hood": 1330,
+    "Gota_lich_robe": 3220,
+    "Gota_lich_legs": 889,
+    "Gota_lich_legs_BootCut0": 322,
+    "Gota_lich_legs_BootCut1": 184,
+    "Gota_lich_legs_BootCut2": 184,
+    "Gota_lich_legs_BootCut3": 276,
+    "Gota_lich_boots": 1450,
+    "Gota_lich_belt": 400
+  },
+  "slots": [
+    "Foot",
+    "Leg",
+    "Belt",
+    "Chest",
+    "Headgear"
+  ],
+  "newClothingTextures": 0,
+  "normalizedWeights": true,
+  "reusedParts": [
+    "eyes/12_sleepy",
+    "mouths/03_neutral",
+    "eyebrows/03_focused",
+    "heads/base",
+    "noses/tiny"
+  ]
+}

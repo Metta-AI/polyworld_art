@@ -1,0 +1,15 @@
+{
+  "name": "13 Star",
+  "nodes": [
+    "Eyes_Atlas13"
+  ],
+  "id": "eyes/13_star",
+  "files": [
+    "eyes/13_star.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/13_star.mask.png",
+  "texture": "eyes/13_star.png"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "clothing/pants/gota_lich_leg",
+  "name": "Gota Lich trousers",
+  "files": [
+    "clothing/pants/gota_lich_leg.glb"
+  ],
+  "nodes": [
+    "Gota_lich_legs",
+    "Gota_lich_legs_BootCut0",
+    "Gota_lich_legs_BootCut1",
+    "Gota_lich_legs_BootCut2",
+    "Gota_lich_legs_BootCut3"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

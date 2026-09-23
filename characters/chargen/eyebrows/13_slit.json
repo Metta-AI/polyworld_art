@@ -1,0 +1,15 @@
+{
+  "name": "13 Slit",
+  "nodes": [
+    "Brow_Atlas13"
+  ],
+  "id": "eyebrows/13_slit",
+  "files": [
+    "eyebrows/13_slit.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/13_slit.png"
+}

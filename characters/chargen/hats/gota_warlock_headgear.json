@@ -1,0 +1,19 @@
+{
+  "id": "hats/gota_warlock_headgear",
+  "name": "Gota Warlock horned hood",
+  "files": [
+    "hats/gota_warlock_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_warlock_Hood",
+    "Gota_warlock_Horn-1",
+    "Gota_warlock_Horn1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "07 Surprised",
+  "nodes": [
+    "Brow_Atlas07"
+  ],
+  "id": "eyebrows/07_surprised",
+  "files": [
+    "eyebrows/07_surprised.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/07_surprised.png"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "08 Fork beard",
+  "nodes": [
+    "Beard_08"
+  ],
+  "id": "beards/08_fork_beard",
+  "files": [
+    "beards/08_fork_beard.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_08",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

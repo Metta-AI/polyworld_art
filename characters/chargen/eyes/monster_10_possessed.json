@@ -1,0 +1,15 @@
+{
+  "name": "Monster 10 Possessed",
+  "nodes": [
+    "Eyes_Monster10"
+  ],
+  "texture": "eyes/monster_10_possessed.png",
+  "pupilMask": "eyes/monster_10_possessed.mask.png",
+  "id": "eyes/monster_10_possessed",
+  "files": [
+    "eyes/monster_10_possessed.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

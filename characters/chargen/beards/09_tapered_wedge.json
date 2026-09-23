@@ -1,0 +1,19 @@
+{
+  "name": "09 Tapered wedge",
+  "nodes": [
+    "Beard_09"
+  ],
+  "id": "beards/09_tapered_wedge",
+  "files": [
+    "beards/09_tapered_wedge.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_09",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

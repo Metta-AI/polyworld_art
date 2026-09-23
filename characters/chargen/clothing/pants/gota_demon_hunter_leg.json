@@ -1,0 +1,29 @@
+{
+  "id": "clothing/pants/gota_demon_hunter_leg",
+  "name": "Gota Demon Hunter leggings",
+  "files": [
+    "clothing/pants/gota_demon_hunter_leg.glb"
+  ],
+  "nodes": [
+    "Gota_demon_hunter_Trousers",
+    "Gota_demon_hunter_Trousers_BootCut2",
+    "Gota_demon_hunter_Trousers_BootCut3",
+    "Gota_demon_hunter_Hip-1Front0",
+    "Gota_demon_hunter_Hip-1Front1",
+    "Gota_demon_hunter_Hip-1Back0",
+    "Gota_demon_hunter_Hip-1Back1",
+    "Gota_demon_hunter_Hip1Front0",
+    "Gota_demon_hunter_Hip1Front1",
+    "Gota_demon_hunter_Hip1Back0",
+    "Gota_demon_hunter_Hip1Back1"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

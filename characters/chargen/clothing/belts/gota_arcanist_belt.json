@@ -1,0 +1,17 @@
+{
+  "id": "clothing/belts/gota_arcanist_belt",
+  "name": "Gota Arcanist amethyst belt",
+  "files": [
+    "clothing/belts/gota_arcanist_belt.glb"
+  ],
+  "nodes": [
+    "Gota_arcanist_belt"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "props/right/gota_warlock_right_hand",
+  "name": "Warlock staff",
+  "files": [
+    "props/right/gota_warlock_right_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_warlock_right_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand",
+  "triangles": 1588,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

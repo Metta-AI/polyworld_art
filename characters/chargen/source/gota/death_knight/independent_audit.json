@@ -1,0 +1,195 @@
+{
+  "reviewStage": "Final split Gota base rebuild",
+  "clothingTriangles": 12660,
+  "assembledTriangles": 16556,
+  "assembledCountSource": "verification.json selected runtime nodes",
+  "basePart": "Gota base",
+  "hiddenByLeg": "GotaSkinLower",
+  "parts": [
+    {
+      "part": "Foot",
+      "triangles": 3748,
+      "badPositions": 0,
+      "badWeights": 0,
+      "unskinnedMeshes": 0,
+      "images": 0,
+      "skinJointCounts": [
+        22
+      ],
+      "jointNames": [
+        [
+          "Hips",
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "LeftToeBase",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightToeBase",
+          "Spine",
+          "Spine1",
+          "Spine2",
+          "LeftShoulder",
+          "LeftArm",
+          "LeftForeArm",
+          "LeftHand",
+          "Neck",
+          "Head",
+          "RightShoulder",
+          "RightArm",
+          "RightForeArm",
+          "RightHand"
+        ]
+      ]
+    },
+    {
+      "part": "Leg",
+      "triangles": 1960,
+      "badPositions": 0,
+      "badWeights": 0,
+      "unskinnedMeshes": 0,
+      "images": 0,
+      "skinJointCounts": [
+        22
+      ],
+      "jointNames": [
+        [
+          "Hips",
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "LeftToeBase",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightToeBase",
+          "Spine",
+          "Spine1",
+          "Spine2",
+          "LeftShoulder",
+          "LeftArm",
+          "LeftForeArm",
+          "LeftHand",
+          "Neck",
+          "Head",
+          "RightShoulder",
+          "RightArm",
+          "RightForeArm",
+          "RightHand"
+        ]
+      ]
+    },
+    {
+      "part": "Belt",
+      "triangles": 170,
+      "badPositions": 0,
+      "badWeights": 0,
+      "unskinnedMeshes": 0,
+      "images": 0,
+      "skinJointCounts": [
+        22
+      ],
+      "jointNames": [
+        [
+          "Hips",
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "LeftToeBase",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightToeBase",
+          "Spine",
+          "Spine1",
+          "Spine2",
+          "LeftShoulder",
+          "LeftArm",
+          "LeftForeArm",
+          "LeftHand",
+          "Neck",
+          "Head",
+          "RightShoulder",
+          "RightArm",
+          "RightForeArm",
+          "RightHand"
+        ]
+      ]
+    },
+    {
+      "part": "Chest",
+      "triangles": 6482,
+      "badPositions": 0,
+      "badWeights": 0,
+      "unskinnedMeshes": 0,
+      "images": 0,
+      "skinJointCounts": [
+        22
+      ],
+      "jointNames": [
+        [
+          "Hips",
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "LeftToeBase",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightToeBase",
+          "Spine",
+          "Spine1",
+          "Spine2",
+          "LeftShoulder",
+          "LeftArm",
+          "LeftForeArm",
+          "LeftHand",
+          "Neck",
+          "Head",
+          "RightShoulder",
+          "RightArm",
+          "RightForeArm",
+          "RightHand"
+        ]
+      ]
+    },
+    {
+      "part": "Headgear",
+      "triangles": 300,
+      "badPositions": 0,
+      "badWeights": 0,
+      "unskinnedMeshes": 0,
+      "images": 0,
+      "skinJointCounts": [
+        22
+      ],
+      "jointNames": [
+        [
+          "Hips",
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "LeftToeBase",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightToeBase",
+          "Spine",
+          "Spine1",
+          "Spine2",
+          "LeftShoulder",
+          "LeftArm",
+          "LeftForeArm",
+          "LeftHand",
+          "Neck",
+          "Head",
+          "RightShoulder",
+          "RightArm",
+          "RightForeArm",
+          "RightHand"
+        ]
+      ]
+    }
+  ]
+}

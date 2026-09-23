@@ -1,0 +1,33 @@
+{
+  "name": "Gnome pointed cuff boots",
+  "nodes": [
+    "Gnome_Boots"
+  ],
+  "alignment": "good",
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "Clothing_09_BootCut0",
+    "Clothing_10_BootCut0",
+    "Clothing_11_BootCut0",
+    "Clothing_12_BootCut0"
+  ],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Boots",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Boots",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/boots/gnome_pointed_cuff_boots",
+  "files": [
+    "clothing/boots/gnome_pointed_cuff_boots.glb"
+  ],
+  "skinNodes": []
+}

@@ -1,0 +1,484 @@
+[
+  {
+    "category": "Right hand",
+    "slug": "vanguard_knight",
+    "id": "props/right/gota_vanguard_knight_right_hand",
+    "name": "Vanguard sword",
+    "files": [
+      "props/right/gota_vanguard_knight_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_vanguard_knight_right_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 666,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true,
+    "attachmentPivot": [
+      -1.13,
+      1.73,
+      0.025
+    ],
+    "attachmentRotation": [
+      55.4,
+      -22.7,
+      72.6
+    ]
+  },
+  {
+    "category": "Left hand",
+    "slug": "vanguard_knight",
+    "id": "props/left/gota_vanguard_knight_left_hand",
+    "name": "Vanguard shield",
+    "files": [
+      "props/left/gota_vanguard_knight_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_vanguard_knight_left_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftForeArm",
+    "triangles": 1526,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "ranger",
+    "id": "props/left/gota_ranger_left_hand",
+    "name": "Ranger bow",
+    "files": [
+      "props/left/gota_ranger_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_ranger_left_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 1276,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "ranger",
+    "id": "props/right/gota_ranger_right_hand",
+    "name": "Ranger arrow",
+    "files": [
+      "props/right/gota_ranger_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_ranger_right_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 68,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Back",
+    "slug": "ranger",
+    "id": "clothing/backs/gota_ranger_back",
+    "name": "Ranger light quiver",
+    "files": [
+      "clothing/backs/gota_ranger_back.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_ranger_back"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "Spine2",
+    "triangles": 804,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "arcanist",
+    "id": "props/right/gota_arcanist_right_hand",
+    "name": "Arcanist staff",
+    "files": [
+      "props/right/gota_arcanist_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_arcanist_right_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 744,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "arcanist",
+    "id": "props/left/gota_arcanist_left_hand",
+    "name": "Arcanist orbs",
+    "files": [
+      "props/left/gota_arcanist_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_arcanist_left_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 240,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "druid_warden",
+    "id": "props/right/gota_druid_warden_right_hand",
+    "name": "Druid staff",
+    "files": [
+      "props/right/gota_druid_warden_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_druid_warden_right_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 1572,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "druid_warden",
+    "id": "props/left/gota_druid_warden_left_hand",
+    "name": "Druid orb",
+    "files": [
+      "props/left/gota_druid_warden_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_druid_warden_left_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 644,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "demon_hunter",
+    "id": "props/right/gota_demon_hunter_right_hand",
+    "name": "Demon Hunter dagger",
+    "files": [
+      "props/right/gota_demon_hunter_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_demon_hunter_right_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 876,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "demon_hunter",
+    "id": "props/left/gota_demon_hunter_left_hand",
+    "name": "Demon Hunter dagger",
+    "files": [
+      "props/left/gota_demon_hunter_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_demon_hunter_left_hand"
+    ],
+    "alignment": "good",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 876,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "death_knight",
+    "id": "props/right/gota_death_knight_right_hand",
+    "name": "Death Knight sword",
+    "files": [
+      "props/right/gota_death_knight_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_death_knight_right_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 882,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true,
+    "attachmentPivot": [
+      -1.13,
+      1.73,
+      0.025
+    ],
+    "attachmentRotation": [
+      55.4,
+      -22.7,
+      72.6
+    ]
+  },
+  {
+    "category": "Left hand",
+    "slug": "death_knight",
+    "id": "props/left/gota_death_knight_left_hand",
+    "name": "Death Knight shield",
+    "files": [
+      "props/left/gota_death_knight_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_death_knight_left_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftForeArm",
+    "triangles": 1526,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "crossbowman",
+    "id": "props/right/gota_crossbowman_right_hand",
+    "name": "Medieval crossbow",
+    "files": [
+      "props/right/gota_crossbowman_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_crossbowman_right_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 2080,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Back",
+    "slug": "crossbowman",
+    "id": "clothing/backs/gota_crossbowman_back",
+    "name": "Heavy bolt quiver",
+    "files": [
+      "clothing/backs/gota_crossbowman_back.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_crossbowman_back"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "Spine2",
+    "triangles": 1860,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "lich",
+    "id": "props/right/gota_lich_right_hand",
+    "name": "Lich staff",
+    "files": [
+      "props/right/gota_lich_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_lich_right_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 712,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "lich",
+    "id": "props/left/gota_lich_left_hand",
+    "name": "Lich orb",
+    "files": [
+      "props/left/gota_lich_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_lich_left_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 80,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "warlock",
+    "id": "props/right/gota_warlock_right_hand",
+    "name": "Warlock staff",
+    "files": [
+      "props/right/gota_warlock_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_warlock_right_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 1588,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "warlock",
+    "id": "props/left/gota_warlock_left_hand",
+    "name": "Warlock censer",
+    "files": [
+      "props/left/gota_warlock_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_warlock_left_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 3112,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Right hand",
+    "slug": "berserker",
+    "id": "props/right/gota_berserker_right_hand",
+    "name": "Berserker axe",
+    "files": [
+      "props/right/gota_berserker_right_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_berserker_right_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand",
+    "triangles": 800,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  },
+  {
+    "category": "Left hand",
+    "slug": "berserker",
+    "id": "props/left/gota_berserker_left_hand",
+    "name": "Berserker axe",
+    "files": [
+      "props/left/gota_berserker_left_hand.glb"
+    ],
+    "nodes": [
+      "GotaWeapon_berserker_left_hand"
+    ],
+    "alignment": "evil",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand",
+    "triangles": 800,
+    "triangleLimitExclusive": 5000,
+    "singleFile": true
+  }
+]

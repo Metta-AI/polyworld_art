@@ -1,0 +1,17 @@
+{
+  "id": "clothing/backs/gota_zeus_back",
+  "name": "Zeus cape",
+  "files": [
+    "clothing/backs/gota_zeus_back.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_Cape"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

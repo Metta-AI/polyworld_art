@@ -1,0 +1,17 @@
+{
+  "id": "clothing/belts/gota_lich_belt",
+  "name": "Gota Lich diamond belt",
+  "files": [
+    "clothing/belts/gota_lich_belt.glb"
+  ],
+  "nodes": [
+    "Gota_lich_belt"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "02 Confident",
+  "nodes": [
+    "Brow_Atlas02"
+  ],
+  "id": "eyebrows/02_confident",
+  "files": [
+    "eyebrows/02_confident.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/02_confident.png"
+}

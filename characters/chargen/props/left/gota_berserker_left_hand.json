@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_berserker_left_hand",
+  "name": "Berserker axe",
+  "files": [
+    "props/left/gota_berserker_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_berserker_left_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand",
+  "triangles": 800,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

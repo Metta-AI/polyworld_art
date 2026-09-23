@@ -1,0 +1,15 @@
+{
+  "name": "Monster 15 Pirate",
+  "nodes": [
+    "Eyes_Monster15"
+  ],
+  "texture": "eyes/monster_15_pirate.png",
+  "pupilMask": "eyes/monster_15_pirate.mask.png",
+  "id": "eyes/monster_15_pirate",
+  "files": [
+    "eyes/monster_15_pirate.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

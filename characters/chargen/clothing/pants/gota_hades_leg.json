@@ -1,0 +1,35 @@
+{
+  "id": "clothing/pants/gota_hades_leg",
+  "name": "Gota Hades layered skirt",
+  "files": [
+    "clothing/pants/gota_hades_leg.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Trousers",
+    "Gota_hades_SkirtRightFalse",
+    "Gota_hades_HipPlateGoldRightFalse",
+    "Gota_hades_HipPlateRightFalse",
+    "Gota_hades_SkirtRightTrue",
+    "Gota_hades_HipPlateGoldRightTrue",
+    "Gota_hades_HipPlateRightTrue",
+    "Gota_hades_SkirtLeftFalse",
+    "Gota_hades_HipPlateGoldLeftFalse",
+    "Gota_hades_HipPlateLeftFalse",
+    "Gota_hades_SkirtLeftTrue",
+    "Gota_hades_HipPlateGoldLeftTrue",
+    "Gota_hades_HipPlateLeftTrue",
+    "Gota_hades_TabardFalse",
+    "Gota_hades_TabardTrue",
+    "Gota_hades_TabardMark-1",
+    "Gota_hades_TabardMark1"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

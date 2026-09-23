@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_berserker_foot",
+    "name": "Gota Berserker fur boots",
+    "files": [
+      "clothing/boots/gota_berserker_foot.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_boots",
+      "Gota_berserker_fur_cuff_left",
+      "Gota_berserker_fur_cuff_right"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_berserker_leg",
+    "name": "Gota Berserker fur kilt",
+    "files": [
+      "clothing/pants/gota_berserker_leg.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_trousers",
+      "Gota_berserker_fur_-1_-1_0",
+      "Gota_berserker_fur_-1_-1_1",
+      "Gota_berserker_fur_-1_1_0",
+      "Gota_berserker_fur_-1_1_1",
+      "Gota_berserker_fur_1_-1_0",
+      "Gota_berserker_fur_1_-1_1",
+      "Gota_berserker_fur_1_1_0",
+      "Gota_berserker_fur_1_1_1",
+      "Gota_berserker_front_leather_panel",
+      "Gota_berserker_back_leather_panel"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_berserker_belt",
+    "name": "Gota Berserker hexagon belt",
+    "files": [
+      "clothing/belts/gota_berserker_belt.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_belt",
+      "Gota_berserker_buckle"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_berserker_chest",
+    "name": "Gota Berserker harness",
+    "files": [
+      "clothing/torsos/gota_berserker_chest.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_harness",
+      "Gota_berserker_wrist_cuffs"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_berserker_headgear",
+    "name": "Gota Berserker gold crest",
+    "files": [
+      "hats/gota_berserker_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_headband",
+      "Gota_berserker_gold_crest"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Hair",
+    "id": "hair/gota_berserker_hair",
+    "name": "Gota Berserker flame mane",
+    "files": [
+      "hair/gota_berserker_hair.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_mane",
+      "Gota_berserker_mane_spike_0",
+      "Gota_berserker_mane_spike_1",
+      "Gota_berserker_mane_spike_2",
+      "Gota_berserker_mane_spike_3",
+      "Gota_berserker_mane_spike_4",
+      "Gota_berserker_mane_spike_5",
+      "Gota_berserker_mane_spike_6",
+      "Gota_berserker_mane_spike_7",
+      "Gota_berserker_mane_spike_8",
+      "Gota_berserker_mane_spike_9",
+      "Gota_berserker_mane_spike_10",
+      "Gota_berserker_mane_spike_11"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Beard",
+    "id": "beards/gota_berserker_beard",
+    "name": "Gota Berserker pointed beard",
+    "files": [
+      "beards/gota_berserker_beard.glb"
+    ],
+    "nodes": [
+      "Gota_berserker_beard"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

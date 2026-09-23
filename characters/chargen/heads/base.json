@@ -1,0 +1,15 @@
+{
+  "name": "Base",
+  "nodes": [
+    "Head"
+  ],
+  "id": "heads/base",
+  "files": [
+    "heads/base.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [
+    "Head"
+  ],
+  "hairShades": []
+}

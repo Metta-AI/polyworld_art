@@ -1,0 +1,19 @@
+{
+  "name": "14 Low ponytail",
+  "nodes": [
+    "Hair_14"
+  ],
+  "id": "hair/14_low_ponytail",
+  "files": [
+    "hair/14_low_ponytail.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_14",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

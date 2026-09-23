@@ -1,0 +1,17 @@
+{
+  "id": "clothing/torsos/gota_lich_chest",
+  "name": "Gota Lich ivory edged robe",
+  "files": [
+    "clothing/torsos/gota_lich_chest.glb"
+  ],
+  "nodes": [
+    "Gota_lich_robe"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

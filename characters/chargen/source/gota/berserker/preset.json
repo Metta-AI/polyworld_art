@@ -1,0 +1,103 @@
+{
+  "name": "Berserker",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 29,
+  "skinRgb": [
+    0.79,
+    0.56,
+    0.4
+  ],
+  "hairColor": "Electric orange",
+  "pupilColor": "Brown",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "06 Fierce"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "08 Stern"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "Gota Berserker flame mane"
+    },
+    {
+      "category": "Beard",
+      "item": "Gota Berserker pointed beard"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Berserker gold crest"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Berserker harness"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Berserker fur kilt"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Berserker fur boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Berserker hexagon belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "clothing/torsos/gota_druid_warden_chest",
+  "name": "Gota Druid Warden bark mantle",
+  "files": [
+    "clothing/torsos/gota_druid_warden_chest.glb"
+  ],
+  "nodes": [
+    "Gota_druid_warden_bark_body",
+    "Gota_druid_warden_bark_center_False",
+    "Gota_druid_warden_bark_cross_left",
+    "Gota_druid_warden_bark_cross_right",
+    "Gota_druid_warden_mantle_False_-1_0",
+    "Gota_druid_warden_mantle_False_-1_1",
+    "Gota_druid_warden_mantle_False_-1_2",
+    "Gota_druid_warden_mantle_False_1_0",
+    "Gota_druid_warden_mantle_False_1_1",
+    "Gota_druid_warden_mantle_False_1_2",
+    "Gota_druid_warden_bark_center_True",
+    "Gota_druid_warden_mantle_back_leaf",
+    "Gota_druid_warden_mantle_True_-1_0",
+    "Gota_druid_warden_mantle_True_-1_1",
+    "Gota_druid_warden_mantle_True_-1_2",
+    "Gota_druid_warden_mantle_True_1_0",
+    "Gota_druid_warden_mantle_True_1_1",
+    "Gota_druid_warden_mantle_True_1_2",
+    "Gota_druid_warden_cuff_-1",
+    "Gota_druid_warden_cuff_1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

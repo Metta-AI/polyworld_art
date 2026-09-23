@@ -1,0 +1,18 @@
+{
+  "id": "clothing/belts/gota_demon_hunter_belt",
+  "name": "Gota Demon Hunter belt",
+  "files": [
+    "clothing/belts/gota_demon_hunter_belt.glb"
+  ],
+  "nodes": [
+    "Gota_demon_hunter_Belt",
+    "Gota_demon_hunter_RedTabard"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

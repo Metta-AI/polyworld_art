@@ -1,0 +1,15 @@
+{
+  "name": "Dead X",
+  "nodes": [
+    "Eyes_DeadX"
+  ],
+  "id": "eyes/dead_x",
+  "texture": "eyes/dead_x.png",
+  "alignment": "both",
+  "singleFile": true,
+  "files": [
+    "eyes/dead_x.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": []
+}

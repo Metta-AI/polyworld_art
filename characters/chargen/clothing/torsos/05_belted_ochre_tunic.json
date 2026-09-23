@@ -1,0 +1,23 @@
+{
+  "name": "05 Ochre tunic",
+  "nodes": [
+    "Clothing_05"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Clothing_05",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "id": "clothing/torsos/05_belted_ochre_tunic",
+  "files": [
+    "clothing/torsos/05_belted_ochre_tunic.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": []
+}

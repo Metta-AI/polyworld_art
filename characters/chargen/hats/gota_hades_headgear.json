@@ -1,0 +1,31 @@
+{
+  "id": "hats/gota_hades_headgear",
+  "name": "Gota Hades obsidian crown",
+  "files": [
+    "hats/gota_hades_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_hades_CrownBand",
+    "Gota_hades_CrownSpike0",
+    "Gota_hades_CrownSpike1",
+    "Gota_hades_CrownSpike2",
+    "Gota_hades_CrownSpike3",
+    "Gota_hades_CrownSpike4",
+    "Gota_hades_CrownSpike5",
+    "Gota_hades_CrownSpike6",
+    "Gota_hades_CrownSpike7",
+    "Gota_hades_CrownSpike8",
+    "Gota_hades_CrownSpike9",
+    "Gota_hades_CrownEmeraldFrame",
+    "Gota_hades_CrownEmeraldStone",
+    "Gota_hades_CrownGold-1",
+    "Gota_hades_CrownGold1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

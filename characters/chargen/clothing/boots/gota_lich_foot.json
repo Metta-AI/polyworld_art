@@ -1,0 +1,22 @@
+{
+  "id": "clothing/boots/gota_lich_foot",
+  "name": "Gota Lich boots",
+  "files": [
+    "clothing/boots/gota_lich_foot.glb"
+  ],
+  "nodes": [
+    "Gota_lich_boots"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

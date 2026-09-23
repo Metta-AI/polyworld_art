@@ -1,0 +1,100 @@
+{
+  "hero": "Zeus",
+  "visibleTriangles": 19878,
+  "items": [
+    {
+      "category": "Chest",
+      "name": "Zeus tunic",
+      "triangles": 2468,
+      "reference": "torso/tunic_front_back.png",
+      "referenceDescription": "Tunic and bracers",
+      "frontBack": "renders/front_back/Chest.png",
+      "sides": "renders/sides/Chest.png"
+    },
+    {
+      "category": "Belt",
+      "name": "Zeus belt",
+      "triangles": 872,
+      "reference": "torso/belt_front_back.png",
+      "referenceDescription": "Eagle belt",
+      "frontBack": "renders/front_back/Belt.png",
+      "sides": "renders/sides/Belt.png"
+    },
+    {
+      "category": "Back",
+      "name": "Zeus cape",
+      "triangles": 608,
+      "reference": "torso/cape_front_back.png",
+      "referenceDescription": "Royal blue cape",
+      "frontBack": "renders/front_back/Back.png",
+      "sides": "renders/sides/Back.png"
+    },
+    {
+      "category": "Headgear",
+      "name": "Zeus laurel crown",
+      "triangles": 1104,
+      "reference": "head/crown.png",
+      "referenceDescription": "Laurel crown",
+      "frontBack": "renders/front_back/Headgear.png",
+      "sides": "renders/sides/Headgear.png"
+    },
+    {
+      "category": "Hair",
+      "name": "Zeus hair",
+      "triangles": 2184,
+      "reference": "head/hair.png",
+      "referenceDescription": "Flowing white hair",
+      "frontBack": "renders/front_back/Hair.png",
+      "sides": "renders/sides/Hair.png"
+    },
+    {
+      "category": "Beard",
+      "name": "Zeus beard",
+      "triangles": 1480,
+      "reference": "head/beard.png",
+      "referenceDescription": "Full tapered beard",
+      "frontBack": "renders/front_back/Beard.png",
+      "sides": "renders/sides/Beard.png"
+    },
+    {
+      "category": "Leg",
+      "name": "Zeus skirt",
+      "triangles": 1688,
+      "reference": "legs/reference.png",
+      "referenceDescription": "Skirt: top row of reference",
+      "frontBack": "renders/front_back/Leg.png",
+      "sides": "renders/sides/Leg.png"
+    },
+    {
+      "category": "Foot",
+      "name": "Zeus sandals",
+      "triangles": 2406,
+      "reference": "legs/reference.png",
+      "referenceDescription": "Greaves and sandals: bottom row",
+      "frontBack": "renders/front_back/Foot.png",
+      "sides": "renders/sides/Foot.png"
+    },
+    {
+      "category": "Right hand",
+      "name": "Zeus lightning bolt",
+      "triangles": 920,
+      "reference": "props/reference.png",
+      "referenceDescription": "Lightning bolt: top row",
+      "frontBack": "renders/front_back/Right_hand.png",
+      "sides": "renders/sides/Right_hand.png"
+    },
+    {
+      "category": "Left hand",
+      "name": "Zeus lightning orb",
+      "triangles": 164,
+      "reference": "props/reference.png",
+      "referenceDescription": "Lightning spell: bottom row",
+      "frontBack": "renders/front_back/Left_hand.png",
+      "sides": "renders/sides/Left_hand.png"
+    }
+  ],
+  "rig": "Existing shared CharacterRig",
+  "eyes": "Existing 16 Determined",
+  "clothingTextures": 0,
+  "referenceTool": "Built-in imagegen"
+}

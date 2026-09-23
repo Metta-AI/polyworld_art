@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Asset type: production game UI sprite sheet for Light vs Dark, exactly 3 columns by 3 rows.
+Reference image: use the attached cloth-and-sword image ONLY as a reference for the simple white heraldic emblem on softly folded fabric composition. Create entirely original symbols and fabric artwork. Do not copy its ornate sword design or use any colored fabric.
+Primary request: one square 1536x1536 image divided into nine perfectly equal 512x512 square cells, edge-to-edge with NO gutters, NO border, NO padding between cells, NO labels and NO text. Each cell is an independent square closeup of gray cloth with a single centered, large, flat bright-white heraldic symbol. The ninth cell has cloth only.
+Strict row-major layout:
+Top left: PEON / worker — one simple pickaxe.
+Top middle: SWORDSMAN — one straight upright sword.
+Top right: ARCHER — one curved bow with a nocked arrow pointing up-right.
+Middle left: MAGE — one upright wizard staff topped with a diamond-shaped crystal and a small white sparkle.
+Middle middle: ARMORED KNIGHT — one broad shield with a bold simple closed helmet silhouette.
+Middle right: BOMBER / sapper — one round bomb with a short curved fuse and one small spark.
+Bottom left: CLERIC / healer — a simple radiant sun with an equal-arm healing cross cut out of its center.
+Bottom middle: FIRE ELEMENTAL — a bold three-tipped flame silhouette with one teardrop-shaped negative-space cutout. No face, eyes, mouth, limbs.
+Bottom right: plain cloth, no symbol.
+All eight symbols must have similar visual weight, unmistakably distinct, chunky silhouettes, limited detail, high contrast and strong readability at 48 pixels. Symbols occupy roughly 65 percent of each cell with safe margins on every side. Bright neutral white symbols, only subtle cloth shading within the white.
+The fabric fills every cell to its edges. It is soft, matte, medium gray woven cloth, vertical gentle broad folds like the reference, consistent lighting and cloth gray level in all nine cells. Background predominantly gray 100-150/255, shadows no darker than about 55/255. Symbols about white 245-255/255. Entire image strictly neutral grayscale (R=G=B), no gold, green or other color. Designed for multiplication by the player's skin color at runtime. No bevels, metallic effects, frames, ropes, banner poles, ragged edges, floating 3D objects, photographic weapons, UI chrome, captions, numerals, logos, or watermark. Crisp polished painted game art, front-facing, square tile grid aligned exactly at thirds.

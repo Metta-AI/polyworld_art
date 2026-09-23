@@ -1,0 +1,15 @@
+{
+  "name": "01 Bright",
+  "nodes": [
+    "Eyes_Atlas01"
+  ],
+  "id": "eyes/01_bright",
+  "files": [
+    "eyes/01_bright.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/01_bright.mask.png",
+  "texture": "eyes/01_bright.png"
+}

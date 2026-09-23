@@ -1,0 +1,47 @@
+{
+  "name": "Arcanist",
+  "slug": "arcanist",
+  "triangles": 17675,
+  "underBudget": true,
+  "budgetExclusive": 20000,
+  "nodes": {
+    "Hair_12": 6620,
+    "Eyes_Atlas01": 576,
+    "Mouth_Atlas03": 576,
+    "Brow_Atlas01": 197,
+    "Ears_Round_Left": 252,
+    "Ears_Round_Right": 252,
+    "GotaSkinUpper": 1824,
+    "GotaHand.Left": 540,
+    "GotaHand.Right": 540,
+    "Head": 284,
+    "Nose_Tiny": 60,
+    "Gota_arcanist_circlet": 208,
+    "Gota_arcanist_robe": 2816,
+    "Gota_arcanist_legs": 742,
+    "Gota_arcanist_legs_BootCut1": 153,
+    "Gota_arcanist_legs_BootCut2": 153,
+    "Gota_arcanist_legs_BootCut3": 230,
+    "Gota_arcanist_boots": 1220,
+    "Gota_arcanist_insteps": 32,
+    "Gota_arcanist_belt": 400
+  },
+  "slots": [
+    "Foot",
+    "Leg",
+    "Belt",
+    "Chest",
+    "Headgear"
+  ],
+  "newClothingTextures": 0,
+  "normalizedWeights": true,
+  "reusedParts": [
+    "hair/12_wolf_cut",
+    "eyes/01_bright",
+    "mouths/03_neutral",
+    "eyebrows/01_soft_arch",
+    "ears/round",
+    "heads/base",
+    "noses/tiny"
+  ]
+}

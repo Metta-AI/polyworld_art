@@ -1,0 +1,19 @@
+{
+  "name": "05 Square jaw",
+  "nodes": [
+    "Beard_05"
+  ],
+  "id": "beards/05_square_jaw",
+  "files": [
+    "beards/05_square_jaw.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_05",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

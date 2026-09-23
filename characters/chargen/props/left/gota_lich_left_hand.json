@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_lich_left_hand",
+  "name": "Lich orb",
+  "files": [
+    "props/left/gota_lich_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_lich_left_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand",
+  "triangles": 80,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

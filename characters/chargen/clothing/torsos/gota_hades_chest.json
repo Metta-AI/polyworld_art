@@ -1,0 +1,37 @@
+{
+  "id": "clothing/torsos/gota_hades_chest",
+  "name": "Gota Hades royal armor",
+  "files": [
+    "clothing/torsos/gota_hades_chest.glb"
+  ],
+  "nodes": [
+    "Gota_hades_Cuirass",
+    "Gota_hades_Breastplate-1",
+    "Gota_hades_Collar-1",
+    "Gota_hades_Breastplate1",
+    "Gota_hades_Collar1",
+    "Gota_hades_ChestEmeraldFrame",
+    "Gota_hades_ChestEmeraldStone",
+    "Gota_hades_PauldronRight",
+    "Gota_hades_ShoulderStudRight",
+    "Gota_hades_PauldronLeft",
+    "Gota_hades_ShoulderStudLeft",
+    "Gota_hades_BracerRight",
+    "Gota_hades_BracerGoldRight0",
+    "Gota_hades_BracerGoldRight1",
+    "Gota_hades_BracerEmeraldRightFrame",
+    "Gota_hades_BracerEmeraldRightStone",
+    "Gota_hades_BracerLeft",
+    "Gota_hades_BracerGoldLeft0",
+    "Gota_hades_BracerGoldLeft1",
+    "Gota_hades_BracerEmeraldLeftFrame",
+    "Gota_hades_BracerEmeraldLeftStone"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "body/gota_base",
+  "name": "Gota base",
+  "nodes": [
+    "GotaSkinUpper",
+    "GotaSkinLower",
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "files": [
+    "body/gota_skin.glb",
+    "body/gota_hand_left.glb",
+    "body/gota_hand_right.glb",
+    "body/gota_foot_left.glb",
+    "body/gota_foot_right.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [
+    "GotaSkinUpper",
+    "GotaSkinLower",
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "hairShades": [],
+  "hatShades": []
+}

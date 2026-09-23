@@ -1,0 +1,22 @@
+{
+  "id": "clothing/torsos/gota_crossbowman_chest",
+  "name": "Gota Crossbowman leather tunic",
+  "files": [
+    "clothing/torsos/gota_crossbowman_chest.glb"
+  ],
+  "nodes": [
+    "Gota_crossbowman_body"
+  ],
+  "hides": [
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "Hand.Left",
+    "Hand.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

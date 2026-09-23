@@ -1,0 +1,30 @@
+{
+  "id": "clothing/pants/gota_druid_warden_leg",
+  "name": "Gota Druid Warden leaf skirt",
+  "files": [
+    "clothing/pants/gota_druid_warden_leg.glb"
+  ],
+  "nodes": [
+    "Gota_druid_warden_legs",
+    "Gota_druid_warden_legs_BootCut3",
+    "Gota_druid_warden_hip_leaf_-1_False_0",
+    "Gota_druid_warden_hip_leaf_-1_False_1",
+    "Gota_druid_warden_hip_leaf_-1_True_0",
+    "Gota_druid_warden_hip_leaf_-1_True_1",
+    "Gota_druid_warden_hip_leaf_1_False_0",
+    "Gota_druid_warden_hip_leaf_1_False_1",
+    "Gota_druid_warden_hip_leaf_1_True_0",
+    "Gota_druid_warden_hip_leaf_1_True_1",
+    "Gota_druid_warden_center_skirt_False",
+    "Gota_druid_warden_center_skirt_True"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

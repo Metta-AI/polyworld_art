@@ -1,0 +1,26 @@
+{
+  "name": "Gnome jacket",
+  "nodes": [
+    "Gnome_Jacket"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Jacket",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Jacket",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/jackets/gnome_jacket",
+  "files": [
+    "clothing/jackets/gnome_jacket.glb"
+  ],
+  "skinNodes": []
+}

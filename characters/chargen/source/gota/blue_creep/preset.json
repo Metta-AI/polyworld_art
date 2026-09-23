@@ -1,0 +1,104 @@
+{
+  "name": "Blue Creep",
+  "group": "Gota",
+  "lineupHidden": true,
+  "skinRgb": [
+    0.23137254901960785,
+    0.5764705882352941,
+    0.7215686274509804
+  ],
+  "hairColor": "Caramel",
+  "hatColor": "Green",
+  "pupilColor": "Blue",
+  "pose": "Sword_Idle",
+  "parts": [
+    {
+      "category": "Body",
+      "item": "Base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Eyes",
+      "item": "01 Bright"
+    },
+    {
+      "category": "Mouth",
+      "item": "None"
+    },
+    {
+      "category": "Nose",
+      "item": "None"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Brow",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "None"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "None"
+    },
+    {
+      "category": "Chest",
+      "item": "None"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "None"
+    },
+    {
+      "category": "Foot",
+      "item": "None"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "Vanguard sword"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "None"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

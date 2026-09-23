@@ -1,0 +1,18 @@
+{
+  "id": "beards/gota_druid_warden_beard",
+  "name": "Gota Druid Warden leaf beard",
+  "files": [
+    "beards/gota_druid_warden_beard.glb"
+  ],
+  "nodes": [
+    "Gota_druid_warden_green_beard",
+    "Gota_druid_warden_beard_leaf"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

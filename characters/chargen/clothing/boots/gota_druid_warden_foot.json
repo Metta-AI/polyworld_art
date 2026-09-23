@@ -1,0 +1,22 @@
+{
+  "id": "clothing/boots/gota_druid_warden_foot",
+  "name": "Gota Druid Warden boots",
+  "files": [
+    "clothing/boots/gota_druid_warden_foot.glb"
+  ],
+  "nodes": [
+    "Gota_druid_warden_boots"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

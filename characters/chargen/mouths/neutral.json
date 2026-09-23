@@ -1,0 +1,13 @@
+{
+  "name": "Neutral",
+  "nodes": [
+    "Mouth_Neutral"
+  ],
+  "id": "mouths/neutral",
+  "files": [
+    "mouths/neutral.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "05 Twist crop",
+  "nodes": [
+    "Hair_05"
+  ],
+  "id": "hair/05_twist_crop",
+  "files": [
+    "hair/05_twist_crop.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_05",
+      "primitive": 0,
+      "shade": 1.0
+    },
+    {
+      "node": "Hair_05",
+      "primitive": 1,
+      "shade": 1.1
+    }
+  ]
+}

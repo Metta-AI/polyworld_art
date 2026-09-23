@@ -1,0 +1,14 @@
+{
+  "name": "02 Confident smirk",
+  "nodes": [
+    "Mouth_Atlas02"
+  ],
+  "id": "mouths/02_confident_smirk",
+  "files": [
+    "mouths/02_confident_smirk.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/02_confident_smirk.png"
+}

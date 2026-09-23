@@ -1,0 +1,38 @@
+{
+  "id": "clothing/torsos/gota_vanguard_knight_chest",
+  "name": "Vanguard Knight body",
+  "files": [
+    "clothing/torsos/gota_vanguard_knight_chest.glb"
+  ],
+  "nodes": [
+    "Gota_vanguard_knight_FittedUnderShirt",
+    "Gota_vanguard_knight_CuirassShell",
+    "Gota_vanguard_knight_Breastplate9",
+    "Gota_vanguard_knight_PauldronTrim10",
+    "Gota_vanguard_knight_PauldronPlate11",
+    "Gota_vanguard_knight_PauldronBackTrim12",
+    "Gota_vanguard_knight_PauldronBackPlate13",
+    "Gota_vanguard_knight_ShoulderRoof14",
+    "Gota_vanguard_knight_Bracer",
+    "Gota_vanguard_knight_BracerGold14",
+    "Gota_vanguard_knight_BracerGold15",
+    "Gota_vanguard_knight_PauldronTrim17",
+    "Gota_vanguard_knight_PauldronPlate18",
+    "Gota_vanguard_knight_PauldronBackTrim19",
+    "Gota_vanguard_knight_PauldronBackPlate20",
+    "Gota_vanguard_knight_ShoulderRoof21",
+    "Gota_vanguard_knight_Bracer.001",
+    "Gota_vanguard_knight_BracerGold21",
+    "Gota_vanguard_knight_BracerGold22",
+    "Gota_vanguard_knight_TabardTrim24",
+    "Gota_vanguard_knight_TabardPlate25",
+    "Gota_vanguard_knight_Cape26"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

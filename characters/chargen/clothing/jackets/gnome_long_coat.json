@@ -1,0 +1,26 @@
+{
+  "name": "Gnome long coat",
+  "nodes": [
+    "Gnome_Coat"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Coat",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Coat",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/jackets/gnome_long_coat",
+  "files": [
+    "clothing/jackets/gnome_long_coat.glb"
+  ],
+  "skinNodes": []
+}

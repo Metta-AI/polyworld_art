@@ -1,0 +1,103 @@
+{
+  "name": "Lich",
+  "group": "Gota",
+  "pose": "A_TPose",
+  "skin": 32,
+  "skinRgb": [
+    0.96,
+    0.9,
+    0.85
+  ],
+  "hairColor": "White",
+  "pupilColor": "Blue",
+  "parts": [
+    {
+      "category": "Hair",
+      "item": "None"
+    },
+    {
+      "category": "Eyes",
+      "item": "12 Sleepy"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "03 Focused"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Lich crystal hood"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Lich ivory edged robe"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Lich trousers"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Lich boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "None"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Lich diamond belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

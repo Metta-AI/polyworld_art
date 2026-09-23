@@ -1,0 +1,15 @@
+{
+  "name": "16 Determined",
+  "nodes": [
+    "Eyes_Atlas16"
+  ],
+  "id": "eyes/16_determined",
+  "files": [
+    "eyes/16_determined.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/16_determined.mask.png",
+  "texture": "eyes/16_determined.png"
+}

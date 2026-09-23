@@ -1,0 +1,14 @@
+{
+  "name": "Evil 10 Orc roar",
+  "nodes": [
+    "Mouth_Evil10"
+  ],
+  "texture": "mouths/evil_10_orc_roar.png",
+  "id": "mouths/evil_10_orc_roar",
+  "files": [
+    "mouths/evil_10_orc_roar.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,72 @@
+{
+  "triangles": 1174,
+  "sharedRig": true,
+  "normalizedWeights": true,
+  "untextured": true,
+  "nodes": {
+    "Gota_death_knight_CrownSpike_0": {
+      "triangles": 8,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    },
+    "Gota_death_knight_CrownSpike_1": {
+      "triangles": 8,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    },
+    "Gota_death_knight_CrownSpike_2": {
+      "triangles": 8,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    },
+    "Gota_death_knight_CrownSpike_3": {
+      "triangles": 8,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    },
+    "Gota_death_knight_CrownSpike_4": {
+      "triangles": 8,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    },
+    "Gota_death_knight_ForeheadGem": {
+      "triangles": 14,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    },
+    "Gota_death_knight_HelmetShell": {
+      "triangles": 1120,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "headWeightsOnly": true
+    }
+  },
+  "coverageRays": {
+    "back": {
+      "samples": 428,
+      "uncoveredSamples": 0
+    },
+    "left": {
+      "samples": 326,
+      "uncoveredSamples": 0
+    },
+    "right": {
+      "samples": 326,
+      "uncoveredSamples": 0
+    }
+  },
+  "coverageSampling": "Head vertices and triangle centers; back checks all points, sides check the flanks and rear (Blender Y >= -0.25), excluding the exposed face and eye recesses."
+}

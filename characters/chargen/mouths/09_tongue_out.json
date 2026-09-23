@@ -1,0 +1,14 @@
+{
+  "name": "09 Tongue out",
+  "nodes": [
+    "Mouth_Atlas09"
+  ],
+  "id": "mouths/09_tongue_out",
+  "files": [
+    "mouths/09_tongue_out.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/09_tongue_out.png"
+}

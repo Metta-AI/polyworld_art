@@ -1,0 +1,14 @@
+{
+  "name": "07 Surprised",
+  "nodes": [
+    "Mouth_Atlas07"
+  ],
+  "id": "mouths/07_surprised",
+  "files": [
+    "mouths/07_surprised.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/07_surprised.png"
+}

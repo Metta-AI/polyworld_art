@@ -1,0 +1,24 @@
+{
+  "id": "clothing/torsos/gota_ranger_chest",
+  "name": "Ranger tunic and cape",
+  "files": [
+    "clothing/torsos/gota_ranger_chest.glb"
+  ],
+  "nodes": [
+    "Gota_ranger_Tunic",
+    "Gota_ranger_Bracers",
+    "Gota_ranger_Cape",
+    "Gota_ranger_Cowl",
+    "Gota_ranger_Strap-1",
+    "Gota_ranger_Strap1",
+    "Gota_ranger_SkirtPanel-1",
+    "Gota_ranger_SkirtPanel1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "10 Mischievous",
+  "nodes": [
+    "Brow_Atlas10"
+  ],
+  "id": "eyebrows/10_mischievous",
+  "files": [
+    "eyebrows/10_mischievous.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/10_mischievous.png"
+}

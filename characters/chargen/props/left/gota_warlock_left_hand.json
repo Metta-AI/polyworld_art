@@ -1,0 +1,20 @@
+{
+  "id": "props/left/gota_warlock_left_hand",
+  "name": "Warlock censer",
+  "files": [
+    "props/left/gota_warlock_left_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_warlock_left_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "LeftHand",
+  "triangles": 3112,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

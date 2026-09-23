@@ -1,0 +1,15 @@
+{
+  "name": "11 Alert",
+  "nodes": [
+    "Eyes_Atlas11"
+  ],
+  "id": "eyes/11_alert",
+  "files": [
+    "eyes/11_alert.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/11_alert.mask.png",
+  "texture": "eyes/11_alert.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "clothing/belts/gota_ranger_belt",
+  "name": "Ranger buckle belt",
+  "files": [
+    "clothing/belts/gota_ranger_belt.glb"
+  ],
+  "nodes": [
+    "Gota_ranger_Belt"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "01 Split chin tuft",
+  "nodes": [
+    "Beard_01"
+  ],
+  "id": "beards/01_split_chin_tuft",
+  "files": [
+    "beards/01_split_chin_tuft.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_01",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

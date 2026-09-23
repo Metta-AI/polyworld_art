@@ -1,0 +1,14 @@
+{
+  "name": "Evil 15 Vampire hiss",
+  "nodes": [
+    "Mouth_Evil15"
+  ],
+  "texture": "mouths/evil_15_vampire_hiss.png",
+  "id": "mouths/evil_15_vampire_hiss",
+  "files": [
+    "mouths/evil_15_vampire_hiss.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

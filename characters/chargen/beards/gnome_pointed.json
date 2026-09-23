@@ -1,0 +1,26 @@
+{
+  "name": "Gnome pointed",
+  "nodes": [
+    "Beard_Gnome",
+    "Beard_Gnome_Moustache"
+  ],
+  "singleFile": true,
+  "alignment": "gnome",
+  "id": "beards/gnome_pointed",
+  "files": [
+    "beards/gnome_pointed.glb"
+  ],
+  "hairShades": [
+    {
+      "node": "Beard_Gnome",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Beard_Gnome_Moustache",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "skinNodes": []
+}

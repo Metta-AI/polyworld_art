@@ -1,0 +1,19 @@
+{
+  "name": "14 Tiered fan",
+  "nodes": [
+    "Beard_14"
+  ],
+  "id": "beards/14_tiered_fan",
+  "files": [
+    "beards/14_tiered_fan.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_14",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

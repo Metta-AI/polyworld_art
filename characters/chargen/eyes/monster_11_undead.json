@@ -1,0 +1,15 @@
+{
+  "name": "Monster 11 Undead",
+  "nodes": [
+    "Eyes_Monster11"
+  ],
+  "texture": "eyes/monster_11_undead.png",
+  "pupilMask": "eyes/monster_11_undead.mask.png",
+  "id": "eyes/monster_11_undead",
+  "files": [
+    "eyes/monster_11_undead.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "13 Pixie",
+  "nodes": [
+    "Hair_13"
+  ],
+  "id": "hair/13_pixie",
+  "files": [
+    "hair/13_pixie.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_13",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

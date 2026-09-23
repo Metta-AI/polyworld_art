@@ -1,0 +1,22 @@
+{
+  "name": "02 Bound blue tunic",
+  "nodes": [
+    "Clothing_02"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/torsos/02_bound_blue_tunic",
+  "files": [
+    "clothing/torsos/02_bound_blue_tunic.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_02",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

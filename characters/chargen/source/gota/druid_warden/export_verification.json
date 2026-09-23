@@ -1,0 +1,62 @@
+{
+  "exportedVerticesChecked": 19866,
+  "parts": [
+    {
+      "slot": "Foot",
+      "file": "clothing/boots/gota_druid_warden_foot.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    },
+    {
+      "slot": "Leg",
+      "file": "clothing/pants/gota_druid_warden_leg.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    },
+    {
+      "slot": "Belt",
+      "file": "clothing/belts/gota_druid_warden_belt.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    },
+    {
+      "slot": "Chest",
+      "file": "clothing/torsos/gota_druid_warden_chest.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    },
+    {
+      "slot": "Headgear",
+      "file": "hats/gota_druid_warden_headgear.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    },
+    {
+      "slot": "Hair",
+      "file": "hair/gota_druid_warden_hair.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    },
+    {
+      "slot": "Beard",
+      "file": "beards/gota_druid_warden_beard.glb",
+      "sharedBoneCount": 22,
+      "finite": true,
+      "normalizedWeights": true,
+      "noImageTextures": true
+    }
+  ],
+  "rigLocalTransformsMatch": true
+}

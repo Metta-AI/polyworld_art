@@ -1,0 +1,103 @@
+{
+  "name": "Hades",
+  "group": "Gota Gods",
+  "pose": "A_TPose",
+  "skin": 32,
+  "skinRgb": [
+    0.72,
+    0.61,
+    0.59
+  ],
+  "hairColor": "Jet black",
+  "pupilColor": "Green",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "06 Fierce"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "08 Stern"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "Gota Hades swept hair"
+    },
+    {
+      "category": "Beard",
+      "item": "Gota Hades pointed beard"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Gota Hades obsidian crown"
+    },
+    {
+      "category": "Chest",
+      "item": "Gota Hades royal armor"
+    },
+    {
+      "category": "Back",
+      "item": "Gota Hades burgundy cape"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Gota Hades layered skirt"
+    },
+    {
+      "category": "Foot",
+      "item": "Gota Hades armored boots"
+    },
+    {
+      "category": "Left hand",
+      "item": "Hades soul"
+    },
+    {
+      "category": "Right hand",
+      "item": "Hades bident"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Gota Hades skull belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

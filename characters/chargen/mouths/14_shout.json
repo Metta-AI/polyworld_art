@@ -1,0 +1,14 @@
+{
+  "name": "14 Shout",
+  "nodes": [
+    "Mouth_Atlas14"
+  ],
+  "id": "mouths/14_shout",
+  "files": [
+    "mouths/14_shout.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/14_shout.png"
+}

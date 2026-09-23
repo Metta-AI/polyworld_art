@@ -1,0 +1,23 @@
+{
+  "id": "clothing/boots/gota_warlock_foot",
+  "name": "Gota Warlock boots",
+  "files": [
+    "clothing/boots/gota_warlock_foot.glb"
+  ],
+  "nodes": [
+    "Gota_warlock_Boots"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right",
+    "Gota_warlock_Legs_BootCut0"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

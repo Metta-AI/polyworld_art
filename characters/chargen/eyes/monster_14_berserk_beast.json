@@ -1,0 +1,15 @@
+{
+  "name": "Monster 14 Berserk beast",
+  "nodes": [
+    "Eyes_Monster14"
+  ],
+  "texture": "eyes/monster_14_berserk_beast.png",
+  "pupilMask": "eyes/monster_14_berserk_beast.mask.png",
+  "id": "eyes/monster_14_berserk_beast",
+  "files": [
+    "eyes/monster_14_berserk_beast.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

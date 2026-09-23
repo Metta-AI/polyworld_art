@@ -1,0 +1,15 @@
+{
+  "name": "06 Fierce",
+  "nodes": [
+    "Eyes_Atlas06"
+  ],
+  "id": "eyes/06_fierce",
+  "files": [
+    "eyes/06_fierce.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/06_fierce.mask.png",
+  "texture": "eyes/06_fierce.png"
+}

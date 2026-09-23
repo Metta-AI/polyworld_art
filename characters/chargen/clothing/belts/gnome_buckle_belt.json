@@ -1,0 +1,21 @@
+{
+  "name": "Gnome buckle belt",
+  "nodes": [
+    "Gnome_Belt"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Belt",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "id": "clothing/belts/gnome_buckle_belt",
+  "files": [
+    "clothing/belts/gnome_buckle_belt.glb"
+  ],
+  "skinNodes": []
+}

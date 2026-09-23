@@ -1,0 +1,20 @@
+{
+  "id": "clothing/belts/gota_death_knight_belt",
+  "name": "Gota Death Knight steel belt",
+  "files": [
+    "clothing/belts/gota_death_knight_belt.glb"
+  ],
+  "nodes": [
+    "Gota_death_knight_Belt",
+    "Gota_death_knight_Buckle",
+    "Gota_death_knight_BeltPlate_-1",
+    "Gota_death_knight_BeltPlate_1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

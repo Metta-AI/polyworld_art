@@ -1,0 +1,14 @@
+{
+  "name": "Evil 13 Vampire smirk",
+  "nodes": [
+    "Mouth_Evil13"
+  ],
+  "texture": "mouths/evil_13_vampire_smirk.png",
+  "id": "mouths/evil_13_vampire_smirk",
+  "files": [
+    "mouths/evil_13_vampire_smirk.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "15 Tied jaw beard",
+  "nodes": [
+    "Beard_15"
+  ],
+  "id": "beards/15_tied_jaw_beard",
+  "files": [
+    "beards/15_tied_jaw_beard.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_15",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

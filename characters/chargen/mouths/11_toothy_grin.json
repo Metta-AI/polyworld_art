@@ -1,0 +1,14 @@
+{
+  "name": "11 Toothy grin",
+  "nodes": [
+    "Mouth_Atlas11"
+  ],
+  "id": "mouths/11_toothy_grin",
+  "files": [
+    "mouths/11_toothy_grin.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/11_toothy_grin.png"
+}

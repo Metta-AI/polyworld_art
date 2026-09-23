@@ -1,0 +1,14 @@
+{
+  "name": "16 Sly grin",
+  "nodes": [
+    "Mouth_Atlas16"
+  ],
+  "id": "mouths/16_sly_grin",
+  "files": [
+    "mouths/16_sly_grin.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/16_sly_grin.png"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "08 Stern",
+  "nodes": [
+    "Brow_Atlas08"
+  ],
+  "id": "eyebrows/08_stern",
+  "files": [
+    "eyebrows/08_stern.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/08_stern.png"
+}

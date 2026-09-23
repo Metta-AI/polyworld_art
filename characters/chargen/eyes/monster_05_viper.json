@@ -1,0 +1,15 @@
+{
+  "name": "Monster 05 Viper",
+  "nodes": [
+    "Eyes_Monster05"
+  ],
+  "texture": "eyes/monster_05_viper.png",
+  "pupilMask": "eyes/monster_05_viper.mask.png",
+  "id": "eyes/monster_05_viper",
+  "files": [
+    "eyes/monster_05_viper.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

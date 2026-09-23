@@ -1,0 +1,14 @@
+{
+  "name": "Evil 05 Sewn shut",
+  "nodes": [
+    "Mouth_Evil05"
+  ],
+  "texture": "mouths/evil_05_sewn_shut.png",
+  "id": "mouths/evil_05_sewn_shut",
+  "files": [
+    "mouths/evil_05_sewn_shut.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

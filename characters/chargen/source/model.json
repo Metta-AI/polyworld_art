@@ -1,0 +1,1251 @@
+{
+  "height": 3.025,
+  "unit": "Blender units",
+  "front": "-Y",
+  "up": "+Z",
+  "pose": "T pose",
+  "bones": 22,
+  "skeleton": [
+    {
+      "name": "Hips",
+      "parent": "",
+      "head": [
+        0.0,
+        1.0700000524520874,
+        0.004999999888241291
+      ],
+      "tail": [
+        0.0,
+        1.2419999837875366,
+        0.013000000268220901
+      ]
+    },
+    {
+      "name": "Spine",
+      "parent": "Hips",
+      "head": [
+        0.0,
+        1.2419999837875366,
+        0.013000000268220901
+      ],
+      "tail": [
+        0.0,
+        1.4220000505447388,
+        0.014000000432133675
+      ]
+    },
+    {
+      "name": "Spine1",
+      "parent": "Spine",
+      "head": [
+        0.0,
+        1.4220000505447388,
+        0.014000000432133675
+      ],
+      "tail": [
+        0.0,
+        1.6180000305175781,
+        0.013000000268220901
+      ]
+    },
+    {
+      "name": "Spine2",
+      "parent": "Spine1",
+      "head": [
+        0.0,
+        1.6180000305175781,
+        0.013000000268220901
+      ],
+      "tail": [
+        0.0,
+        1.9249999523162842,
+        -0.03500000014901161
+      ]
+    },
+    {
+      "name": "Neck",
+      "parent": "Spine2",
+      "head": [
+        0.0,
+        1.9249999523162842,
+        -0.03500000014901161
+      ],
+      "tail": [
+        0.0,
+        2.066999912261963,
+        -0.006000000052154064
+      ]
+    },
+    {
+      "name": "Head",
+      "parent": "Neck",
+      "head": [
+        0.0,
+        2.066999912261963,
+        -0.006000000052154064
+      ],
+      "tail": [
+        0.0,
+        2.9000000953674316,
+        -0.006000000052154064
+      ]
+    },
+    {
+      "name": "LeftShoulder",
+      "parent": "Spine2",
+      "head": [
+        0.12700000405311584,
+        1.7280000448226929,
+        0.0010000000474974513
+      ],
+      "tail": [
+        0.30000001192092896,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "LeftArm",
+      "parent": "LeftShoulder",
+      "head": [
+        0.30000001192092896,
+        1.7799999713897705,
+        -0.014999999664723873
+      ],
+      "tail": [
+        0.6949999928474426,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "LeftForeArm",
+      "parent": "LeftArm",
+      "head": [
+        0.6949999928474426,
+        1.7799999713897705,
+        -0.014999999664723873
+      ],
+      "tail": [
+        0.9800000190734863,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "LeftHand",
+      "parent": "LeftForeArm",
+      "head": [
+        0.9800000190734863,
+        1.7799999713897705,
+        -0.014999999664723873
+      ],
+      "tail": [
+        1.25,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "RightShoulder",
+      "parent": "Spine2",
+      "head": [
+        -0.12700000405311584,
+        1.7280000448226929,
+        0.0010000000474974513
+      ],
+      "tail": [
+        -0.30000001192092896,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "RightArm",
+      "parent": "RightShoulder",
+      "head": [
+        -0.30000001192092896,
+        1.7799999713897705,
+        -0.014999999664723873
+      ],
+      "tail": [
+        -0.6949999928474426,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "RightForeArm",
+      "parent": "RightArm",
+      "head": [
+        -0.6949999928474426,
+        1.7799999713897705,
+        -0.014999999664723873
+      ],
+      "tail": [
+        -0.9800000190734863,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "RightHand",
+      "parent": "RightForeArm",
+      "head": [
+        -0.9800000190734863,
+        1.7799999713897705,
+        -0.014999999664723873
+      ],
+      "tail": [
+        -1.25,
+        1.7799999713897705,
+        -0.014999999664723873
+      ]
+    },
+    {
+      "name": "LeftUpLeg",
+      "parent": "Hips",
+      "head": [
+        0.20100000500679016,
+        1.0679999589920044,
+        0.0010000000474974513
+      ],
+      "tail": [
+        0.20100000500679016,
+        0.5600000023841858,
+        0.0020000000949949026
+      ]
+    },
+    {
+      "name": "LeftLeg",
+      "parent": "LeftUpLeg",
+      "head": [
+        0.20100000500679016,
+        0.5600000023841858,
+        0.0020000000949949026
+      ],
+      "tail": [
+        0.20100000500679016,
+        0.1459999978542328,
+        0.0020000000949949026
+      ]
+    },
+    {
+      "name": "LeftFoot",
+      "parent": "LeftLeg",
+      "head": [
+        0.20100000500679016,
+        0.1459999978542328,
+        0.0020000000949949026
+      ],
+      "tail": [
+        0.20100000500679016,
+        0.04800000041723251,
+        0.08799999952316284
+      ]
+    },
+    {
+      "name": "LeftToeBase",
+      "parent": "LeftFoot",
+      "head": [
+        0.20100000500679016,
+        0.04800000041723251,
+        0.08799999952316284
+      ],
+      "tail": [
+        0.20100000500679016,
+        0.03999999910593033,
+        0.2150000035762787
+      ]
+    },
+    {
+      "name": "RightUpLeg",
+      "parent": "Hips",
+      "head": [
+        -0.20100000500679016,
+        1.0679999589920044,
+        0.0010000000474974513
+      ],
+      "tail": [
+        -0.20100000500679016,
+        0.5600000023841858,
+        0.0020000000949949026
+      ]
+    },
+    {
+      "name": "RightLeg",
+      "parent": "RightUpLeg",
+      "head": [
+        -0.20100000500679016,
+        0.5600000023841858,
+        0.0020000000949949026
+      ],
+      "tail": [
+        -0.20100000500679016,
+        0.1459999978542328,
+        0.0020000000949949026
+      ]
+    },
+    {
+      "name": "RightFoot",
+      "parent": "RightLeg",
+      "head": [
+        -0.20100000500679016,
+        0.1459999978542328,
+        0.0020000000949949026
+      ],
+      "tail": [
+        -0.20100000500679016,
+        0.04800000041723251,
+        0.08799999952316284
+      ]
+    },
+    {
+      "name": "RightToeBase",
+      "parent": "RightFoot",
+      "head": [
+        -0.20100000500679016,
+        0.04800000041723251,
+        0.08799999952316284
+      ],
+      "tail": [
+        -0.20100000500679016,
+        0.03999999910593033,
+        0.2150000035762787
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Body",
+      "vertices": 1598,
+      "polygons": 1552
+    },
+    {
+      "name": "Hand.Left",
+      "vertices": 553,
+      "polygons": 540
+    },
+    {
+      "name": "Hand.Right",
+      "vertices": 553,
+      "polygons": 540
+    },
+    {
+      "name": "Foot.Left",
+      "vertices": 265,
+      "polygons": 252
+    },
+    {
+      "name": "Foot.Right",
+      "vertices": 265,
+      "polygons": 252
+    },
+    {
+      "name": "Head",
+      "vertices": 144,
+      "polygons": 130
+    },
+    {
+      "name": "Ears_Round_Left",
+      "vertices": 128,
+      "polygons": 114
+    },
+    {
+      "name": "Ears_Elf_Left",
+      "vertices": 80,
+      "polygons": 72
+    },
+    {
+      "name": "Ears_Round_Right",
+      "vertices": 128,
+      "polygons": 114
+    },
+    {
+      "name": "Ears_Elf_Right",
+      "vertices": 80,
+      "polygons": 72
+    },
+    {
+      "name": "Nose_Tiny",
+      "vertices": 32,
+      "polygons": 26
+    },
+    {
+      "name": "Eyes_Atlas01",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas02",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas03",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas04",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas05",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas06",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas07",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas08",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas09",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas10",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas11",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas12",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas13",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas14",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas15",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Atlas16",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas01",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas02",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas03",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas04",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas05",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas06",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas07",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas08",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas09",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas10",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas11",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas12",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas13",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas14",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas15",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Atlas16",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Smile",
+      "vertices": 44,
+      "polygons": 24
+    },
+    {
+      "name": "Mouth_Neutral",
+      "vertices": 32,
+      "polygons": 18
+    },
+    {
+      "name": "Mouth_Open",
+      "vertices": 40,
+      "polygons": 22
+    },
+    {
+      "name": "Brow_Atlas01",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas02",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas03",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas04",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas05",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas06",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas07",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas08",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas09",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas10",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas11",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas12",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas13",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas14",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas15",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Brow_Atlas16",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster01",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster02",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster03",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster04",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster05",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster06",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster07",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster08",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster09",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster10",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster11",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster12",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster14",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster15",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Eyes_Monster16",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil01",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil02",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil03",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil04",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil05",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil06",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil07",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil08",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil09",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil10",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil11",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil12",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil13",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil14",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil15",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Mouth_Evil16",
+      "vertices": 325,
+      "polygons": 288
+    },
+    {
+      "name": "Hair_01",
+      "vertices": 1691,
+      "polygons": 1553
+    },
+    {
+      "name": "Hair_02",
+      "vertices": 2124,
+      "polygons": 1980
+    },
+    {
+      "name": "Hair_03",
+      "vertices": 64,
+      "polygons": 50
+    },
+    {
+      "name": "Hair_04",
+      "vertices": 2074,
+      "polygons": 3442
+    },
+    {
+      "name": "Hair_05",
+      "vertices": 1416,
+      "polygons": 1310
+    },
+    {
+      "name": "Hair_06",
+      "vertices": 1436,
+      "polygons": 1358
+    },
+    {
+      "name": "Hair_07",
+      "vertices": 2225,
+      "polygons": 2040
+    },
+    {
+      "name": "Hair_08",
+      "vertices": 2005,
+      "polygons": 1898
+    },
+    {
+      "name": "Hair_09",
+      "vertices": 3228,
+      "polygons": 3092
+    },
+    {
+      "name": "Hair_10",
+      "vertices": 2656,
+      "polygons": 2490
+    },
+    {
+      "name": "Hair_11",
+      "vertices": 2176,
+      "polygons": 2070
+    },
+    {
+      "name": "Hair_12",
+      "vertices": 3384,
+      "polygons": 3122
+    },
+    {
+      "name": "Hair_13",
+      "vertices": 1856,
+      "polygons": 1714
+    },
+    {
+      "name": "Hair_14",
+      "vertices": 1624,
+      "polygons": 1512
+    },
+    {
+      "name": "Hair_15",
+      "vertices": 1710,
+      "polygons": 1619
+    },
+    {
+      "name": "Hair_16",
+      "vertices": 1950,
+      "polygons": 1820
+    },
+    {
+      "name": "Beard_01",
+      "vertices": 140,
+      "polygons": 130
+    },
+    {
+      "name": "Beard_02",
+      "vertices": 208,
+      "polygons": 196
+    },
+    {
+      "name": "Beard_03",
+      "vertices": 400,
+      "polygons": 388
+    },
+    {
+      "name": "Beard_04",
+      "vertices": 320,
+      "polygons": 298
+    },
+    {
+      "name": "Beard_05",
+      "vertices": 462,
+      "polygons": 460
+    },
+    {
+      "name": "Beard_06",
+      "vertices": 40,
+      "polygons": 54
+    },
+    {
+      "name": "Beard_07",
+      "vertices": 1138,
+      "polygons": 1084
+    },
+    {
+      "name": "Beard_08",
+      "vertices": 742,
+      "polygons": 720
+    },
+    {
+      "name": "Beard_09",
+      "vertices": 1190,
+      "polygons": 1146
+    },
+    {
+      "name": "Beard_10",
+      "vertices": 1118,
+      "polygons": 1074
+    },
+    {
+      "name": "Beard_11",
+      "vertices": 408,
+      "polygons": 390
+    },
+    {
+      "name": "Beard_12",
+      "vertices": 1510,
+      "polygons": 1460
+    },
+    {
+      "name": "Beard_13",
+      "vertices": 1084,
+      "polygons": 1026
+    },
+    {
+      "name": "Beard_14",
+      "vertices": 956,
+      "polygons": 900
+    },
+    {
+      "name": "Beard_15",
+      "vertices": 613,
+      "polygons": 595
+    },
+    {
+      "name": "Beard_16",
+      "vertices": 980,
+      "polygons": 938
+    },
+    {
+      "name": "Clothing_01",
+      "vertices": 1218,
+      "polygons": 1218
+    },
+    {
+      "name": "Clothing_02",
+      "vertices": 1602,
+      "polygons": 1602
+    },
+    {
+      "name": "Clothing_04",
+      "vertices": 1670,
+      "polygons": 1674
+    },
+    {
+      "name": "Clothing_06",
+      "vertices": 1114,
+      "polygons": 1076
+    },
+    {
+      "name": "Clothing_07",
+      "vertices": 1978,
+      "polygons": 1982
+    },
+    {
+      "name": "Clothing_08",
+      "vertices": 1280,
+      "polygons": 1282
+    },
+    {
+      "name": "Clothing_09_BootCut0",
+      "vertices": 384,
+      "polygons": 336
+    },
+    {
+      "name": "Clothing_09_BootCut1",
+      "vertices": 288,
+      "polygons": 192
+    },
+    {
+      "name": "Clothing_09_BootCut2",
+      "vertices": 288,
+      "polygons": 192
+    },
+    {
+      "name": "Clothing_09_BootCut3",
+      "vertices": 384,
+      "polygons": 288
+    },
+    {
+      "name": "Clothing_09",
+      "vertices": 974,
+      "polygons": 928
+    },
+    {
+      "name": "Clothing_10_BootCut0",
+      "vertices": 672,
+      "polygons": 624
+    },
+    {
+      "name": "Clothing_10_BootCut1",
+      "vertices": 288,
+      "polygons": 192
+    },
+    {
+      "name": "Clothing_10_BootCut2",
+      "vertices": 288,
+      "polygons": 192
+    },
+    {
+      "name": "Clothing_10_BootCut3",
+      "vertices": 384,
+      "polygons": 288
+    },
+    {
+      "name": "Clothing_10",
+      "vertices": 974,
+      "polygons": 928
+    },
+    {
+      "name": "Clothing_11_BootCut3",
+      "vertices": 672,
+      "polygons": 624
+    },
+    {
+      "name": "Clothing_11",
+      "vertices": 974,
+      "polygons": 928
+    },
+    {
+      "name": "Clothing_12_BootCut0",
+      "vertices": 768,
+      "polygons": 672
+    },
+    {
+      "name": "Clothing_12_BootCut1",
+      "vertices": 480,
+      "polygons": 336
+    },
+    {
+      "name": "Clothing_12_BootCut2",
+      "vertices": 288,
+      "polygons": 192
+    },
+    {
+      "name": "Clothing_12_BootCut3",
+      "vertices": 384,
+      "polygons": 288
+    },
+    {
+      "name": "Clothing_12",
+      "vertices": 974,
+      "polygons": 928
+    },
+    {
+      "name": "Clothing_13",
+      "vertices": 1704,
+      "polygons": 1696
+    },
+    {
+      "name": "Clothing_14",
+      "vertices": 2020,
+      "polygons": 2016
+    },
+    {
+      "name": "Clothing_15",
+      "vertices": 1828,
+      "polygons": 1824
+    },
+    {
+      "name": "Clothing_16",
+      "vertices": 2192,
+      "polygons": 2184
+    },
+    {
+      "name": "Nose_Gnome",
+      "vertices": 114,
+      "polygons": 128
+    },
+    {
+      "name": "Ears_Gnome_Left",
+      "vertices": 56,
+      "polygons": 50
+    },
+    {
+      "name": "Ears_Gnome_Right",
+      "vertices": 56,
+      "polygons": 50
+    },
+    {
+      "name": "Beard_Gnome",
+      "vertices": 1057,
+      "polygons": 1020
+    },
+    {
+      "name": "Beard_Gnome_Moustache",
+      "vertices": 260,
+      "polygons": 244
+    },
+    {
+      "name": "Eyes_Gnome",
+      "vertices": 425,
+      "polygons": 384
+    },
+    {
+      "name": "Hat_Pointed",
+      "vertices": 128,
+      "polygons": 209
+    },
+    {
+      "name": "Hat_Folded",
+      "vertices": 160,
+      "polygons": 273
+    },
+    {
+      "name": "Hat_Wide_brim",
+      "vertices": 304,
+      "polygons": 417
+    },
+    {
+      "name": "Hat_Mushroom",
+      "vertices": 648,
+      "polygons": 545
+    },
+    {
+      "name": "Hat_Leaf",
+      "vertices": 158,
+      "polygons": 239
+    },
+    {
+      "name": "Hat_Feather",
+      "vertices": 208,
+      "polygons": 327
+    },
+    {
+      "name": "Gnome_Shirt",
+      "vertices": 1850,
+      "polygons": 1854
+    },
+    {
+      "name": "Gnome_Jacket",
+      "vertices": 2344,
+      "polygons": 2316
+    },
+    {
+      "name": "Gnome_Coat",
+      "vertices": 2550,
+      "polygons": 2518
+    },
+    {
+      "name": "Gnome_Vest",
+      "vertices": 1172,
+      "polygons": 1144
+    },
+    {
+      "name": "Gnome_Shorts",
+      "vertices": 1870,
+      "polygons": 1872
+    },
+    {
+      "name": "Gnome_Belt",
+      "vertices": 256,
+      "polygons": 240
+    },
+    {
+      "name": "Gnome_Suspenders",
+      "vertices": 440,
+      "polygons": 424
+    },
+    {
+      "name": "Gnome_Bib",
+      "vertices": 690,
+      "polygons": 668
+    },
+    {
+      "name": "Gnome_Boots",
+      "vertices": 2284,
+      "polygons": 2280
+    },
+    {
+      "name": "Clothing_03",
+      "vertices": 900,
+      "polygons": 904
+    },
+    {
+      "name": "Clothing_05",
+      "vertices": 1978,
+      "polygons": 1982
+    },
+    {
+      "name": "Belt_Simple",
+      "vertices": 256,
+      "polygons": 240
+    },
+    {
+      "name": "Eyes_DeadX",
+      "vertices": 153,
+      "polygons": 128
+    }
+  ],
+  "animations": [
+    "A_TPose",
+    "Crouch_Fwd_Loop",
+    "Crouch_Idle_Loop",
+    "Dance_Loop",
+    "Death01",
+    "Driving_Loop",
+    "Fixing_Kneeling",
+    "Hit_Chest",
+    "Hit_Head",
+    "Idle_Loop",
+    "Idle_Talking_Loop",
+    "Idle_Torch_Loop",
+    "Interact",
+    "Jog_Fwd_Loop",
+    "Jump_Land",
+    "Jump_Loop",
+    "Jump_Start",
+    "PickUp_Table",
+    "Pistol_Aim_Down",
+    "Pistol_Aim_Neutral",
+    "Pistol_Aim_Up",
+    "Pistol_Idle_Loop",
+    "Pistol_Reload",
+    "Pistol_Shoot",
+    "Punch_Cross",
+    "Punch_Jab",
+    "Push_Loop",
+    "Roll",
+    "Sitting_Enter",
+    "Sitting_Exit",
+    "Sitting_Idle_Loop",
+    "Sitting_Talking_Loop",
+    "Spell_Simple_Enter",
+    "Spell_Simple_Exit",
+    "Spell_Simple_Idle_Loop",
+    "Spell_Simple_Shoot",
+    "Sprint_Loop",
+    "Swim_Fwd_Loop",
+    "Swim_Idle_Loop",
+    "Sword_Attack",
+    "Sword_Idle",
+    "Walk_Formal_Loop",
+    "Walk_Loop"
+  ],
+  "notes": "Matched modular_chars proportions with shared wrist and ankle seams, downward mitten grips, recessed detachable ears, and a tiny nose."
+}

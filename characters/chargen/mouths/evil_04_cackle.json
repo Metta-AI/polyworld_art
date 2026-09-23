@@ -1,0 +1,14 @@
+{
+  "name": "Evil 04 Cackle",
+  "nodes": [
+    "Mouth_Evil04"
+  ],
+  "texture": "mouths/evil_04_cackle.png",
+  "id": "mouths/evil_04_cackle",
+  "files": [
+    "mouths/evil_04_cackle.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

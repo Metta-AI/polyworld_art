@@ -1,0 +1,15 @@
+{
+  "name": "Monster 06 Crocodile",
+  "nodes": [
+    "Eyes_Monster06"
+  ],
+  "texture": "eyes/monster_06_crocodile.png",
+  "pupilMask": "eyes/monster_06_crocodile.mask.png",
+  "id": "eyes/monster_06_crocodile",
+  "files": [
+    "eyes/monster_06_crocodile.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "clothing/pants/gota_death_knight_leg",
+  "name": "Gota Death Knight tassets",
+  "files": [
+    "clothing/pants/gota_death_knight_leg.glb"
+  ],
+  "nodes": [
+    "Gota_death_knight_Legs",
+    "Gota_death_knight_Tasset_Left0",
+    "Gota_death_knight_Tasset_Left1",
+    "Gota_death_knight_Tasset_Right0",
+    "Gota_death_knight_Tasset_Right1",
+    "Gota_death_knight_Tabard",
+    "Gota_death_knight_TabardGem"
+  ],
+  "hides": [
+    "GotaSkinLower"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

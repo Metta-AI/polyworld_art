@@ -1,0 +1,14 @@
+{
+  "name": "Evil 14 Vampire grin",
+  "nodes": [
+    "Mouth_Evil14"
+  ],
+  "texture": "mouths/evil_14_vampire_grin.png",
+  "id": "mouths/evil_14_vampire_grin",
+  "files": [
+    "mouths/evil_14_vampire_grin.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "hats/gota_zeus_headgear",
+  "name": "Zeus laurel crown",
+  "files": [
+    "hats/gota_zeus_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_laurel_band",
+    "Gota_zeus_laurel_stem_-1",
+    "Gota_zeus_laurel_-1_0",
+    "Gota_zeus_laurel_-1_1",
+    "Gota_zeus_laurel_-1_2",
+    "Gota_zeus_laurel_-1_3",
+    "Gota_zeus_laurel_stem_1",
+    "Gota_zeus_laurel_1_0",
+    "Gota_zeus_laurel_1_1",
+    "Gota_zeus_laurel_1_2",
+    "Gota_zeus_laurel_1_3",
+    "Gota_zeus_gem_mount",
+    "Gota_zeus_blue_gem"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

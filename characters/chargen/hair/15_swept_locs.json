@@ -1,0 +1,19 @@
+{
+  "name": "15 Swept locs",
+  "nodes": [
+    "Hair_15"
+  ],
+  "id": "hair/15_swept_locs",
+  "files": [
+    "hair/15_swept_locs.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_15",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "07 Rounded beard",
+  "nodes": [
+    "Beard_07"
+  ],
+  "id": "beards/07_rounded_beard",
+  "files": [
+    "beards/07_rounded_beard.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_07",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "13 Twin tassels",
+  "nodes": [
+    "Beard_13"
+  ],
+  "id": "beards/13_twin_tassels",
+  "files": [
+    "beards/13_twin_tassels.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_13",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

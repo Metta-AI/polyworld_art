@@ -1,0 +1,119 @@
+[
+  {
+    "node": "Gota_arcanist_belt",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.08536949226315362,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_boots",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.8099973758841484,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_circlet",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.11918331982508337,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_insteps",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.6903460333852748,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_legs",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.46402502997215594,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_legs_BootCut1",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.5943575575343009,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_legs_BootCut2",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.5187963431016186,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_legs_BootCut3",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.49483116029160723,
+    "deforms": true
+  },
+  {
+    "node": "Gota_arcanist_robe",
+    "animation": "Walk_Loop",
+    "frames": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "finite": true,
+    "maxMovement": 0.5718185234769395,
+    "deforms": true
+  }
+]

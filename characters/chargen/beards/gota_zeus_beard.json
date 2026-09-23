@@ -1,0 +1,17 @@
+{
+  "id": "beards/gota_zeus_beard",
+  "name": "Zeus beard",
+  "files": [
+    "beards/gota_zeus_beard.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_tapered_beard"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

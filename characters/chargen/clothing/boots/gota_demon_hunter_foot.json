@@ -1,0 +1,23 @@
+{
+  "id": "clothing/boots/gota_demon_hunter_foot",
+  "name": "Gota Demon Hunter boots",
+  "files": [
+    "clothing/boots/gota_demon_hunter_foot.glb"
+  ],
+  "nodes": [
+    "Gota_demon_hunter_Boots",
+    "Gota_demon_hunter_BootCuffs"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

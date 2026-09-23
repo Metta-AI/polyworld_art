@@ -1,0 +1,19 @@
+{
+  "name": "16 Windswept beard",
+  "nodes": [
+    "Beard_16"
+  ],
+  "id": "beards/16_windswept_beard",
+  "files": [
+    "beards/16_windswept_beard.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_16",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

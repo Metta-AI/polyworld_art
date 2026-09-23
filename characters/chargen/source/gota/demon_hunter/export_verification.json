@@ -1,0 +1,50 @@
+{
+  "Foot": {
+    "file": "clothing/boots/gota_demon_hunter_foot.glb",
+    "vertices": 9771,
+    "normalizedWeights": true,
+    "finitePositions": true,
+    "sharedSkeleton": true,
+    "noTextures": true
+  },
+  "Leg": {
+    "file": "clothing/pants/gota_demon_hunter_leg.glb",
+    "vertices": 5952,
+    "normalizedWeights": true,
+    "finitePositions": true,
+    "sharedSkeleton": true,
+    "noTextures": true
+  },
+  "Belt": {
+    "file": "clothing/belts/gota_demon_hunter_belt.glb",
+    "vertices": 1078,
+    "normalizedWeights": true,
+    "finitePositions": true,
+    "sharedSkeleton": true,
+    "noTextures": true
+  },
+  "Chest": {
+    "file": "clothing/torsos/gota_demon_hunter_chest.glb",
+    "vertices": 11656,
+    "normalizedWeights": true,
+    "finitePositions": true,
+    "sharedSkeleton": true,
+    "noTextures": true
+  },
+  "Headgear": {
+    "file": "hats/gota_demon_hunter_headgear.glb",
+    "vertices": 628,
+    "normalizedWeights": true,
+    "finitePositions": true,
+    "sharedSkeleton": true,
+    "noTextures": true
+  },
+  "Hair": {
+    "file": "hair/gota_demon_hunter_hair.glb",
+    "vertices": 6138,
+    "normalizedWeights": true,
+    "finitePositions": true,
+    "sharedSkeleton": true,
+    "noTextures": true
+  }
+}

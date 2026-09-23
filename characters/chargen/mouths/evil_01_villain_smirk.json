@@ -1,0 +1,14 @@
+{
+  "name": "Evil 01 Villain smirk",
+  "nodes": [
+    "Mouth_Evil01"
+  ],
+  "texture": "mouths/evil_01_villain_smirk.png",
+  "id": "mouths/evil_01_villain_smirk",
+  "files": [
+    "mouths/evil_01_villain_smirk.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

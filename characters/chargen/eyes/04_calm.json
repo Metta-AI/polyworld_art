@@ -1,0 +1,15 @@
+{
+  "name": "04 Calm",
+  "nodes": [
+    "Eyes_Atlas04"
+  ],
+  "id": "eyes/04_calm",
+  "files": [
+    "eyes/04_calm.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/04_calm.mask.png",
+  "texture": "eyes/04_calm.png"
+}

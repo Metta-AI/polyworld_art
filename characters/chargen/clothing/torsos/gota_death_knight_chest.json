@@ -1,0 +1,38 @@
+{
+  "id": "clothing/torsos/gota_death_knight_chest",
+  "name": "Gota Death Knight cuirass and cape",
+  "files": [
+    "clothing/torsos/gota_death_knight_chest.glb"
+  ],
+  "nodes": [
+    "Gota_death_knight_Undersuit",
+    "Gota_death_knight_Cuirass",
+    "Gota_death_knight_Breastplate",
+    "Gota_death_knight_ChestGem",
+    "Gota_death_knight_AbdomenUpper",
+    "Gota_death_knight_AbdomenLower",
+    "Gota_death_knight_Pauldron_Left",
+    "Gota_death_knight_PauldronBack_Left",
+    "Gota_death_knight_ShoulderSpike_Left",
+    "Gota_death_knight_Vambrace_Left",
+    "Gota_death_knight_Glove_Left",
+    "Gota_death_knight_Pauldron_Right",
+    "Gota_death_knight_PauldronBack_Right",
+    "Gota_death_knight_ShoulderSpike_Right",
+    "Gota_death_knight_Vambrace_Right",
+    "Gota_death_knight_Glove_Right",
+    "Gota_death_knight_Cape"
+  ],
+  "hides": [
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "Hand.Left",
+    "Hand.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

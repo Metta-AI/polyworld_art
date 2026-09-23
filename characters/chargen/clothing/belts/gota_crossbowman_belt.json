@@ -1,0 +1,17 @@
+{
+  "id": "clothing/belts/gota_crossbowman_belt",
+  "name": "Gota Crossbowman belt",
+  "files": [
+    "clothing/belts/gota_crossbowman_belt.glb"
+  ],
+  "nodes": [
+    "Gota_crossbowman_belt"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

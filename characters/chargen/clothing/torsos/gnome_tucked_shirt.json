@@ -1,0 +1,26 @@
+{
+  "name": "Gnome tucked shirt",
+  "nodes": [
+    "Gnome_Shirt"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Gnome_Shirt",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Gnome_Shirt",
+      "primitive": 1,
+      "shade": 1.14
+    }
+  ],
+  "id": "clothing/torsos/gnome_tucked_shirt",
+  "files": [
+    "clothing/torsos/gnome_tucked_shirt.glb"
+  ],
+  "skinNodes": []
+}

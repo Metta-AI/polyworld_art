@@ -1,0 +1,15 @@
+{
+  "name": "07 Simple",
+  "nodes": [
+    "Eyes_Atlas07"
+  ],
+  "id": "eyes/07_simple",
+  "files": [
+    "eyes/07_simple.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/07_simple.mask.png",
+  "texture": "eyes/07_simple.png"
+}

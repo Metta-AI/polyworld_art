@@ -1,0 +1,23 @@
+{
+  "name": "03 Green tabard",
+  "nodes": [
+    "Clothing_03"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Clothing_03",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "id": "clothing/torsos/03_belted_green_tabard",
+  "files": [
+    "clothing/torsos/03_belted_green_tabard.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": []
+}

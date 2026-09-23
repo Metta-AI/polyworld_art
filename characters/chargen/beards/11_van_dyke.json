@@ -1,0 +1,19 @@
+{
+  "name": "11 Van Dyke",
+  "nodes": [
+    "Beard_11"
+  ],
+  "id": "beards/11_van_dyke",
+  "files": [
+    "beards/11_van_dyke.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_11",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

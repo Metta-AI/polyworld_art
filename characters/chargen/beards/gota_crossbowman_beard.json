@@ -1,0 +1,17 @@
+{
+  "id": "beards/gota_crossbowman_beard",
+  "name": "Gota Crossbowman mustache",
+  "files": [
+    "beards/gota_crossbowman_beard.glb"
+  ],
+  "nodes": [
+    "Gota_crossbowman_mustache"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

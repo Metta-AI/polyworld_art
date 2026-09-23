@@ -1,0 +1,19 @@
+{
+  "name": "06 Swept chops",
+  "nodes": [
+    "Beard_06"
+  ],
+  "id": "beards/06_swept_chops",
+  "files": [
+    "beards/06_swept_chops.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Beard_06",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

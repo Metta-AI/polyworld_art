@@ -1,0 +1,22 @@
+{
+  "name": "07 Blue linen shirt",
+  "nodes": [
+    "Clothing_07"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/torsos/07_blue_linen_shirt",
+  "files": [
+    "clothing/torsos/07_blue_linen_shirt.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_07",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

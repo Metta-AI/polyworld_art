@@ -1,0 +1,103 @@
+[
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_arcanist_foot",
+    "name": "Gota Arcanist boots",
+    "files": [
+      "clothing/boots/gota_arcanist_foot.glb"
+    ],
+    "nodes": [
+      "Gota_arcanist_boots",
+      "Gota_arcanist_insteps"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_arcanist_leg",
+    "name": "Gota Arcanist leggings",
+    "files": [
+      "clothing/pants/gota_arcanist_leg.glb"
+    ],
+    "nodes": [
+      "Gota_arcanist_legs",
+      "Gota_arcanist_legs_BootCut1",
+      "Gota_arcanist_legs_BootCut2",
+      "Gota_arcanist_legs_BootCut3"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_arcanist_belt",
+    "name": "Gota Arcanist amethyst belt",
+    "files": [
+      "clothing/belts/gota_arcanist_belt.glb"
+    ],
+    "nodes": [
+      "Gota_arcanist_belt"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_arcanist_chest",
+    "name": "Gota Arcanist violet robe",
+    "files": [
+      "clothing/torsos/gota_arcanist_chest.glb"
+    ],
+    "nodes": [
+      "Gota_arcanist_robe"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_arcanist_headgear",
+    "name": "Gota Arcanist circlet",
+    "files": [
+      "hats/gota_arcanist_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_arcanist_circlet"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  }
+]

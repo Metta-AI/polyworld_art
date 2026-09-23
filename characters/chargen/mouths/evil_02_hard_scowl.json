@@ -1,0 +1,14 @@
+{
+  "name": "Evil 02 Hard scowl",
+  "nodes": [
+    "Mouth_Evil02"
+  ],
+  "texture": "mouths/evil_02_hard_scowl.png",
+  "id": "mouths/evil_02_hard_scowl",
+  "files": [
+    "mouths/evil_02_hard_scowl.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

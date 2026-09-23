@@ -1,0 +1,49 @@
+{
+  "name": "Ranger",
+  "slug": "ranger",
+  "triangles": 15520,
+  "underBudget": true,
+  "budgetExclusive": 20000,
+  "nodes": {
+    "Eyes_Atlas12": 576,
+    "Brow_Atlas02": 576,
+    "Mouth_Atlas03": 576,
+    "Nose_Tiny": 60,
+    "Gota_ranger_HoodBraids": 1770,
+    "Gota_ranger_Boots": 2620,
+    "Gota_ranger_Trousers": 1856,
+    "Gota_ranger_Trousers_BootCut3": 576,
+    "Gota_ranger_Belt": 480,
+    "Gota_ranger_Bracers": 432,
+    "Gota_ranger_Cape": 60,
+    "Gota_ranger_Cowl": 40,
+    "Gota_ranger_SkirtPanel1": 5,
+    "Gota_ranger_SkirtPanel-1": 5,
+    "Gota_ranger_Strap1": 22,
+    "Gota_ranger_Strap-1": 22,
+    "Gota_ranger_Tunic": 1760,
+    "Gota_ranger_Hood": 896,
+    "GotaSkinUpper": 1824,
+    "GotaHand.Left": 540,
+    "GotaHand.Right": 540,
+    "Head": 284
+  },
+  "slots": [
+    "Foot",
+    "Leg",
+    "Belt",
+    "Chest",
+    "Headgear",
+    "Hair"
+  ],
+  "newClothingTextures": 0,
+  "normalizedWeights": true,
+  "reusedParts": [
+    "eyes/12_sleepy",
+    "eyebrows/02_confident",
+    "mouths/03_neutral",
+    "noses/tiny",
+    "ears/round",
+    "heads/base"
+  ]
+}

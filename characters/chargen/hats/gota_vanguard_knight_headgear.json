@@ -1,0 +1,23 @@
+{
+  "id": "hats/gota_vanguard_knight_headgear",
+  "name": "Vanguard Knight helmet",
+  "files": [
+    "hats/gota_vanguard_knight_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_vanguard_knight_HelmetShell",
+    "Gota_vanguard_knight_HelmetGoldBrow",
+    "Gota_vanguard_knight_HelmetCrest27",
+    "Gota_vanguard_knight_TempleGold28",
+    "Gota_vanguard_knight_TempleGold29",
+    "Gota_vanguard_knight_UpperGoldDiamond30",
+    "Gota_vanguard_knight_BluePlume31"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Monster 01 Stalking cat",
+  "nodes": [
+    "Eyes_Monster01"
+  ],
+  "texture": "eyes/monster_01_stalking_cat.png",
+  "pupilMask": "eyes/monster_01_stalking_cat.mask.png",
+  "id": "eyes/monster_01_stalking_cat",
+  "files": [
+    "eyes/monster_01_stalking_cat.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

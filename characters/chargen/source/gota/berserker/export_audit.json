@@ -1,0 +1,92 @@
+{
+  "parts": [
+    {
+      "id": "clothing/boots/gota_berserker_foot",
+      "triangles": 1080,
+      "exportedVertices": 3038,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    },
+    {
+      "id": "clothing/pants/gota_berserker_leg",
+      "triangles": 3268,
+      "exportedVertices": 6576,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    },
+    {
+      "id": "clothing/belts/gota_berserker_belt",
+      "triangles": 432,
+      "exportedVertices": 848,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    },
+    {
+      "id": "clothing/torsos/gota_berserker_chest",
+      "triangles": 1408,
+      "exportedVertices": 2820,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    },
+    {
+      "id": "hats/gota_berserker_headgear",
+      "triangles": 46,
+      "exportedVertices": 96,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    },
+    {
+      "id": "hair/gota_berserker_hair",
+      "triangles": 1594,
+      "exportedVertices": 4758,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    },
+    {
+      "id": "beards/gota_berserker_beard",
+      "triangles": 986,
+      "exportedVertices": 2958,
+      "finitePositions": true,
+      "normalizedWeights": true,
+      "sharedJointNames": true,
+      "imageTextures": 0
+    }
+  ],
+  "sharedJoints": [
+    "Hips",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "Spine",
+    "Spine1",
+    "Spine2",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "Neck",
+    "Head",
+    "RightShoulder",
+    "RightArm",
+    "RightForeArm",
+    "RightHand"
+  ],
+  "checksPassed": true
+}

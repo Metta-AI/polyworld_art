@@ -1,0 +1,15 @@
+{
+  "name": "04 Heroic",
+  "nodes": [
+    "Brow_Atlas04"
+  ],
+  "id": "eyebrows/04_heroic",
+  "files": [
+    "eyebrows/04_heroic.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/04_heroic.png"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hair/gota_demon_hunter_hair",
+  "name": "Gota Demon Hunter spiky hair",
+  "files": [
+    "hair/gota_demon_hunter_hair.glb"
+  ],
+  "nodes": [
+    "Gota_demon_hunter_HairBase",
+    "Gota_demon_hunter_HairSpike0",
+    "Gota_demon_hunter_HairSpike1",
+    "Gota_demon_hunter_HairSpike2",
+    "Gota_demon_hunter_HairSpike3",
+    "Gota_demon_hunter_HairSpike4",
+    "Gota_demon_hunter_HairSpike5",
+    "Gota_demon_hunter_HairSpike6",
+    "Gota_demon_hunter_HairSpike7"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

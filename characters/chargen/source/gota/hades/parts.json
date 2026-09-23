@@ -1,0 +1,272 @@
+[
+  {
+    "category": "Headgear",
+    "id": "hats/gota_hades_headgear",
+    "name": "Gota Hades obsidian crown",
+    "files": [
+      "hats/gota_hades_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_hades_CrownBand",
+      "Gota_hades_CrownSpike0",
+      "Gota_hades_CrownSpike1",
+      "Gota_hades_CrownSpike2",
+      "Gota_hades_CrownSpike3",
+      "Gota_hades_CrownSpike4",
+      "Gota_hades_CrownSpike5",
+      "Gota_hades_CrownSpike6",
+      "Gota_hades_CrownSpike7",
+      "Gota_hades_CrownSpike8",
+      "Gota_hades_CrownSpike9",
+      "Gota_hades_CrownEmeraldFrame",
+      "Gota_hades_CrownEmeraldStone",
+      "Gota_hades_CrownGold-1",
+      "Gota_hades_CrownGold1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Hair",
+    "id": "hair/gota_hades_hair",
+    "name": "Gota Hades swept hair",
+    "files": [
+      "hair/gota_hades_hair.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Hair",
+      "Gota_hades_SweptLock-10",
+      "Gota_hades_SweptLock-11",
+      "Gota_hades_SweptLock-12",
+      "Gota_hades_SweptLock10",
+      "Gota_hades_SweptLock11",
+      "Gota_hades_SweptLock12"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Beard",
+    "id": "beards/gota_hades_beard",
+    "name": "Gota Hades pointed beard",
+    "files": [
+      "beards/gota_hades_beard.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Beard"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_hades_chest",
+    "name": "Gota Hades royal armor",
+    "files": [
+      "clothing/torsos/gota_hades_chest.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Cuirass",
+      "Gota_hades_Breastplate-1",
+      "Gota_hades_Collar-1",
+      "Gota_hades_Breastplate1",
+      "Gota_hades_Collar1",
+      "Gota_hades_ChestEmeraldFrame",
+      "Gota_hades_ChestEmeraldStone",
+      "Gota_hades_PauldronRight",
+      "Gota_hades_ShoulderStudRight",
+      "Gota_hades_PauldronLeft",
+      "Gota_hades_ShoulderStudLeft",
+      "Gota_hades_BracerRight",
+      "Gota_hades_BracerGoldRight0",
+      "Gota_hades_BracerGoldRight1",
+      "Gota_hades_BracerEmeraldRightFrame",
+      "Gota_hades_BracerEmeraldRightStone",
+      "Gota_hades_BracerLeft",
+      "Gota_hades_BracerGoldLeft0",
+      "Gota_hades_BracerGoldLeft1",
+      "Gota_hades_BracerEmeraldLeftFrame",
+      "Gota_hades_BracerEmeraldLeftStone"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_hades_belt",
+    "name": "Gota Hades skull belt",
+    "files": [
+      "clothing/belts/gota_hades_belt.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Belt",
+      "Gota_hades_BeltGold1.23",
+      "Gota_hades_BeltGold1.34",
+      "Gota_hades_BuckleWing-1",
+      "Gota_hades_BuckleWing1",
+      "Gota_hades_SkullCranium",
+      "Gota_hades_SkullSocket-1",
+      "Gota_hades_SkullSoul-1",
+      "Gota_hades_SkullSocket1",
+      "Gota_hades_SkullSoul1",
+      "Gota_hades_SkullNose",
+      "Gota_hades_SkullTooth-2",
+      "Gota_hades_SkullTooth-1",
+      "Gota_hades_SkullTooth0",
+      "Gota_hades_SkullTooth1",
+      "Gota_hades_SkullTooth2"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_hades_leg",
+    "name": "Gota Hades layered skirt",
+    "files": [
+      "clothing/pants/gota_hades_leg.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Trousers",
+      "Gota_hades_SkirtRightFalse",
+      "Gota_hades_HipPlateGoldRightFalse",
+      "Gota_hades_HipPlateRightFalse",
+      "Gota_hades_SkirtRightTrue",
+      "Gota_hades_HipPlateGoldRightTrue",
+      "Gota_hades_HipPlateRightTrue",
+      "Gota_hades_SkirtLeftFalse",
+      "Gota_hades_HipPlateGoldLeftFalse",
+      "Gota_hades_HipPlateLeftFalse",
+      "Gota_hades_SkirtLeftTrue",
+      "Gota_hades_HipPlateGoldLeftTrue",
+      "Gota_hades_HipPlateLeftTrue",
+      "Gota_hades_TabardFalse",
+      "Gota_hades_TabardTrue",
+      "Gota_hades_TabardMark-1",
+      "Gota_hades_TabardMark1"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_hades_foot",
+    "name": "Gota Hades armored boots",
+    "files": [
+      "clothing/boots/gota_hades_foot.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Boots",
+      "Gota_hades_GreaveGoldRight",
+      "Gota_hades_GreaveRight",
+      "Gota_hades_KneeEmeraldRightFrame",
+      "Gota_hades_KneeEmeraldRightStone",
+      "Gota_hades_ToeGoldRight",
+      "Gota_hades_GreaveGoldLeft",
+      "Gota_hades_GreaveLeft",
+      "Gota_hades_KneeEmeraldLeftFrame",
+      "Gota_hades_KneeEmeraldLeftStone",
+      "Gota_hades_ToeGoldLeft"
+    ],
+    "hides": [
+      "Foot.Left",
+      "Foot.Right",
+      "GotaFoot.Left",
+      "GotaFoot.Right"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Back",
+    "id": "clothing/backs/gota_hades_back",
+    "name": "Gota Hades burgundy cape",
+    "files": [
+      "clothing/backs/gota_hades_back.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Cape"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Right hand",
+    "id": "props/right/gota_hades_right_hand",
+    "name": "Hades bident",
+    "files": [
+      "props/right/gota_hades_right_hand.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Bident"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand"
+  },
+  {
+    "category": "Left hand",
+    "id": "props/left/gota_hades_left_hand",
+    "name": "Hades soul",
+    "files": [
+      "props/left/gota_hades_left_hand.glb"
+    ],
+    "nodes": [
+      "Gota_hades_Soul"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand"
+  }
+]

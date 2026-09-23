@@ -1,0 +1,15 @@
+{
+  "name": "09 Bold curve",
+  "nodes": [
+    "Brow_Atlas09"
+  ],
+  "id": "eyebrows/09_bold_curve",
+  "files": [
+    "eyebrows/09_bold_curve.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "tint": "hair",
+  "texture": "eyebrows/09_bold_curve.png"
+}

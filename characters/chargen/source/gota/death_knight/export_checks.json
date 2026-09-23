@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Foot",
+    "file": "clothing/boots/gota_death_knight_foot.glb",
+    "exportedVertices": 7272,
+    "sharedJoints": 22,
+    "finitePositions": true,
+    "normalizedWeights": true,
+    "imageTextures": 0
+  },
+  {
+    "category": "Leg",
+    "file": "clothing/pants/gota_death_knight_leg.glb",
+    "exportedVertices": 3944,
+    "sharedJoints": 22,
+    "finitePositions": true,
+    "normalizedWeights": true,
+    "imageTextures": 0
+  },
+  {
+    "category": "Belt",
+    "file": "clothing/belts/gota_death_knight_belt.glb",
+    "exportedVertices": 352,
+    "sharedJoints": 22,
+    "finitePositions": true,
+    "normalizedWeights": true,
+    "imageTextures": 0
+  },
+  {
+    "category": "Chest",
+    "file": "clothing/torsos/gota_death_knight_chest.glb",
+    "exportedVertices": 13020,
+    "sharedJoints": 22,
+    "finitePositions": true,
+    "normalizedWeights": true,
+    "imageTextures": 0
+  },
+  {
+    "category": "Headgear",
+    "file": "hats/gota_death_knight_headgear.glb",
+    "exportedVertices": 622,
+    "sharedJoints": 22,
+    "finitePositions": true,
+    "normalizedWeights": true,
+    "imageTextures": 0
+  }
+]

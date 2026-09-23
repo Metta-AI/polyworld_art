@@ -1,0 +1,18 @@
+{
+  "name": "Gnome cups",
+  "nodes": [
+    "Ears_Gnome_Left",
+    "Ears_Gnome_Right"
+  ],
+  "skinNodes": [
+    "Ears_Gnome_Left",
+    "Ears_Gnome_Right"
+  ],
+  "singleFile": true,
+  "alignment": "gnome",
+  "id": "ears/gnome_cups",
+  "files": [
+    "ears/gnome_cups.glb"
+  ],
+  "hairShades": []
+}

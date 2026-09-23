@@ -1,0 +1,13 @@
+{
+  "name": "Smile",
+  "nodes": [
+    "Mouth_Smile"
+  ],
+  "id": "mouths/smile",
+  "files": [
+    "mouths/smile.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": []
+}

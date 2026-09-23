@@ -1,0 +1,15 @@
+{
+  "name": "Monster 16 Reptile raider",
+  "nodes": [
+    "Eyes_Monster16"
+  ],
+  "texture": "eyes/monster_16_reptile_raider.png",
+  "pupilMask": "eyes/monster_16_reptile_raider.mask.png",
+  "id": "eyes/monster_16_reptile_raider",
+  "files": [
+    "eyes/monster_16_reptile_raider.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

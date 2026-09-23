@@ -1,0 +1,19 @@
+{
+  "name": "11 Wavy panels",
+  "nodes": [
+    "Hair_11"
+  ],
+  "id": "hair/11_wavy_panels",
+  "files": [
+    "hair/11_wavy_panels.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_11",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

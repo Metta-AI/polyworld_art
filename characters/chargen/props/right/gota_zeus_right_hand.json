@@ -1,0 +1,30 @@
+{
+  "id": "props/right/gota_zeus_right_hand",
+  "name": "Zeus lightning bolt",
+  "files": [
+    "props/right/gota_zeus_right_hand.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_LightningBlade",
+    "Gota_zeus_LightningGrip",
+    "Gota_zeus_LightningCollarTop",
+    "Gota_zeus_LightningCollarBottom",
+    "Gota_zeus_LightningGuard",
+    "Gota_zeus_LightningPommel",
+    "Gota_zeus_LightningGuardWing-1",
+    "Gota_zeus_LightningGuardWing1",
+    "Gota_zeus_LightningGripBand0",
+    "Gota_zeus_LightningGripBand1",
+    "Gota_zeus_LightningGripBand2",
+    "Gota_zeus_LightningGripBand3",
+    "Gota_zeus_LightningTail"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand"
+}

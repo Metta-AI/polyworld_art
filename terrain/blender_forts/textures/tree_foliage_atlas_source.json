@@ -1,0 +1,62 @@
+{
+  "source": "/Users/me/p/output/imagegen/tree-foliage-atlas-v4/tree-foliage-atlas.png",
+  "size": [
+    2048,
+    2048
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "processing": "Rotated the four existing evergreen sprays clockwise so their attachment-to-tip axes point vertically downward. Aligned their attachment points to each tile center. Used proportional fitting and retained the existing color ramp and alpha transparency.",
+  "evergreenTiles": [
+    {
+      "column": 1,
+      "clockwiseRotationDegrees": 18.97,
+      "attachmentXWithinCell": 256.0,
+      "bounds": [
+        40,
+        40,
+        449,
+        403
+      ]
+    },
+    {
+      "column": 2,
+      "clockwiseRotationDegrees": 39.01,
+      "attachmentXWithinCell": 255.56,
+      "bounds": [
+        123,
+        40,
+        363,
+        472
+      ]
+    },
+    {
+      "column": 3,
+      "clockwiseRotationDegrees": 32.71,
+      "attachmentXWithinCell": 256.28,
+      "bounds": [
+        133,
+        40,
+        358,
+        472
+      ]
+    },
+    {
+      "column": 4,
+      "clockwiseRotationDegrees": 33.8,
+      "attachmentXWithinCell": 255.8,
+      "bounds": [
+        133,
+        40,
+        405,
+        472
+      ]
+    }
+  ]
+}

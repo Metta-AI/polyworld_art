@@ -1,0 +1,262 @@
+[
+  {
+    "category": "Chest",
+    "id": "clothing/torsos/gota_zeus_chest",
+    "name": "Zeus tunic",
+    "files": [
+      "clothing/torsos/gota_zeus_chest.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_TunicShell",
+      "Gota_zeus_LapelGold-1",
+      "Gota_zeus_LapelBlue-1",
+      "Gota_zeus_Shoulder-1Round",
+      "Gota_zeus_Shoulder-1Eagle",
+      "Gota_zeus_ShoulderBlue-1",
+      "Gota_zeus_Cuff-1",
+      "Gota_zeus_CuffRim-10",
+      "Gota_zeus_CuffRim-11",
+      "Gota_zeus_CuffGemRim-1",
+      "Gota_zeus_CuffGem-1",
+      "Gota_zeus_LapelGold1",
+      "Gota_zeus_LapelBlue1",
+      "Gota_zeus_Shoulder1Round",
+      "Gota_zeus_Shoulder1Eagle",
+      "Gota_zeus_ShoulderBlue1",
+      "Gota_zeus_Cuff1",
+      "Gota_zeus_CuffRim10",
+      "Gota_zeus_CuffRim11",
+      "Gota_zeus_CuffGemRim1",
+      "Gota_zeus_CuffGem1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Belt",
+    "id": "clothing/belts/gota_zeus_belt",
+    "name": "Zeus belt",
+    "files": [
+      "clothing/belts/gota_zeus_belt.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_BeltLeather",
+      "Gota_zeus_BeltRim0",
+      "Gota_zeus_BeltRim1",
+      "Gota_zeus_BeltBuckleRound",
+      "Gota_zeus_BeltBuckleEagle",
+      "Gota_zeus_BeltLoop-1",
+      "Gota_zeus_BeltLoop1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Back",
+    "id": "clothing/backs/gota_zeus_back",
+    "name": "Zeus cape",
+    "files": [
+      "clothing/backs/gota_zeus_back.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_Cape"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Headgear",
+    "id": "hats/gota_zeus_headgear",
+    "name": "Zeus laurel crown",
+    "files": [
+      "hats/gota_zeus_headgear.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_laurel_band",
+      "Gota_zeus_laurel_stem_-1",
+      "Gota_zeus_laurel_-1_0",
+      "Gota_zeus_laurel_-1_1",
+      "Gota_zeus_laurel_-1_2",
+      "Gota_zeus_laurel_-1_3",
+      "Gota_zeus_laurel_stem_1",
+      "Gota_zeus_laurel_1_0",
+      "Gota_zeus_laurel_1_1",
+      "Gota_zeus_laurel_1_2",
+      "Gota_zeus_laurel_1_3",
+      "Gota_zeus_gem_mount",
+      "Gota_zeus_blue_gem"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Hair",
+    "id": "hair/gota_zeus_hair",
+    "name": "Zeus hair",
+    "files": [
+      "hair/gota_zeus_hair.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_flowing_hair"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Beard",
+    "id": "beards/gota_zeus_beard",
+    "name": "Zeus beard",
+    "files": [
+      "beards/gota_zeus_beard.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_tapered_beard"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Leg",
+    "id": "clothing/pants/gota_zeus_leg",
+    "name": "Zeus skirt",
+    "files": [
+      "clothing/pants/gota_zeus_leg.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_PleatedSkirt",
+      "Gota_zeus_SkirtUndercloth",
+      "Gota_zeus_PointedTabard",
+      "Gota_zeus_BlueSkirtFall-1",
+      "Gota_zeus_HipBlueDrape-1",
+      "Gota_zeus_BlueSkirtFall1",
+      "Gota_zeus_HipBlueDrape1"
+    ],
+    "hides": [
+      "GotaSkinLower"
+    ],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Foot",
+    "id": "clothing/boots/gota_zeus_foot",
+    "name": "Zeus sandals",
+    "files": [
+      "clothing/boots/gota_zeus_foot.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_GoldGreave-1",
+      "Gota_zeus_GreaveRim-10",
+      "Gota_zeus_GreaveRim-11",
+      "Gota_zeus_ShinRidge-1",
+      "Gota_zeus_KneeGemGold-1",
+      "Gota_zeus_KneeGem-1",
+      "Gota_zeus_SandalSole-1",
+      "Gota_zeus_SandalStrap-10",
+      "Gota_zeus_SandalStrap-11",
+      "Gota_zeus_GoldGreave1",
+      "Gota_zeus_GreaveRim10",
+      "Gota_zeus_GreaveRim11",
+      "Gota_zeus_ShinRidge1",
+      "Gota_zeus_KneeGemGold1",
+      "Gota_zeus_KneeGem1",
+      "Gota_zeus_SandalSole1",
+      "Gota_zeus_SandalStrap10",
+      "Gota_zeus_SandalStrap11"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": []
+  },
+  {
+    "category": "Right hand",
+    "id": "props/right/gota_zeus_right_hand",
+    "name": "Zeus lightning bolt",
+    "files": [
+      "props/right/gota_zeus_right_hand.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_LightningBlade",
+      "Gota_zeus_LightningGrip",
+      "Gota_zeus_LightningCollarTop",
+      "Gota_zeus_LightningCollarBottom",
+      "Gota_zeus_LightningGuard",
+      "Gota_zeus_LightningPommel",
+      "Gota_zeus_LightningGuardWing-1",
+      "Gota_zeus_LightningGuardWing1",
+      "Gota_zeus_LightningGripBand0",
+      "Gota_zeus_LightningGripBand1",
+      "Gota_zeus_LightningGripBand2",
+      "Gota_zeus_LightningGripBand3",
+      "Gota_zeus_LightningTail"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "RightHand"
+  },
+  {
+    "category": "Left hand",
+    "id": "props/left/gota_zeus_left_hand",
+    "name": "Zeus lightning orb",
+    "files": [
+      "props/left/gota_zeus_left_hand.glb"
+    ],
+    "nodes": [
+      "Gota_zeus_LightningSpellHeart",
+      "Gota_zeus_LightningSpellGold",
+      "Gota_zeus_LightningSpellBlue-1",
+      "Gota_zeus_LightningSpellBlue1"
+    ],
+    "hides": [],
+    "alignment": "both",
+    "singleFile": true,
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "attachmentBone": "LeftHand"
+  }
+]

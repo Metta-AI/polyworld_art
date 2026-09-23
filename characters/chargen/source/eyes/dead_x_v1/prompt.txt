@@ -1,0 +1,9 @@
+Generated with the built-in image_gen tool.
+
+Use case: stylized-concept
+Asset type: transparent PNG eye decal for a cute stylized low-poly fantasy character game.
+Primary request: Exactly one PAIR of classic cartoon dead X eyes. Just two small bold dark charcoal X marks, no face. Each X is two clean diagonal strokes with subtly rounded hand-drawn ends. Simple, confident, slightly playful shapes that read instantly at small game sizes. Both marks are equal size and level with one another, separated naturally like a pair of eyes.
+Composition: Wide 2:1 landscape image. The left X is centered at 25% canvas width, the right X at 75% width, both at 50% height. Each X is roughly 25% of canvas width and 50% of canvas height, with generous transparent margins. Balanced almost symmetric pair, front view.
+Color: Flat near-black charcoal (#24211f), solid interiors, clean antialiased silhouette.
+Background: genuinely transparent alpha, with no painted checkerboard.
+Constraints: Only the two X eye marks. No eye whites, irises, pupils, eyelids, brows, outlines around eyes, circles, face, skin, text, labels, shadow, glow, gradient, lighting, 3D bevel, or other objects.

@@ -1,0 +1,14 @@
+{
+  "name": "03 Neutral",
+  "nodes": [
+    "Mouth_Atlas03"
+  ],
+  "id": "mouths/03_neutral",
+  "files": [
+    "mouths/03_neutral.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/03_neutral.png"
+}

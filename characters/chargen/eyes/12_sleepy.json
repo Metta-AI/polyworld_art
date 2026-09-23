@@ -1,0 +1,15 @@
+{
+  "name": "12 Sleepy",
+  "nodes": [
+    "Eyes_Atlas12"
+  ],
+  "id": "eyes/12_sleepy",
+  "files": [
+    "eyes/12_sleepy.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/12_sleepy.mask.png",
+  "texture": "eyes/12_sleepy.png"
+}

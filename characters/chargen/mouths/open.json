@@ -1,0 +1,13 @@
+{
+  "name": "Open",
+  "nodes": [
+    "Mouth_Open"
+  ],
+  "id": "mouths/open",
+  "files": [
+    "mouths/open.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": []
+}

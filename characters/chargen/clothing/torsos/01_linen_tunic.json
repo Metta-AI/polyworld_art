@@ -1,0 +1,22 @@
+{
+  "name": "01 Linen tunic",
+  "nodes": [
+    "Clothing_01"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/torsos/01_linen_tunic",
+  "files": [
+    "clothing/torsos/01_linen_tunic.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_01",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

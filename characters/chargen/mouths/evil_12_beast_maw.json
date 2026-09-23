@@ -1,0 +1,14 @@
+{
+  "name": "Evil 12 Beast maw",
+  "nodes": [
+    "Mouth_Evil12"
+  ],
+  "texture": "mouths/evil_12_beast_maw.png",
+  "id": "mouths/evil_12_beast_maw",
+  "files": [
+    "mouths/evil_12_beast_maw.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

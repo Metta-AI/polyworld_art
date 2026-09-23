@@ -1,0 +1,2022 @@
+{
+  "factions": [
+    "PeterRiver",
+    "Amethyst"
+  ],
+  "players": [
+    [
+      {
+        "kind": "PeonUnit",
+        "preset": {
+          "name": "LvD Peon A",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "05 Ochre tunic",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "09 Brown trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "16 Folded travel boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Simple leather belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "SoldierUnit",
+        "preset": {
+          "name": "LvD Swordsman A",
+          "pose": "Sword_Idle",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "04 Red work shirt",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "09 Brown trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "16 Folded travel boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Vanguard sword",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Simple leather belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "ArcherUnit",
+        "preset": {
+          "name": "LvD Archer A",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "Ranger fitted hood",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Ranger tunic and cape",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "Ranger light quiver",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Ranger trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Ranger cuff boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "Ranger bow",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Ranger arrow",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Ranger buckle belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "MageUnit",
+        "preset": {
+          "name": "LvD Mage A",
+          "pose": "Spell_Simple_Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Gota Arcanist violet robe",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Gota Arcanist leggings",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Gota Arcanist boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Arcanist staff",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Gota Arcanist amethyst belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "KnightUnit",
+        "preset": {
+          "name": "LvD Armored knight A",
+          "pose": "Sword_Idle",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "Vanguard Knight helmet",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Vanguard Knight body",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Vanguard Knight legs",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Vanguard Knight boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "Vanguard shield",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Vanguard sword",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Vanguard Knight belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "CatapultUnit",
+        "preset": {
+          "name": "LvD Sapper / bomber A",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "Gota Crossbowman hood",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Gota Crossbowman leather tunic",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Gota Crossbowman trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Gota Crossbowman boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Medieval crossbow",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Gota Crossbowman belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "ClericUnit",
+        "preset": {
+          "name": "LvD Cleric A",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 1,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "01 Bright",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "01 Relaxed smile",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Round",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Gota Druid Warden bark mantle",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Gota Druid Warden leaf skirt",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Gota Druid Warden boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "Druid orb",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Druid staff",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Gota Druid Warden hexagon belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "SummonUnit",
+        "preset": {
+          "name": "LvD Fire elemental A",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Blue",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 0,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        },
+        "skinRgb": [
+          1.0,
+          0.36,
+          0.02
+        ]
+      }
+    ],
+    [
+      {
+        "kind": "PeonUnit",
+        "preset": {
+          "name": "LvD Peon B",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "05 Ochre tunic",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "09 Brown trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "16 Folded travel boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Simple leather belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "SoldierUnit",
+        "preset": {
+          "name": "LvD Swordsman B",
+          "pose": "Sword_Idle",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "04 Red work shirt",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "09 Brown trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "16 Folded travel boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Vanguard sword",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Simple leather belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "ArcherUnit",
+        "preset": {
+          "name": "LvD Archer B",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "Ranger fitted hood",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Ranger tunic and cape",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "Ranger light quiver",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Ranger trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Ranger cuff boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "Ranger bow",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Ranger arrow",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Ranger buckle belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "MageUnit",
+        "preset": {
+          "name": "LvD Mage B",
+          "pose": "Spell_Simple_Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Gota Arcanist violet robe",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Gota Arcanist leggings",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Gota Arcanist boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Arcanist staff",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Gota Arcanist amethyst belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "KnightUnit",
+        "preset": {
+          "name": "LvD Armored knight B",
+          "pose": "Sword_Idle",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "Vanguard Knight helmet",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Vanguard Knight body",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Vanguard Knight legs",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Vanguard Knight boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "Vanguard shield",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Vanguard sword",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Vanguard Knight belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "CatapultUnit",
+        "preset": {
+          "name": "LvD Sapper / bomber B",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "Gota Crossbowman hood",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Gota Crossbowman leather tunic",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Gota Crossbowman trousers",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Gota Crossbowman boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Medieval crossbow",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Gota Crossbowman belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "ClericUnit",
+        "preset": {
+          "name": "LvD Cleric B",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 3,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Gota base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "06 Fierce",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "Evil 09 Orc sneer",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "Tiny",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "Elf",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "02 Confident",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "Gota Druid Warden bark mantle",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "Gota Druid Warden leaf skirt",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "Gota Druid Warden boots",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "Druid orb",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "Druid staff",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "Gota Druid Warden hexagon belt",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "SummonUnit",
+        "preset": {
+          "name": "LvD Fire elemental B",
+          "pose": "Idle_Loop",
+          "group": "LvD review",
+          "hairColor": "Dark brown",
+          "pupilColor": "Amber",
+          "hatColor": "Red",
+          "lineupHidden": false,
+          "skin": 0,
+          "parts": [
+            {
+              "category": "Body",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Face",
+              "item": "Base",
+              "rgb": []
+            },
+            {
+              "category": "Eyes",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Mouth",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Nose",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Ears",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Brow",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hair",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Beard",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Earring",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Eyewear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Headgear",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Chest",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Back",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Leg",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Foot",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Left hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Right hand",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Jacket",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Belt",
+              "item": "None",
+              "rgb": []
+            },
+            {
+              "category": "Suspenders",
+              "item": "None",
+              "rgb": []
+            }
+          ]
+        },
+        "skinRgb": [
+          1.0,
+          0.36,
+          0.02
+        ]
+      }
+    ]
+  ]
+}

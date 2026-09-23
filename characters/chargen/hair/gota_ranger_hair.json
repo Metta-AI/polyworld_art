@@ -1,0 +1,17 @@
+{
+  "id": "hair/gota_ranger_hair",
+  "name": "Ranger hood braids",
+  "files": [
+    "hair/gota_ranger_hair.glb"
+  ],
+  "nodes": [
+    "Gota_ranger_HoodBraids"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

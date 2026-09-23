@@ -1,0 +1,34 @@
+{
+  "id": "clothing/boots/gota_zeus_foot",
+  "name": "Zeus sandals",
+  "files": [
+    "clothing/boots/gota_zeus_foot.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_GoldGreave-1",
+    "Gota_zeus_GreaveRim-10",
+    "Gota_zeus_GreaveRim-11",
+    "Gota_zeus_ShinRidge-1",
+    "Gota_zeus_KneeGemGold-1",
+    "Gota_zeus_KneeGem-1",
+    "Gota_zeus_SandalSole-1",
+    "Gota_zeus_SandalStrap-10",
+    "Gota_zeus_SandalStrap-11",
+    "Gota_zeus_GoldGreave1",
+    "Gota_zeus_GreaveRim10",
+    "Gota_zeus_GreaveRim11",
+    "Gota_zeus_ShinRidge1",
+    "Gota_zeus_KneeGemGold1",
+    "Gota_zeus_KneeGem1",
+    "Gota_zeus_SandalSole1",
+    "Gota_zeus_SandalStrap10",
+    "Gota_zeus_SandalStrap11"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

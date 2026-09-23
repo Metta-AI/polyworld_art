@@ -1,0 +1,15 @@
+{
+  "name": "Monster 07 Cursed goat",
+  "nodes": [
+    "Eyes_Monster07"
+  ],
+  "texture": "eyes/monster_07_cursed_goat.png",
+  "pupilMask": "eyes/monster_07_cursed_goat.mask.png",
+  "id": "eyes/monster_07_cursed_goat",
+  "files": [
+    "eyes/monster_07_cursed_goat.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

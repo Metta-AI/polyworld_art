@@ -1,0 +1,12 @@
+Use case: stylized-concept
+Asset type: modular low-poly game clothing reference sheet for Polyworld character modeling.
+Primary request: Isolate the clothing of the DEMON HUNTER, the FIFTH character in the TOP ROW of the attached approved roster, as five separate wearable items with front and back views in one image. Match that character very closely.
+Input image: approved roster, character identity and solid-color low-poly style reference.
+Composition: clean portrait sheet, exactly five rows and two columns. Top headers FRONT and BACK; row labels BOOTS, LEGS, BELT, BODY, HAT. Equal cells, neutral warm-gray background, centered standalone garments with no body or mannequin inside. Front and back of the identical garment beside each other.
+BOOTS: charcoal low-poly boots, angular toes, broad dark brown folded shin cuffs.
+LEGS: dark charcoal fitted trousers with angular layered charcoal leather hip panels, no belt and no boots.
+BELT: broad dark charcoal brown belt with small square silver open buckle. A narrow crimson front hanging tabard is attached to this belt, ends in two angular points; back has simple solid leather strap, no tabard.
+BODY: sleeveless charcoal tunic with crossing dark brown leather chest straps, open armholes, crimson neck scarf with an angular triangular front fold. Include detached short dark charcoal forearm bracers aligned where wrists would be, as part of body clothing assembly. No skin, arms, hands or torso mannequin.
+HAT: the crimson cloth eye-covering blindfold only, wrapping around a large chibi head shape with faceted folded band; back shows a small tied fabric knot and short ends. No face and no hair: hair is a separately reused component.
+Style: simple faceted low polygon meshes, flat solid colored matte surfaces, visible geometric facets, toy-like fantasy MMO asset. No image texture, no grunge, no painted surface details.
+Constraints: no weapons, shields, blades, carried objects, equipment props, skin, body parts, mannequin, full character, modern goggles, hats besides the blindfold, no invented ornaments. Keep the same Demon Hunter palette and clothing design from the attached roster.

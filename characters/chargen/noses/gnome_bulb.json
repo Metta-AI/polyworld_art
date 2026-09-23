@@ -1,0 +1,16 @@
+{
+  "name": "Gnome bulb",
+  "nodes": [
+    "Nose_Gnome"
+  ],
+  "skinNodes": [
+    "Nose_Gnome"
+  ],
+  "singleFile": true,
+  "alignment": "gnome",
+  "id": "noses/gnome_bulb",
+  "files": [
+    "noses/gnome_bulb.glb"
+  ],
+  "hairShades": []
+}

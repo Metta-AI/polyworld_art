@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Vanguard Knight",
+    "slug": "vanguard_knight",
+    "equipmentTriangles": 2192,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Vanguard sword",
+        "slot": "Right hand",
+        "triangles": 666,
+        "bone": "RightHand",
+        "file": "props/right/gota_vanguard_knight_right_hand.glb",
+        "sha256": "27d404305476a5f9f7efd29d8f4e7a1652ea5c8fc646b2285e7a950648c15838"
+      },
+      {
+        "name": "Vanguard shield",
+        "slot": "Left hand",
+        "triangles": 1526,
+        "bone": "LeftForeArm",
+        "file": "props/left/gota_vanguard_knight_left_hand.glb",
+        "sha256": "b9b4ebbbdd086421988d0d8f19b344729bc9c5f101bde1c71e04a525367cd2bf"
+      }
+    ]
+  },
+  {
+    "name": "Ranger",
+    "slug": "ranger",
+    "equipmentTriangles": 2148,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Ranger bow",
+        "slot": "Left hand",
+        "triangles": 1276,
+        "bone": "LeftHand",
+        "file": "props/left/gota_ranger_left_hand.glb",
+        "sha256": "3564b77f502eb4e14b74f115e29727ffc6876a86369755c723dd320a08b7212f"
+      },
+      {
+        "name": "Ranger arrow",
+        "slot": "Right hand",
+        "triangles": 68,
+        "bone": "RightHand",
+        "file": "props/right/gota_ranger_right_hand.glb",
+        "sha256": "449f151ba83e8bf86d574e335ba4ebb91745f14eabb33d7b40daa036d6cfc0b9"
+      },
+      {
+        "name": "Ranger light quiver",
+        "slot": "Back",
+        "triangles": 804,
+        "bone": "Spine2",
+        "file": "clothing/backs/gota_ranger_back.glb",
+        "sha256": "a146bbb1c7df1fb45c2616ad03a998016efb0a8d4e222a3a9fe8107981d1091f"
+      }
+    ]
+  },
+  {
+    "name": "Arcanist",
+    "slug": "arcanist",
+    "equipmentTriangles": 984,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Arcanist staff",
+        "slot": "Right hand",
+        "triangles": 744,
+        "bone": "RightHand",
+        "file": "props/right/gota_arcanist_right_hand.glb",
+        "sha256": "7a6fbd8011111205ea5d527693f07813e684e541c46e03a5af77721ac0adf0a7"
+      },
+      {
+        "name": "Arcanist orbs",
+        "slot": "Left hand",
+        "triangles": 240,
+        "bone": "LeftHand",
+        "file": "props/left/gota_arcanist_left_hand.glb",
+        "sha256": "04376be311dfc5a0a4489529405470f2751e11c476ef0da74e2519e5d8121348"
+      }
+    ]
+  },
+  {
+    "name": "Druid Warden",
+    "slug": "druid_warden",
+    "equipmentTriangles": 2216,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Druid staff",
+        "slot": "Right hand",
+        "triangles": 1572,
+        "bone": "RightHand",
+        "file": "props/right/gota_druid_warden_right_hand.glb",
+        "sha256": "93fce2dfff7a7899f9feb3b921a71fd5a335906a8805ea3398d4264ea8dd006d"
+      },
+      {
+        "name": "Druid orb",
+        "slot": "Left hand",
+        "triangles": 644,
+        "bone": "LeftHand",
+        "file": "props/left/gota_druid_warden_left_hand.glb",
+        "sha256": "7c7c20a175542652ea376bb533f7bfe762b770e3845432506512462ef302e4a6"
+      }
+    ]
+  },
+  {
+    "name": "Demon Hunter",
+    "slug": "demon_hunter",
+    "equipmentTriangles": 1752,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Demon Hunter dagger",
+        "slot": "Right hand",
+        "triangles": 876,
+        "bone": "RightHand",
+        "file": "props/right/gota_demon_hunter_right_hand.glb",
+        "sha256": "7aaff0377e1cf8a025f5a0863078419f7f370a5877bf1f32a8d79865dbf8b0a7"
+      },
+      {
+        "name": "Demon Hunter dagger",
+        "slot": "Left hand",
+        "triangles": 876,
+        "bone": "LeftHand",
+        "file": "props/left/gota_demon_hunter_left_hand.glb",
+        "sha256": "3ca65b45aba9636b2c685befef34848dba0a652ac1d4059438e5fcc776246b4e"
+      }
+    ]
+  },
+  {
+    "name": "Death Knight",
+    "slug": "death_knight",
+    "equipmentTriangles": 2408,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Death Knight sword",
+        "slot": "Right hand",
+        "triangles": 882,
+        "bone": "RightHand",
+        "file": "props/right/gota_death_knight_right_hand.glb",
+        "sha256": "9ed7abbdb9e76c9c66bceb80e3b81dee23728232dce24f76b52a9b611902545c"
+      },
+      {
+        "name": "Death Knight shield",
+        "slot": "Left hand",
+        "triangles": 1526,
+        "bone": "LeftForeArm",
+        "file": "props/left/gota_death_knight_left_hand.glb",
+        "sha256": "e133c0012f3a33a6371262f0c4461b3cca1ed26e4b93160df014d63683da4cba"
+      }
+    ]
+  },
+  {
+    "name": "Crossbowman",
+    "slug": "crossbowman",
+    "equipmentTriangles": 3940,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Medieval crossbow",
+        "slot": "Right hand",
+        "triangles": 2080,
+        "bone": "RightHand",
+        "file": "props/right/gota_crossbowman_right_hand.glb",
+        "sha256": "5208bbe262d2776578bceeb6de37235628f5cdf9ebdceb48ad6beacfad2dc4a0"
+      },
+      {
+        "name": "Heavy bolt quiver",
+        "slot": "Back",
+        "triangles": 1860,
+        "bone": "Spine2",
+        "file": "clothing/backs/gota_crossbowman_back.glb",
+        "sha256": "46b812c77c233025133a0e1790cbef5ad1f3be329e7ded8bb15bce7f80173f16"
+      }
+    ]
+  },
+  {
+    "name": "Lich",
+    "slug": "lich",
+    "equipmentTriangles": 792,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Lich staff",
+        "slot": "Right hand",
+        "triangles": 712,
+        "bone": "RightHand",
+        "file": "props/right/gota_lich_right_hand.glb",
+        "sha256": "a767ecc2bdf6fdab327282074aae2e310adff35b5846e2310f149f777b25def3"
+      },
+      {
+        "name": "Lich orb",
+        "slot": "Left hand",
+        "triangles": 80,
+        "bone": "LeftHand",
+        "file": "props/left/gota_lich_left_hand.glb",
+        "sha256": "8f619372bf122b37bd3031f830a99023c2038c4c80170bdf0043dd2d752f556b"
+      }
+    ]
+  },
+  {
+    "name": "Warlock",
+    "slug": "warlock",
+    "equipmentTriangles": 4700,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Warlock staff",
+        "slot": "Right hand",
+        "triangles": 1588,
+        "bone": "RightHand",
+        "file": "props/right/gota_warlock_right_hand.glb",
+        "sha256": "4235b162c7b16b61718f30bfb0d5251259ca961c5a422dea1cd16ed1f17737e9"
+      },
+      {
+        "name": "Warlock censer",
+        "slot": "Left hand",
+        "triangles": 3112,
+        "bone": "LeftHand",
+        "file": "props/left/gota_warlock_left_hand.glb",
+        "sha256": "871b0a20db3f438f74d9f215744772d6a54d501585793eb7c7dc36d44c143ca5"
+      }
+    ]
+  },
+  {
+    "name": "Berserker",
+    "slug": "berserker",
+    "equipmentTriangles": 1600,
+    "triangleLimitExclusive": 5000,
+    "normalizedRigidWeights": true,
+    "textureFree": true,
+    "sharedRig": true,
+    "items": [
+      {
+        "name": "Berserker axe",
+        "slot": "Right hand",
+        "triangles": 800,
+        "bone": "RightHand",
+        "file": "props/right/gota_berserker_right_hand.glb",
+        "sha256": "b3a0b920b1583b62ade87bae17fdc5499f8d8205aa495624dc8e855243a000b8"
+      },
+      {
+        "name": "Berserker axe",
+        "slot": "Left hand",
+        "triangles": 800,
+        "bone": "LeftHand",
+        "file": "props/left/gota_berserker_left_hand.glb",
+        "sha256": "681ed334d6433f87606c84ffd632e14a2f56749c9e5c8da10c223f29d738cf1a"
+      }
+    ]
+  }
+]

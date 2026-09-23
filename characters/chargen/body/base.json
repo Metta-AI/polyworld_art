@@ -1,0 +1,27 @@
+{
+  "name": "Base",
+  "nodes": [
+    "Body",
+    "Hand.Left",
+    "Hand.Right",
+    "Foot.Left",
+    "Foot.Right"
+  ],
+  "id": "body/base",
+  "files": [
+    "body/body.glb",
+    "body/hand_left.glb",
+    "body/hand_right.glb",
+    "body/foot_left.glb",
+    "body/foot_right.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [
+    "Body",
+    "Hand.Left",
+    "Hand.Right",
+    "Foot.Left",
+    "Foot.Right"
+  ],
+  "hairShades": []
+}

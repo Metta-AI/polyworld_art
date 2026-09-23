@@ -1,0 +1,14 @@
+{
+  "name": "01 Relaxed smile",
+  "nodes": [
+    "Mouth_Atlas01"
+  ],
+  "id": "mouths/01_relaxed_smile",
+  "files": [
+    "mouths/01_relaxed_smile.glb"
+  ],
+  "alignment": "good",
+  "skinNodes": [],
+  "hairShades": [],
+  "texture": "mouths/01_relaxed_smile.png"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "props/right/gota_lich_right_hand",
+  "name": "Lich staff",
+  "files": [
+    "props/right/gota_lich_right_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_lich_right_hand"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand",
+  "triangles": 712,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

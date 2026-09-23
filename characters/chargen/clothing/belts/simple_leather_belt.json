@@ -1,0 +1,23 @@
+{
+  "name": "Simple leather belt",
+  "nodes": [
+    "Belt_Simple"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "clothShades": [
+    {
+      "node": "Belt_Simple",
+      "primitive": 0,
+      "shade": 1
+    }
+  ],
+  "id": "clothing/belts/simple_leather_belt",
+  "files": [
+    "clothing/belts/simple_leather_belt.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": []
+}

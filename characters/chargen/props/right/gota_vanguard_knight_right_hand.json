@@ -1,0 +1,30 @@
+{
+  "id": "props/right/gota_vanguard_knight_right_hand",
+  "name": "Vanguard sword",
+  "files": [
+    "props/right/gota_vanguard_knight_right_hand.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_vanguard_knight_right_hand"
+  ],
+  "alignment": "good",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "RightHand",
+  "triangles": 666,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true,
+  "attachmentPivot": [
+    -1.13,
+    1.73,
+    0.025
+  ],
+  "attachmentRotation": [
+    55.4,
+    -22.7,
+    72.6
+  ]
+}

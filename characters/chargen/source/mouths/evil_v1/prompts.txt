@@ -1,0 +1,37 @@
+Tool: built-in image_gen.
+
+Use case: stylized-concept.
+Asset type: uncut review sheet of 16 NEW evil and monster mouth decals for our modular chibi fantasy RPG characters.
+Input image 1: the existing mouth sheet is a STYLE REFERENCE ONLY for compact low-polygon shapes, dark cavities, simple teeth, muted tongue tones, and sheet layout. Input image 2: the approved monster eyes is a supporting style reference for how sinister and graphic this matching set should feel. Draw MOUTHS ONLY, no eyes in the new sheet.
+
+Composition: square canvas, EXACTLY FOUR COLUMNS and FOUR ROWS, exactly SIXTEEN isolated mouth designs. Each mouth centered in one equally spaced cell. Generous empty gutters, consistent useful small-character scale. Closed mouths naturally thinner than open mouths. Four designs per row, four rows total, no fifth row. No text, labels, numbers, grid borders, decorations, heads, noses, eyes, skin patches, facial hair, or background props.
+Background: perfectly flat solid vivid pink #FF00FF, fully opaque. Keep this as a single uncut pink sheet for review.
+
+Style: cool, sinister, expressive low-poly game art that matches the provided reference. Crisp slightly polygonal silhouettes, flat matte fills, a few subtle angular shade facets. Dark charcoal-brown mouth strokes and open mouth cavities. Ivory-white teeth with restrained light gray underside shading. Muted dark brick/coral tongues only where useful. Skin-independent decals, no colored skin around the mouths, no fleshy lips. No realistic dental photography, glossy emoji rendering, rendered 3D teeth, gradients on the backdrop, drop shadows, blood, or gore. Broken or missing teeth are clean cartoon shapes. Stitches are simple graphic black threads across a closed mouth, not a realistic wound. Shapes should remain readable on a small face. Tooth edges, fang silhouettes, open versus closed configurations, and expression should vary distinctly, not 16 almost-identical grins.
+
+Design plan, left to right:
+ROW 1 — evil basics:
+1. Closed crooked villain smirk, a short angular dark stroke, no teeth.
+2. Closed hard scowl, tense asymmetrical jagged mouth line, no teeth.
+3. Narrow half-open cruel grin, one thin strip of squared ivory teeth.
+4. Open cackling mouth, upper tooth band and small lower tongue.
+ROW 2 — stitched and damaged:
+5. Sewn-shut straight mouth, five short spaced cross stitches.
+6. Sewn-shut crooked smile, alternating simple diagonal and cross stitches.
+7. Broken-tooth evil grin, a few broad teeth, one missing front tooth and two chipped corners.
+8. Open undead snarl, irregular sparse blunt teeth with clear gaps, dark cavity, clean non-gory cartoon.
+ROW 3 — orc and beast:
+9. Closed orc sneer, two broad upward-curving lower tusks protruding at the corners.
+10. Open orc roar, two large LOWER tusks rising upward, a few chunky upper teeth and a small tongue plane.
+11. Closed goblin grin, irregular triangular teeth and one small uneven lower tusk.
+12. Open beast maw, several bold triangular upper and lower teeth with a readable central dark gap.
+ROW 4 — vampire and demon:
+13. Closed-lip vampire smirk, just two small UPPER fangs pointing downward below the mouth line.
+14. Slightly open vampire grin, broad upper tooth strip with two longer pointed upper canine fangs.
+15. Open vampire hiss, two long downward upper fangs, smaller lower teeth, deep dark cavity.
+16. Wide demon shark-tooth grin, a clean zigzag meeting of upper and lower triangular ivory teeth.
+
+Maintain the exact four-by-four structure, plenty of pink breathing room, distinct closed/open silhouettes, compact decal art with no surrounding skin. Preserve simple readable flat shape language while giving the teeth, tusks, stitches, and fangs real variety. Mouths should feel like companions to the approved monster eyes. Return the whole pink review sheet, not transparent cutouts or character mockups.
+
+BACKGROUND EXTRACTION
+Use case: background-extraction. Input image is the exact approved evil mouth sheet. Remove ONLY the hot pink background and return a genuine transparent RGBA PNG. Keep all sixteen mouths in precisely the same 4 by 4 arrangement, same 1254 by 1254 canvas, exact same silhouettes, colors, positions, sizes, and details. The dark open mouth cavities, black stitched lines, ivory teeth and tusks, white vampire fangs, and muted red tongues must stay fully opaque. Preserve the chipped-tooth gaps and all narrow stitches. No redrawing, no changes, no new outlines, no skin, no checkerboard. Clean alpha zero outside the sprites, solid alpha inside, only narrow antialiased edges and no fringe or stray speckles.

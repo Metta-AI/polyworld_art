@@ -1,0 +1,15 @@
+{
+  "name": "Monster 02 Feral cat",
+  "nodes": [
+    "Eyes_Monster02"
+  ],
+  "texture": "eyes/monster_02_feral_cat.png",
+  "pupilMask": "eyes/monster_02_feral_cat.mask.png",
+  "id": "eyes/monster_02_feral_cat",
+  "files": [
+    "eyes/monster_02_feral_cat.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

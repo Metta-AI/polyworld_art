@@ -1,0 +1,17 @@
+{
+  "id": "hair/gota_crossbowman_hair",
+  "name": "Gota Crossbowman hood fringe",
+  "files": [
+    "hair/gota_crossbowman_hair.glb"
+  ],
+  "nodes": [
+    "Gota_crossbowman_hair"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

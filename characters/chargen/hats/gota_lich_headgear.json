@@ -1,0 +1,17 @@
+{
+  "id": "hats/gota_lich_headgear",
+  "name": "Gota Lich crystal hood",
+  "files": [
+    "hats/gota_lich_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_lich_hood"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

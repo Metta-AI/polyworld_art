@@ -1,0 +1,20 @@
+{
+  "id": "clothing/backs/gota_crossbowman_back",
+  "name": "Heavy bolt quiver",
+  "files": [
+    "clothing/backs/gota_crossbowman_back.glb"
+  ],
+  "nodes": [
+    "GotaWeapon_crossbowman_back"
+  ],
+  "alignment": "evil",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "attachmentBone": "Spine2",
+  "triangles": 1860,
+  "triangleLimitExclusive": 5000,
+  "singleFile": true
+}

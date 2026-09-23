@@ -1,0 +1,17 @@
+{
+  "id": "hair/gota_zeus_hair",
+  "name": "Zeus hair",
+  "files": [
+    "hair/gota_zeus_hair.glb"
+  ],
+  "nodes": [
+    "Gota_zeus_flowing_hair"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

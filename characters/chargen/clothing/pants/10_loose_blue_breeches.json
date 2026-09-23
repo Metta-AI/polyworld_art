@@ -1,0 +1,46 @@
+{
+  "name": "10 Loose blue breeches",
+  "nodes": [
+    "Clothing_10",
+    "Clothing_10_BootCut0",
+    "Clothing_10_BootCut1",
+    "Clothing_10_BootCut2",
+    "Clothing_10_BootCut3"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "singleFile": true,
+  "id": "clothing/pants/10_loose_blue_breeches",
+  "files": [
+    "clothing/pants/10_loose_blue_breeches.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_10",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_10_BootCut0",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_10_BootCut1",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_10_BootCut2",
+      "primitive": 0,
+      "shade": 1
+    },
+    {
+      "node": "Clothing_10_BootCut3",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

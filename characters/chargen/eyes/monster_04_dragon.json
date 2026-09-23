@@ -1,0 +1,15 @@
+{
+  "name": "Monster 04 Dragon",
+  "nodes": [
+    "Eyes_Monster04"
+  ],
+  "texture": "eyes/monster_04_dragon.png",
+  "pupilMask": "eyes/monster_04_dragon.mask.png",
+  "id": "eyes/monster_04_dragon",
+  "files": [
+    "eyes/monster_04_dragon.glb"
+  ],
+  "alignment": "evil",
+  "skinNodes": [],
+  "hairShades": []
+}

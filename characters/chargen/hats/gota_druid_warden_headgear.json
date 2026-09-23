@@ -1,0 +1,24 @@
+{
+  "id": "hats/gota_druid_warden_headgear",
+  "name": "Gota Druid Warden antler crown",
+  "files": [
+    "hats/gota_druid_warden_headgear.glb"
+  ],
+  "nodes": [
+    "Gota_druid_warden_antler_-1",
+    "Gota_druid_warden_antler_outer_-1",
+    "Gota_druid_warden_antler_leaf_-1_0",
+    "Gota_druid_warden_antler_leaf_-1_1",
+    "Gota_druid_warden_antler_1",
+    "Gota_druid_warden_antler_outer_1",
+    "Gota_druid_warden_antler_leaf_1_0",
+    "Gota_druid_warden_antler_leaf_1_1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

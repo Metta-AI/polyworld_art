@@ -1,0 +1,98 @@
+{
+  "name": "Zeus",
+  "group": "Gota Gods",
+  "pose": "A_TPose",
+  "skin": 17,
+  "hairColor": "White",
+  "pupilColor": "Blue",
+  "parts": [
+    {
+      "category": "Eyes",
+      "item": "16 Determined"
+    },
+    {
+      "category": "Mouth",
+      "item": "03 Neutral"
+    },
+    {
+      "category": "Brow",
+      "item": "04 Heroic"
+    },
+    {
+      "category": "Body",
+      "item": "Gota base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Nose",
+      "item": "Tiny"
+    },
+    {
+      "category": "Ears",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "Zeus hair"
+    },
+    {
+      "category": "Beard",
+      "item": "Zeus beard"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "Zeus laurel crown"
+    },
+    {
+      "category": "Chest",
+      "item": "Zeus tunic"
+    },
+    {
+      "category": "Back",
+      "item": "Zeus cape"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "Zeus skirt"
+    },
+    {
+      "category": "Foot",
+      "item": "Zeus sandals"
+    },
+    {
+      "category": "Left hand",
+      "item": "Zeus lightning orb"
+    },
+    {
+      "category": "Right hand",
+      "item": "Zeus lightning bolt"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "Zeus belt"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

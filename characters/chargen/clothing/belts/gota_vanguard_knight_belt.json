@@ -1,0 +1,18 @@
+{
+  "id": "clothing/belts/gota_vanguard_knight_belt",
+  "name": "Vanguard Knight belt",
+  "files": [
+    "clothing/belts/gota_vanguard_knight_belt.glb"
+  ],
+  "nodes": [
+    "Gota_vanguard_knight_Belt",
+    "Gota_vanguard_knight_Buckle"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

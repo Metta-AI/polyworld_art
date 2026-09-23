@@ -1,0 +1,104 @@
+{
+  "name": "Purple Creep",
+  "group": "Gota",
+  "lineupHidden": true,
+  "skinRgb": [
+    0.5137254901960784,
+    0.06274509803921569,
+    0.6235294117647059
+  ],
+  "hairColor": "Caramel",
+  "hatColor": "Green",
+  "pupilColor": "Pure red",
+  "pose": "Sword_Idle",
+  "parts": [
+    {
+      "category": "Body",
+      "item": "Base"
+    },
+    {
+      "category": "Face",
+      "item": "Base"
+    },
+    {
+      "category": "Eyes",
+      "item": "02 Focused"
+    },
+    {
+      "category": "Mouth",
+      "item": "Evil 13 Vampire smirk"
+    },
+    {
+      "category": "Nose",
+      "item": "None"
+    },
+    {
+      "category": "Ears",
+      "item": "Elf"
+    },
+    {
+      "category": "Brow",
+      "item": "None"
+    },
+    {
+      "category": "Hair",
+      "item": "None"
+    },
+    {
+      "category": "Beard",
+      "item": "None"
+    },
+    {
+      "category": "Earring",
+      "item": "None"
+    },
+    {
+      "category": "Eyewear",
+      "item": "None"
+    },
+    {
+      "category": "Headgear",
+      "item": "None"
+    },
+    {
+      "category": "Chest",
+      "item": "None"
+    },
+    {
+      "category": "Back",
+      "item": "None"
+    },
+    {
+      "category": "Hand",
+      "item": "None"
+    },
+    {
+      "category": "Leg",
+      "item": "None"
+    },
+    {
+      "category": "Foot",
+      "item": "None"
+    },
+    {
+      "category": "Left hand",
+      "item": "None"
+    },
+    {
+      "category": "Right hand",
+      "item": "Death Knight sword"
+    },
+    {
+      "category": "Jacket",
+      "item": "None"
+    },
+    {
+      "category": "Belt",
+      "item": "None"
+    },
+    {
+      "category": "Suspenders",
+      "item": "None"
+    }
+  ]
+}

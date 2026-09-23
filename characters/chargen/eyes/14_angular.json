@@ -1,0 +1,15 @@
+{
+  "name": "14 Angular",
+  "nodes": [
+    "Eyes_Atlas14"
+  ],
+  "id": "eyes/14_angular",
+  "files": [
+    "eyes/14_angular.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [],
+  "pupilMask": "eyes/14_angular.mask.png",
+  "texture": "eyes/14_angular.png"
+}

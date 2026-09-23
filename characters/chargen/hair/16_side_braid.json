@@ -1,0 +1,19 @@
+{
+  "name": "16 Side braid",
+  "nodes": [
+    "Hair_16"
+  ],
+  "id": "hair/16_side_braid",
+  "files": [
+    "hair/16_side_braid.glb"
+  ],
+  "alignment": "both",
+  "skinNodes": [],
+  "hairShades": [
+    {
+      "node": "Hair_16",
+      "primitive": 0,
+      "shade": 1.0
+    }
+  ]
+}

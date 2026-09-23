@@ -1,0 +1,29 @@
+{
+  "name": "13 Strapped ankle boots",
+  "nodes": [
+    "Clothing_13"
+  ],
+  "alignment": "both",
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "Clothing_09_BootCut0",
+    "Clothing_10_BootCut0",
+    "Clothing_11_BootCut0",
+    "Clothing_12_BootCut0"
+  ],
+  "singleFile": true,
+  "id": "clothing/boots/13_strapped_ankle_boots",
+  "files": [
+    "clothing/boots/13_strapped_ankle_boots.glb"
+  ],
+  "skinNodes": [],
+  "hairShades": [],
+  "clothShades": [
+    {
+      "node": "Clothing_13",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}
