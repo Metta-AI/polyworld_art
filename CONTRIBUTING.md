@@ -32,5 +32,4 @@ Third-party contributions retain their documented licenses. Do not impose
 additional restrictions on copies already distributed under open terms.
 
 Maintainers must review the source record and binary changes, not just accept
-updated hashes. Keep this repository private until the owner explicitly
-authorizes publication.
+updated hashes.

@@ -11,9 +11,8 @@ No Unity Asset Store content, noncommercial assets, engine-only licenses,
 personal-use-only assets, or assets with unresolved provenance belong here.
 Being free to download is not enough.
 
-**The repository is private during preparation. Keep it private until the
-owner explicitly authorizes publication.** The open licenses describe reuse
-rights in the files. They do not mean the repository is already public.
+This repository is public. Anyone can download and reuse the assets under
+their stated open licenses.
 
 ## Free now and in the future
 
@@ -56,14 +55,14 @@ Clone this repository beside `polyworld`:
 
 ```sh
 git lfs install
-git clone git@github.com:metta-ai/polyworld_art.git
+git clone https://github.com/Metta-AI/polyworld_art.git
 git -C polyworld_art lfs pull
 ```
 
 The games load `../polyworld_art` when run from the `polyworld` directory.
 Browser builds mount selected assets at `/polyworld_art`. The optional
 `POLYWORLD_ART` environment variable selects the browser build's source
-directory. A private clone requires authorized GitHub access.
+directory. Cloning over HTTPS does not require a GitHub account.
 
 ## Verify a checkout
 
