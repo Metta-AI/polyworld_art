@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="124" viewBox="0 0 90 124">
+
+<linearGradient gradientUnits="userSpaceOnUse" id="base" x1="0" y1="0" x2="90" y2="124"><stop offset="0" stop-color="#602b2a"/><stop offset="1" stop-color="#12191d"/></linearGradient>
+<path d="M45 5L81 20L78 73Q73 96 45 117Q17 96 12 73L9 20Z" fill="#030709" opacity=".65" transform="translate(0 5)"/>
+<path d="M45 3L84 18L80 74Q73 100 45 120Q17 100 10 74L6 18Z" fill="#32271c" stroke="#d1b276" stroke-width="2"/>
+<path d="M45 10L76 23L72 72Q67 91 45 109Q23 91 18 72L14 23Z" fill="url(#base)" stroke="#90754b" stroke-width="1.5"/>
+<path d="M45 13V105" stroke="#f2d89c" opacity=".12"/>
+
+<path d="M45 24L51 36L48 77H42L39 36Z" fill="#f2dfae" stroke="#8e713f"/>
+<path d="M45 28V76" stroke="#fff3cf"/><path d="M30 73L45 76L60 73L59 79L48 82V95H42V82L31 79Z" fill="#c09a55" stroke="#eed59c"/>
+<path d="M40 97L45 91L50 97L45 102Z" fill="#d8b674"/>
+
+</svg>

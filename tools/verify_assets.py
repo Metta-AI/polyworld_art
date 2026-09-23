@@ -17,7 +17,7 @@ Retired = (
   'characters/rpg_monsters/', 'terrain/handpainted_trees/',
   'terrain/cartoon_textures/', 'terrain/toon_enchanted_meadow/',
   'terrain/toon_golden_valley/', 'terrain/tower_defense_kit',
-  'awm/', 'cogcraft/', 'sounds/', 'themes/heartleaf/',
+  'cogcraft/', 'sounds/', 'themes/heartleaf/',
 )
 ReviewedRestorations = {
   'themes/heartleaf/heartleaf_logo.png', 'themes/heartleaf/license.md',

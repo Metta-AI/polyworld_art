@@ -62,3 +62,17 @@ preserved. Filenames and prompt terminology now use the generic cartoon
 water name. The edited prompt notes state that they are not a verbatim
 archive. The shader and procedural generator remain in Polyworld under MIT.
 See `terrain/cartoon_water/license.md` for the creation process and notices.
+
+## AWM import
+
+The Archers Warriors Mages runtime artwork was added on 2026-09-23 into
+`awm/` from `Metta-AI/polyworld-data` commit `d82697d` and the author's
+uncommitted battlefield material. No earlier revisions were imported. This
+reverses the earlier AWM exclusion for the reviewed files only.
+
+The collection contains 20 generated card illustrations, three generated
+VFX sprites, a generated stone normal and three textures prepared from it,
+project-authored SVG frames, symbols and HUD, prompts, READMEs and the
+unmodified OFL Grenze fonts. Image bytes were preserved. Previews, videos,
+the war-room proposal and unreferenced loose images were excluded. See
+`licenses/awm.md` for the creation process and notices.

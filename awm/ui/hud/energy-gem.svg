@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+
+<linearGradient id="glow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="33" y2="33"><stop offset="0" stop-color="#46efeb" stop-opacity=".4"/><stop offset="1" stop-color="#1e8f9e" stop-opacity="0"/></linearGradient>
+<linearGradient id="gem" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="33" y2="33"><stop offset="0" stop-color="#d4ffff"/><stop offset=".27" stop-color="#74e8e7"/><stop offset=".6" stop-color="#187f8c"/><stop offset="1" stop-color="#113139"/></linearGradient>
+<circle cx="16.5" cy="16.5" r="16.5" fill="url(#glow)"/><circle cx="16.5" cy="16.5" r="11" fill="url(#gem)" stroke="#9ee4df" stroke-width="1.2"/>
+<path d="M11 13Q12 9 17 9" fill="none" stroke="#effff9" opacity=".8"/>
+</svg>

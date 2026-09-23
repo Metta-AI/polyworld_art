@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104" height="104" viewBox="0 0 104 104">
+
+<linearGradient gradientUnits="userSpaceOnUse" id="heart" x1="0" y1="0" x2="31.2" y2="104"><stop offset="0" stop-color="#af4b45"/><stop offset=".38" stop-color="#742b2a"/><stop offset="1" stop-color="#34181c"/></linearGradient>
+<path d="M52 24C27-1 1 17 8 43C12 59 31 77 52 95C73 77 92 59 96 43C103 17 77-1 52 24Z" fill="#020508" opacity=".65" transform="translate(0 4)"/>
+<path d="M52 24C27-1 1 17 8 43C12 59 31 77 52 95C73 77 92 59 96 43C103 17 77-1 52 24Z" fill="url(#heart)" stroke="#d4b27a" stroke-width="2.5"/>
+<path d="M52 30C31 6 10 21 15 43C20 58 34 71 52 86C70 71 84 58 89 43C94 21 73 6 52 30Z" fill="none" stroke="#ebbb94" opacity=".4"/>
+<path d="M20 30C23 22 33 21 39 25" fill="none" stroke="#f0ad8b" stroke-width="2" opacity=".5"/>
+</svg>

@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="112" viewBox="0 0 860 112">
+<linearGradient gradientUnits="userSpaceOnUse" id="notice" x1="0" y1="0" x2="0" y2="112"><stop offset="0" stop-color="#182427"/><stop offset="0.5" stop-color="#111b1f"/><stop offset="1" stop-color="#0a1116"/></linearGradient><path d="M22 5H838L855 22V90L838 107H22L5 90V22Z" fill="#000" opacity=".4" transform="translate(0 4)"/><path d="M22 5H838L855 22V90L838 107H22L5 90V22Z" fill="url(#notice)" stroke="#a48652" stroke-width="1.4"/><path d="M25 10H835L849 25V87L835 102H25L11 87V25Z" fill="none" stroke="#52462f"/><path d="M29 14H94M766 14H831M29 98H94M766 98H831" stroke="#ccae74" opacity=".5"/><path d="M20 50L24 56L20 62L16 56ZM840 50L844 56L840 62L836 56Z" fill="#b8985c"/>
+</svg>

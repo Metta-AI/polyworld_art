@@ -35,6 +35,7 @@ reusable under their stated terms.
 | Quaternius Universal Standard animations and retargeted clips | CC0-1.0 | [Source and license](animations/quaternius/universal_standard/README.txt) |
 | Three.js water normal maps | MIT | [Copyright and full terms](terrain/water_normals/license.md) |
 | Rubik, Overpass Mono and IBM Plex Sans fonts | OFL-1.1 | [Font notices](fonts/license.md) |
+| Grenze fonts used by AWM cards and HUD | OFL-1.1 | [Font license](awm/cards/fonts/OFL.txt) |
 | Authoring and validation source code | MIT | [Code license](LICENSE-CODE) |
 
 The CC0 default never overrides another creator's license. Font-derived
