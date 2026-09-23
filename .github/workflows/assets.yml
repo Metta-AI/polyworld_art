@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python3 -m pip install Pillow==12.3.0
       - run: python3 tools/verify_assets.py
       - run: python3 characters/chargen/source/scripts/verify_clean.py
       - run: git lfs fsck

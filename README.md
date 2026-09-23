@@ -69,6 +69,7 @@ directory. A private clone requires authorized GitHub access.
 ## Verify a checkout
 
 ```sh
+python3 -m pip install Pillow==12.3.0
 python3 tools/verify_assets.py
 python3 characters/chargen/source/scripts/verify_clean.py
 git lfs fsck
