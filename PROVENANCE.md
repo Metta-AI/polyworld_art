@@ -48,3 +48,17 @@ Historical source recipes or audit notes may mention omitted files. Those
 references are not permission to restore them. Current runtime dependencies
 are checked against the new repository, and per-game notices describe their
 selected asset sets.
+
+## Cartoon water migration
+
+The cartoon water experiment's 19 PNGs and two prompt notes were moved from
+`Metta-AI/polyworld` on 2026-09-22 into `terrain/cartoon_water/`. The source
+checkout was based on commit `4345758`. No earlier revisions were imported.
+The existing CC0 dedication covers the water textures and previews.
+
+This collection contains seven imagegen textures, eight procedural textures
+and previews, and four rendered experiment screenshots. Image bytes were
+preserved. Filenames and prompt terminology now use the generic cartoon
+water name. The edited prompt notes state that they are not a verbatim
+archive. The shader and procedural generator remain in Polyworld under MIT.
+See `terrain/cartoon_water/license.md` for the creation process and notices.

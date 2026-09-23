@@ -63,6 +63,14 @@
       "origin": "Project source code, under the MIT license retained from Polyworld.",
       "changes": "Migrated current source files and updated asset repository paths.",
       "notice": "LICENSE-CODE"
+    },
+    "cartoonWater": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Cartoon water textures and previews",
+      "origin": "Metta-AI/polyworld checkout based on commit 4345758. Project imagegen textures created on 2026-09-08, procedural masks from the experiment generator, and project-rendered previews. Existing water asset CC0 dedication retained.",
+      "changes": "Moved current files into terrain/cartoon_water without importing history. Preserved all PNG bytes. Renamed paths and updated prompt terminology to the generic cartoon water name, documenting that the prompt notes were edited.",
+      "notice": "terrain/cartoon_water/license.md"
     }
   },
   "files": [
@@ -13442,6 +13450,160 @@
       "source": "project",
       "sha256": "fa6e8363294bc21080e7bc86986839be22030fe6a7b17576bf5b0d3db6bdc32e",
       "bytes": 21023
+    },
+    {
+      "path": "terrain/cartoon_water/license.md",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "9b39ccfcfc3c6c547aad65ff2b6f2f8da6d2c15e7182964a3a16142f6e6fb516",
+      "bytes": 1449
+    },
+    {
+      "path": "terrain/cartoon_water/previews/generated.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "85dc7cb3586463ca0d72a01e003f24e47c0919b37309eb4ee4a9867cdd5e0d88",
+      "bytes": 892094
+    },
+    {
+      "path": "terrain/cartoon_water/previews/shore.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "1ec08b9662c2a58e051a64fc691454176f84b9431318a812ecbaa3d37193da2a",
+      "bytes": 705715
+    },
+    {
+      "path": "terrain/cartoon_water/previews/shot.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "b6da7a43dee954de106d974c1516b0ba25fd2e1f71f3552bea184a97fa7239b0",
+      "bytes": 654519
+    },
+    {
+      "path": "terrain/cartoon_water/previews/textures.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "db5952be9b5f7bc452e427380e3d46f856a8a34cfff0ae5fcd5982e0b4c2ed1e",
+      "bytes": 810258
+    },
+    {
+      "path": "terrain/cartoon_water/textures/band_foam.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "17e0c6202121f02f55ebfc144318508dd6dba52b3c36f3ef9bc9429eed0113df",
+      "bytes": 20665
+    },
+    {
+      "path": "terrain/cartoon_water/textures/crest_foam.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "7c84c91cdea7b153473c6cfd77a61133005dbf0dc43fd24ac889f6dd518f64cd",
+      "bytes": 10952
+    },
+    {
+      "path": "terrain/cartoon_water/textures/foam_lattice.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "ea308794a09f9af31a437229b4390b3bbd762ef0d0fe25cf25f751545dff616a",
+      "bytes": 103832
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/band_foam.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "dd27a9b5dbd8fed047971c28bf684274a6361e0374ad6a4ba7df775eb5e905b3",
+      "bytes": 492317
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/crest_foam.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "dafad1100e0b20e434ead970401fd736fb055223edf237f89154b5dc96fd2574",
+      "bytes": 454141
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/foam_lattice.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "09e52da1a271cbe1b496c1c206ac421d047677af619693a4c6b4914fbab0c259",
+      "bytes": 609341
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/foam_lattice_thick.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "0afa449156aff1d785c45dc70c88632cf5feab5ec6b2c563f320bec024a116a7",
+      "bytes": 710699
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/foam_lattice_thick_prompt.md",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "555e0957f515ff7c9dd90aac53d2d6231be47454f1e721ca3dbb21b82d33fdc1",
+      "bytes": 1490
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/prompts.md",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "56f9a990b55398168a5f75d7c5cb1908242f7f6ddede6ab3ed4c7c3c5fbe4c4c",
+      "bytes": 6957
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/shore_foam.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "cc25f5e1668d1b3a0f15fbdac3b42df33fc862873beadbdf4246ae2bf194d239",
+      "bytes": 370524
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/shore_lattice.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "9fe96b10e3970dd301c413b420365de76ce6409122dd8366a076bc77962d2594",
+      "bytes": 483958
+    },
+    {
+      "path": "terrain/cartoon_water/textures/generated/warp_map.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "e6159bf5265c761d2d29bd0119fbdd8100ab9b39a6f90da337ea5074ebce51e8",
+      "bytes": 1151955
+    },
+    {
+      "path": "terrain/cartoon_water/textures/sea_preview.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "964e75ee87aca21498612554c916e0e14f35ad8a4aa3b19a3f623505c811d86d",
+      "bytes": 107536
+    },
+    {
+      "path": "terrain/cartoon_water/textures/shore_foam.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "1e26bcf7c747c3b1b41718446e8a67a06bb26e7d68d9c2852d0c2e372b355af3",
+      "bytes": 14067
+    },
+    {
+      "path": "terrain/cartoon_water/textures/shore_lattice.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "751a0cd06765ade582a120b4e282dd14d8967d159309584af11ba364b477050c",
+      "bytes": 45752
+    },
+    {
+      "path": "terrain/cartoon_water/textures/shore_mask.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "d10ecffe0231e7150b6b8db36ecf2af8608e7a3ee1f60e3d8e2d550b8f4dbefc",
+      "bytes": 10186
+    },
+    {
+      "path": "terrain/cartoon_water/textures/warp_map.png",
+      "license": "CC0-1.0",
+      "source": "cartoonWater",
+      "sha256": "b4683d151c1135f878d723ca8ccb62ca301795b1a19b75eca4d8c006abcfa853",
+      "bytes": 25280
     },
     {
       "path": "terrain/lvd_buildings/construction-manifest.json",

@@ -15,8 +15,8 @@ when incorporated into an atlas. Mixed source files retain the licenses of
 their imported components.
 
 This dedication also covers the project-generated water textures and previews
-in Polyworld's experiments/windwaker_water/textures/ directory. Source code
-retains the MIT license included in LICENSE-CODE.
+in terrain/cartoon_water/. Source code retains the MIT license included in
+LICENSE-CODE.
 
 Creative Commons Legal Code
 
