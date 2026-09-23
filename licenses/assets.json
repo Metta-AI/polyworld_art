@@ -24,14 +24,6 @@
       "changes": "Original source library plus clips retargeted to the generated Polyworld rig and exported individually as GLBs.",
       "notice": "animations/quaternius/universal_standard/README.txt"
     },
-    "grass": {
-      "license": "CC-BY-4.0",
-      "creator": "Anskar",
-      "title": "Low Poly Grass Pack",
-      "origin": "https://sketchfab.com/3d-models/low-poly-grass-pack-2ffb4d5302c14d038eaf6488b8c7ede2",
-      "changes": "Downloaded GLB renamed to low_poly_grass.glb. Migration preserves its bytes. Browser repacking is described in the notice.",
-      "notice": "terrain/license.md"
-    },
     "water": {
       "license": "MIT",
       "creator": "Three.js authors",
@@ -12797,8 +12789,8 @@
       "path": "licenses/gota.md",
       "license": "CC0-1.0",
       "source": "project",
-      "sha256": "f1e8fdcfe540896be1a2cea4a0af4fae8c61d74dad90e8061ab13e6cb781bc09",
-      "bytes": 1510
+      "sha256": "65b82871204d6f22cdbef6712392bdc202c964822030248f95b257a5ecd7bee9",
+      "bytes": 972
     },
     {
       "path": "licenses/lvd.md",
@@ -13450,27 +13442,6 @@
       "source": "project",
       "sha256": "fa6e8363294bc21080e7bc86986839be22030fe6a7b17576bf5b0d3db6bdc32e",
       "bytes": 21023
-    },
-    {
-      "path": "terrain/license.md",
-      "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "51b83da6111a266bbfc498e01cf6c2752b0d837666e74a7af813d79e833ac571",
-      "bytes": 843
-    },
-    {
-      "path": "terrain/low_poly_grass.glb",
-      "license": "CC-BY-4.0",
-      "source": "grass",
-      "sha256": "9beb921aaf17a6b8fe1932fb50efff9894db0fabb3131a0ff2c976d8043d92bc",
-      "bytes": 13424
-    },
-    {
-      "path": "terrain/low_poly_grass.md",
-      "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "975343bf28c681146f8b81b0364b5c27f843d94152a47be2585649cfdaaffdf3",
-      "bytes": 587
     },
     {
       "path": "terrain/lvd_buildings/construction-manifest.json",

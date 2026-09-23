@@ -10,7 +10,7 @@ The former repository's root dedication records the owner's confirmation
 that the project-generated models, textures, artwork, icons, UI and logos
 are AI-generated project assets under CC0. That dedication is retained here.
 The LvD building notice records the separate 2026-09-22 confirmation.
-Imported third-party fonts, grass, water and animations retain their notices.
+Imported third-party fonts, water and animations retain their notices.
 
 ## Included
 
@@ -24,7 +24,7 @@ Imported third-party fonts, grass, water and animations retain their notices.
 - Quaternius Universal Standard source files, including its CC0 FBX exports
   for Unity. These exports are from Quaternius and are not Unity Asset Store
   content.
-- Anskar's CC BY grass, Three.js MIT water maps, and the three OFL font families
+- Three.js MIT water maps and the three OFL font families
   used by the mainline art and theme library.
 
 ## Excluded
@@ -40,6 +40,9 @@ Imported third-party fonts, grass, water and animations retain their notices.
   old screenshots of removed parts redistributable.
 - Heartleaf, AWM, Pudge Wars, Cogcraft, unrelated legacy terrain packs,
   sound packs, temporary files, caches and Blender backup files.
+- Low Poly Grass Pack by Anskar, removed after confirming that no mainline
+  game places its meshes. GotA's unused loading and browser bundle entry were
+  disabled at the same time.
 
 Historical source recipes or audit notes may mention omitted files. Those
 references are not permission to restore them. Current runtime dependencies

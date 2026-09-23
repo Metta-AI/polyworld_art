@@ -34,7 +34,6 @@ reusable under their stated terms.
 | --- | --- | --- |
 | Project-generated models, textures, portraits, icons, UI and logos | CC0-1.0 | [Dedication and full terms](LICENSE) |
 | Quaternius Universal Standard animations and retargeted clips | CC0-1.0 | [Source and license](animations/quaternius/universal_standard/README.txt) |
-| Low Poly Grass Pack by Anskar | CC-BY-4.0 | [Attribution and changes](terrain/license.md) |
 | Three.js water normal maps | MIT | [Copyright and full terms](terrain/water_normals/license.md) |
 | Rubik, Overpass Mono and IBM Plex Sans fonts | OFL-1.1 | [Font notices](fonts/license.md) |
 | Authoring and validation source code | MIT | [Code license](LICENSE-CODE) |
