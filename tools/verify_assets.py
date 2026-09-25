@@ -19,6 +19,9 @@ Retired = (
   'terrain/toon_golden_valley/', 'terrain/tower_defense_kit',
   'awm/', 'cogcraft/', 'sounds/', 'themes/heartleaf/',
 )
+ReviewedRestorations = {
+  'themes/heartleaf/heartleaf_logo.png', 'themes/heartleaf/license.md',
+}
 BinaryTypes = {
   '.png', '.jpg', '.jpeg', '.webp', '.gif', '.tga', '.exr', '.hdr',
   '.psd', '.kra', '.glb', '.bin', '.fbx', '.blend', '.ttf', '.otf',
@@ -63,7 +66,8 @@ def main():
   for entry in entries:
     name = entry['path']
     path = checkedPath(name)
-    require(not name.startswith(Retired), 'Retired asset family: ' + name)
+    require(not name.startswith(Retired) or name in ReviewedRestorations,
+            'Retired asset family: ' + name)
     require(path.is_file(), 'Missing asset: ' + name)
     require(entry['license'] in Allowed, 'Unsupported license: ' + name)
     require(entry['source'] in sources, 'Missing source record: ' + name)

@@ -71,6 +71,38 @@
       "origin": "Metta-AI/polyworld checkout based on commit 4345758. Project imagegen textures created on 2026-09-08, procedural masks from the experiment generator, and project-rendered previews. Existing water asset CC0 dedication retained.",
       "changes": "Moved current files into terrain/cartoon_water without importing history. Preserved all PNG bytes. Renamed paths and updated prompt terminology to the generic cartoon water name, documenting that the prompt notes were edited.",
       "notice": "terrain/cartoon_water/license.md"
+    },
+    "heartleafVillage": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Generated Heartleaf hill house, well, planters and chimney",
+      "origin": "Metta-AI/polyworld-data current working tree based on da8b606cf631a6277ee7c97286df0dd5106398dc. AI-generated assets covered by the owner confirmation in LICENSE dated 2026-09-21. Geometry and texture creation recorded in terrain/blender_village guides, generator scripts and texture prompts.",
+      "changes": "Copied only five self-contained runtime GLBs without changing their bytes. The chimney was added for the reference town roof silhouettes. No legacy Unity assets, reference images, authoring scenes or history imported.",
+      "notice": "terrain/blender_village/license.md"
+    },
+    "heartleafLogo": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Generated Heartleaf logo, user-supplied copy",
+      "origin": "User attachment selected on 2026-09-24. The same artwork exists at polyworld_data/themes/heartleaf/heartleaf_logo.png and is covered by the source repository CC0 dedication and owner confirmation of AI-generated project logos dated 2026-09-21.",
+      "changes": "Copied the supplied 800 by 600 transparent PNG without modifying its bytes. The source notice records the existing project copy separately.",
+      "notice": "themes/heartleaf/license.md"
+    },
+    "heartleafTerrain": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors, with Codex and built-in imagegen",
+      "title": "Heartleaf grass, golden path and pale paving tiles and splats",
+      "origin": "New built-in imagegen materials created on 2026-09-24 from a user-supplied visual reference. Reference digest, prompts and processing are recorded in terrain/heartleaf/source/provenance.json. The reference bitmap is not bundled or relicensed.",
+      "changes": "Generated nine terrain color tiles and aligned inferred height maps, repaired seams and exported 256x256 pairs. Added nine matching RGBA splats using separate imagegen coverage masks with source RGB and relief preserved. Retained source masters, masks, prompts, usage notes and provenance.",
+      "notice": "terrain/heartleaf/license.md"
+    },
+    "heartleafDetails": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors, with Codex",
+      "title": "Heartleaf village props and radial plaza paving",
+      "origin": "New procedural Blender geometry authored on 2026-09-24 from the user-supplied village illustration. Reuses the reviewed CC0 hobbit_trim_v2 embedded in the existing generated house. Reference digest and validation recorded in terrain/heartleaf/source/details-provenance.json.",
+      "changes": "New editable source with live mirrors, fifteen named GLB props, shared embedded painted trim and plain material colors. Fresh import and front/rear/top/oblique judge review. Reference bitmap not bundled or relicensed.",
+      "notice": "terrain/heartleaf/models/license.md"
     }
   },
   "files": [
@@ -12808,6 +12840,13 @@
       "bytes": 3335
     },
     {
+      "path": "skills/scripts/modeling_buildings/build_heartleaf_details.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "7da0f815b4f8ddd93052770a4068cd590427d6b712e7e3021f1c7d9dc38b8655",
+      "bytes": 10298
+    },
+    {
       "path": "terrain/blender_forts/fort_kit.blend",
       "license": "CC0-1.0",
       "source": "project",
@@ -13452,6 +13491,48 @@
       "bytes": 21023
     },
     {
+      "path": "terrain/blender_village/license.md",
+      "license": "CC0-1.0",
+      "source": "heartleafVillage",
+      "sha256": "8c3fe7551018cacaf65f18aab170a855b7af47880a2b78e00b7170a3e194a983",
+      "bytes": 1620
+    },
+    {
+      "path": "terrain/blender_village/models/hobbit_barrel_planter.glb",
+      "license": "CC0-1.0",
+      "source": "heartleafVillage",
+      "sha256": "11e18dd8e17eea68bbe3623ac34c569b681396ea940b4b5cde3e186dd28be93e",
+      "bytes": 3493044
+    },
+    {
+      "path": "terrain/blender_village/models/hobbit_box_planter.glb",
+      "license": "CC0-1.0",
+      "source": "heartleafVillage",
+      "sha256": "0c398b76531c48783a9b6a5d182d4137e6ff7a980bfce6764c8998c440fcab4a",
+      "bytes": 3495544
+    },
+    {
+      "path": "terrain/blender_village/models/hobbit_chimney.glb",
+      "license": "CC0-1.0",
+      "source": "heartleafVillage",
+      "sha256": "c1f3a98da60d69b3a9711991eff5bff9a62a1d052b694a00979926f50a372162",
+      "bytes": 2242068
+    },
+    {
+      "path": "terrain/blender_village/models/hobbit_house.glb",
+      "license": "CC0-1.0",
+      "source": "heartleafVillage",
+      "sha256": "267b4e1558b0bea4cbe9f6347483e61bc2997a169b3709304b4cefbee7a417f8",
+      "bytes": 6289372
+    },
+    {
+      "path": "terrain/blender_village/models/well.glb",
+      "license": "CC0-1.0",
+      "source": "heartleafVillage",
+      "sha256": "aaf4215c8a26e69ebd82aa7a9306470b05eada7483dda04e53f0a6b5141f5af7",
+      "bytes": 2284808
+    },
+    {
       "path": "terrain/cartoon_water/license.md",
       "license": "CC0-1.0",
       "source": "cartoonWater",
@@ -13604,6 +13685,139 @@
       "source": "cartoonWater",
       "sha256": "b4683d151c1135f878d723ca8ccb62ca301795b1a19b75eca4d8c006abcfa853",
       "bytes": 25280
+    },
+    {
+      "path": "terrain/heartleaf/license.md",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "42b166bcc9944122efea4e20bdd90f0ea86c40a63dab515dd0a6bc91d167e687",
+      "bytes": 2887
+    },
+    {
+      "path": "terrain/heartleaf/models/license.md",
+      "license": "CC0-1.0",
+      "source": "heartleafDetails",
+      "sha256": "fac745b825dd163ca607f2618e508963b6895fa646ae75ce03519f070a19aecb",
+      "bytes": 1639
+    },
+    {
+      "path": "terrain/heartleaf/models/village_details.glb",
+      "license": "CC0-1.0",
+      "source": "heartleafDetails",
+      "sha256": "dd4f29c4d03a775fd58f89d90aae3aa384ef5120c06e12bfbc6bff47f498e180",
+      "bytes": 4005064
+    },
+    {
+      "path": "terrain/heartleaf/source/color-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "fc898057da6761e93f4604f0da6319f1269ae293d6d89e8b3cef6861fd6566f5",
+      "bytes": 3490
+    },
+    {
+      "path": "terrain/heartleaf/source/details-provenance.json",
+      "license": "CC0-1.0",
+      "source": "heartleafDetails",
+      "sha256": "07663b9369e25180e095390a23b3ece0f0ddb3e57870399e9fea72a6d5dacb9e",
+      "bytes": 1611
+    },
+    {
+      "path": "terrain/heartleaf/source/height-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "cfb4d8af5483e103c1bc78ed1c68b60bfe418ccbd678443b80f434ac8383f783",
+      "bytes": 2321
+    },
+    {
+      "path": "terrain/heartleaf/source/names.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "b251fb0106a160b528a38a79b5c68a72dcf2328468b7a1584f53605dd815be9a",
+      "bytes": 162
+    },
+    {
+      "path": "terrain/heartleaf/source/provenance.json",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "0ebc235bc9b0a29c4241ef6aecbfea39a4b41f22f9b95c43ed2aa580996582fa",
+      "bytes": 4234
+    },
+    {
+      "path": "terrain/heartleaf/source/seam-repair-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "d7f4f1685d0d28b2360f1b201c900b64043273499c2f573d9aa5c783180903b6",
+      "bytes": 2107
+    },
+    {
+      "path": "terrain/heartleaf/source/splats-opacity-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "86d04f183f27689dba1d94e69911049f4b2bfd7a13afdd9062ab07c768c3ef97",
+      "bytes": 2967
+    },
+    {
+      "path": "terrain/heartleaf/source/splats-paving-repair-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "411017c87b7e7c63d89154f0c95ca0c0da56092b8f8a848709df9bc5b48d9770",
+      "bytes": 1965
+    },
+    {
+      "path": "terrain/heartleaf/source/splats-provenance.json",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "027d90defab9eee7798c3a418ac18c006a4f94f2eba350dc38c5a6fc989223f9",
+      "bytes": 3962
+    },
+    {
+      "path": "terrain/heartleaf/source/stamps-master.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "ddc345916c86e2287542546951bcd1f15f8ab26f93de961904bad91f394cd7f9",
+      "bytes": 1218875
+    },
+    {
+      "path": "terrain/heartleaf/source/stamps-master.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "42a0bdc31bd96bd69f7037d8b872c626df2cad3cad2529e086461cd19e2d70e1",
+      "bytes": 2841092
+    },
+    {
+      "path": "terrain/heartleaf/source/stamps-opacity.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "ea93f35f6262860f1f9304d43c6ced607e069c292d7f3c7aec34dcc2ce7a1563",
+      "bytes": 1869781
+    },
+    {
+      "path": "terrain/heartleaf/source/tiles-master.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "ddc345916c86e2287542546951bcd1f15f8ab26f93de961904bad91f394cd7f9",
+      "bytes": 1218875
+    },
+    {
+      "path": "terrain/heartleaf/source/tiles-master.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "d20da8fa018adb7ddfff55c09aa06a497016edf1454df6f7154e907a7bd24d8d",
+      "bytes": 2242225
+    },
+    {
+      "path": "terrain/heartleaf/source/village_details.blend",
+      "license": "CC0-1.0",
+      "source": "heartleafDetails",
+      "sha256": "3c1978a9fb836a2e9d35abd4df3e6354175d3a7c87555fedf01a130289cb53d4",
+      "bytes": 3675900
+    },
+    {
+      "path": "terrain/heartleaf/splats-usage.md",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "41f0d60f4936cc94746012e00dfe561303dbfa1728cb6fa5bf44755cd9b26108",
+      "bytes": 2034
     },
     {
       "path": "terrain/lvd_buildings/construction-manifest.json",
@@ -14502,6 +14716,132 @@
       "bytes": 121660
     },
     {
+      "path": "terrain/stamps/heartleaf-grass-1.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "27f1febb098f3298c673696459c1c6b1164bfc89664d2137a705b95f3cc8d6fc",
+      "bytes": 45461
+    },
+    {
+      "path": "terrain/stamps/heartleaf-grass-1.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "5257314b613672c9045833892c4afc5be6c16b3f407acc493ed1d26da1da4cbb",
+      "bytes": 93901
+    },
+    {
+      "path": "terrain/stamps/heartleaf-grass-2.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "91259caa8cce68e6c21561bfe7e70759aca257adeb34240645179bae8b741530",
+      "bytes": 43469
+    },
+    {
+      "path": "terrain/stamps/heartleaf-grass-2.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "d0ed2c371c1dc7e736a327b1e40cc05aabf123c3579b0209e9c5e643393b56b8",
+      "bytes": 86687
+    },
+    {
+      "path": "terrain/stamps/heartleaf-grass-3.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "a85e9c240aea33e53df5e18dc440994dccd152fdeb2196eca655a62b47bb3676",
+      "bytes": 42289
+    },
+    {
+      "path": "terrain/stamps/heartleaf-grass-3.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "34fffe72844e63585306acd37c3d695f745fff9b01496f3275c713a62d54191d",
+      "bytes": 84617
+    },
+    {
+      "path": "terrain/stamps/heartleaf-path-1.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "f3e0e61030d19ba921f74e520bea2e6ba471c12727a424dc0c9804a061430744",
+      "bytes": 40848
+    },
+    {
+      "path": "terrain/stamps/heartleaf-path-1.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "6b17b11089cee78ff25511bca6fc0ddc0a92a7ef460f61fa86843d0516cc200d",
+      "bytes": 85019
+    },
+    {
+      "path": "terrain/stamps/heartleaf-path-2.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "d0a79d6ab0a026b0a1fd94929975918cee9985e21becd4055af52428535a5b35",
+      "bytes": 38210
+    },
+    {
+      "path": "terrain/stamps/heartleaf-path-2.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "d6e1451f41c97592701e5ca442e7a6802434a2778f2aa9276a4667127b6c031d",
+      "bytes": 79068
+    },
+    {
+      "path": "terrain/stamps/heartleaf-path-3.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "6cec5c6e258797fc80b2eb0f0f44c33c383e88de85d8924a15f6fc240df1be7c",
+      "bytes": 35886
+    },
+    {
+      "path": "terrain/stamps/heartleaf-path-3.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "0dc2d5b604dfc8e2abb3ec69f534944689d8759f35ba3fddb1a33df4a3eebcc7",
+      "bytes": 72669
+    },
+    {
+      "path": "terrain/stamps/heartleaf-paving-1.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "3755d1d2c7f91cc96d1f3e4870fe353f5d074fe1a5aa52d32748493a9af0cb63",
+      "bytes": 45359
+    },
+    {
+      "path": "terrain/stamps/heartleaf-paving-1.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "24835a3176b1fb6036eb4c3cbfb1ccc3aef9c8882a8182a191516f7e04f1e68f",
+      "bytes": 92532
+    },
+    {
+      "path": "terrain/stamps/heartleaf-paving-2.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "1e6304189be24818ed19122fdc5f16b00f902e0ea427d95762f1f1715a532313",
+      "bytes": 44327
+    },
+    {
+      "path": "terrain/stamps/heartleaf-paving-2.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "7c22c2edd2e7c0eb79ec2f8842f6dee4a09a254f98cf21b51bd38dbcb75c665a",
+      "bytes": 87837
+    },
+    {
+      "path": "terrain/stamps/heartleaf-paving-3.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "315328ae2c6156e3e4e3bc8bd87456f2dcae78a83f4e79385261da7964982aef",
+      "bytes": 46750
+    },
+    {
+      "path": "terrain/stamps/heartleaf-paving-3.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "68d7488869eb762e2db59d0eda3721e5fcbe3b8cefcf979ac1747f1682ed0e96",
+      "bytes": 94214
+    },
+    {
       "path": "terrain/stamps/marsh-1.height.png",
       "license": "CC0-1.0",
       "source": "project",
@@ -14880,6 +15220,132 @@
       "bytes": 121588
     },
     {
+      "path": "terrain/tiles/heartleaf-grass-1.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "b50acf1712f1df57b2d452274cfb09538b2eab7e597d06d69475ffcbf8cb7930",
+      "bytes": 57446
+    },
+    {
+      "path": "terrain/tiles/heartleaf-grass-1.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "eb674c36ef942fdb6220edaef07aca5b44d7a69805ced05c02ba38d5d21befa9",
+      "bytes": 103104
+    },
+    {
+      "path": "terrain/tiles/heartleaf-grass-2.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "11c33bc065c99e609aa21960a1cc32eb679bde60fd1f950f821da8f1c3ce7a00",
+      "bytes": 62614
+    },
+    {
+      "path": "terrain/tiles/heartleaf-grass-2.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "a9e49dca42c4f9e649e6786d94977f2a105d4522e2acad7717e610531525dc29",
+      "bytes": 111155
+    },
+    {
+      "path": "terrain/tiles/heartleaf-grass-3.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "3c738b31cdf939c236f25723a514ade5a644fe2c450be0730a82eaccfa30258f",
+      "bytes": 60658
+    },
+    {
+      "path": "terrain/tiles/heartleaf-grass-3.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "81806423b62112e445ef14c4dce962a8edfd0f69be6594aaf1aca71c7bda42b1",
+      "bytes": 106596
+    },
+    {
+      "path": "terrain/tiles/heartleaf-path-1.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "5bf7308f9d6fcf65d7d2a7005b1ab2c9236d3c951664f07c8ab75bb511b50936",
+      "bytes": 48768
+    },
+    {
+      "path": "terrain/tiles/heartleaf-path-1.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "8c19dd14455e42491b8f7944737ffd20f3792a266fef60cfc158b2be91732131",
+      "bytes": 81518
+    },
+    {
+      "path": "terrain/tiles/heartleaf-path-2.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "42b827f4f857ea84fa2aeec6f6bc588f2e0ad5f7c995fa17d4cd5e226e495f77",
+      "bytes": 48916
+    },
+    {
+      "path": "terrain/tiles/heartleaf-path-2.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "7863021698f44d3551ac44de220dd9112d4c2cc070bc6ebedd97db1ef3829ffd",
+      "bytes": 84863
+    },
+    {
+      "path": "terrain/tiles/heartleaf-path-3.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "fd1deca1edfb84ee18017d0eea634def23b8c5f5ce6c1e21f44a805e55d8a6b4",
+      "bytes": 51772
+    },
+    {
+      "path": "terrain/tiles/heartleaf-path-3.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "5ead05cff6c05e656efd2ec9646dd4a73c302450a44d945f0e9a5d343d91089f",
+      "bytes": 84434
+    },
+    {
+      "path": "terrain/tiles/heartleaf-paving-1.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "184c4ef1c4225426f71f0f36633ef870f1965299db14af6377b835febdcec407",
+      "bytes": 64233
+    },
+    {
+      "path": "terrain/tiles/heartleaf-paving-1.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "2b522f51235f2196923f3accc85228e5bb54aa55a2d19cd24b7ee2e8de50ce68",
+      "bytes": 114706
+    },
+    {
+      "path": "terrain/tiles/heartleaf-paving-2.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "d9bd7dffe1e8143971e4d094cf46213019b194022344881b364b2472526d841e",
+      "bytes": 66329
+    },
+    {
+      "path": "terrain/tiles/heartleaf-paving-2.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "ebee87585219a4afe2afdba808f80396649e9a3727267d667013cff8bcd6bdc9",
+      "bytes": 118217
+    },
+    {
+      "path": "terrain/tiles/heartleaf-paving-3.height.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "9fcbf8aebb4d5f876a27fa19704582ee84f764baed9f76bcbd0d5ef7e70dae52",
+      "bytes": 66244
+    },
+    {
+      "path": "terrain/tiles/heartleaf-paving-3.rgb.png",
+      "license": "CC0-1.0",
+      "source": "heartleafTerrain",
+      "sha256": "41d7ac090e40e02d4d66b84925538ed879041d09bcc990ee85dac98ef913bb9e",
+      "bytes": 116238
+    },
+    {
       "path": "terrain/tiles/marsh-1.height.png",
       "license": "CC0-1.0",
       "source": "project",
@@ -14983,6 +15449,20 @@
       "source": "project",
       "sha256": "0093723f15e10d5e91caf879a2ecf454d656e30e4928e91b57177b21d05445b5",
       "bytes": 705624
+    },
+    {
+      "path": "themes/heartleaf/heartleaf_logo.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLogo",
+      "sha256": "350733433cd88f29abb7fc03fbb3b504cd436cf6a8ef2888608c1991a50b5ee0",
+      "bytes": 855659
+    },
+    {
+      "path": "themes/heartleaf/license.md",
+      "license": "CC0-1.0",
+      "source": "heartleafLogo",
+      "sha256": "11c2d59fa8004f0c4620175a68dfd693cc17c2d31eb13fc03662e6d0a9278e19",
+      "bytes": 896
     },
     {
       "path": "themes/lvd/factions.md",

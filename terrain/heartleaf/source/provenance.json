@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "title": "Heartleaf grass, golden path and pale paving terrain tiles",
+  "created": "2026-09-24",
+  "creator": "Softmax / Polyworld contributors, with Codex and built-in imagegen",
+  "license": "CC0-1.0",
+  "reference": {
+    "path": "/var/folders/nh/hbz5f40j1nb0m6t1hnbbz8q40000gn/T/codex-clipboard-1d0ccdf7-e5cf-4717-bd90-58ea4154ec6f.png",
+    "sha256": "72ca524d4eba4aa8fab7fc93ffb08bf63eff1eeca4f1124a91b4cbd8c2728fc7",
+    "bytes": 10933763,
+    "dimensions": [
+      6918,
+      4604
+    ],
+    "role": "User-provided visual material reference; not bundled or relicensed"
+  },
+  "generationMode": "Built-in image_gen, not CLI",
+  "skill": "skills/terrain_tiles.md",
+  "sourceAtlasDimensions": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "sourceCellDimensions": [
+    418,
+    418
+  ],
+  "runtimeDimensions": [
+    256,
+    256
+  ],
+  "rowMajorNames": [
+    "heartleaf-grass-1",
+    "heartleaf-grass-2",
+    "heartleaf-grass-3",
+    "heartleaf-path-1",
+    "heartleaf-path-2",
+    "heartleaf-path-3",
+    "heartleaf-paving-1",
+    "heartleaf-paving-2",
+    "heartleaf-paving-3"
+  ],
+  "prompts": [
+    "color-prompt.txt",
+    "seam-repair-prompt.txt",
+    "height-prompt.txt"
+  ],
+  "process": [
+    "Reconstruct full-coverage grass, path and paving materials in one 3x3 color atlas from the user reference.",
+    "Half-offset each 418x418 cell with wrapping, then prepare a feathered center-cross guide.",
+    "Imagegen repairs the center crosses at 1254x1254; masked compositing restores all protected source pixels.",
+    "Apply periodic boundary correction with a 24-pixel source band; keep the offset orientation as master.",
+    "Imagegen infers physical relief aligned to the final color master; make height opaque grayscale and repair edges with an 8-pixel band.",
+    "Export named color and height pairs once at 256x256, preserving matched opposite edges."
+  ],
+  "validation": {
+    "nimCheck": "Passed for terrain.nim and test_terrains.nim with Nim 2.2.6",
+    "terrainToolTests": "Passed in release mode",
+    "pairedExport": "Passed size, opacity, edge equality, grayscale and PNG round-trip checks for all nine pairs",
+    "visualReview": "Inspected full source sheets and 2x2 repeated previews of every exported color and height tile",
+    "runtimeRender": "Not tested in the game engine",
+    "assetDigestsAndLfsRules": "Passed for all 26 new records and all 20 PNG files",
+    "repositoryAudit": "Full verify_assets.py does not pass in the current unstaged working tree. Its tracked-file inventory differs from the manifest for these new assets and pre-existing pending Kaijugen, village, Heartleaf logo and rooted icon changes. No files were staged."
+  },
+  "usage": {
+    "color": "Opaque sRGB color texture",
+    "height": "Opaque linear grayscale artist-inferred relief, white higher; use as data rather than sRGB",
+    "repeat": "Each tile repeats with itself; blend different variants using terrain weights",
+    "scope": "Nine repeating terrain pairs and nine matching RGBA splat pairs"
+  },
+  "generatedInputs": [
+    {
+      "path": "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-20260924/tiles-generated.rgb.png",
+      "sha256": "d7cb6449385585b1384946d338d55e6619da0af040457925abfbc7b0eeb5fe0b",
+      "bytes": 1985249
+    },
+    {
+      "path": "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-20260924/tiles-repaired.rgb.png",
+      "sha256": "b831d1be677962aa75996f458206b6ecdea1734f912254c6204a84869ddbdc8c",
+      "bytes": 1959794
+    },
+    {
+      "path": "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-20260924/tiles-generated.height.png",
+      "sha256": "319c3f95e957a5f8046c97a829f12b8cdea4c7bcd6ea55736a413eb994f7b8cb",
+      "bytes": 1994836
+    }
+  ],
+  "masters": [
+    {
+      "path": "/Users/me/p/polyworld_art/terrain/heartleaf/source/tiles-master.rgb.png",
+      "sha256": "d20da8fa018adb7ddfff55c09aa06a497016edf1454df6f7154e907a7bd24d8d",
+      "bytes": 2242225
+    },
+    {
+      "path": "/Users/me/p/polyworld_art/terrain/heartleaf/source/tiles-master.height.png",
+      "sha256": "ddc345916c86e2287542546951bcd1f15f8ab26f93de961904bad91f394cd7f9",
+      "bytes": 1218875
+    }
+  ],
+  "splats": "splats-provenance.json"
+}

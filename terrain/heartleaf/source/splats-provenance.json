@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "created": "2026-09-24",
+  "title": "Heartleaf matching RGBA terrain splats",
+  "license": "CC0-1.0",
+  "creator": "Softmax / Polyworld contributors, with Codex and built-in imagegen",
+  "generationMode": "Built-in image_gen for opacity only, followed by Nim/Pixie compositing and export",
+  "skill": "skills/terrain_tiles.md",
+  "inputs": [
+    {
+      "path": "terrain/heartleaf/source/tiles-master.rgb.png",
+      "sha256": "d20da8fa018adb7ddfff55c09aa06a497016edf1454df6f7154e907a7bd24d8d",
+      "bytes": 2242225
+    },
+    {
+      "path": "terrain/heartleaf/source/tiles-master.height.png",
+      "sha256": "ddc345916c86e2287542546951bcd1f15f8ab26f93de961904bad91f394cd7f9",
+      "bytes": 1218875
+    }
+  ],
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "sourceCellDimensions": [
+    418,
+    418
+  ],
+  "runtimeDimensions": [
+    256,
+    256
+  ],
+  "rowMajorNames": [
+    "heartleaf-grass-1",
+    "heartleaf-grass-2",
+    "heartleaf-grass-3",
+    "heartleaf-path-1",
+    "heartleaf-path-2",
+    "heartleaf-path-3",
+    "heartleaf-paving-1",
+    "heartleaf-paving-2",
+    "heartleaf-paving-3"
+  ],
+  "prompts": [
+    "splats-opacity-prompt.txt",
+    "splats-paving-repair-prompt.txt"
+  ],
+  "process": [
+    "Generate a separate grayscale opacity atlas with distinct feathered organic masks for the nine existing terrain materials.",
+    "Regenerate only paving coverage without internal slab shapes, then retain the original first six masks pixel-for-pixel using the local preparation helper.",
+    "Apply smoothstep((gray - 4) / 200) times a cell border guard that stays zero through eight source pixels and reaches full strength after another 24 pixels.",
+    "Preserve all source RGB channels exactly. Reuse the existing tile height master without modification at source resolution.",
+    "Export each pair independently at 256x256. Filter height through the same source alpha as color, store height opaque and zero outside coverage. Do not multiply relief by opacity."
+  ],
+  "validation": {
+    "sourceColorPreservation": "All source RGB channels checked equal to the tile color master before export",
+    "sourceHeightPreservation": "Stamp height master checked byte-for-byte equal to the tile height master",
+    "pairContracts": "All nine exported pairs passed dimensions, transparent borders, nonempty color, opaque grayscale height and zero-height-outside-alpha checks",
+    "coverage": "Every exported stamp contains transparent, partially covered and fully opaque pixels",
+    "roundTrip": "All 18 exported PNGs passed lossless encode/decode comparison",
+    "visualReview": "Inspected all nine on light and dark grounds, rotated alpha and height overlaps, and repetition comparisons",
+    "nimCheck": "Local preparation and preview helpers passed nim check; preview verification passed in release mode",
+    "runtimeRender": "Not integrated into or tested in the game engine"
+  },
+  "usage": "../splats-usage.md",
+  "masters": [
+    {
+      "path": "terrain/heartleaf/source/stamps-opacity.png",
+      "sha256": "ea93f35f6262860f1f9304d43c6ced607e069c292d7f3c7aec34dcc2ce7a1563",
+      "bytes": 1869781
+    },
+    {
+      "path": "terrain/heartleaf/source/stamps-master.rgb.png",
+      "sha256": "42a0bdc31bd96bd69f7037d8b872c626df2cad3cad2529e086461cd19e2d70e1",
+      "bytes": 2841092
+    },
+    {
+      "path": "terrain/heartleaf/source/stamps-master.height.png",
+      "sha256": "ddc345916c86e2287542546951bcd1f15f8ab26f93de961904bad91f394cd7f9",
+      "bytes": 1218875
+    }
+  ],
+  "previews": [
+    "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-splats-20260924/contact.png",
+    "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-splats-20260924/light-dark.png",
+    "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-splats-20260924/overlap-comparison.png",
+    "/Users/me/p/polyworld_art/tmp/terrain-work/heartleaf-splats-20260924/repetition-comparison.png"
+  ]
+}

@@ -1,0 +1,118 @@
+<div id="lvd-faction-building-gallery">
+  <div class="viz-controls">
+    <label class="form-label">View
+      <select class="form-select" data-view>
+        <option value="faction">Full faction set</option>
+        <option value="building">Compare a building</option>
+      </select>
+    </label>
+    <label class="form-label" data-faction-field>Faction
+      <select class="form-select" data-faction></select>
+    </label>
+    <label class="form-label" data-building-field hidden>Building
+      <select class="form-select" data-building></select>
+    </label>
+  </div>
+  <h3 data-title></h3>
+  <div class="text-small text-muted" data-summary aria-live="polite"></div>
+  <div class="render-grid" data-grid></div>
+</div>
+<style>
+  #lvd-faction-building-gallery .render-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px 12px;
+    margin-top: 16px;
+  }
+  #lvd-faction-building-gallery .render-grid.compare {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #lvd-faction-building-gallery figure { margin: 0; min-width: 0; }
+  #lvd-faction-building-gallery img { display: block; width: 100%; height: auto; }
+  #lvd-faction-building-gallery figcaption { margin-top: 6px; color: var(--foreground); }
+  #lvd-faction-building-gallery [hidden] { display: none; }
+  @media (max-width: 540px) {
+    #lvd-faction-building-gallery .render-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 360px) {
+    #lvd-faction-building-gallery .render-grid,
+    #lvd-faction-building-gallery .render-grid.compare { grid-template-columns: 1fr; }
+  }
+</style>
+<script>
+(() => {
+  const root = document.getElementById('lvd-faction-building-gallery');
+  const data = /* RENDER_DATA */ {};
+  const view = root.querySelector('[data-view]');
+  const faction = root.querySelector('[data-faction]');
+  const building = root.querySelector('[data-building]');
+  const grid = root.querySelector('[data-grid]');
+  for (const entry of data.factions) {
+    const option = document.createElement('option');
+    option.value = entry.id;
+    option.textContent = entry.name + ' · ' + entry.theme;
+    faction.append(option);
+  }
+  for (const entry of data.buildings) {
+    const option = document.createElement('option');
+    option.value = entry.id;
+    option.textContent = entry.name;
+    building.append(option);
+  }
+  function draw() {
+    const selectedFaction = data.factions.find(entry => entry.id === faction.value);
+    const selectedBuilding = data.buildings.find(entry => entry.id === building.value);
+    const compare = view.value === 'building';
+    root.querySelector('[data-faction-field]').hidden = compare;
+    root.querySelector('[data-building-field]').hidden = !compare;
+    root.querySelector('[data-title]').textContent = compare
+      ? selectedBuilding.name : selectedFaction.name + ' · ' + selectedFaction.theme;
+    root.querySelector('[data-summary]').textContent = compare && selectedBuilding.id === 'gold_mine'
+      ? 'Neutral mine · Shared by all eight factions'
+      : 'Same camera angle, lighting and world scale · Mine stays neutral';
+    grid.classList.toggle('compare', compare);
+    grid.replaceChildren();
+    const cells = compare
+      ? (selectedBuilding.id === 'gold_mine'
+        ? [{ label: 'Neutral · All factions', key: 'neutral/gold_mine' }]
+        : data.factions.map(entry => ({ label: entry.name + ' · ' + entry.theme,
+          key: entry.id + '/' + selectedBuilding.id })))
+      : data.buildings.map(entry => ({ label: entry.name + (entry.id === 'gold_mine' ? ' · Neutral' : ''),
+        key: (entry.id === 'gold_mine' ? 'neutral' : selectedFaction.id) + '/' + entry.id }));
+    for (const cell of cells) {
+      const figure = document.createElement('figure');
+      const image = document.createElement('img');
+      image.src = data.images[cell.key];
+      image.alt = compare ? selectedBuilding.name + ', ' + cell.label : cell.label + ', ' + selectedFaction.name;
+      image.width = data.thumbnailSize;
+      image.height = data.thumbnailSize;
+      const caption = document.createElement('figcaption');
+      caption.textContent = cell.label;
+      figure.append(image, caption);
+      grid.append(figure);
+    }
+  }
+  function restore(saved) {
+    const choice = saved?.modelContent || {};
+    view.value = choice.view === 'building' ? 'building' : 'faction';
+    faction.value = data.factions.some(entry => entry.id === choice.faction)
+      ? choice.faction : data.factions[0].id;
+    building.value = data.buildings.some(entry => entry.id === choice.building)
+      ? choice.building : data.buildings[0].id;
+    draw();
+  }
+  for (const select of [view, faction, building]) {
+    select.addEventListener('change', () => {
+      draw();
+      window.openai?.setWidgetState?.({
+        modelContent: { view: view.value, faction: faction.value, building: building.value },
+        privateContent: null
+      })?.catch(() => {});
+    });
+  }
+  window.addEventListener('openai:set_globals', event => {
+    if (event.detail?.globals?.widgetState !== undefined) restore(event.detail.globals.widgetState);
+  });
+  restore(window.openai?.widgetState);
+})();
+</script>

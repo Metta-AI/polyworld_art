@@ -1,0 +1,10 @@
+Use case: precise-object-edit.
+Edit the attached OPACITY MASK atlas, which is exactly 1254x1254 pixels and exactly 3x3 cells of 418x418. Return exactly the same size.
+Keep the TOP SIX cells pixel-for-pixel unchanged. Only change the three BOTTOM cells (y=836 to 1253).
+
+CORRECTION TO BOTTOM THREE:
+These must be plain, broad, organic paint-coverage masks. Remove ALL depictions of paving stones, internal slab seams, black mortar lines, bevels, highlights, shaded stone facets and rectangular patterns from INSIDE those masks. They are opacity fields, not depictions of stone. No stone geometry anywhere. The previous attempt's traced slabs are misregistered and create accidental cuts through the actual material.
+
+Replace each bottom cell with one useful large asymmetric connected paint blot. A broad, contiguous near-white opaque central region, a different lobed outline in each cell, and a generous irregular outer-third feathered transition through mid-gray to pure black. One or two peripheral small detached fragments are fine. Three distinct silhouettes: left a wide off-center kidney/lobed shape; middle a lopsided triangular patch with a short side lobe; right a more open crescent-like lumpy cluster with an edge notch. The center of each must be a contiguous fairly smooth WHITE AREA with only mild gray variation, no holes or internal cut lines. Keep shapes within each 418x418 cell, centered, at least 24 pure-black pixels around every cell border, and about 40% of each cell covered. No boxes, uniform circles, perfect ellipses or radial rings. Broken softly feathered perimeter with small grain-scale breakup. Edge softness must be broad rather than a single narrow blur.
+
+Opaque grayscale output only: white covered, gray partly covered, pure black uncovered. Keep the top two rows exactly as is, keep exact 3x3 placement, and no labels, lines, checkerboards or border. This is an alpha coverage map, not color, not height, not a material image.

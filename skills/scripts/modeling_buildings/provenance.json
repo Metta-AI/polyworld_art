@@ -1,0 +1,147 @@
+{
+  "origin": "Polyworld building workflow, 2026-09-22",
+  "adaptations": [
+    "Explicit POLYWORLD_BUILDING_PACK replaces machine-specific pack paths.",
+    "Optional POLYWORLD_BUILDINGS_SKIP_RENDER for modeling and validation steps.",
+    "Faction atlas packing uses a supplied layout.json; original measured bounds supplied as an example.",
+    "Fence rotation verification normalizes equivalent signed Euler angles after scaling."
+  ],
+  "scripts": [
+    {
+      "file": "buildings/build_construction.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/build_construction.py",
+      "source_sha256": "d4c5cb8a7682ce22afc57cefe439055869d0f205c10e3a38bff91562321429ff",
+      "packaged_sha256": "086fd66aaf1e2f423c05f499818bd3ab4a43ae4792694f4b0878eec2cad5b0b8"
+    },
+    {
+      "file": "buildings/build_scene.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/build_scene.py",
+      "source_sha256": "a7b6f772b54128f9129f4972b64108494fa8213c55a767c13c489527a4b54abb",
+      "packaged_sha256": "aa100312bc52bb3adc8b5fd6d5cba871e3d3a1087abf290ccfb8302162a2aa39"
+    },
+    {
+      "file": "buildings/check_construction.nim",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/check_construction.nim",
+      "source_sha256": "2ba44a244f6e7b095ee337231b7100019c8fc83f01026b89fb7f97f0d5923e78",
+      "packaged_sha256": "2ba44a244f6e7b095ee337231b7100019c8fc83f01026b89fb7f97f0d5923e78"
+    },
+    {
+      "file": "buildings/check_glbs.nim",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/check_glbs.nim",
+      "source_sha256": "5c3c6193f182dbd2383761a076f0504affe70425c76fc5a39548830e7e064274",
+      "packaged_sha256": "5c3c6193f182dbd2383761a076f0504affe70425c76fc5a39548830e7e064274"
+    },
+    {
+      "file": "buildings/export_construction.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/export_construction.py",
+      "source_sha256": "edeeecba1f85b1782f7d5d452501edba660603bd4967f8edf0865c59d88f2f25",
+      "packaged_sha256": "edeeecba1f85b1782f7d5d452501edba660603bd4967f8edf0865c59d88f2f25"
+    },
+    {
+      "file": "buildings/export_glbs.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/export_glbs.py",
+      "source_sha256": "58c1618f0002fccc51485f98765f51011cf5cc8d3157d3deeb4a4d2e109342f4",
+      "packaged_sha256": "58c1618f0002fccc51485f98765f51011cf5cc8d3157d3deeb4a4d2e109342f4"
+    },
+    {
+      "file": "buildings/externalize_textures.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/externalize_textures.py",
+      "source_sha256": "d3121d273030ed3e94b6a2cba70a40308aa0d2584d7b5790c162de8d7882d74d",
+      "packaged_sha256": "170fbcac84814904b299d109a22b0ec3bb64a87c3198f622da4f18f36a6a9fbb"
+    },
+    {
+      "file": "buildings/finalize_scene.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/finalize_scene.py",
+      "source_sha256": "9d481f35a082541c40daa09266e6e2c120587073f0a76f8693ccac9550e37e9e",
+      "packaged_sha256": "c3b9494ead4b43c48d32258e506c135b5c60722fec9a244c18aec3d7ff1297af"
+    },
+    {
+      "file": "buildings/pack_atlas_512.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/pack_atlas_512.py",
+      "source_sha256": "ed3dbdfd36bb5cd9fbce41cd03f892d79547f9bbd145e0d77a32c1ebf8a21566",
+      "packaged_sha256": "ed3dbdfd36bb5cd9fbce41cd03f892d79547f9bbd145e0d77a32c1ebf8a21566"
+    },
+    {
+      "file": "buildings/rescale_buildings.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/rescale_buildings.py",
+      "source_sha256": "c5a46b90f429da299f72ad0d8c9b2c4ef49f6da63061c2d5150c2b4649405244",
+      "packaged_sha256": "e34b83e65bc56199505028e9564d12c79336363af3e4a41eaa26a5a0af111e0f"
+    },
+    {
+      "file": "buildings/restore_cart.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/restore_cart.py",
+      "source_sha256": "c840f4eea1e23cfb33e980fce376e4da4fba0453ef2ed5b9a0a2c8c982a966a3",
+      "packaged_sha256": "66c3c3cfed665e20bd7dc078e105fac6d3690d4b1ffb3f6517a53fb3e0ed60ea"
+    },
+    {
+      "file": "buildings/revise_scene.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/revise_scene.py",
+      "source_sha256": "27e7c8056b435c9d9d10a8b49c2a62d48a4ed1b82fd4f489c683dd10f1825d0d",
+      "packaged_sha256": "266d66cd7728111190c70a1b355cb8545e34fe8cc65a5aa5dc66d36465eb5a0d"
+    },
+    {
+      "file": "buildings/update_glb_atlas.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/update_glb_atlas.py",
+      "source_sha256": "2add0973900cc845d0e44dc4b66879f88ec2977f3c4784b5edf91163c8d1fa8c",
+      "packaged_sha256": "2f0decd46052b12cd9200fbf7970a615e74d51a7a7912cb2d8ad6a1afdaed4e8"
+    },
+    {
+      "file": "buildings/verify_construction.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/verify_construction.py",
+      "source_sha256": "2106643a7f048bf050bdfa7069b1c3ab6e8b6cd39485c84854bde8c2bcd78c2f",
+      "packaged_sha256": "2c5ecec589e80ba24a9bd2ac328773aacda26b15620c81ed30ea5280fe85ceaf"
+    },
+    {
+      "file": "buildings/verify_glbs.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/verify_glbs.py",
+      "source_sha256": "ac153e3940606d3ed3317369247c1ae635a4185d17dd78b0aa96f28fc2e8569b",
+      "packaged_sha256": "8f300355bbc49505495b6748f43460f8e1b98b5c40d6564c44033d618b9c9ee1"
+    },
+    {
+      "file": "buildings/verify_scene.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/verify_scene.py",
+      "source_sha256": "38c495fd8ba263b7344893c588222408a552314a44b0bac64c71efb4904a1bca",
+      "packaged_sha256": "9aab74344f0fa9b4975e97111f8e82e82895c07e9dbc6d6b7db666f568f452fc"
+    },
+    {
+      "file": "buildings/verify_shared_atlas.py",
+      "source": "polyworld/tmp/polyworld-buildings-20260922/verify_shared_atlas.py",
+      "source_sha256": "82b0e73d7cfffa67b9548a10d7b95350916fa82238911abbf4410e7f880ab709",
+      "packaged_sha256": "ad3081ebcc01accafb96315ead0ff2f34537265237fb4379cb9b1c58071bc22a"
+    },
+    {
+      "file": "faction_trims/package.py",
+      "source": "polyworld/tmp/lvd-faction-trims-20260922/package.py",
+      "source_sha256": "397205f471d48d1e180aadfda44b67083847db5b7065ec9d683cf1ae7879813a",
+      "packaged_sha256": "27413d0f416192f841d0b0c7cb5cb885ab8c0d3a7510744a93a185e1b3ce2ed8"
+    },
+    {
+      "file": "faction_trims/render_preview.py",
+      "source": "polyworld/tmp/lvd-faction-trims-20260922/render_preview.py",
+      "source_sha256": "66e18d458220b1512d86fb25b7997826bb5f23a6bd1a3ffba60e050f5c3a1da6",
+      "packaged_sha256": "7c951a11eb86e5dd4befdd5216baa848a6577f4634573b58753d25184e4e549a"
+    },
+    {
+      "file": "faction_renders/compose.py",
+      "source": "polyworld/tmp/lvd-faction-renders-20260922/compose.py",
+      "source_sha256": "2e211a771927d10d62a29a1feb7e679bddf44351f9042433b74b72b3e8c8f18a",
+      "packaged_sha256": "55bbb3ca908e372ece781cfba08cbf2fe24a718ccbd99fd15f1227239d6d6e5f"
+    },
+    {
+      "file": "faction_renders/render_all.py",
+      "source": "polyworld/tmp/lvd-faction-renders-20260922/render_all.py",
+      "source_sha256": "966c25653435daa87d8045fa50b8f95e40a830a2218a287f3c277ebfdf3816cf",
+      "packaged_sha256": "d271a77e56a9a386c3a29ed34cf73a1c5ae2f9412e2d071200dfb356ddcc6ee3"
+    }
+  ],
+  "launcher": {
+    "file": "run.py",
+    "purpose": "Stage related scripts in an explicit workspace and supply pack paths without modifying the originals."
+  },
+  "support_files": [
+    "faction_trims/prompts.example.json",
+    "faction_trims/sources.example.json",
+    "faction_trims/layout.example.json",
+    "faction_renders/gallery-template.html"
+  ]
+}

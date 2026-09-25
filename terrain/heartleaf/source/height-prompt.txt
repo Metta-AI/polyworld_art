@@ -1,0 +1,11 @@
+Use case: precise-object-edit. Produce the aligned linear grayscale HEIGHT/DISPLACEMENT texture for the provided finished terrain COLOR atlas.
+Output exactly 1254 x 1254 pixels, same precise 3x3 grid of 418x418 cells, with divisions x=418,836 and y=418,836. Exact pixel registration, orientation, framing and scale with the input color atlas. Change only the represented channel from color to physical relief. Preserve every paving slab silhouette, bevel, joint, tiny gravel fleck, clover fleck and turf tuft at its original pixel location. No regenerated or rearranged pattern.
+
+Height is physical surface elevation: brighter means higher, darker means lower. It is NOT desaturated color, NOT directional shading, NOT a normal map, NOT camera depth, NOT opacity. Fully opaque grayscale RGB, R=G=B. Neutral flat lighting with absolutely no directional light or shadows. Independently seamless within each of the nine cells. Preserve edge continuity. No cell-border lines, outlines, labels, gutters, text, margins or watermark.
+
+Use a shared restrained height convention over the full atlas:
+Top row, grass variations: low shallow turf tufts around gray 120-155 with their underlying floor around 95-110, tiny clover surfaces at 145-160. Broad faceted turf creates shallow relief only, not hills, white noisy spikes or deep black crevices. Ignore lighter/darker color facets caused only by paint. No directional highlights on tuft edges.
+Middle row, packed golden earth variations: almost flat neutral gray ground around 110-120, subtle physical unevenness 105-130, sparse tiny embedded stones on rightmost tile at 135-150. No broad left-to-right gradient and no white speckles.
+Bottom row, cream paving variations: exact existing limestone slabs have largely flat medium-light gray tops around 175-190; all bevels slope equally around every side down through gray 125-160 to narrow recessed mortar joints around gray 65-80. Tops vary subtly in physical elevation, NOT in response to input stains or brush shading. There are no bright highlight outlines, deep black shadows or lit sides. CRITICAL: trace the exact original stone edge positions and thickness of joints. Keep the stone pattern and dimensions perfectly unchanged.
+
+Output only this corresponding opaque grayscale relief atlas, not a side-by-side comparison.

@@ -1,0 +1,560 @@
+{
+  "captured": "2026-09-24",
+  "repositories": {
+    "polyworld_art": "32946b35b92e2b33f38945e96b293eb6e2c98ac9",
+    "polyworld": "23f3384e7ffc0d73379f41a308967755e361f433"
+  },
+  "adaptations": {
+    "paths.py": "Resolve assets from the art repository rather than the bundled scripts directory; allow explicit path overrides.",
+    "run_nim.py": "New launcher for the live Nim tools with the project config and dependencies.",
+    "review_gota_hades.py": "Resolve the Hades source folder via the bundled paths module."
+  },
+  "files": [
+    {
+      "file": "beard_sheets.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/beard_sheets.py",
+      "sourceSha256": "f3b1b686a6e4115aee6f69000619187bc41303de000c33bfe0c544c31e535e36"
+    },
+    {
+      "file": "beard_styles_01_04.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/beard_styles_01_04.py",
+      "sourceSha256": "369766beefcb00b8f16a0330fa0cf4190b8be44c948282a12ca84300831b4672"
+    },
+    {
+      "file": "beard_styles_05_08.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/beard_styles_05_08.py",
+      "sourceSha256": "d5e159377ad302f49c7189234b339d8cb076f059fb034a4dd6d3fd37feb873d9"
+    },
+    {
+      "file": "beard_styles_09_12.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/beard_styles_09_12.py",
+      "sourceSha256": "c588e3239f4466b79a17f61c0558c59b0e6425888f0f3fd643541d91e8fb3449"
+    },
+    {
+      "file": "beard_styles_13_16.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/beard_styles_13_16.py",
+      "sourceSha256": "264783f8b84c0378890bd988a6e01c1d1d101e04e40c388667d45a2f43a8203b"
+    },
+    {
+      "file": "beards.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/beards.py",
+      "sourceSha256": "fb352f02ba810820b4c1fafceac812399b65f5d2c6795bce57210738549e69ef"
+    },
+    {
+      "file": "build_belts.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_belts.py",
+      "sourceSha256": "e2c7419f6f3e08f9b6b081fce002c494b99f450a6a3c950fd0cda4cde644038a"
+    },
+    {
+      "file": "build_clothes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_clothes.py",
+      "sourceSha256": "412c47d136bbda23268d30750422c97aa88b20da018f685d88a0839c425ed1a4"
+    },
+    {
+      "file": "build_expressions.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_expressions.py",
+      "sourceSha256": "776a402a92188676ffe9d53b5cf1c573378beea7450c00cc8d4af0613d477f6b"
+    },
+    {
+      "file": "build_garments.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_garments.py",
+      "sourceSha256": "fa8e3610938b726a64870caa946a524b4a93742294f10c6be476a18c34403c2b"
+    },
+    {
+      "file": "build_gnomes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_gnomes.py",
+      "sourceSha256": "37d19bb984f9749d9f123d3f10e1fe36c72eb6e8df73ff4fc2f7bc7e4121c8ea"
+    },
+    {
+      "file": "build_gota.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_gota.py",
+      "sourceSha256": "8a63f80d1b7e9d0cb6503e8ab882be58ecf034d67e99ab0def1e5babb62caa64"
+    },
+    {
+      "file": "build_gota_body.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_gota_body.py",
+      "sourceSha256": "1c92e8f6077780dd871fc6e970ed4cf331c686b8ca125d056e33a2c3e1284d45"
+    },
+    {
+      "file": "build_gota_weapons.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_gota_weapons.py",
+      "sourceSha256": "2a5f981719cec3971779ab9bd875067e7d23bf2ba9d003c9d63a70d2e6c93aa7"
+    },
+    {
+      "file": "build_hats.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_hats.py",
+      "sourceSha256": "62dc82c0130f0ab6e0ed05180afbe0569fe7caab28a6e5b0a00ef6b143314af3"
+    },
+    {
+      "file": "build_model.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/build_model.py",
+      "sourceSha256": "f39ed39f9b19ae338ba6f1f078949f1160d6b72b30ff69926ab7ebcfa8378364"
+    },
+    {
+      "file": "clean_sources.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/clean_sources.py",
+      "sourceSha256": "0ad31ba8f3c8ffc2d62e8631202a2afc9c578d88195dbac7a698065070869ab3"
+    },
+    {
+      "file": "clothes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/clothes.py",
+      "sourceSha256": "c45ad3160b4b2cf47e3a341d859c90393cfa944e9b4b0af3f9eaec8fc3df3b74"
+    },
+    {
+      "file": "clothing_sheets.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/clothing_sheets.py",
+      "sourceSha256": "f742f5a3d4f4f16a35cc2851938182d03caed36599a58d8b45d129f693a5e5d2"
+    },
+    {
+      "file": "count_polygons.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/count_polygons.py",
+      "sourceSha256": "e94948f7fa91ac4ea23460349e3bfa1523ce2b4aac2e45cd52cad6512bfed109"
+    },
+    {
+      "file": "cut_faces.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/cut_faces.py",
+      "sourceSha256": "667c51a9751c51f683a723d7ff5b16205855c4b67f34af926063c158e92b87ad"
+    },
+    {
+      "file": "cut_gnomes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/cut_gnomes.py",
+      "sourceSha256": "f610047a08fe9add3b61f0112d7f88feb44993e723ab9298f30567144ba91e3b"
+    },
+    {
+      "file": "export_library.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/export_library.py",
+      "sourceSha256": "2226a58c97a40d70719a7d4f59ec76dfcc6fe82f4ed093b5469ad432f81b859e"
+    },
+    {
+      "file": "expressions.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/expressions.py",
+      "sourceSha256": "225a9276ee27c958ab06160a99707551bd8e6abc970be985a01b214591452e4c"
+    },
+    {
+      "file": "finalize_gota.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/finalize_gota.py",
+      "sourceSha256": "14a69b15d62b21361975512d0f00453c8291cc9d3ddb914d11790fc7debc0f91"
+    },
+    {
+      "file": "gallery_gota.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gallery_gota.py",
+      "sourceSha256": "918001c63050e80f411fbce13ac01b655e6830e8f54910b067751f76434d0727"
+    },
+    {
+      "file": "garments.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/garments.py",
+      "sourceSha256": "553f0931ede3df0e4413c9135dde5f48c35f5ffc2756be8f643f25fc6be89a45"
+    },
+    {
+      "file": "glbs.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/glbs.py",
+      "sourceSha256": "8c0d98d24b0de573a0fdb54793b22cc8ff38794a5b613bada009e2684ee4627a"
+    },
+    {
+      "file": "gnomes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gnomes.py",
+      "sourceSha256": "8ec53f934ff07f3537408878536ccb4020e9c95bcf0f5797aed26ac4c630f56f"
+    },
+    {
+      "file": "gota_arcanist.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_arcanist.py",
+      "sourceSha256": "84dda9b9d779eb126190c612953104ece3c918c7484ece3cd93f3f98c5c3dff8"
+    },
+    {
+      "file": "gota_berserker.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_berserker.py",
+      "sourceSha256": "7df83ccbec8960d641872e6b04e9a595373cb13756b547e1fe98986ce21c9195"
+    },
+    {
+      "file": "gota_common.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_common.py",
+      "sourceSha256": "689881cf6dd9a725aae254d98690431e005111ffa21c19c7e71ded19beb317ca"
+    },
+    {
+      "file": "gota_crossbowman.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_crossbowman.py",
+      "sourceSha256": "ccb3989d4c422b974638cf70e81de180477df5745091989269bc472d0e9b76f6"
+    },
+    {
+      "file": "gota_death_knight.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_death_knight.py",
+      "sourceSha256": "1f49790e42453830de8e4a4d6e3a5103e276b5c9fbdc77b7ba2ff75a008fd3e0"
+    },
+    {
+      "file": "gota_demon_hunter.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_demon_hunter.py",
+      "sourceSha256": "7eaf76ff309dc27bd3c1fdf2e7a8c64cfff8add1b91e29ee4a80ab162f98a621"
+    },
+    {
+      "file": "gota_druid_warden.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_druid_warden.py",
+      "sourceSha256": "e5042365ce04c5f075a5693988f2e279d7a2b8021000f006db3dd4c9d7c7d2a1"
+    },
+    {
+      "file": "gota_hades.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_hades.py",
+      "sourceSha256": "2759eab218d23d93ea65198af403ebfd3763c5d6790313ce1abc9b67cdbf3957"
+    },
+    {
+      "file": "gota_hades_equipment.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_hades_equipment.py",
+      "sourceSha256": "2ec034f7ceb419ae9b0c0038d9455eac28300ce075546891a6353c71d4d1760e"
+    },
+    {
+      "file": "gota_lich.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_lich.py",
+      "sourceSha256": "ccc7fc1f5636b4e65251ff367467e558f67c0c771c707a0c4c7eeb0ad8010ea9"
+    },
+    {
+      "file": "gota_ranger.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_ranger.py",
+      "sourceSha256": "33780557b247ddc55ea898bfd332c641413b3a96f6c0cca81bbdd4a91904fb43"
+    },
+    {
+      "file": "gota_vanguard_knight.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_vanguard_knight.py",
+      "sourceSha256": "023b9063055262eab0eb29f32a9e4e33018156c48a4c1bb0ec567e28e82950dd"
+    },
+    {
+      "file": "gota_warlock.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_warlock.py",
+      "sourceSha256": "e92f6c83bcbf99452f7799f306cf44da082d61f37817ce33bfff2c238d5ef696"
+    },
+    {
+      "file": "gota_zeus.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_zeus.py",
+      "sourceSha256": "1df24836daa001220332bb3a565f2d2800b2a090473297fc1f7d306283f8bcab"
+    },
+    {
+      "file": "gota_zeus_head.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_zeus_head.py",
+      "sourceSha256": "606a47b1b2fe70c9e12e26bfc6ccfa412368721ac74db7c23205d43a168da864"
+    },
+    {
+      "file": "gota_zeus_legs.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_zeus_legs.py",
+      "sourceSha256": "dac00211137e1082d66adf6aa9f92492c87a535efcb4b5ca5bcfeee9914aafd2"
+    },
+    {
+      "file": "gota_zeus_props.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/gota_zeus_props.py",
+      "sourceSha256": "c9b9d792b76d786be7564764ceaf9e7df5f3abe0d84bb91c5c9eedc8ecfa1b8d"
+    },
+    {
+      "file": "hair_sheets.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hair_sheets.py",
+      "sourceSha256": "aaef39259b83b56d2dfbfa33a37b81435dd71d8662803f15adaa4560d9dc1d49"
+    },
+    {
+      "file": "hair_styles_01_04.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hair_styles_01_04.py",
+      "sourceSha256": "1d27530a1584888c67b632440f9374c2a52f3465fdbe6319a9fc46763982ccdf"
+    },
+    {
+      "file": "hair_styles_05_08.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hair_styles_05_08.py",
+      "sourceSha256": "1f2d561129727a5f9dac7c24b25991fd39970b35157d668ce1e4699581d9b90e"
+    },
+    {
+      "file": "hair_styles_09_12.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hair_styles_09_12.py",
+      "sourceSha256": "5bfa1609a5705fa704e9da4a8fd4b289c7886ccb7fed18ef539eb055ddbdf6b6"
+    },
+    {
+      "file": "hair_styles_13_16.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hair_styles_13_16.py",
+      "sourceSha256": "4d4575514efadba4e1efb80204838a613dc1f63cc6485387d6817abca7ba94db"
+    },
+    {
+      "file": "hairs.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hairs.py",
+      "sourceSha256": "a569258c3da577df71976282524b1389b39f5439bff4455865c1584ff34d97ca"
+    },
+    {
+      "file": "hats.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/hats.py",
+      "sourceSha256": "e47e5fcfbbc64fb0d3d599fdd8320e269b75c0345751df47aff45bf8a546be30"
+    },
+    {
+      "file": "import_animations.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/import_animations.py",
+      "sourceSha256": "1eac3f6d830d0787ab713e745ca127bce7c9a70aa8beae10b7e76da6b3dc146c"
+    },
+    {
+      "file": "optimizations.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/optimizations.py",
+      "sourceSha256": "f4ed246afee3a44731cc91048f26c4962aefb50b6a7f811883568689cd2c88df"
+    },
+    {
+      "file": "optimize_model.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/optimize_model.py",
+      "sourceSha256": "ca73042ea0bffc14c38853d669cf68e358285a8188e701fc0e2aa7252aeeb2e4"
+    },
+    {
+      "file": "pack.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/pack.py",
+      "sourceSha256": "825dd843ab8050a6bd2aee1100a5b32290cd950901c506fddb3835c1c5bf70c7"
+    },
+    {
+      "file": "paths.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/paths.py",
+      "sourceSha256": "065801762905b9bea459fc13498f37e3891ac7ebc37a1af84e86eeb317ff41c4"
+    },
+    {
+      "file": "provenance.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/provenance.py",
+      "sourceSha256": "a50767ef4c01c01bb7752208fc56233b630549358b6e3a7ca49b52ace76ff04e"
+    },
+    {
+      "file": "register_gota.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/register_gota.py",
+      "sourceSha256": "24ac3269d043bc0a0e2b3d4d1f11d38363455a841ae63a85f39a0e56ffb447de"
+    },
+    {
+      "file": "render_beards.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/render_beards.py",
+      "sourceSha256": "6d156ea88866badebe0b675ccc9fee21d2c12ecb3a95a27796a4971db362020b"
+    },
+    {
+      "file": "render_clothes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/render_clothes.py",
+      "sourceSha256": "6cc84e04462f5e2e9bcb100f329bc8475cc2f833865ad0372367daaeff24ac53"
+    },
+    {
+      "file": "render_hairs.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/render_hairs.py",
+      "sourceSha256": "1fd05e45af3093bcbe38ccf87712874d90f279eee5fc763012caf78dba97901e"
+    },
+    {
+      "file": "retarget.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/retarget.py",
+      "sourceSha256": "a2e439b95c2dae31d37abe8e009c1a33584588aab888aacb8802043072cd7682"
+    },
+    {
+      "file": "review_gota.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota.py",
+      "sourceSha256": "06ba453baa2b6bc341a18ff38f7df603773e52f4f1fb8753e8a5fc08cc8df7fb"
+    },
+    {
+      "file": "review_gota_gods.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota_gods.py",
+      "sourceSha256": "49e82826d1419b7d99a0387816ac9d2ee6173631b40d00b7a95b0b88a6d30698"
+    },
+    {
+      "file": "review_gota_hades.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota_hades.py",
+      "sourceSha256": "a3220d0b88daa9d7530e33901f5404c7b98b95be04ca96a1982523ea210c1766"
+    },
+    {
+      "file": "review_gota_hoods.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota_hoods.py",
+      "sourceSha256": "1e6f3d47e7d2f80af946522daa3cce9551899c4eef80b8eb6942f14e0e71c2d8"
+    },
+    {
+      "file": "review_gota_swords.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota_swords.py",
+      "sourceSha256": "d792159fc21f0f9488c29b3cc4d935473001228a2c8d8bff624e356d39fcc03e"
+    },
+    {
+      "file": "review_gota_weapons.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota_weapons.py",
+      "sourceSha256": "2862f91be21d4d39550ddb37774e4892fc81127c69c296893b9db2df8ea76b23"
+    },
+    {
+      "file": "review_gota_zeus.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/review_gota_zeus.py",
+      "sourceSha256": "797eac9ea4e1a0ebee31a27f0b8620632f8e03a51dbbc7daddca46989cd4ded1"
+    },
+    {
+      "file": "test_packs.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/test_packs.py",
+      "sourceSha256": "e82b085ecf90e3ce653f12ffdf8d2a4ac36f960e4633d8c0cc0ee2b80123b966"
+    },
+    {
+      "file": "universal.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/universal.py",
+      "sourceSha256": "846f3aacf57af76418e1e04b1370e54dc715a160a9cd8ddfc31d824313c749d0"
+    },
+    {
+      "file": "verify_clean.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_clean.py",
+      "sourceSha256": "2a4ea925892547ee03a4928a8b1d5c5e3cb55adac5c2e696bd1fd99a8cfc09f9"
+    },
+    {
+      "file": "verify_clothes.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_clothes.py",
+      "sourceSha256": "60fbaaa8ac35b16b57595c5f96aa2ec23c9e267bbc8108d8a3c5019e3ec3736b"
+    },
+    {
+      "file": "verify_garments.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_garments.py",
+      "sourceSha256": "2cacdee7b6916f7794528172ac008e78b79102afdf405406a82d98ddc774c010"
+    },
+    {
+      "file": "verify_geometry.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_geometry.py",
+      "sourceSha256": "0b0fffac89a3ef666a8c4b5f4f75fd2e3923d25ff63ff69a54cb94477bdb81ec"
+    },
+    {
+      "file": "verify_gota.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_gota.py",
+      "sourceSha256": "b08553ad55a1479a08f3c3d32ae57432655f0313ae4e0d3cf1f00e7ef3cc6755"
+    },
+    {
+      "file": "verify_gota_gods.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_gota_gods.py",
+      "sourceSha256": "c96b2a01550050b9759a3728642ff07591d07698a4ad68e681d3fb4e59b3fd6b"
+    },
+    {
+      "file": "verify_gota_weapons.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_gota_weapons.py",
+      "sourceSha256": "6af635abb7001b56ecb2132a62b7c26d329416f3afb9c0d4c507e51201603201"
+    },
+    {
+      "file": "verify_library.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_library.py",
+      "sourceSha256": "64dd8a8b827f60a7de15bb02fdf5f0beb3894f4dd01ad4c5df748c1e2ef37f17"
+    },
+    {
+      "file": "verify_model.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_model.py",
+      "sourceSha256": "518f2a4eb12fd58c01676c7d1efd69a5edb3fc99331773d1fdba6e30acc2b859"
+    },
+    {
+      "file": "verify_universal.py",
+      "repository": "polyworld_art",
+      "source": "characters/chargen/source/scripts/verify_universal.py",
+      "sourceSha256": "760fe6d28c7f95782f77a449ac4d5283159be553c8404d702c584c441cf9eb8c"
+    },
+    {
+      "file": "nim/chargen.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/chargen.nim",
+      "sourceSha256": "8a705ae818c63adc063260668d85ec07ce14bc6f43f2698815071c97bf657846"
+    },
+    {
+      "file": "nim/render_garments.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/render_garments.nim",
+      "sourceSha256": "a5ab9cb917e4174712cb8c9d556a06c78ec8642090b942a2e9b943d24997194c"
+    },
+    {
+      "file": "nim/render_hats.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/render_hats.nim",
+      "sourceSha256": "295ceb89e73624d1d108cd60c850d4153e484b6e93c6bec915c17e4d906a84f6"
+    },
+    {
+      "file": "nim/render_gota.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/render_gota.nim",
+      "sourceSha256": "21de9f3dc528ef89166042b130a9b0f7ccb97b9af11a4eff067abac2e2de3ee8"
+    },
+    {
+      "file": "nim/render_swords.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/render_swords.nim",
+      "sourceSha256": "59afc0903a8de63a45ea4eee0638b44477e0b23057605d684e6103aeae97c50e"
+    },
+    {
+      "file": "nim/lineups.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/lineups.nim",
+      "sourceSha256": "a750231019e53e3798122f012bb0f7f3919567891ea76a5a68316ee30ed57e5a"
+    },
+    {
+      "file": "nim/weights.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/weights.nim",
+      "sourceSha256": "4678a3aee73672ed2415d5431cfdbc0dc67f17718aa86cfba8b1b661e2b7266b"
+    },
+    {
+      "file": "nim/tests.nim",
+      "repository": "polyworld",
+      "source": "experiments/chargen/tests.nim",
+      "sourceSha256": "9d2ecaf29e5a52b0a6cad0b770d1f869d2e8f4c87c2103d3d953dde23ca07024"
+    }
+  ]
+}
