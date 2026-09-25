@@ -1,0 +1,87 @@
+{
+  "title": "Heartleaf mockup layers",
+  "date": "2026-09-25",
+  "canvas": [
+    1122,
+    1402
+  ],
+  "method": "Built-in imagegen extraction and reconstruction, followed by ImageMagick registration and alpha compositing.",
+  "source": {
+    "providedPath": "/var/folders/nh/hbz5f40j1nb0m6t1hnbbz8q40000gn/T/codex-clipboard-11f6a9a3-501b-4d14-a566-631d51e3d95b.png",
+    "sha256": "0544cf50ecb27bbb8eb1c7286cc92ebb5aec6919ff6461606b5e936f90eb23c6",
+    "size": [
+      2244,
+      2804
+    ],
+    "bundled": false
+  },
+  "stackOrderBottomToTop": [
+    "01-grass-and-paths.png",
+    "02-buildings.png",
+    "03-trees-and-vegetation.png",
+    "04-props.png"
+  ],
+  "corrections": [
+    "Translated all nine house cutouts to their original door landmarks.",
+    "Masked rear plaza curb and fence behind the upper central tree; preserved front curb and benches.",
+    "Removed detached chimney and sunflower content from the props layer through imagegen."
+  ],
+  "limitations": [
+    "Generative reconstructions differ from the original in object detail, proportions and some contours.",
+    "Four semantic layers do not recover original 3D geometry or a lossless layered source."
+  ],
+  "imagegenRevisionAttempt": "A further building-registration edit returned usage_limit_reached; no CLI/API fallback used.",
+  "files": [
+    {
+      "file": "01-grass-and-paths.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "sha256": "0c32de4d8b0900fd205e28dc9372596d645ad4df1c8d10dcead25276add84484"
+    },
+    {
+      "file": "02-buildings.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "4dd037b2eda0798e47c02c6fe51f721d64ae91e033fde8a029627b0f04f3bfb3",
+      "fullyTransparentPixels": 1152292,
+      "substantiallyOpaquePixels": 368991
+    },
+    {
+      "file": "03-trees-and-vegetation.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "06fca1f00d4bcbce8c8fce94a6f6180fa8d58e5c9aa8bd83e17c43efdc27a802",
+      "fullyTransparentPixels": 672207,
+      "substantiallyOpaquePixels": 639171
+    },
+    {
+      "file": "04-props.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGBA",
+      "sha256": "e1814ae2bf6c6cbf48c4ae74363e93f5a10e616779f50448b34b70780123fa5a",
+      "fullyTransparentPixels": 1107785,
+      "substantiallyOpaquePixels": 305320
+    }
+  ],
+  "prompts": [
+    "prompts/01-ground.txt",
+    "prompts/02-buildings.txt",
+    "prompts/03-vegetation.txt",
+    "prompts/04-props-cleanup.txt",
+    "prompts/04-props.txt"
+  ],
+  "registration": "registration.json",
+  "preview": "stacked-preview.png"
+}

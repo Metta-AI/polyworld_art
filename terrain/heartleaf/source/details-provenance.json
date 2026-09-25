@@ -6,8 +6,12 @@
       "vertices": 176
     },
     "bench": {
-      "triangles": 220,
-      "vertices": 448
+      "triangles": 680,
+      "vertices": 1420
+    },
+    "birdhouse": {
+      "triangles": 60,
+      "vertices": 128
     },
     "fence": {
       "triangles": 72,
@@ -46,8 +50,8 @@
       "vertices": 2012
     },
     "plaza_paving": {
-      "triangles": 2330,
-      "vertices": 4660
+      "triangles": 2140,
+      "vertices": 4280
     },
     "sign": {
       "triangles": 26,
@@ -62,11 +66,14 @@
       "vertices": 800
     }
   },
-  "triangles": 6896,
-  "date": "2026-09-24",
+  "triangles": 7226,
+  "date": "2026-09-25",
   "source": "skills/scripts/modeling_buildings/build_heartleaf_details.py",
   "export": "terrain/heartleaf/models/village_details.glb",
   "reference_sha256": "1264f5c2b12a7576b1867470924c5a677fe281a04ae256d638bb1807dac20ef2",
-  "review": "Judge accepted front, rear, top, oblique views and town-04 assembly. Evidence retained in polyworld/tmp/heartleaf-town.",
-  "glb_sha256": "dd4f29c4d03a775fd58f89d90aae3aa384ef5120c06e12bfbc6bff47f498e180"
+  "review": "Fresh-import multi-angle views and props-only runtime comparison in tmp/heartleaf-layers.",
+  "glb_sha256": "508ac0ca88ed9fb5324a09ad51dc68de1008184a655439de868482ca5ffc753b",
+  "modifications": "Thicker freestanding fence rails and posts; raised cream limestone tree curb; narrower radial plaza paving around a larger grass opening, with layer-generated limestone texture; independent green-roof birdhouse added. Bench construction and CC0 painted trim retained.",
+  "woodRevision": "Golden timber UVs remapped to the existing quiet brown timber strip in the original reviewed CC0 trim atlas.",
+  "benchRevision": "Curved benches face outward from the plaza trunk. Curved slat winding corrected after the facing change."
 }

@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-25",
+  "creator": "Softmax / Polyworld contributors with Codex and built-in imagegen",
+  "license": "CC0-1.0",
+  "generation": "Built-in imagegen; no third-party bitmap input. Height generated from the new project-generated color master.",
+  "colorPrompt": "Create one seamless, repeating square 1024 by 1024 game albedo texture of continuous fine meadow turf for a cozy hand-painted gnome village. Flat orthographic straight-down view, uniform diffuse lighting. Dense tiny overlapping grass blades and very small clover leaves, painterly stylized strokes, a balanced mid-tone moss and olive green palette, average around RGB 113 143 53. Very subtle local variation, restrained contrast, no large patches, no rocks, no flowers, no dirt, no trees or objects, no lighting direction, no cast shadows, no vignette, no labels, no border or grid. This will wrap across broad grassy cottage roofs and the ground, so all four edges must tile seamlessly and the visual grain must remain fine. The desired character is warm, soft storybook painted grass rather than neon yellow-green or a photographic lawn.",
+  "heightPrompt": "Convert the attached grass albedo into its aligned grayscale HEIGHT map for a game terrain texture. Preserve the exact size 1254 by 1254 pixels, orientation, placement and shapes of every clover leaf and grass blade. This is shallow ground RELIEF, not color brightness, lighting, normals, depth or shadows. Grass blades and clover tops are subtly raised mid-light gray (around 145 to 175); gaps beneath the turf medium gray (around 100 to 120). Very shallow continuous turf, no sharp mountains. Fully opaque pure grayscale RGB, no labels or margins. Preserve seamless repetition on all four edges.",
+  "actualMasterDimensions": [
+    1254,
+    1254
+  ],
+  "processing": "Nim/Pixie terrain tools: tile 1 1 32 for color, height 1 1 32 for height, paired export tiles 1 1 to 256x256. Fine local grain and seams inspected before export.",
+  "runtimeFiles": [
+    "terrain/tiles/heartleaf-turf.rgb.png",
+    "terrain/tiles/heartleaf-turf.height.png"
+  ]
+}

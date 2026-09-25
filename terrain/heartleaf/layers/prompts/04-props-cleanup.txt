@@ -1,0 +1,6 @@
+Use case: precise-object-edit, transparent asset cleanup.
+The input is a 1122x1402 RGBA full-map props layer. Preserve the canvas dimensions, transparent background, every existing prop's precise position, scale, orientation and details. Make ONLY these corrections:
+1. Remove the detached gray house chimney near the top at x41%, y6%, and the entire tall sunflower cluster immediately to its left at x36%, y7%. Make both areas fully transparent. Preserve the nearby wooden fence.
+2. Remove the other detached small gray house chimney at x31%, y74%. Make its area fully transparent.
+3. Clean all isolated red, yellow, lime-green fringe pixels and stray matte fragments around prop contours. These are background remnants, NOT painted parts of the props. Make empty gaps between fence rails and behind the props fully alpha-transparent. Keep meaningful green leaves and colored flowers inside actual pots and boxes. Do not erase leaves rooted in planter boxes.
+Retain every other prop exactly: fence posts and rails, all planters/pots with their plants, market stall and stand, lamp/sign posts, birdhouses, beehive, well, clotheslines, stones, benches and central stone ring. Do not add any house, tree, new flower patch, grass patch or ground shadow. Output only this cleaned full-map props layer with true alpha transparency. No background color or checkerboard.

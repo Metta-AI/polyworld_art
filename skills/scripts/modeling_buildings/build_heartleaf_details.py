@@ -44,18 +44,18 @@ for name,tint in [('Painted oak and leaves',(1,1,1,1)),
 
 class Geo:
     def __init__(self): self.v=[];self.f=[];self.uv=[];self.m=[]
-    def face(self,points,tile=1,mat=0):
+    def face(self,points,tile=2,mat=0):
         a=len(self.v);self.v.extend(points);self.f.append(tuple(range(a,a+len(points))))
         u,v,U,V=regions[tile]
         corners=[(u,v),(U,v),(U,V),(u,V)]
         self.uv.append(corners[:len(points)]);self.m.append(mat)
-    def box(self,center,size,tile=1,mat=0):
+    def box(self,center,size,tile=2,mat=0):
         x,y,z=center;dx,dy,dz=[v/2 for v in size]
         v=[(x-dx,y-dy,z-dz),(x+dx,y-dy,z-dz),(x+dx,y+dy,z-dz),(x-dx,y+dy,z-dz),
            (x-dx,y-dy,z+dz),(x+dx,y-dy,z+dz),(x+dx,y+dy,z+dz),(x-dx,y+dy,z+dz)]
         for face in [(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]:
             self.face([v[i] for i in face],tile,mat)
-    def beam(self,a,b,r=.07,tile=1,mat=0,sides=6):
+    def beam(self,a,b,r=.07,tile=2,mat=0,sides=6):
         a,b=Vector(a),Vector(b);axis=(b-a).normalized()
         side=axis.cross(Vector((0,0,1)))
         if side.length<.1: side=axis.cross(Vector((0,1,0)))
@@ -94,15 +94,30 @@ class Geo:
 assets=[]
 g=Geo()
 for x in [-.9,.9]:
-    g.beam((x,0,0),(x,0,1.05),.10,sides=5)
-for z in [.36,.79]:g.beam((-.9,0,z),(.9,0,z+.04),.06)
+    g.beam((x,0,0),(x,0,1.35),.19,sides=5)
+for z in [.40,.95]:g.beam((-.9,0,z),(.9,0,z+.04),.13)
 assets.append(g.object('fence'))
 g=Geo()
-for y in [-.2,0,.2]:g.box((0,y,.55),(2.4,.18,.13))
-for x in [-.92,.92]:
-    for y in [-.20,.2]:g.beam((x,y,0),(x,y,.56),.075)
-    g.beam((x,.24,.48),(x,.38,1.10),.055)
-for z in [.82,1.03]:g.box((0,.33,z),(2.4,.12,.16))
+# A curved seat with separate planks, back slats, legs and arm supports.
+def bench_point(x, y, z):
+    angle=x/3.7
+    radius=3.7+y
+    return (radius*math.sin(angle), 3.7-radius*math.cos(angle), z)
+for lo,hi,z,thickness in [(-.34,-.12,.58,.11),(-.09,.13,.58,.11),
+                         (.16,.38,.58,.11),(-.43,-.30,.93,.18),
+                         (-.43,-.30,1.18,.18)]:
+    for i in range(8):
+        left=-1.3+i*2.6/8;right=left+2.6/8
+        verts=[bench_point(x,y,h) for h in [z-thickness/2,z+thickness/2]
+               for x,y in [(left,lo),(right,lo),(right,hi),(left,hi)]]
+        for face in [(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]:
+            g.face([verts[j] for j in reversed(face)])
+for x in [-1.08,1.08]:
+    for y in [-.30,.29]:
+        g.beam(bench_point(x,y,0),bench_point(x,y,.59),.085)
+    g.beam(bench_point(x,-.38,.40),bench_point(x,-.38,1.30),.075)
+    g.beam(bench_point(x,.29,.48),bench_point(x,.29,.90),.055)
+    g.beam(bench_point(x,-.36,.88),bench_point(x,.35,.88),.065)
 assets.append(g.object('bench'))
 g=Geo();g.beam((0,0,0),(0,0,2.7),.105)
 g.beam((-.15,0,2.5),(.7,0,2.5),.08)
@@ -174,12 +189,12 @@ g=Geo()
 for i in range(40):
     a=i*math.tau/40;b=(i+.92)*math.tau/40
     for radius,z in [(2.75,.12)]:
-        pts=[(r*math.cos(t),r*math.sin(t),h) for h in [0,.35] for r,t in [(radius,a),(radius+.34,a),(radius+.34,b),(radius,b)]]
+        pts=[(r*math.cos(t),r*math.sin(t),h) for h in [0,.55] for r,t in [(radius,a),(radius+.34,a),(radius+.34,b),(radius,b)]]
         for face in [(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]:g.face([pts[j] for j in face],6)
 assets.append(g.object('tree_curb'))
 g=Geo()
-for row in range(6):
-    inner=2.75+row*.84;outer=inner+.81
+for row in range(5):
+    inner=3.94+row*.74;outer=inner+.71
     count=round(math.tau*(inner+outer)/2/.85)
     for i in range(count):
         a=(i+(row%2)*.5)*math.tau/count
@@ -188,6 +203,29 @@ for row in range(6):
         for face in [(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]:
             g.face([pts[j] for j in face],6)
 assets.append(g.object('plaza_paving'))
+# Cream limestone uses the generated paving albedo in its own material.
+limestone=bpy.data.materials.new('Warm limestone');limestone.use_nodes=True
+bs=limestone.node_tree.nodes.get('Principled BSDF');bs.inputs['Roughness'].default_value=1
+tex=limestone.node_tree.nodes.new('ShaderNodeTexImage')
+tex.image=bpy.data.images.load(str(Art/'terrain/tiles/heartleaf-layer-paving-1.rgb.png'));tex.image.pack()
+limestone.node_tree.links.new(tex.outputs['Color'],bs.inputs['Base Color'])
+for obj in assets:
+    if obj.name in ('plaza_paving','tree_curb'):
+        index=len(obj.data.materials);obj.data.materials.append(limestone)
+        for face in obj.data.polygons:
+            face.material_index=index
+            for loop in face.loop_indices:
+                vertex=obj.data.vertices[obj.data.loops[loop].vertex_index].co
+                obj.data.uv_layers.active.data[loop].uv=(vertex.x*.26,vertex.y*.26)
+# A separate green-roof birdhouse makes the two small notice posts reusable.
+g=Geo();g.beam((0,0,0),(0,0,1.65),.13)
+g.box((0,0,1.66),(.72,.58,.68),2)
+g.box((0,-.298,1.72),(.24,.012,.26),11)
+for side in [-1,1]:
+    g.face([(0,-.45,2.30),(side*.56,-.45,1.97),
+            (side*.56,.45,1.97),(0,.45,2.30)],12)
+g.box((0,-.4,1.43),(.87,.35,.09))
+assets.append(g.object('birdhouse'))
 # Preserve editable bilateral construction for the bench and stall.
 for obj in assets:
     if obj.name in ('bench','market'):
@@ -202,6 +240,7 @@ bpy.ops.export_scene.gltf(filepath=str(Out),export_format='GLB',use_selection=Tr
 # Preserve tint factors alongside textures (Blender exports texture links as white).
 b=Out.read_bytes();n=struct.unpack_from('<I',b,12)[0];j=json.loads(b[20:20+n]);binchunk=b[20+n:]
 for m in j['materials']:
+    if m['name']=='Painted oak and leaves':m['pbrMetallicRoughness']['baseColorFactor']=[.76,.82,.88,1]
     if m['name']=='Blue petals':m['pbrMetallicRoughness']['baseColorFactor']=[.25,.43,1,1]
     if m['name']=='Golden petals':m['pbrMetallicRoughness']['baseColorFactor']=[1,.72,.1,1]
 p=json.dumps(j,separators=(',',':')).encode();p+=b' '*((-len(p))%4)

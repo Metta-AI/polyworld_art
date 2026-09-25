@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-25",
+  "license": "CC0-1.0",
+  "creator": "Softmax / Polyworld contributors, with Codex procedural Blender modeling",
+  "source": "terrain/blender_village/models/hobbit_house.glb",
+  "source_sha256": "267b4e1558b0bea4cbe9f6347483e61bc2997a169b3709304b4cefbee7a417f8",
+  "script": "skills/scripts/modeling_buildings/split_heartleaf_cottage.py",
+  "reference_sha256": "b8783b582def9c1975c8e2bf0e5763a64233e13269d36889caeccaaa7186ef27",
+  "changes": "Preserved door/window proportions and front join. Extracted each connected front-yard rail, post and stone into its own ground-pivot node, with placements in garden-parts.json. Removed the redundant yard grass disk. Thickened individual posts and rails without scaling the yard. Reduced excess rear mound depth and crown height while preserving the facade join. Quiet brown timber UVs retained; grass uses the new layer-derived CC0 material. Runtime cottage scale remains uniform.",
+  "export": "terrain/heartleaf/models/cottage.glb",
+  "editable": "terrain/heartleaf/source/cottage-parts.blend",
+  "validation": {
+    "triangles": 1084,
+    "vertices": 1714
+  },
+  "fresh_import": true,
+  "review": "Fresh-import front/rear/top/oblique views and individual game layers in tmp/heartleaf-layers. Judge reviewed model separation and layer alignment.",
+  "glb_sha256": "727a02ad63d802ed923970fd7ea4fb58878fbbf3c6d25db279a053f9ed06d221",
+  "woodRevision": "Golden timber UVs remapped to the existing quiet brown timber strip in the original reviewed CC0 trim atlas.",
+  "turf_source": "terrain/tiles/heartleaf-layer-grass-1.rgb.png",
+  "turf_sha256": "a0fb72936cf61d88b9a5447e8fb33380e49791fa8217410f1088beeea13022c3",
+  "title": "Independent cottage shell and thirty reusable yard pieces",
+  "preparation_script": "skills/scripts/modeling_buildings/refine_heartleaf_cottage.py",
+  "yard_export": "terrain/heartleaf/models/garden_parts.glb",
+  "yard_layout": "terrain/heartleaf/models/garden-parts.json",
+  "yard_parts": 30,
+  "yard_sha256": "a4d5a67a0cdc857109cdb26a7af9fc8a172b169a396ef1da13b73fcda36b8d79",
+  "visual_review": {
+    "status": "passed",
+    "date": "2026-09-25",
+    "views": [
+      "front",
+      "rear",
+      "top",
+      "oblique"
+    ],
+    "result": "Independent judge found no missing faces, torn seams or bad UV jumps in the detached shell and yard parts. Four runtime layer comparisons passed after registered placement and flower/stone corrections."
+  }
+}

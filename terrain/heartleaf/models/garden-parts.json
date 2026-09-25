@@ -1,0 +1,272 @@
+[
+  {
+    "name": "stone_00",
+    "kind": "stone",
+    "position": [
+      0.0,
+      0.012,
+      0.15612
+    ]
+  },
+  {
+    "name": "stone_01",
+    "kind": "stone",
+    "position": [
+      0.614009,
+      0.012,
+      0.168186
+    ]
+  },
+  {
+    "name": "stone_02",
+    "kind": "stone",
+    "position": [
+      0.0,
+      0.012,
+      0.894348
+    ]
+  },
+  {
+    "name": "stone_03",
+    "kind": "stone",
+    "position": [
+      0.452673,
+      0.012,
+      0.837015
+    ]
+  },
+  {
+    "name": "stone_04",
+    "kind": "stone",
+    "position": [
+      0.0,
+      0.012,
+      1.557604
+    ]
+  },
+  {
+    "name": "stone_05",
+    "kind": "stone",
+    "position": [
+      0.0,
+      0.012,
+      2.38334
+    ]
+  },
+  {
+    "name": "stone_06",
+    "kind": "stone",
+    "position": [
+      0.544215,
+      0.012,
+      2.372526
+    ]
+  },
+  {
+    "name": "fence_07",
+    "kind": "fence",
+    "position": [
+      3.016138,
+      0.016,
+      1.06
+    ]
+  },
+  {
+    "name": "fence_08",
+    "kind": "fence",
+    "position": [
+      2.599,
+      0.016,
+      2.166
+    ]
+  },
+  {
+    "name": "fence_09",
+    "kind": "fence",
+    "position": [
+      1.7825,
+      0.016,
+      2.894
+    ]
+  },
+  {
+    "name": "fence_10",
+    "kind": "fence",
+    "position": [
+      0.828,
+      0.016,
+      3.216
+    ]
+  },
+  {
+    "name": "fence_11",
+    "kind": "fence",
+    "position": [
+      1.953311,
+      0.167,
+      1.658851
+    ]
+  },
+  {
+    "name": "fence_12",
+    "kind": "fence",
+    "position": [
+      1.953311,
+      0.417,
+      1.658851
+    ]
+  },
+  {
+    "name": "stone_13",
+    "kind": "stone",
+    "position": [
+      3.243,
+      0.018,
+      1.55
+    ]
+  },
+  {
+    "name": "stone_14",
+    "kind": "stone",
+    "position": [
+      2.7485,
+      0.018,
+      2.684
+    ]
+  },
+  {
+    "name": "stone_15",
+    "kind": "stone",
+    "position": [
+      1.61,
+      0.018,
+      3.398
+    ]
+  },
+  {
+    "name": "stone_16",
+    "kind": "stone",
+    "position": [
+      0.9545,
+      0.018,
+      3.566
+    ]
+  },
+  {
+    "name": "stone_17",
+    "kind": "stone",
+    "position": [
+      -0.614009,
+      0.012,
+      0.168186
+    ]
+  },
+  {
+    "name": "stone_18",
+    "kind": "stone",
+    "position": [
+      -0.452673,
+      0.012,
+      0.837015
+    ]
+  },
+  {
+    "name": "stone_19",
+    "kind": "stone",
+    "position": [
+      -0.544215,
+      0.012,
+      2.372526
+    ]
+  },
+  {
+    "name": "fence_20",
+    "kind": "fence",
+    "position": [
+      -3.016138,
+      0.016,
+      1.06
+    ]
+  },
+  {
+    "name": "fence_21",
+    "kind": "fence",
+    "position": [
+      -2.599,
+      0.016,
+      2.166
+    ]
+  },
+  {
+    "name": "fence_22",
+    "kind": "fence",
+    "position": [
+      -1.7825,
+      0.016,
+      2.894
+    ]
+  },
+  {
+    "name": "fence_23",
+    "kind": "fence",
+    "position": [
+      -0.828,
+      0.016,
+      3.216
+    ]
+  },
+  {
+    "name": "fence_24",
+    "kind": "fence",
+    "position": [
+      -1.953311,
+      0.167,
+      1.658851
+    ]
+  },
+  {
+    "name": "fence_25",
+    "kind": "fence",
+    "position": [
+      -1.953311,
+      0.417,
+      1.658851
+    ]
+  },
+  {
+    "name": "stone_26",
+    "kind": "stone",
+    "position": [
+      -3.243,
+      0.018,
+      1.55
+    ]
+  },
+  {
+    "name": "stone_27",
+    "kind": "stone",
+    "position": [
+      -2.7485,
+      0.018,
+      2.684
+    ]
+  },
+  {
+    "name": "stone_28",
+    "kind": "stone",
+    "position": [
+      -1.61,
+      0.018,
+      3.398
+    ]
+  },
+  {
+    "name": "stone_29",
+    "kind": "stone",
+    "position": [
+      -0.9545,
+      0.018,
+      3.566
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-25",
+  "license": "CC0-1.0",
+  "creator": "Softmax / Polyworld contributors, with Codex and built-in imagegen",
+  "reference": "terrain/heartleaf/layers/01-grass-and-paths.png",
+  "reference_sha256": "0c32de4d8b0900fd205e28dc9372596d645ad4df1c8d10dcead25276add84484",
+  "prompts": "terrain/heartleaf/source/layer-tiles-prompts.json",
+  "process": [
+    "Built-in imagegen color atlas from authorized layer reference",
+    "terrain tile generated.rgb master.rgb 3 3 24",
+    "Built-in imagegen aligned height atlas from repaired color master",
+    "terrain height generated.height master.height 3 3 8",
+    "terrain export tiles master.rgb master.height names terrain/tiles 3 3"
+  ],
+  "materials": [
+    "heartleaf-layer-grass-1",
+    "heartleaf-layer-grass-2",
+    "heartleaf-layer-grass-3",
+    "heartleaf-layer-path-1",
+    "heartleaf-layer-path-2",
+    "heartleaf-layer-path-3",
+    "heartleaf-layer-paving-1",
+    "heartleaf-layer-paving-2",
+    "heartleaf-layer-paving-3"
+  ],
+  "master_size": [
+    1254,
+    1254
+  ],
+  "tile_size": [
+    256,
+    256
+  ],
+  "validation": "Inspected color/height alignment and exact periodic edges; exported through the terrain tool validation.",
+  "files": {
+    "terrain/heartleaf/source/layer-tiles-master.rgb.png": "e36cab5fbb4430c41eacb2f28d08a8da5b38c59ce5bb80fb1be863c3a4bed05c",
+    "terrain/heartleaf/source/layer-tiles-master.height.png": "5a68902840e38b9be7823f3642e092031217bd650b82ed03354c1f4bf679228d",
+    "terrain/heartleaf/source/layer-tiles-generated.height.png": "92aef51a9ea6a4fe4cfbccf13a7412d672ebcbfe6c6ca0ee45cbb8a317b6d430",
+    "terrain/heartleaf/source/layer-tiles-generated.rgb.png": "3c87bfbdcf2240ce4b12f86fb4aaa21d21369b96877129b704f304d65d730e2e"
+  }
+}
