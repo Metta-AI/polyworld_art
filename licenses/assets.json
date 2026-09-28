@@ -135,6 +135,38 @@
       "origin": "Built-in imagegen on 2026-09-25 using the project-generated CC0 ground layer. Prompts and hashes in terrain/heartleaf/source/layer-tiles-provenance.json.",
       "changes": "Nine color and aligned height pairs. Narrow seam repair at source resolution, final export at 256 by 256.",
       "notice": "terrain/heartleaf/source/layer-tiles-license.md"
+    },
+    "paintbot": {
+      "creator": "Softmax",
+      "title": "Original Paintbot artwork and procedural models",
+      "origin": "https://github.com/Metta-AI/paintbot-pw/tree/7b2b19f/coworld/paintbot",
+      "license": "CC0-1.0",
+      "notice": "paintbot/license.md",
+      "changes": "Moved original generated concept images and procedural model outputs into the public art repository. Rebuilt embedded textures using only project CC0 terrain tiles. No Unity-derived inputs."
+    },
+    "paintbotCode": {
+      "creator": "Softmax",
+      "title": "Paintbot procedural model generators",
+      "origin": "https://github.com/Metta-AI/paintbot-pw/tree/7b2b19f/coworld/paintbot/tools",
+      "license": "MIT",
+      "notice": "LICENSE-CODE",
+      "changes": "Retained procedural generation and changed paths to the public art checkout."
+    },
+    "authoringTools": {
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Packaged Polyworld authoring tools and instructions",
+      "origin": "Project source and the source manifests in skills/scripts/chargen/sources.json and skills/scripts/modeling_buildings/provenance.json",
+      "license": "MIT",
+      "notice": "LICENSE-CODE",
+      "changes": "Registered existing tracked authoring tools and workflow documentation that were omitted from the asset inventory. Binary project inputs retain their own source records."
+    },
+    "generatedPlants": {
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Generated flower trim and procedural planting recipes",
+      "origin": "terrain/treegen/source/flowers.prompt.txt and skills/scripts/treegen/pack_flowers.nim",
+      "license": "CC0-1.0",
+      "notice": "LICENSE",
+      "changes": "Registered existing generated flower artwork and runtime recipes, without importing any new image or third-party asset."
     }
   },
   "files": [
@@ -10842,6 +10874,20 @@
       "bytes": 5915
     },
     {
+      "path": "icons/rooted.md",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "11cdf8e6ff4cd4fa2164beabbd6c1cd7c1884113333526ddb89520dc511f1ef4",
+      "bytes": 921
+    },
+    {
+      "path": "icons/rooted.png",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "a7ee52ecbca9a6410d19df89c15b4fafb057af4c39b562b5e458ce5d9672088d",
+      "bytes": 10140
+    },
+    {
       "path": "icons/ruins.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -10943,15 +10989,15 @@
       "path": "icons/silenced.md",
       "license": "CC0-1.0",
       "source": "project",
-      "sha256": "e29d2612524184788a2e538eeddcf8c31dd7f98edbde6059d375de940c29a37d",
-      "bytes": 243
+      "sha256": "ad462fc99308c0f6caa490ed93293cc90ab9e602c110f09420884100073b6913",
+      "bytes": 989
     },
     {
       "path": "icons/silenced.png",
       "license": "CC0-1.0",
       "source": "project",
-      "sha256": "52cc54df7b22907b0d8f16e099ec1b28d6a8b173d27fff6004e95359a9eca4ae",
-      "bytes": 9052
+      "sha256": "32e232af925378e10137e75cd3450fa9d6a1ec213bae522f2a18478285e61e08",
+      "bytes": 7987
     },
     {
       "path": "icons/skill_tree.md",
@@ -12872,11 +12918,1026 @@
       "bytes": 3335
     },
     {
+      "path": "paintbot/art/gnomewick-level-concept.png",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "db8fa59e269532bb0e29f7d41964bc965d5be0baa4c222b7892578b8b57a154c",
+      "bytes": 3422640
+    },
+    {
+      "path": "paintbot/art/paint-crew.png",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "ffa61c3c05053ac685e8840cf8597821294f6b33392766ae04ab1718c62bf3e0",
+      "bytes": 1439528
+    },
+    {
+      "path": "paintbot/license.md",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "6bd1260c394bebfc2a6d66923cecdd2327234cab21bb158268be28aadc2af5a0",
+      "bytes": 722
+    },
+    {
+      "path": "paintbot/models/paintbot-cog-blue-red.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "dc785e4951e8ce3beec47d5191fc8e371cde7a4e19c12c4eaed460294d10807f",
+      "bytes": 367676
+    },
+    {
+      "path": "paintbot/models/paintbot-cog-blue.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "f49e011d5d64a03d4d3ee74a2976dc42042c822c2172460a04f2e6ea25de8e06",
+      "bytes": 367672
+    },
+    {
+      "path": "paintbot/models/paintbot-cog-grey.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "9d10c01ab4c0003f7fe83a457c17eb15845917393f923b1447d9bf68a76807cf",
+      "bytes": 367676
+    },
+    {
+      "path": "paintbot/models/paintbot-cog-red-blue.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "8e65e6c2c080eed7c58139c6ac61176e39566fd5b8f5076a76695769dbcc0da0",
+      "bytes": 367676
+    },
+    {
+      "path": "paintbot/models/paintbot-cog-red.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "d94217cd8702165b0ee1c701b6644259b8d062fa26f4ac6a98b5e1ee17d22b7c",
+      "bytes": 367676
+    },
+    {
+      "path": "paintbot/models/paintbot-cover.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "f22a737ed47c4ce333f80e4fb56f620e8fdc79f1dc2f8be94e87695bc4639a1e",
+      "bytes": 121436
+    },
+    {
+      "path": "paintbot/models/round-village.glb",
+      "license": "CC0-1.0",
+      "source": "paintbot",
+      "sha256": "a30f6ad1a2836a6217d4df88b847b8606887d85c5b935f5b76c7aca71a4f083c",
+      "bytes": 4692652
+    },
+    {
+      "path": "paintbot/source/build_cog.py",
+      "license": "MIT",
+      "source": "paintbotCode",
+      "sha256": "939ddcfc22ff58116c12705bef25f8a143f77abbf9544d3066a0bc806f29533a",
+      "bytes": 8537
+    },
+    {
+      "path": "paintbot/source/build_cover.py",
+      "license": "MIT",
+      "source": "paintbotCode",
+      "sha256": "e2da648d0518412acc9059a58e4846396ae800f02693760f1a0b65b45d446456",
+      "bytes": 3543
+    },
+    {
+      "path": "paintbot/source/build_round_village.py",
+      "license": "MIT",
+      "source": "paintbotCode",
+      "sha256": "20703a034fb4e93a7ad969656037513eb9dd7769081d6e3f56f2521fe25c1a27",
+      "bytes": 9611
+    },
+    {
+      "path": "skills/chargen.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "0b88d5fa5167f2f478aa7e806e8afd3012a8039c4a22aee52bdc0b4d3659d633",
+      "bytes": 25250
+    },
+    {
+      "path": "skills/generating_icons.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "e82183c2ae0db4a114617f5f1b53ec70c42cf5041f9481bcb4695cb0535e0636",
+      "bytes": 8978
+    },
+    {
+      "path": "skills/modeling_buildings.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "3c4f91bb5a01639a17e17b5fbdce99856024d75047e254a7b2e18d271fdcf934",
+      "bytes": 28874
+    },
+    {
+      "path": "skills/polyworld_blender.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "a455ec8d1a44c3a41802eef1c70e9972f13e93cd2d44bb98ca1eee2f12d4b760",
+      "bytes": 1651
+    },
+    {
+      "path": "skills/references/chargen/gota.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "283abe169ea552065d5b1832452b1827084a9315326535a84e041020a49d3e30",
+      "bytes": 9364
+    },
+    {
+      "path": "skills/references/chargen/prompts.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "219c723a030021cdc7facf872801a4da8d8026f4ccd918f062acef00d2f98e0b",
+      "bytes": 7960
+    },
+    {
+      "path": "skills/references/chargen/tools.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "f8dfe90027180e7be6690a9836d1d7059a3ceacac6873e782f31cf41f893c444",
+      "bytes": 26425
+    },
+    {
+      "path": "skills/rockgen.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "40ef983ced775ed336b1c6b9f000a6bb13634564d8e9946d109a304134c7ac1f",
+      "bytes": 14064
+    },
+    {
+      "path": "skills/scripts/chargen/beard_sheets.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "f3b1b686a6e4115aee6f69000619187bc41303de000c33bfe0c544c31e535e36",
+      "bytes": 2016
+    },
+    {
+      "path": "skills/scripts/chargen/beard_styles_01_04.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "369766beefcb00b8f16a0330fa0cf4190b8be44c948282a12ca84300831b4672",
+      "bytes": 2914
+    },
+    {
+      "path": "skills/scripts/chargen/beard_styles_05_08.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "d5e159377ad302f49c7189234b339d8cb076f059fb034a4dd6d3fd37feb873d9",
+      "bytes": 4846
+    },
+    {
+      "path": "skills/scripts/chargen/beard_styles_09_12.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "c588e3239f4466b79a17f61c0558c59b0e6425888f0f3fd643541d91e8fb3449",
+      "bytes": 5640
+    },
+    {
+      "path": "skills/scripts/chargen/beard_styles_13_16.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "264783f8b84c0378890bd988a6e01c1d1d101e04e40c388667d45a2f43a8203b",
+      "bytes": 6506
+    },
+    {
+      "path": "skills/scripts/chargen/beards.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "fb352f02ba810820b4c1fafceac812399b65f5d2c6795bce57210738549e69ef",
+      "bytes": 4478
+    },
+    {
+      "path": "skills/scripts/chargen/build_belts.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "e2c7419f6f3e08f9b6b081fce002c494b99f450a6a3c950fd0cda4cde644038a",
+      "bytes": 2754
+    },
+    {
+      "path": "skills/scripts/chargen/build_clothes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "412c47d136bbda23268d30750422c97aa88b20da018f685d88a0839c425ed1a4",
+      "bytes": 5269
+    },
+    {
+      "path": "skills/scripts/chargen/build_expressions.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "776a402a92188676ffe9d53b5cf1c573378beea7450c00cc8d4af0613d477f6b",
+      "bytes": 3502
+    },
+    {
+      "path": "skills/scripts/chargen/build_garments.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "fa8e3610938b726a64870caa946a524b4a93742294f10c6be476a18c34403c2b",
+      "bytes": 6065
+    },
+    {
+      "path": "skills/scripts/chargen/build_gnomes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "37d19bb984f9749d9f123d3f10e1fe36c72eb6e8df73ff4fc2f7bc7e4121c8ea",
+      "bytes": 6274
+    },
+    {
+      "path": "skills/scripts/chargen/build_gota.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "8a63f80d1b7e9d0cb6503e8ab882be58ecf034d67e99ab0def1e5babb62caa64",
+      "bytes": 1554
+    },
+    {
+      "path": "skills/scripts/chargen/build_gota_body.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1c92e8f6077780dd871fc6e970ed4cf331c686b8ca125d056e33a2c3e1284d45",
+      "bytes": 2185
+    },
+    {
+      "path": "skills/scripts/chargen/build_gota_weapons.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2a5f981719cec3971779ab9bd875067e7d23bf2ba9d003c9d63a70d2e6c93aa7",
+      "bytes": 32392
+    },
+    {
+      "path": "skills/scripts/chargen/build_hats.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "62dc82c0130f0ab6e0ed05180afbe0569fe7caab28a6e5b0a00ef6b143314af3",
+      "bytes": 5162
+    },
+    {
+      "path": "skills/scripts/chargen/build_model.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "f39ed39f9b19ae338ba6f1f078949f1160d6b72b30ff69926ab7ebcfa8378364",
+      "bytes": 39989
+    },
+    {
+      "path": "skills/scripts/chargen/clean_sources.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "0ad31ba8f3c8ffc2d62e8631202a2afc9c578d88195dbac7a698065070869ab3",
+      "bytes": 4208
+    },
+    {
+      "path": "skills/scripts/chargen/clothes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "c45ad3160b4b2cf47e3a341d859c90393cfa944e9b4b0af3f9eaec8fc3df3b74",
+      "bytes": 20345
+    },
+    {
+      "path": "skills/scripts/chargen/clothing_sheets.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "f742f5a3d4f4f16a35cc2851938182d03caed36599a58d8b45d129f693a5e5d2",
+      "bytes": 1695
+    },
+    {
+      "path": "skills/scripts/chargen/count_polygons.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "e94948f7fa91ac4ea23460349e3bfa1523ce2b4aac2e45cd52cad6512bfed109",
+      "bytes": 3988
+    },
+    {
+      "path": "skills/scripts/chargen/cut_faces.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "667c51a9751c51f683a723d7ff5b16205855c4b67f34af926063c158e92b87ad",
+      "bytes": 7716
+    },
+    {
+      "path": "skills/scripts/chargen/cut_gnomes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "f610047a08fe9add3b61f0112d7f88feb44993e723ab9298f30567144ba91e3b",
+      "bytes": 1353
+    },
+    {
+      "path": "skills/scripts/chargen/export_library.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2226a58c97a40d70719a7d4f59ec76dfcc6fe82f4ed093b5469ad432f81b859e",
+      "bytes": 7878
+    },
+    {
+      "path": "skills/scripts/chargen/expressions.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "225a9276ee27c958ab06160a99707551bd8e6abc970be985a01b214591452e4c",
+      "bytes": 2528
+    },
+    {
+      "path": "skills/scripts/chargen/finalize_gota.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "14a69b15d62b21361975512d0f00453c8291cc9d3ddb914d11790fc7debc0f91",
+      "bytes": 2651
+    },
+    {
+      "path": "skills/scripts/chargen/gallery_gota.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "918001c63050e80f411fbce13ac01b655e6830e8f54910b067751f76434d0727",
+      "bytes": 2962
+    },
+    {
+      "path": "skills/scripts/chargen/garments.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "553f0931ede3df0e4413c9135dde5f48c35f5ffc2756be8f643f25fc6be89a45",
+      "bytes": 12692
+    },
+    {
+      "path": "skills/scripts/chargen/glbs.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "8c0d98d24b0de573a0fdb54793b22cc8ff38794a5b613bada009e2684ee4627a",
+      "bytes": 6546
+    },
+    {
+      "path": "skills/scripts/chargen/gnomes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "8ec53f934ff07f3537408878536ccb4020e9c95bcf0f5797aed26ac4c630f56f",
+      "bytes": 10588
+    },
+    {
+      "path": "skills/scripts/chargen/gota_arcanist.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "84dda9b9d779eb126190c612953104ece3c918c7484ece3cd93f3f98c5c3dff8",
+      "bytes": 8554
+    },
+    {
+      "path": "skills/scripts/chargen/gota_berserker.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "7df83ccbec8960d641872e6b04e9a595373cb13756b547e1fe98986ce21c9195",
+      "bytes": 8165
+    },
+    {
+      "path": "skills/scripts/chargen/gota_common.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "689881cf6dd9a725aae254d98690431e005111ffa21c19c7e71ded19beb317ca",
+      "bytes": 19814
+    },
+    {
+      "path": "skills/scripts/chargen/gota_crossbowman.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "ccb3989d4c422b974638cf70e81de180477df5745091989269bc472d0e9b76f6",
+      "bytes": 6528
+    },
+    {
+      "path": "skills/scripts/chargen/gota_death_knight.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1f49790e42453830de8e4a4d6e3a5103e276b5c9fbdc77b7ba2ff75a008fd3e0",
+      "bytes": 11307
+    },
+    {
+      "path": "skills/scripts/chargen/gota_demon_hunter.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "7eaf76ff309dc27bd3c1fdf2e7a8c64cfff8add1b91e29ee4a80ab162f98a621",
+      "bytes": 9727
+    },
+    {
+      "path": "skills/scripts/chargen/gota_druid_warden.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "e5042365ce04c5f075a5693988f2e279d7a2b8021000f006db3dd4c9d7c7d2a1",
+      "bytes": 9758
+    },
+    {
+      "path": "skills/scripts/chargen/gota_hades.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2759eab218d23d93ea65198af403ebfd3763c5d6790313ce1abc9b67cdbf3957",
+      "bytes": 15616
+    },
+    {
+      "path": "skills/scripts/chargen/gota_hades_equipment.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2ec034f7ceb419ae9b0c0038d9455eac28300ce075546891a6353c71d4d1760e",
+      "bytes": 9506
+    },
+    {
+      "path": "skills/scripts/chargen/gota_lich.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "ccc7fc1f5636b4e65251ff367467e558f67c0c771c707a0c4c7eeb0ad8010ea9",
+      "bytes": 9942
+    },
+    {
+      "path": "skills/scripts/chargen/gota_ranger.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "33780557b247ddc55ea898bfd332c641413b3a96f6c0cca81bbdd4a91904fb43",
+      "bytes": 11617
+    },
+    {
+      "path": "skills/scripts/chargen/gota_vanguard_knight.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "023b9063055262eab0eb29f32a9e4e33018156c48a4c1bb0ec567e28e82950dd",
+      "bytes": 10162
+    },
+    {
+      "path": "skills/scripts/chargen/gota_warlock.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "e92f6c83bcbf99452f7799f306cf44da082d61f37817ce33bfff2c238d5ef696",
+      "bytes": 10412
+    },
+    {
+      "path": "skills/scripts/chargen/gota_zeus.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1df24836daa001220332bb3a565f2d2800b2a090473297fc1f7d306283f8bcab",
+      "bytes": 8831
+    },
+    {
+      "path": "skills/scripts/chargen/gota_zeus_head.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "606a47b1b2fe70c9e12e26bfc6ccfa412368721ac74db7c23205d43a168da864",
+      "bytes": 7347
+    },
+    {
+      "path": "skills/scripts/chargen/gota_zeus_legs.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "dac00211137e1082d66adf6aa9f92492c87a535efcb4b5ca5bcfeee9914aafd2",
+      "bytes": 9947
+    },
+    {
+      "path": "skills/scripts/chargen/gota_zeus_props.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "c9b9d792b76d786be7564764ceaf9e7df5f3abe0d84bb91c5c9eedc8ecfa1b8d",
+      "bytes": 6677
+    },
+    {
+      "path": "skills/scripts/chargen/hair_sheets.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "aaef39259b83b56d2dfbfa33a37b81435dd71d8662803f15adaa4560d9dc1d49",
+      "bytes": 1968
+    },
+    {
+      "path": "skills/scripts/chargen/hair_styles_01_04.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1d27530a1584888c67b632440f9374c2a52f3465fdbe6319a9fc46763982ccdf",
+      "bytes": 7874
+    },
+    {
+      "path": "skills/scripts/chargen/hair_styles_05_08.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1f2d561129727a5f9dac7c24b25991fd39970b35157d668ce1e4699581d9b90e",
+      "bytes": 8921
+    },
+    {
+      "path": "skills/scripts/chargen/hair_styles_09_12.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "5bfa1609a5705fa704e9da4a8fd4b289c7886ccb7fed18ef539eb055ddbdf6b6",
+      "bytes": 10539
+    },
+    {
+      "path": "skills/scripts/chargen/hair_styles_13_16.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "4d4575514efadba4e1efb80204838a613dc1f63cc6485387d6817abca7ba94db",
+      "bytes": 7525
+    },
+    {
+      "path": "skills/scripts/chargen/hairs.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "a569258c3da577df71976282524b1389b39f5439bff4455865c1584ff34d97ca",
+      "bytes": 12020
+    },
+    {
+      "path": "skills/scripts/chargen/hats.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "e47e5fcfbbc64fb0d3d599fdd8320e269b75c0345751df47aff45bf8a546be30",
+      "bytes": 10425
+    },
+    {
+      "path": "skills/scripts/chargen/import_animations.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1eac3f6d830d0787ab713e745ca127bce7c9a70aa8beae10b7e76da6b3dc146c",
+      "bytes": 2413
+    },
+    {
+      "path": "skills/scripts/chargen/nim/chargen.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "8a705ae818c63adc063260668d85ec07ce14bc6f43f2698815071c97bf657846",
+      "bytes": 36711
+    },
+    {
+      "path": "skills/scripts/chargen/nim/lineups.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "a750231019e53e3798122f012bb0f7f3919567891ea76a5a68316ee30ed57e5a",
+      "bytes": 3394
+    },
+    {
+      "path": "skills/scripts/chargen/nim/render_garments.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "a5ab9cb917e4174712cb8c9d556a06c78ec8642090b942a2e9b943d24997194c",
+      "bytes": 4629
+    },
+    {
+      "path": "skills/scripts/chargen/nim/render_gota.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "21de9f3dc528ef89166042b130a9b0f7ccb97b9af11a4eff067abac2e2de3ee8",
+      "bytes": 8803
+    },
+    {
+      "path": "skills/scripts/chargen/nim/render_hats.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "295ceb89e73624d1d108cd60c850d4153e484b6e93c6bec915c17e4d906a84f6",
+      "bytes": 2543
+    },
+    {
+      "path": "skills/scripts/chargen/nim/render_swords.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "59afc0903a8de63a45ea4eee0638b44477e0b23057605d684e6103aeae97c50e",
+      "bytes": 4511
+    },
+    {
+      "path": "skills/scripts/chargen/nim/tests.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "9d2ecaf29e5a52b0a6cad0b770d1f869d2e8f4c87c2103d3d953dde23ca07024",
+      "bytes": 46046
+    },
+    {
+      "path": "skills/scripts/chargen/nim/weights.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "4678a3aee73672ed2415d5431cfdbc0dc67f17718aa86cfba8b1b661e2b7266b",
+      "bytes": 8140
+    },
+    {
+      "path": "skills/scripts/chargen/optimizations.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "f4ed246afee3a44731cc91048f26c4962aefb50b6a7f811883568689cd2c88df",
+      "bytes": 9037
+    },
+    {
+      "path": "skills/scripts/chargen/optimize_model.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "ca73042ea0bffc14c38853d669cf68e358285a8188e701fc0e2aa7252aeeb2e4",
+      "bytes": 1344
+    },
+    {
+      "path": "skills/scripts/chargen/pack.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "825dd843ab8050a6bd2aee1100a5b32290cd950901c506fddb3835c1c5bf70c7",
+      "bytes": 10906
+    },
+    {
+      "path": "skills/scripts/chargen/paths.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "283cf935fd76ab03a429d9b0c0c30c56196ed420c3d682e1e38538bd3becb940",
+      "bytes": 530
+    },
+    {
+      "path": "skills/scripts/chargen/provenance.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "a50767ef4c01c01bb7752208fc56233b630549358b6e3a7ca49b52ace76ff04e",
+      "bytes": 1521
+    },
+    {
+      "path": "skills/scripts/chargen/register_gota.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "24ac3269d043bc0a0e2b3d4d1f11d38363455a841ae63a85f39a0e56ffb447de",
+      "bytes": 2738
+    },
+    {
+      "path": "skills/scripts/chargen/render_beards.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "6d156ea88866badebe0b675ccc9fee21d2c12ecb3a95a27796a4971db362020b",
+      "bytes": 4312
+    },
+    {
+      "path": "skills/scripts/chargen/render_clothes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "6cc84e04462f5e2e9bcb100f329bc8475cc2f833865ad0372367daaeff24ac53",
+      "bytes": 4682
+    },
+    {
+      "path": "skills/scripts/chargen/render_hairs.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1fd05e45af3093bcbe38ccf87712874d90f279eee5fc763012caf78dba97901e",
+      "bytes": 4341
+    },
+    {
+      "path": "skills/scripts/chargen/retarget.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "a2e439b95c2dae31d37abe8e009c1a33584588aab888aacb8802043072cd7682",
+      "bytes": 2603
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "06ba453baa2b6bc341a18ff38f7df603773e52f4f1fb8753e8a5fc08cc8df7fb",
+      "bytes": 2941
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota_gods.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "49e82826d1419b7d99a0387816ac9d2ee6173631b40d00b7a95b0b88a6d30698",
+      "bytes": 2866
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota_hades.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "f55f3429110eab3e733d2b93f9bdc761d1c1a7adea9b4bb958946a9b49509a7f",
+      "bytes": 3353
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota_hoods.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "1e6f3d47e7d2f80af946522daa3cce9551899c4eef80b8eb6942f14e0e71c2d8",
+      "bytes": 5247
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota_swords.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "d792159fc21f0f9488c29b3cc4d935473001228a2c8d8bff624e356d39fcc03e",
+      "bytes": 3508
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota_weapons.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2862f91be21d4d39550ddb37774e4892fc81127c69c296893b9db2df8ea76b23",
+      "bytes": 7781
+    },
+    {
+      "path": "skills/scripts/chargen/review_gota_zeus.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "797eac9ea4e1a0ebee31a27f0b8620632f8e03a51dbbc7daddca46989cd4ded1",
+      "bytes": 5513
+    },
+    {
+      "path": "skills/scripts/chargen/run_nim.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "d01e17642e18230d5672024304a5d930a1e6842d1e86bab9cc77c5c4a3c12115",
+      "bytes": 1486
+    },
+    {
+      "path": "skills/scripts/chargen/sources.json",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "fa7b594427c18758591c898092c9e0706055a20a80388014b070f9add6a2b1d8",
+      "bytes": 22516
+    },
+    {
+      "path": "skills/scripts/chargen/test_packs.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "e82b085ecf90e3ce653f12ffdf8d2a4ac36f960e4633d8c0cc0ee2b80123b966",
+      "bytes": 7899
+    },
+    {
+      "path": "skills/scripts/chargen/universal.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "846f3aacf57af76418e1e04b1370e54dc715a160a9cd8ddfc31d824313c749d0",
+      "bytes": 6222
+    },
+    {
+      "path": "skills/scripts/chargen/verify_clean.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2a4ea925892547ee03a4928a8b1d5c5e3cb55adac5c2e696bd1fd99a8cfc09f9",
+      "bytes": 2922
+    },
+    {
+      "path": "skills/scripts/chargen/verify_clothes.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "60fbaaa8ac35b16b57595c5f96aa2ec23c9e267bbc8108d8a3c5019e3ec3736b",
+      "bytes": 3232
+    },
+    {
+      "path": "skills/scripts/chargen/verify_garments.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "2cacdee7b6916f7794528172ac008e78b79102afdf405406a82d98ddc774c010",
+      "bytes": 2948
+    },
+    {
+      "path": "skills/scripts/chargen/verify_geometry.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "0b0fffac89a3ef666a8c4b5f4f75fd2e3923d25ff63ff69a54cb94477bdb81ec",
+      "bytes": 4827
+    },
+    {
+      "path": "skills/scripts/chargen/verify_gota.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "b08553ad55a1479a08f3c3d32ae57432655f0313ae4e0d3cf1f00e7ef3cc6755",
+      "bytes": 5767
+    },
+    {
+      "path": "skills/scripts/chargen/verify_gota_gods.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "c96b2a01550050b9759a3728642ff07591d07698a4ad68e681d3fb4e59b3fd6b",
+      "bytes": 2757
+    },
+    {
+      "path": "skills/scripts/chargen/verify_gota_weapons.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "6af635abb7001b56ecb2132a62b7c26d329416f3afb9c0d4c507e51201603201",
+      "bytes": 3823
+    },
+    {
+      "path": "skills/scripts/chargen/verify_library.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "64dd8a8b827f60a7de15bb02fdf5f0beb3894f4dd01ad4c5df748c1e2ef37f17",
+      "bytes": 4100
+    },
+    {
+      "path": "skills/scripts/chargen/verify_model.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "518f2a4eb12fd58c01676c7d1efd69a5edb3fc99331773d1fdba6e30acc2b859",
+      "bytes": 10954
+    },
+    {
+      "path": "skills/scripts/chargen/verify_universal.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "760fe6d28c7f95782f77a449ac4d5283159be553c8404d702c584c441cf9eb8c",
+      "bytes": 3060
+    },
+    {
+      "path": "skills/scripts/generating_icons/center_icons.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "f68f9e89cdf5becc8b4b0e78d8218979aa96ff6ee922fd0824896cd519e11c1d",
+      "bytes": 2905
+    },
+    {
+      "path": "skills/scripts/generating_icons/contact_sheet.sh",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "8f9cb333a666f67d57fc3aeccaa5defc26d3511bd733b4041acab884ace387e5",
+      "bytes": 1411
+    },
+    {
+      "path": "skills/scripts/generating_icons/cut_icon_sheet.sh",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "23b7bd6fa4cf4de22adc0e620281a0513b99d00858772ff97f72506d3c3f811a",
+      "bytes": 3109
+    },
+    {
+      "path": "skills/scripts/generating_icons/finish_icon.sh",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "a5ee3c47fc7a2d92d1002de67a095ec638ee2a9b971a830ef2526fade4aaf0a7",
+      "bytes": 4192
+    },
+    {
+      "path": "skills/scripts/generating_icons/verify_icons.sh",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "b5ae02d56fdb40c10914faf67ce5d9fc01713b8ad89479f4c7de2076c88da13b",
+      "bytes": 3708
+    },
+    {
       "path": "skills/scripts/modeling_buildings/build_heartleaf_details.py",
       "license": "MIT",
       "source": "code",
       "sha256": "fa52cc2b8c41cac2cded45239e5036caa51b20410bf2d6dd952e098257f2fe28",
       "bytes": 12857
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/build_construction.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "086fd66aaf1e2f423c05f499818bd3ab4a43ae4792694f4b0878eec2cad5b0b8",
+      "bytes": 17633
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/build_scene.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "aa100312bc52bb3adc8b5fd6d5cba871e3d3a1087abf290ccfb8302162a2aa39",
+      "bytes": 42899
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/check_construction.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "2ba44a244f6e7b095ee337231b7100019c8fc83f01026b89fb7f97f0d5923e78",
+      "bytes": 706
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/check_glbs.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "5c3c6193f182dbd2383761a076f0504affe70425c76fc5a39548830e7e064274",
+      "bytes": 560
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/export_construction.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "edeeecba1f85b1782f7d5d452501edba660603bd4967f8edf0865c59d88f2f25",
+      "bytes": 2378
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/export_glbs.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "58c1618f0002fccc51485f98765f51011cf5cc8d3157d3deeb4a4d2e109342f4",
+      "bytes": 6511
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/externalize_textures.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "170fbcac84814904b299d109a22b0ec3bb64a87c3198f622da4f18f36a6a9fbb",
+      "bytes": 5496
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/finalize_scene.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "c3b9494ead4b43c48d32258e506c135b5c60722fec9a244c18aec3d7ff1297af",
+      "bytes": 759
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/pack_atlas_512.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "ed3dbdfd36bb5cd9fbce41cd03f892d79547f9bbd145e0d77a32c1ebf8a21566",
+      "bytes": 2138
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/rescale_buildings.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "e34b83e65bc56199505028e9564d12c79336363af3e4a41eaa26a5a0af111e0f",
+      "bytes": 7672
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/restore_cart.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "66c3c3cfed665e20bd7dc078e105fac6d3690d4b1ffb3f6517a53fb3e0ed60ea",
+      "bytes": 3508
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/revise_scene.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "266d66cd7728111190c70a1b355cb8545e34fe8cc65a5aa5dc66d36465eb5a0d",
+      "bytes": 6733
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/update_glb_atlas.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "2f0decd46052b12cd9200fbf7970a615e74d51a7a7912cb2d8ad6a1afdaed4e8",
+      "bytes": 4724
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/verify_construction.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "2c5ecec589e80ba24a9bd2ac328773aacda26b15620c81ed30ea5280fe85ceaf",
+      "bytes": 7875
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/verify_glbs.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "8f300355bbc49505495b6748f43460f8e1b98b5c40d6564c44033d618b9c9ee1",
+      "bytes": 5757
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/verify_scene.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "9aab74344f0fa9b4975e97111f8e82e82895c07e9dbc6d6b7db666f568f452fc",
+      "bytes": 4500
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/buildings/verify_shared_atlas.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "ad3081ebcc01accafb96315ead0ff2f34537265237fb4379cb9b1c58071bc22a",
+      "bytes": 1411
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_renders/compose.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "55bbb3ca908e372ece781cfba08cbf2fe24a718ccbd99fd15f1227239d6d6e5f",
+      "bytes": 6224
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_renders/gallery-template.html",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "acfa6bae98d2d5d4a10f0dad655919363e1e6974740cbbabc93f78b9e9f52244",
+      "bytes": 5178
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_renders/render_all.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "d271a77e56a9a386c3a29ed34cf73a1c5ae2f9412e2d071200dfb356ddcc6ee3",
+      "bytes": 5293
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_trims/layout.example.json",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "37c04567061b21e01ad00fd3765dd343e46b542b5b07263b0cc3c34c95a2e82d",
+      "bytes": 196
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_trims/package.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "27413d0f416192f841d0b0c7cb5cb885ab8c0d3a7510744a93a185e1b3ce2ed8",
+      "bytes": 5208
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_trims/prompts.example.json",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "cabd1e430e41a785d71702cbf279324f235f118e0a4820fef9bdd77e6c13596f",
+      "bytes": 40242
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_trims/render_preview.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "7c951a11eb86e5dd4befdd5216baa848a6577f4634573b58753d25184e4e549a",
+      "bytes": 2894
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/faction_trims/sources.example.json",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "c638c0c76e6ffb9bcae93dc15978f3cb7d9182822c971e6716d7fc74e8d61aea",
+      "bytes": 303
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/heartleaf/render_review.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "b4182c3580ea26361a396935e54a6430c68a36043b7f139d321126e8fce7e454",
+      "bytes": 2472
     },
     {
       "path": "skills/scripts/modeling_buildings/heartleaf_gardens.py",
@@ -12893,6 +13954,13 @@
       "bytes": 8799
     },
     {
+      "path": "skills/scripts/modeling_buildings/provenance.json",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "4ad5f5f6960fd55ab18f8a989dab855b9b66e162bf36715da5a5f8c07233d534",
+      "bytes": 7572
+    },
+    {
       "path": "skills/scripts/modeling_buildings/refine_heartleaf_cottage.py",
       "license": "MIT",
       "source": "code",
@@ -12900,11 +13968,186 @@
       "bytes": 3222
     },
     {
+      "path": "skills/scripts/modeling_buildings/run.py",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "131b3941aff7939439c0537e13eb6466ac7e2636a6b993543b4e4ad5b6a29d9c",
+      "bytes": 6397
+    },
+    {
       "path": "skills/scripts/modeling_buildings/split_heartleaf_cottage.py",
       "license": "MIT",
       "source": "code",
       "sha256": "7927eb6384d5aa8b78cda60507ab207268499ecf3cf7e50f41dfa32284ecf782",
       "bytes": 5240
+    },
+    {
+      "path": "skills/scripts/treegen/pack_flowers.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "5530e07f554b118d80c827bff5ca158d6587d53b7b4876573b478a1f02dccd02",
+      "bytes": 2617
+    },
+    {
+      "path": "skills/terrain_tiles.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "b15059863ae1272ec0cf9bf4c54579f0d4a86717c3c22479832e569b16a913a8",
+      "bytes": 13029
+    },
+    {
+      "path": "skills/terrain_tiles/references/blending.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "c2b8012ca6e9045dd11664ff1a433574c47fc8a45fa8caff1759ca6a5d4897a1",
+      "bytes": 5200
+    },
+    {
+      "path": "skills/terrain_tiles/references/cli.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "172ca97c6a722011a66f8ef893ccc615f2ba087b8f3ee0588c22d08191beb402",
+      "bytes": 7690
+    },
+    {
+      "path": "skills/terrain_tiles/references/prompts.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "e19f97d61c58aa1238fed881cfe67df0aad662883b35616e62bcb01f8b624289",
+      "bytes": 5197
+    },
+    {
+      "path": "skills/terrain_tiles/references/splat-mask-prompt.txt",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "75d178fc59c771502640a1bacb65794142a9a3c5167a109341d6fb30df070d63",
+      "bytes": 2725
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/align_stamps.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "2b5ca2ee79dc8cf109241187bb3ebfcb2cf6595d4ad9a08ffa7dee9b3f89cfe8",
+      "bytes": 3023
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/backgrounds.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "feb73ce485c8ef66f72180c330dd772e1ac162c58071c4a48fa13ecc2cb9377b",
+      "bytes": 3303
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/common.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "497d420e6d1d938c13f5ea9c6c7b2c16e42b419ae30611a003574d8f5727f7b6",
+      "bytes": 4082
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/cuts.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "f276e94dbfac4545f2d7877fac9ae0c9ccd902d47fa2036b856e05bcb17344d0",
+      "bytes": 1880
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/gen_blends.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "3f941972abb43723fc73c06d7ec984041d8e06b525e58b9db704870a627dd239",
+      "bytes": 4601
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/gen_previews.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "7378adfe680206df07300fff6ef08c46433767213549b77471501d8a86f2b9d7",
+      "bytes": 4809
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/gen_sample.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "4bdc79e4502212a18b74d851b1a1d7acd89e741c94db8bee5daf6cf170e526c7",
+      "bytes": 16464
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/gen_stamp_blends.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "136499a154f59321e8e29d196f58806333b57a6eaa6e348dc863d2cc077af4af",
+      "bytes": 3352
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/heights.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "05575ad9b4c5b0ce5d13c2815e8a8f019b740b556b90e4cb897a25c3ba8f0a32",
+      "bytes": 3068
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/masks.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "48a8a23edaa586c91fa1215f9f35a232517a644d13fefe0691cb3fdfa012efa5",
+      "bytes": 1133
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/materials.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "a12abcec9167de9df4d56cf19d2e201c92b9f19cc055ef6fb2fdae237b5838e6",
+      "bytes": 547
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/pairs.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "4cdba97a14025dd5901951d74a28937c89287f71141b7502946cc11ec17c2f4d",
+      "bytes": 4119
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/stamps.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "2be9c050095e8a0c57bef176119b40077152007c3b6ba4a0ccaa01c4c97f4995",
+      "bytes": 4472
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/terrain.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "35c19fc95d1eeae0a3769426d08fdd20e2355fce0d41bfa5016278529cdf7b34",
+      "bytes": 10651
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/textures.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "661062b0fc7086413d435f15e6a34b5bae26a84b6f9e8e36a86168c1c3e48de4",
+      "bytes": 2932
+    },
+    {
+      "path": "skills/terrain_tiles/scripts/tiles.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "cedfe7e6938b8c8f128cb4035960ae9a3827b791864c65bd9eb720a281cf18eb",
+      "bytes": 7032
+    },
+    {
+      "path": "skills/terrain_tiles/tests/test_terrains.nim",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "d0fbf15c7ba9b68c456c0049a445585e7f26f8261ebb7b362ed10807f550fda8",
+      "bytes": 16673
+    },
+    {
+      "path": "skills/treegen.md",
+      "license": "MIT",
+      "source": "authoringTools",
+      "sha256": "c724c53f47e9255eed7f288a7344d97c95d10622e4c58a3df4f547a0f58e3de4",
+      "bytes": 14645
     },
     {
       "path": "terrain/blender_forts/fort_kit.blend",
@@ -14130,6 +15373,13 @@
       "source": "heartleafTerrain",
       "sha256": "41f0d60f4936cc94746012e00dfe561303dbfa1728cb6fa5bf44755cd9b26108",
       "bytes": 2034
+    },
+    {
+      "path": "terrain/heartleaf_props/textures/village-trim.png",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "828db7e3fa77a0079451bbb8bfdab048cd1d2075591a0131038a082f79ada242",
+      "bytes": 421969
     },
     {
       "path": "terrain/lvd_buildings/construction-manifest.json",
@@ -15852,6 +17102,118 @@
       "source": "project",
       "sha256": "18461e5271e71eeaf8c870aaa376cbdd8037719220c10d355b6ad92c4efe8ea1",
       "bytes": 294343
+    },
+    {
+      "path": "terrain/treegen/flower-atlas.png",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "b5dd8af0fbdfcff390587853ff62c6c2b7fa0df4e27d4524cb835795727ca741",
+      "bytes": 247437
+    },
+    {
+      "path": "terrain/treegen/presets/blossom-tree.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "e18300643a391ae7b936d8f7c8f5c4d74854e89189af83e1367870ff68a29403",
+      "bytes": 1116
+    },
+    {
+      "path": "terrain/treegen/presets/blue-wildflowers.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "5dfc805e748613e018b2fb3b0fd05dedd78bca7b490eabc8b18232bf1129bd67",
+      "bytes": 1116
+    },
+    {
+      "path": "terrain/treegen/presets/daisies.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "50e70351fa2506e0565485901e1435f95856a192cf084eaa9f15f5226df82da2",
+      "bytes": 1112
+    },
+    {
+      "path": "terrain/treegen/presets/flowering-bush.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "84751a146c8806df760f073df7adbd967aec7ec54352d4d53f8d546dcbfc1231",
+      "bytes": 1123
+    },
+    {
+      "path": "terrain/treegen/presets/flowering-hedge.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "d41adc13775e34e680719b18d8903a3b1fe2249fc302ebca5aaab617e7f054ad",
+      "bytes": 1121
+    },
+    {
+      "path": "terrain/treegen/presets/hedge.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "1cdf4ce2b0c07fbd822646271b7aa3cc9482c8489b2d966a762be5ca883c7be1",
+      "bytes": 1118
+    },
+    {
+      "path": "terrain/treegen/presets/large-bush.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "20b3f9ff011932e078df9432a0aff6688a900b9a11816d15d8575ab28d08754e",
+      "bytes": 1117
+    },
+    {
+      "path": "terrain/treegen/presets/lavender.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "01206e1d6ed1adb7914c65dc25f5c20e088498b5598a47e9f30bd9fc7f20e8f9",
+      "bytes": 1112
+    },
+    {
+      "path": "terrain/treegen/presets/low-bush.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "375db4733c3f9fb6479d30872f7c989d3b6d1f114892ac510ff8dcc5ecf3a97b",
+      "bytes": 1122
+    },
+    {
+      "path": "terrain/treegen/presets/medium-bush.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "1fb5ed38dca92d525227fc2efdc2b8bf587f13f33eeb5a9b253c4754dc009946",
+      "bytes": 1119
+    },
+    {
+      "path": "terrain/treegen/presets/mixed-flowers.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "37239b20d70f94146cdc09e617e657cfeed2848031ca1f257fb45dae7c64bdd7",
+      "bytes": 1117
+    },
+    {
+      "path": "terrain/treegen/presets/small-bush.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "b31198cc986939b0f77c1d868fb1ffea601f23b43b37fb274183f66fa045d41c",
+      "bytes": 1118
+    },
+    {
+      "path": "terrain/treegen/presets/sunflowers.json",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "857fc30b739b13a0737735665ae4950283ca6ad3d29faefeeb7f8dccbe855ecd",
+      "bytes": 1114
+    },
+    {
+      "path": "terrain/treegen/source/flowers.generated.png",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "06317ad62c2fb3d2f5250e22c9f46453d5715dd2307b0fc2f1f6bdca98655b42",
+      "bytes": 1292386
+    },
+    {
+      "path": "terrain/treegen/source/flowers.prompt.txt",
+      "license": "CC0-1.0",
+      "source": "generatedPlants",
+      "sha256": "cad2caefab293a57485faf26c41925ea04ff5c5e2dd4849e286b58dbcec1d9c1",
+      "bytes": 2246
     },
     {
       "path": "terrain/treegen/stump-rings.png",
