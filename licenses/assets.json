@@ -101,7 +101,7 @@
       "creator": "Softmax / Polyworld contributors, with Codex",
       "title": "Heartleaf village props and radial plaza paving",
       "origin": "New procedural Blender geometry authored on 2026-09-24 from the user-supplied village illustration. Reuses the reviewed CC0 hobbit_trim_v2 embedded in the existing generated house. Reference digest and validation recorded in terrain/heartleaf/source/details-provenance.json.",
-      "changes": "Thicker freestanding fence rails and posts; raised cream limestone tree curb; narrower radial plaza paving around a larger grass opening, with layer-generated limestone texture; independent green-roof birdhouse added. Bench construction and CC0 painted trim retained.",
+      "changes": "Thicker freestanding fence rails and posts; raised cream limestone tree curb; narrower radial plaza paving around a larger grass opening, with layer-generated limestone texture; independent green-roof birdhouse added. Bench construction and CC0 painted trim retained. Five forward-facing sunflowers with warm yellow petals and dark brown seed centers replace the generic cluster. Added separate low-poly eave clover, using original solid-color materials. Existing models and embedded textures retained. Four-legged beehive with connected recessed tier seams and entrance ledge; taller three-cloth laundry line with pegs and sag; reusable hollow sixteen-stave wooden bucket with bands, thick rim and recessed soil. All fifteen retained models have unchanged exported positions, indices and UVs.",
       "notice": "terrain/heartleaf/models/license.md"
     },
     "heartleafCottage": {
@@ -12875,8 +12875,22 @@
       "path": "skills/scripts/modeling_buildings/build_heartleaf_details.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "ab689951de30d81bb07000403d2406bc20fa08c935da370721917f286f4fdaf1",
-      "bytes": 12493
+      "sha256": "fa52cc2b8c41cac2cded45239e5036caa51b20410bf2d6dd952e098257f2fe28",
+      "bytes": 12857
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/heartleaf_gardens.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "6bdc48b03cca1c0a4efbd3a06017680d88045c613f6936dd404f49c8ebc5a057",
+      "bytes": 10885
+    },
+    {
+      "path": "skills/scripts/modeling_buildings/heartleaf_plantings.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "5204fc12a4225841345e32ab4c7eeacfb21fbe19aceb50654723e19f17e5be21",
+      "bytes": 8799
     },
     {
       "path": "skills/scripts/modeling_buildings/refine_heartleaf_cottage.py",
@@ -13883,15 +13897,15 @@
       "path": "terrain/heartleaf/models/license.md",
       "license": "CC0-1.0",
       "source": "heartleafDetails",
-      "sha256": "529b94a9aa07ed20a281ddd636ac5c160fa453fc5fc97e8c960c9bcab11a0d5f",
-      "bytes": 3587
+      "sha256": "daa85352ac594e2e07c7b8b0cbd39bedce68d04a830d6ad611f5bdff3d23e1d5",
+      "bytes": 4824
     },
     {
       "path": "terrain/heartleaf/models/village_details.glb",
       "license": "CC0-1.0",
       "source": "heartleafDetails",
-      "sha256": "508ac0ca88ed9fb5324a09ad51dc68de1008184a655439de868482ca5ffc753b",
-      "bytes": 4155468
+      "sha256": "9dea7f57c33759dcd9aae11b5dad95bd5d796bf714a971fccbf733fa6d613df4",
+      "bytes": 4244912
     },
     {
       "path": "terrain/heartleaf/source/color-prompt.txt",
@@ -13925,8 +13939,8 @@
       "path": "terrain/heartleaf/source/details-provenance.json",
       "license": "CC0-1.0",
       "source": "heartleafDetails",
-      "sha256": "64fd95b7ee44acc2166d8c4da0be76d3d33eb017ab02935902e92582855ee302",
-      "bytes": 2200
+      "sha256": "84df4011b834db7d8bb2122ba817e648ef149b8fe9d89dfab82dba0a0bc1293f",
+      "bytes": 4250
     },
     {
       "path": "terrain/heartleaf/source/height-prompt.txt",
@@ -14107,8 +14121,8 @@
       "path": "terrain/heartleaf/source/village_details.blend",
       "license": "CC0-1.0",
       "source": "heartleafDetails",
-      "sha256": "2745fd2304ef6734c9553d6774a320b151aeca4038e1fb1c711f389e9b10c875",
-      "bytes": 3810699
+      "sha256": "529fb768f44da322dead31b06ce75d6afdf78ef761a6cb219afeda94d216099f",
+      "bytes": 3840867
     },
     {
       "path": "terrain/heartleaf/splats-usage.md",

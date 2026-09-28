@@ -1,5 +1,6 @@
 """Build editable Heartleaf village props using the existing CC0 trim."""
 import bpy, math, json, struct, random
+import sys
 from pathlib import Path
 from mathutils import Vector
 
@@ -226,6 +227,13 @@ for side in [-1,1]:
             (side*.56,.45,1.97),(0,.45,2.30)],12)
 g.box((0,-.4,1.43),(.87,.35,.09))
 assets.append(g.object('birdhouse'))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from heartleaf_plantings import buildPlantings
+assets = [obj for obj in assets if obj.name != 'sunflowers']
+assets.extend(buildPlantings())
+from heartleaf_gardens import buildGardenProps
+assets = [obj for obj in assets if obj.name not in ('beehive', 'laundry')]
+assets.extend(buildGardenProps())
 # Preserve editable bilateral construction for the bench and stall.
 for obj in assets:
     if obj.name in ('bench','market'):

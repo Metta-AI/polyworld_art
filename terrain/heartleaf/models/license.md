@@ -1,6 +1,6 @@
 # Heartleaf town details
 
-These fifteen original low-poly village props are dedicated under CC0-1.0.
+These eighteen original low-poly village props are dedicated under CC0-1.0.
 Creator: Softmax / Polyworld contributors, with Codex procedural Blender modeling.
 Created: 2026-09-24.
 
@@ -15,13 +15,13 @@ terrain/blender_village/models/hobbit_house.glb. No additional image texture was
 copied from polyworld_data. Canvas and iron use plain material colors.
 
 The source is ../source/village_details.blend, with the shared texture packed,
-editable mesh objects, and live bilateral mirrors on the bench and market stall.
+editable mesh objects, and live bilateral mirrors on the bench, market and hive.
 The rebuild program is skills/scripts/modeling_buildings/build_heartleaf_details.py
 at the repository root, licensed under LICENSE-CODE (MIT). Run it with Blender
 in background mode; it writes candidates to tmp/heartleaf-town for review.
 
-village_details.glb is a self-contained export of fifteen named props,
-7,356 triangles in total. The source library is spaced out for editing; exports
+village_details.glb is a self-contained export of eighteen named props,
+8,392 triangles in total. The source library is spaced out for editing; exports
 use local ground pivots. A fresh Blender import verified finite coordinates and
 nondegenerate faces. A visual judge reviewed front, rear, top and oblique views
 and the assembled in-game town. Verification is recorded in the provenance file.
@@ -57,3 +57,21 @@ The cottage and plaza now use the layer-derived grass and cream limestone
 materials. Their CC0 inputs, generation prompts and process are recorded in
 `../source/layer-tiles-provenance.json`. The detail pack adds a green-roof
 birdhouse and refines the freestanding fences, raised curb and paving ring.
+
+On 2026-09-28, `heartleaf_plantings.py` replaced the generic sunflower cluster
+with five forward-facing flower heads, golden petals and dark brown seed centers.
+It also added a separate clover fringe that the game roots along cottage eaves.
+These are original AI-authored CC0 meshes with plain material colors, without
+new third-party artwork or texture dependencies. The updater preserves the
+other reviewed props, their textures, and their editable sources. The main
+detail builder imports the same planting definitions for fresh rebuilds.
+
+The same day's garden revision uses `heartleaf_gardens.py` to rebuild the hive
+with four legs, a connected tiered shell, pitched cap and entrance ledge. The
+clothesline has larger purple, blue and cream cloth panels, folds, pegs and a
+sagging rope. The independent tapered wooden bucket has sixteen staves, hoops,
+a thick open rim and recessed soil. These are original AI-authored CC0 meshes
+based on the supplied close-ups, reusing the same reviewed timber trim and
+original plain material colors. No Unity inputs or new texture dependencies
+were added. The updater preserves all fifteen other reviewed meshes and their
+UVs, and the main builder imports these same garden prop definitions.

@@ -2,8 +2,8 @@
   "fresh_import": true,
   "models": {
     "beehive": {
-      "triangles": 88,
-      "vertices": 176
+      "triangles": 250,
+      "vertices": 426
     },
     "bench": {
       "triangles": 680,
@@ -12,6 +12,14 @@
     "birdhouse": {
       "triangles": 60,
       "vertices": 128
+    },
+    "bucket_planter": {
+      "triangles": 272,
+      "vertices": 560
+    },
+    "eave_clover": {
+      "triangles": 60,
+      "vertices": 180
     },
     "fence": {
       "triangles": 72,
@@ -38,8 +46,8 @@
       "vertices": 396
     },
     "laundry": {
-      "triangles": 68,
-      "vertices": 160
+      "triangles": 384,
+      "vertices": 864
     },
     "lupins": {
       "triangles": 248,
@@ -58,22 +66,37 @@
       "vertices": 62
     },
     "sunflowers": {
-      "triangles": 174,
-      "vertices": 384
+      "triangles": 530,
+      "vertices": 1400
     },
     "tree_curb": {
       "triangles": 400,
       "vertices": 800
     }
   },
-  "triangles": 7226,
-  "date": "2026-09-25",
+  "triangles": 8392,
+  "date": "2026-09-28",
   "source": "skills/scripts/modeling_buildings/build_heartleaf_details.py",
   "export": "terrain/heartleaf/models/village_details.glb",
   "reference_sha256": "1264f5c2b12a7576b1867470924c5a677fe281a04ae256d638bb1807dac20ef2",
-  "review": "Fresh-import multi-angle views and props-only runtime comparison in tmp/heartleaf-layers.",
-  "glb_sha256": "508ac0ca88ed9fb5324a09ad51dc68de1008184a655439de868482ca5ffc753b",
-  "modifications": "Thicker freestanding fence rails and posts; raised cream limestone tree curb; narrower radial plaza paving around a larger grass opening, with layer-generated limestone texture; independent green-roof birdhouse added. Bench construction and CC0 painted trim retained.",
+  "review": "Fresh Blender import verified 18 meshes, finite vertices and nondegenerate faces. Front, rear, top and oblique garden prop views recorded in tmp/heartleaf-props. Hidden game captures compare all four reference layers and the assembled village; collision checks verify the rotated southern plaza gate.",
+  "glb_sha256": "9dea7f57c33759dcd9aae11b5dad95bd5d796bf714a971fccbf733fa6d613df4",
+  "modifications": "Thicker freestanding fence rails and posts; raised cream limestone tree curb; narrower radial plaza paving around a larger grass opening, with layer-generated limestone texture; independent green-roof birdhouse added. Bench construction and CC0 painted trim retained. Five forward-facing sunflowers with warm yellow petals and dark brown seed centers replace the generic cluster. Added separate low-poly eave clover, using original solid-color materials. Existing models and embedded textures retained.",
   "woodRevision": "Golden timber UVs remapped to the existing quiet brown timber strip in the original reviewed CC0 trim atlas.",
-  "benchRevision": "Curved benches face outward from the plaza trunk. Curved slat winding corrected after the facing change."
+  "benchRevision": "Curved benches face outward from the plaza trunk. Curved slat winding corrected after the facing change.",
+  "finite_coordinates": true,
+  "nondegenerate_faces": true,
+  "revision_script": "skills/scripts/modeling_buildings/heartleaf_plantings.py",
+  "revision_scripts": [
+    "skills/scripts/modeling_buildings/heartleaf_plantings.py",
+    "skills/scripts/modeling_buildings/heartleaf_gardens.py"
+  ],
+  "gardenRevision": "Four-legged beehive with connected recessed tier seams and entrance ledge; taller three-cloth laundry line with pegs and sag; reusable hollow sixteen-stave wooden bucket with bands, thick rim and recessed soil. All fifteen retained models have unchanged exported positions, indices and UVs.",
+  "garden_references": {
+    "codex-clipboard-f8681573-a69d-4d42-92c4-ff22de1a6273.png": "1810438cc4e53c258a590b9d64a49c9844401d6d95345c92098f1a4608c27d5e",
+    "codex-clipboard-31e95277-38bc-4d9d-8661-b4a30e32c8b2.png": "074eb0aa0e9969cddccc946b83a4840f15771b234720c1728765150c3925fe57",
+    "codex-clipboard-eb4ef7a6-6d0e-4ae5-a404-d21ea1af7d29.png": "99b067437898bc6af1d39709c82ef3c4a274a40edf1be202d9243e90933b67e8",
+    "codex-clipboard-aab64ab8-3ef3-4eb4-b6ea-cbece6d4bac3.png": "295172aefd3b5033face3c633c46a64785510dbb21c4dd6251a8ae03e3b8300f"
+  },
+  "judge": "Independent final review passed: continuous hive tier shell, visible body and legs below orchard canopy, three readable cloth colors in both gardens, hollow bucket rims and clear house/plaza approaches. Reviewed fresh front, rear, top, oblique and assembled game views."
 }
