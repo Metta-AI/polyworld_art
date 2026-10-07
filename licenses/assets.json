@@ -183,6 +183,14 @@
       "origin": "https://github.com/Omnibus-Type/Grenze/tree/master/fonts/ttf",
       "changes": "None. Digests matched the upstream files on 2026-09-23.",
       "notice": "awm/cards/fonts/OFL.txt"
+    },
+    "astronaut": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors, with Codex and built-in imagegen",
+      "title": "Modular tintable Polyworld astronaut",
+      "origin": "Original project-generated Blender geometry and approved imagegen concept, created on 2026-10-06. References and creation process recorded in characters/chargen/source/astronaut/provenance.json. User reference bitmaps are not bundled or relicensed.",
+      "changes": "Added six independently skinned outfit parts, white clothShades tint regions, Astronaut preset, isolated authoring scene and real runtime review captures. Current canonical rig and shared master retained.",
+      "notice": "characters/chargen/source/astronaut/license.md"
     }
   },
   "files": [
@@ -2924,6 +2932,20 @@
       "bytes": 303
     },
     {
+      "path": "characters/chargen/clothing/belts/astronaut_belt.glb",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 17320,
+      "sha256": "4a8d625ca77314341c110de41d9ac36b8ab895fd34916cc370007764cf9ce7c2"
+    },
+    {
+      "path": "characters/chargen/clothing/belts/astronaut_belt.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 332,
+      "sha256": "57421c35206d3ea071ff52601f30962257877b7cd0d419134eabe1fe43f4e791"
+    },
+    {
       "path": "characters/chargen/clothing/belts/gnome_buckle_belt.glb",
       "license": "CC0-1.0",
       "source": "project",
@@ -3183,6 +3205,20 @@
       "bytes": 654
     },
     {
+      "path": "characters/chargen/clothing/boots/astronaut_foot.glb",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 77388,
+      "sha256": "6f801f6471dc74671b831611e5aef96c5e9c9a950acb0a8135f42fd4109ed18a"
+    },
+    {
+      "path": "characters/chargen/clothing/boots/astronaut_foot.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 535,
+      "sha256": "06e9de9a45fe1815d5afb55463dce0cb2e70adc0579d09c87320f43f19b17592"
+    },
+    {
       "path": "characters/chargen/clothing/boots/gnome_pointed_cuff_boots.glb",
       "license": "CC0-1.0",
       "source": "project",
@@ -3372,6 +3408,20 @@
       "bytes": 0
     },
     {
+      "path": "characters/chargen/clothing/gloves/astronaut_hand.glb",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 90292,
+      "sha256": "0b36644802aa34fe4dc045980578a51008dd507e3283700eb7253763ccc4ee34"
+    },
+    {
+      "path": "characters/chargen/clothing/gloves/astronaut_hand.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 486,
+      "sha256": "f12669898a5e4f78744d228e31da46dfbaea6b530f020b7ade4d9970bbdf8eab"
+    },
+    {
       "path": "characters/chargen/clothing/jackets/gnome_jacket.glb",
       "license": "CC0-1.0",
       "source": "project",
@@ -3475,6 +3525,20 @@
       "source": "project",
       "sha256": "ae1a4b4d0f78ad8a6011191ca1bc8b23fe195fcabbeecc55cf38626ea3143384",
       "bytes": 880
+    },
+    {
+      "path": "characters/chargen/clothing/pants/astronaut_leg.glb",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 66012,
+      "sha256": "1c757742dc6895c67d1ee5d14a5acf5c31916b82f87dd5b9b6916547327ed503"
+    },
+    {
+      "path": "characters/chargen/clothing/pants/astronaut_leg.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 539,
+      "sha256": "573922329118966900da057bb7104c46b08535f36475ec9a2c6b13a8cd911959"
     },
     {
       "path": "characters/chargen/clothing/pants/gnome_shorts.glb",
@@ -3804,6 +3868,20 @@
       "source": "project",
       "sha256": "a42ababb94e19ae90df515796c42a674221213c2a7c333ff609b5a158c613486",
       "bytes": 383
+    },
+    {
+      "path": "characters/chargen/clothing/torsos/astronaut_chest.glb",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 128576,
+      "sha256": "23769b5d86a259e41cb920e81f760c50415efc7ca74103b02f2325ac9b1fbf7f"
+    },
+    {
+      "path": "characters/chargen/clothing/torsos/astronaut_chest.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 833,
+      "sha256": "0a3c4aff342750d4c0db080b55b073e352d88a81e4f6c2df34dc972976a5581b"
     },
     {
       "path": "characters/chargen/clothing/torsos/gnome_tucked_shirt.glb",
@@ -5675,6 +5753,20 @@
       "bytes": 0
     },
     {
+      "path": "characters/chargen/hats/astronaut_headgear.glb",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 97744,
+      "sha256": "5aee6bf0b32ea407e90008dcce4aee68059480ff11582b354f9dd69342f83b3e"
+    },
+    {
+      "path": "characters/chargen/hats/astronaut_headgear.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 4305,
+      "sha256": "8f7c6380abc650387fbdc94233e422d90951ba6f7dc9e374c53c71d8ff22b634"
+    },
+    {
       "path": "characters/chargen/hats/gnome_feather.glb",
       "license": "CC0-1.0",
       "source": "project",
@@ -5958,8 +6050,8 @@
       "path": "characters/chargen/manifest.json",
       "license": "CC0-1.0",
       "source": "project",
-      "sha256": "074b69975e7bf1cdd7848048435f080c3a8472f1e78bd1d1a5c8dc0b0e70da55",
-      "bytes": 63861
+      "sha256": "145d361a4c9f75c5377e0c4365065aebdc3f5c2d0a9322d6c7ab7ff34bdc855f",
+      "bytes": 65817
     },
     {
       "path": "characters/chargen/mouths/01_relaxed_smile.glb",
@@ -7236,6 +7328,202 @@
       "bytes": 6160
     },
     {
+      "path": "characters/chargen/source/astronaut/astronaut.blend",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 5280052,
+      "sha256": "76c6a77ee7678c2f241f6b5cdfefa53ea227d725c1d6c11da27898ba77513713"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/blue_crouch.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 175712,
+      "sha256": "ef71aea470388fb3fe92d7325fe44be211c8df423fcde2a9030c85b49cd7b6ab"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/blue_model.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 174304,
+      "sha256": "c942508e3b17772f92cb0aac9de3991f412817369dbe240ce98d26227660a793"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/blue_walk.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 194269,
+      "sha256": "642a43cdaa4863fb684b7aff39c64de3b511148a53d2a0162e34022289b41e0e"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/concept.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 1556524,
+      "sha256": "e4532bcc37f0534564ee96855b1bad6c6d1cf6e3cd88f85d218de4f93637ff9f"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/front_crouch.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 65872,
+      "sha256": "b49392848aa5cd8c80b8fb1e7a709680711e8dd5a5f5f3fe1f61988fa75c5786"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/front_model.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 56090,
+      "sha256": "d5eef13a8c4aef66617fadb3b54270486fd007b715090cfd81e958ad23128828"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/front_walk.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 74562,
+      "sha256": "611fdb9006347535a753249f40bbb9fa72879b993c6a3b273e577d053ba3f7a0"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/geometry.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 1491,
+      "sha256": "44edfe3e7809f5fba51abf09213d9b0a85688ad96658293556e6dcd5c2ba6971"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/license.md",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 778,
+      "sha256": "73f4d5e3df4f4f395fe1687e14b923344980b2076f4f93f33d57371f13ec5b9f"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/orange_crouch.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 173837,
+      "sha256": "72efafc34957ae7d6bc90c94100ccafb1db73f9abbff0de327626b8141c21545"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/orange_model.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 172515,
+      "sha256": "0a213855541d032f3be29cdfb1dddd811d85c208dd455ac5b14ed8f315655428"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/orange_walk.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 191742,
+      "sha256": "2fe599246379496a97a1d9ea1aa43b88a0caf3506f7409a8351bf2defbfee640"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/parts.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 7851,
+      "sha256": "59274140d6e7c8ef39e3b5cd503b1afad1b308605c9d313aa297c66cd53cad9d"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/preset.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 1563,
+      "sha256": "0ab79f570ce57a323831ab95692015116532b247b503101cd984a21512113e00"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/preview.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 174302,
+      "sha256": "ef0fb0257f90630f9bc24f5eb642eab6e6e576c7bc29a811db4d025e27c12a08"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/prompts.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 3090,
+      "sha256": "a42d456b90562345f2ae8c61b5aa7e4afaf94be2b238f9566220689e81ad4cfd"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/provenance.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 1442,
+      "sha256": "beeafc98c8c72e432e5647e50d372fffe7429ee16147cb2fc3f867684ea987b8"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/side_crouch.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 152669,
+      "sha256": "348ab8e82df60351a4131a1d7a925694c7cdb698c08fb0a0356a79d9d74d8fbf"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/side_model.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 115069,
+      "sha256": "158879d311e708442830f92d54093c9e4107515f8f17de25728dbb43f4816cf9"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/side_walk.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 146048,
+      "sha256": "5dbaf54ff987e7cf706f406c401917b8d9716ab71359f7ab0b256e3b67aaf192"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/smooth_crouch.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 150017,
+      "sha256": "310ce11ff27e4d4784f23e62291b9ef6f128123b720da801f388adfebc66b2f1"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/smooth_model.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 152160,
+      "sha256": "7de1f2b7b9489a1098a8e87a3052cc748816956f1775d19ef0acc57c460a1242"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/smooth_walk.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 170606,
+      "sha256": "c1170c251e4e074fc5b4787c8deb6b4193d45ad26730ba8ec0092af31ca1c679"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/threequarter_crouch.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 149891,
+      "sha256": "1d8138a14cfeed1cc3e6585cb6f4d8e03fc22e3ab265f9933c97a19f8e98cbe2"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/threequarter_model.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 164428,
+      "sha256": "bdfd947f477d8a676cf33ff7d5bb135cd643565393f85b7274b7adb0fc4512fd"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/threequarter_walk.png",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 175796,
+      "sha256": "d18f057935cd8b617cbcf2460c2aeba526255992408565631ab57f368545aa72"
+    },
+    {
+      "path": "characters/chargen/source/astronaut/verification.json",
+      "source": "astronaut",
+      "license": "CC0-1.0",
+      "bytes": 1670,
+      "sha256": "21f78493f0a5dde78a5e613bf15a8e368064871393d727d55ebafe73f57b1612"
+    },
+    {
       "path": "characters/chargen/source/brows/generated_v1/atlas.json",
       "license": "CC0-1.0",
       "source": "project",
@@ -8443,8 +8731,8 @@
       "path": "characters/chargen/source/manifest.json",
       "license": "CC0-1.0",
       "source": "project",
-      "sha256": "195c9d358d68102ec2b6dfd5dadeef3cc10c6e3b694f7d1331a8e964eaf068e2",
-      "bytes": 173593
+      "sha256": "47027efd962f856faa76e52632025748dde14511da4f5c91573861b434923d86",
+      "bytes": 185247
     },
     {
       "path": "characters/chargen/source/model.json",
@@ -8571,6 +8859,13 @@
       "source": "code",
       "sha256": "fb352f02ba810820b4c1fafceac812399b65f5d2c6795bce57210738549e69ef",
       "bytes": 4478
+    },
+    {
+      "path": "characters/chargen/source/scripts/build_astronaut.py",
+      "source": "code",
+      "license": "MIT",
+      "bytes": 15580,
+      "sha256": "f8bea5a2c5770419f33284283519f73f63b8e9cf52d09716326e7a9d18b7ad80"
     },
     {
       "path": "characters/chargen/source/scripts/build_belts.py",
@@ -9040,6 +9335,13 @@
       "source": "code",
       "sha256": "846f3aacf57af76418e1e04b1370e54dc715a160a9cd8ddfc31d824313c749d0",
       "bytes": 6222
+    },
+    {
+      "path": "characters/chargen/source/scripts/verify_astronaut.py",
+      "source": "code",
+      "license": "MIT",
+      "bytes": 5033,
+      "sha256": "670b661241487bb18c12d0a18dae83995dff81e1ae9cfdf5378c57f53eed1a8e"
     },
     {
       "path": "characters/chargen/source/scripts/verify_clean.py",

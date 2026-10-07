@@ -1,0 +1,25 @@
+{
+  "id": "clothing/gloves/astronaut_hand",
+  "name": "Astronaut hand",
+  "files": [
+    "clothing/gloves/astronaut_hand.glb"
+  ],
+  "nodes": [
+    "Astronaut_GloveLeft",
+    "Astronaut_WristSealLeft",
+    "Astronaut_GloveRight",
+    "Astronaut_WristSealRight"
+  ],
+  "hides": [
+    "GotaHand.Left",
+    "GotaHand.Right",
+    "Hand.Left",
+    "Hand.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

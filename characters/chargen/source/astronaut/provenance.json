@@ -1,0 +1,37 @@
+{
+  "creator": "Softmax / Polyworld contributors, with Codex",
+  "title": "Modular tintable Polyworld astronaut",
+  "license": "CC0-1.0",
+  "date": "2026-10-06",
+  "process": "Original procedural Blender geometry fitted to current Chargen body and canonical rig. Approved generated astronaut concept used as visual reference. White suit and helmet, fixed yellow control box, silver seals, dark visor, gloves and boots.",
+  "references": [
+    {
+      "role": "Default Polyworld proportions",
+      "sha256": "dc89108a5fbec8d0284c2268644d2df45bbd90fc058f8552a44b8dd4ef401a81",
+      "bundled": false
+    },
+    {
+      "role": "Polyworld toon style",
+      "sha256": "8da97a9f1ccd1f3170fce3dd2e2932855e2d548dbcf1f7dd61245af54367edd4",
+      "bundled": false
+    },
+    {
+      "role": "User-provided suit design and palette",
+      "sha256": "a016557bd64298c860c0ebad976433f3c6c6bb4b7f0dcee2efda90b8534f98f6",
+      "bundled": false
+    }
+  ],
+  "concept": {
+    "file": "concept.png",
+    "tool": "Built-in image_gen",
+    "sha256": "e4532bcc37f0534564ee96855b1bad6c6d1cf6e3cd88f85d218de4f93637ff9f"
+  },
+  "inputs": [
+    "../character.blend",
+    "../../rig/humanoid.glb",
+    "../../body/body.glb"
+  ],
+  "recipe": "../scripts/build_astronaut.py",
+  "validation": "../scripts/verify_astronaut.py",
+  "changes": "Added six independent equipment parts and Astronaut preset. Shared master, rig, animation and default selections preserved."
+}

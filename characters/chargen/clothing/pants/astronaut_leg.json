@@ -1,0 +1,27 @@
+{
+  "id": "clothing/pants/astronaut_leg",
+  "name": "Astronaut leg",
+  "files": [
+    "clothing/pants/astronaut_leg.glb"
+  ],
+  "nodes": [
+    "Astronaut_PressurePants",
+    "Astronaut_LegTabLeft0.48",
+    "Astronaut_LegTabLeft0.73",
+    "Astronaut_LegTabRight0.48",
+    "Astronaut_LegTabRight0.73"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [
+    {
+      "node": "Astronaut_PressurePants",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}

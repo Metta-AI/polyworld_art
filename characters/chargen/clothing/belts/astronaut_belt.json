@@ -1,0 +1,18 @@
+{
+  "id": "clothing/belts/astronaut_belt",
+  "name": "Astronaut belt",
+  "files": [
+    "clothing/belts/astronaut_belt.glb"
+  ],
+  "nodes": [
+    "Astronaut_Belt",
+    "Astronaut_Buckle"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

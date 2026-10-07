@@ -1,0 +1,65 @@
+{
+  "parts": [
+    {
+      "name": "Astronaut headgear",
+      "triangles": 2568,
+      "exportedVertices": 1596,
+      "degenerateTriangles": 0,
+      "tintPrimitives": 1
+    },
+    {
+      "name": "Astronaut chest",
+      "triangles": 2808,
+      "exportedVertices": 1983,
+      "degenerateTriangles": 0,
+      "tintPrimitives": 1
+    },
+    {
+      "name": "Astronaut leg",
+      "triangles": 1328,
+      "exportedVertices": 1000,
+      "degenerateTriangles": 0,
+      "tintPrimitives": 1
+    },
+    {
+      "name": "Astronaut hand",
+      "triangles": 2544,
+      "exportedVertices": 1490,
+      "degenerateTriangles": 0,
+      "tintPrimitives": 0
+    },
+    {
+      "name": "Astronaut foot",
+      "triangles": 1872,
+      "exportedVertices": 1237,
+      "degenerateTriangles": 0,
+      "tintPrimitives": 0
+    },
+    {
+      "name": "Astronaut belt",
+      "triangles": 108,
+      "exportedVertices": 160,
+      "degenerateTriangles": 0,
+      "tintPrimitives": 0
+    }
+  ],
+  "triangles": 11228,
+  "vertices": 7466,
+  "maxBindError": 0,
+  "maxWeightError": 1.2293457984924316e-07,
+  "assembledTriangles": 14332,
+  "sampledVisualReview": [
+    "T-pose",
+    "Walk_Loop at 0.35 seconds",
+    "Crouch_Fwd_Loop at 0.35 seconds",
+    "Front/back, sides, toon and smooth lighting"
+  ],
+  "limitations": "Sampled poses do not establish all-frame collision freedom.",
+  "checks": {
+    "nimCheck": "Passed",
+    "chargenSuite": "Passed",
+    "minimalPack": "8 parts, 4 clips, runtime load and tint tests passed",
+    "tints": "Black, orange, blue, white restoration; fixed hardware unchanged",
+    "supportedSources": "316 GLBs, 262 parts, 43 supported animations"
+  }
+}

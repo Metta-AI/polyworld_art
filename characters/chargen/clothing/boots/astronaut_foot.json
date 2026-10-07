@@ -1,0 +1,27 @@
+{
+  "id": "clothing/boots/astronaut_foot",
+  "name": "Astronaut foot",
+  "files": [
+    "clothing/boots/astronaut_foot.glb"
+  ],
+  "nodes": [
+    "Astronaut_BootLeft",
+    "Astronaut_SoleLeft",
+    "Astronaut_AnkleSealLeft",
+    "Astronaut_BootRight",
+    "Astronaut_SoleRight",
+    "Astronaut_AnkleSealRight"
+  ],
+  "hides": [
+    "Foot.Left",
+    "Foot.Right",
+    "GotaFoot.Left",
+    "GotaFoot.Right"
+  ],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}

@@ -2917,6 +2917,104 @@
           "item": "None"
         }
       ]
+    },
+    {
+      "name": "Astronaut",
+      "group": "Space",
+      "pose": "A_TPose",
+      "skin": 5,
+      "hairColor": "Chestnut",
+      "pupilColor": "Gray",
+      "parts": [
+        {
+          "category": "Body",
+          "item": "Base"
+        },
+        {
+          "category": "Face",
+          "item": "Base"
+        },
+        {
+          "category": "Eyes",
+          "item": "None"
+        },
+        {
+          "category": "Mouth",
+          "item": "None"
+        },
+        {
+          "category": "Nose",
+          "item": "None"
+        },
+        {
+          "category": "Ears",
+          "item": "None"
+        },
+        {
+          "category": "Brow",
+          "item": "None"
+        },
+        {
+          "category": "Hair",
+          "item": "None"
+        },
+        {
+          "category": "Beard",
+          "item": "None"
+        },
+        {
+          "category": "Earring",
+          "item": "None"
+        },
+        {
+          "category": "Eyewear",
+          "item": "None"
+        },
+        {
+          "category": "Headgear",
+          "item": "Astronaut headgear"
+        },
+        {
+          "category": "Chest",
+          "item": "Astronaut chest"
+        },
+        {
+          "category": "Back",
+          "item": "None"
+        },
+        {
+          "category": "Hand",
+          "item": "Astronaut hand"
+        },
+        {
+          "category": "Leg",
+          "item": "Astronaut leg"
+        },
+        {
+          "category": "Foot",
+          "item": "Astronaut foot"
+        },
+        {
+          "category": "Left hand",
+          "item": "None"
+        },
+        {
+          "category": "Right hand",
+          "item": "None"
+        },
+        {
+          "category": "Jacket",
+          "item": "None"
+        },
+        {
+          "category": "Belt",
+          "item": "Astronaut belt"
+        },
+        {
+          "category": "Suspenders",
+          "item": "None"
+        }
+      ]
     }
   ],
   "defaultAnimation": "Walk_Loop",

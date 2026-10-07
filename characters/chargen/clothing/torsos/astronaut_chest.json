@@ -1,0 +1,39 @@
+{
+  "id": "clothing/torsos/astronaut_chest",
+  "name": "Astronaut chest",
+  "files": [
+    "clothing/torsos/astronaut_chest.glb"
+  ],
+  "nodes": [
+    "Astronaut_PressureTop",
+    "Astronaut_ArmBandLeft",
+    "Astronaut_ArmBandRight",
+    "Astronaut_ControlBox",
+    "Astronaut_Vent",
+    "Astronaut_VentBar0",
+    "Astronaut_VentBar1",
+    "Astronaut_VentBar2",
+    "Astronaut_VentBar3",
+    "Astronaut_Display",
+    "Astronaut_DisplayBar0",
+    "Astronaut_DisplayBar1",
+    "Astronaut_Switch",
+    "Astronaut_Harness-1",
+    "Astronaut_Hose-1",
+    "Astronaut_Harness1",
+    "Astronaut_Hose1"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [
+    {
+      "node": "Astronaut_PressureTop",
+      "primitive": 0,
+      "shade": 1
+    }
+  ]
+}
