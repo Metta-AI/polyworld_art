@@ -191,6 +191,14 @@
       "origin": "Original project-generated Blender geometry and approved imagegen concept, created on 2026-10-06. References and creation process recorded in characters/chargen/source/astronaut/provenance.json. User reference bitmaps are not bundled or relicensed.",
       "changes": "Added six independently skinned outfit parts, white clothShades tint regions, Astronaut preset, isolated authoring scene and real runtime review captures. Current canonical rig and shared master retained.",
       "notice": "characters/chargen/source/astronaut/license.md"
+    },
+    "crewrift": {
+      "license": "CC0-1.0",
+      "creator": "Josh Grafton; copyright owner Softmax Inc",
+      "title": "CrewRift map 1 and authored navigation guide",
+      "origin": "Original Softmax Inc artwork supplied locally as crewRift-map1-textured.glb and crewRift-map1.blend. User confirmed author Josh Grafton and copyright owner Softmax Inc on 2026-10-07. Source details in crewrift/source.json.",
+      "changes": "Runtime GLB bytes preserved. Authored navigation triangles and task positions extracted from the Blender guide. Polyworld runtime scales the model by 12.5 and bakes atlas transforms into a static batch. Large authoring files, intermediate exports, and temporary captures excluded.",
+      "notice": "crewrift/license.md"
     }
   },
   "files": [
@@ -9412,6 +9420,34 @@
       "source": "code",
       "sha256": "760fe6d28c7f95782f77a449ac4d5283159be553c8404d702c584c441cf9eb8c",
       "bytes": 3060
+    },
+    {
+      "path": "crewrift/crewRift-map1-textured.glb",
+      "sha256": "b3a34c3d8464603836608643a9f3f64e3913f570de58551bd372b46741c50fcf",
+      "bytes": 15995484,
+      "license": "CC0-1.0",
+      "source": "crewrift"
+    },
+    {
+      "path": "crewrift/license.md",
+      "sha256": "470f81aeee99f8f9992738b4f4ccbd13b7dd7629ab120df33ea852e632309864",
+      "bytes": 707,
+      "license": "CC0-1.0",
+      "source": "crewrift"
+    },
+    {
+      "path": "crewrift/navigation.json",
+      "sha256": "3b6f99d584fe8c1c3af6970222ffca909b4a93318527b474297fe0a5348f8118",
+      "bytes": 62534,
+      "license": "CC0-1.0",
+      "source": "crewrift"
+    },
+    {
+      "path": "crewrift/source.json",
+      "sha256": "b0e836668db7e3611e431829923c125d5bb67ed5d1ff4a58d5cd8cf858c48ee5",
+      "bytes": 959,
+      "license": "CC0-1.0",
+      "source": "crewrift"
     },
     {
       "path": "fonts/OFL-OverpassMono.txt",

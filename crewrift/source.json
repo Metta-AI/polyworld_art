@@ -1,0 +1,15 @@
+{
+  "model": "crewRift-map1-textured.glb",
+  "source": "/Users/me/p/crewRift-map1-textured.glb",
+  "authoringSource": "/Users/me/p/crewRift-map1.blend",
+  "sha256": "b3a34c3d8464603836608643a9f3f64e3913f570de58551bd372b46741c50fcf",
+  "bytes": 15995484,
+  "modifications": "Model copied without modification. Navigation and task lights extracted by polyworld/tools/import_crewrift.py. Runtime applies scale 12.5 and bakes atlas transforms into a single static batch.",
+  "license": "CC0-1.0",
+  "author": "Josh Grafton",
+  "copyrightOwner": "Softmax Inc",
+  "title": "CrewRift map 1 with embedded textures",
+  "notice": "license.md",
+  "ownershipConfirmation": "Copyright owner Softmax Inc and author Josh Grafton confirmed by the user on 2026-10-07. This Softmax-owned contribution uses the existing root LICENSE dedication.",
+  "excludedFiles": "Editable crewRift-map1.blend and intermediate exports remain local and are not included in this repository."
+}

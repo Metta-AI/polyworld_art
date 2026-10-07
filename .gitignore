@@ -5,3 +5,12 @@ __pycache__/
 *.blend2
 *.atlas.png
 /tmp/
+
+# CrewRift runtime assets only; large authoring inputs and exports stay local.
+crewrift/*.blend
+crewrift/*-baked.glb
+crewrift/*-lowpoly*.glb
+crewrift/*-repaired.glb
+crewrift/*-vertex*.glb
+crewrift/*-polycolors.glb
+crewrift/tmp/
