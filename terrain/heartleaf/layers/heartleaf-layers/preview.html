@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heartleaf map layers</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#172119;color:#eff4e8;font:15px system-ui,sans-serif}
+header{padding:24px 28px;border-bottom:1px solid #40503c}h1{font-size:24px;margin:0 0 6px}p{margin:0;color:#bccaaf}
+main{display:grid;grid-template-columns:280px 1fr;gap:24px;padding:24px;max-width:1500px;margin:auto}
+aside{position:sticky;top:20px;align-self:start}.row{padding:16px 0;border-bottom:1px solid #40503c}
+label{display:flex;gap:10px;align-items:center;font-weight:650}input[type=range]{width:100%;margin-top:12px;accent-color:#afd578}
+input[type=checkbox]{accent-color:#afd578}button,a{color:#dff0be}button{margin-top:8px;padding:6px 11px;background:#334630;border:1px solid #59734c;border-radius:6px;cursor:pointer}
+.stage{position:relative;aspect-ratio:1122/1402;width:100%;background-color:#b8b8b8;background-image:conic-gradient(#ddd 25%,transparent 0 50%,#ddd 0 75%,transparent 0);background-size:24px 24px;overflow:hidden}
+.stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}.note{margin-top:20px;font-size:13px;line-height:1.5}
+@media(max-width:700px){main{grid-template-columns:1fr;padding:14px}aside{position:static}.row{padding:8px 0}header{padding:18px}}
+</style>
+<header><h1>Heartleaf map layers</h1><p>Four generated layers · 1122 × 1402 px · transparent object layers</p></header>
+<main><aside id="controls"><button id="all">Show all</button><button id="none">Hide all</button><p class="note">Toggle or isolate each layer. The checkerboard is only the preview background.<br><br>The nine buildings have been realigned and the central tree overlap corrected. These remain imagegen reconstructions, not a lossless separation of the mockup.<br><br><a href="stacked-preview.png">Open stacked PNG</a></p></aside><div class="stage" id="stage"></div></main>
+<script>
+const layers=[['Grass and paths','01-grass-and-paths.png'],['Buildings','02-buildings.png'],['Trees and vegetation','03-trees-and-vegetation.png'],['Props','04-props.png']];
+const controls=document.querySelector('#controls'),stage=document.querySelector('#stage');
+const items=layers.map(([label,file],i)=>{
+ const img=document.createElement('img');img.src=file;img.alt=label;stage.append(img);
+ const row=document.createElement('div');row.className='row';
+ row.innerHTML=`<label><input type="checkbox" checked> ${i+1}. ${label}</label><input type="range" min="0" max="100" value="100" aria-label="${label} opacity"><button type="button">Solo</button> <a href="${file}" download>PNG</a>`;
+ controls.insertBefore(row,controls.lastElementChild);
+ const check=row.querySelector('[type=checkbox]'),range=row.querySelector('[type=range]');
+ const update=()=>{img.style.display=check.checked?'block':'none';img.style.opacity=range.value/100};
+ check.onchange=update;range.oninput=update;
+ row.querySelector('button').onclick=()=>items.forEach(item=>{item.check.checked=item.img===img;item.update()});
+ return {img,check,update};
+});
+document.querySelector('#all').onclick=()=>items.forEach(x=>{x.check.checked=true;x.update()});
+document.querySelector('#none').onclick=()=>items.forEach(x=>{x.check.checked=false;x.update()});
+</script>
+</html>
