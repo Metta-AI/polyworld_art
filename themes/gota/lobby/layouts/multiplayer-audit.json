@@ -1,0 +1,59 @@
+{
+  "sizes": [
+    "20px",
+    "28px",
+    "48px"
+  ],
+  "fontsLoaded": true,
+  "clipped": [],
+  "missingImages": [],
+  "bounds": [
+    {
+      "class": "header",
+      "x": 111,
+      "y": 0,
+      "width": 1450,
+      "height": 130
+    },
+    {
+      "class": "panel server-bar",
+      "x": 111,
+      "y": 130,
+      "width": 1450,
+      "height": 82
+    },
+    {
+      "class": "panel room-list",
+      "x": 111,
+      "y": 226,
+      "width": 930,
+      "height": 618
+    },
+    {
+      "class": "panel create-panel",
+      "x": 1061,
+      "y": 226,
+      "width": 500,
+      "height": 618
+    },
+    {
+      "class": "footer",
+      "x": 111,
+      "y": 844,
+      "width": 1450,
+      "height": 90
+    }
+  ],
+  "image": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "cornerAlpha": 0
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "tool": "Built-in image_gen",
+  "workflow": "skills/generating_icons.md",
+  "license": "CC0-1.0",
+  "finish": "skills/scripts/generating_icons/finish_icon.sh --grayscale",
+  "verify": "skills/scripts/generating_icons/verify_icons.sh --grayscale",
+  "icons": [
+    {
+      "name": "battle",
+      "output": "icons/battle.png",
+      "description": "icons/battle.md",
+      "prompt": "themes/gota/lobby/sources/battle-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/tower.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-571e-7900-969f-a28aac9d49d3/exec-f5517f5d-76f1-4498-9614-e4141d0208e3.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "06555daec01220eba9030fc1225fc38a70e4bafcafc768378863b4e64eda385d",
+      "sha256": "0a90779bce50836b4a5a051d6330b1c9187fcbe54bbda188d4fbdbf3c1173f6e"
+    },
+    {
+      "name": "shuffle",
+      "output": "icons/shuffle.png",
+      "description": "icons/shuffle.md",
+      "prompt": "themes/gota/lobby/sources/shuffle-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/tower.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-571e-7900-969f-a28aac9d49d3/exec-ad5535dc-61a5-495e-93ef-e2a2659e740f.png",
+      "processing": "Cropped 1000x730+133+270 to remove distant faint alpha before finishing.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "519ae92624c294a790ef95792f73c691ea88a604d3f7ad051d50a69cd010084d",
+      "sha256": "e4b90107adc4744074794a613e063893e029bce0a5d91081f2356f59878379e9"
+    },
+    {
+      "name": "dice",
+      "output": "icons/dice.png",
+      "description": "icons/dice.md",
+      "prompt": "themes/gota/lobby/sources/dice-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/tower.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-571e-7900-969f-a28aac9d49d3/exec-d38d8918-a73c-4e99-8015-95a47ba151fa.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "b2caebbaa74204ad42cccba49375c70367e672dd4f01a4f2e915095c27029e26",
+      "sha256": "a31dd945539ee28343381a5809bd753d7961e73268c83feebef8e3616cc0fc6c"
+    },
+    {
+      "name": "terrain",
+      "output": "icons/terrain.png",
+      "description": "icons/terrain.md",
+      "prompt": "themes/gota/lobby/sources/terrain-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/tower.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-571e-7900-969f-a28aac9d49d3/exec-b2306721-3c40-4e71-88dd-c8e658064701.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "1c788607fb546be2b99d1aadb44725d2a00e75d5b575f44e194fd668628f6012",
+      "sha256": "8c9b04ab0386f61bfe96c08532d6c4e84fd8a39e47bccde84a164d03ac8a15c6"
+    },
+    {
+      "name": "chevron_down",
+      "output": "icons/chevron_down.png",
+      "description": "icons/chevron_down.md",
+      "prompt": "themes/gota/lobby/sources/chevron_down-prompt.txt",
+      "styleReferences": [
+        "icons/cross.png",
+        "icons/settings.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-94fe-76b0-9032-3f6572db4560/exec-e3808e4b-61fa-4680-a019-6e562ffb3545.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "04b80148c15a838730828c4328be1e6e83ec4a5e49ea86d953189e02669db870",
+      "sha256": "69d7ae16e96d30a838b06ea869e1a16d7e04e8da85123e446c350edd4c38137a"
+    },
+    {
+      "name": "arrow_left",
+      "output": "icons/arrow_left.png",
+      "description": "icons/arrow_left.md",
+      "prompt": "themes/gota/lobby/sources/arrow_left-prompt.txt",
+      "styleReferences": [
+        "icons/cross.png",
+        "icons/settings.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-94fe-76b0-9032-3f6572db4560/exec-80643b11-e277-4513-8508-dff4798bb485.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "a65678326455247f7cca0a6cb723a64ecdff62c827af45921d53fc3d38bc6549",
+      "sha256": "627ca9aef3aa02ba7d0ca24aa22c9ab9f8d08e3a349cce05ab248c64a6b87453"
+    },
+    {
+      "name": "arrow_right",
+      "output": "icons/arrow_right.png",
+      "description": "icons/arrow_right.md",
+      "prompt": "themes/gota/lobby/sources/arrow_right-prompt.txt",
+      "styleReferences": [
+        "icons/cross.png",
+        "icons/settings.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-94fe-76b0-9032-3f6572db4560/exec-cd8169c2-6219-4c96-96ac-879d34fafea9.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "a8d2b6ea9fab0ae8a15841f063baca02e025311973713e6b2fcbe69bd4150cd8",
+      "sha256": "d272ad073224efcece24602305bfa0ee6cdf352bf57afe30aaf2297bc35e3cf6"
+    },
+    {
+      "name": "minus",
+      "output": "icons/minus.png",
+      "description": "icons/minus.md",
+      "prompt": "themes/gota/lobby/sources/minus-prompt.txt",
+      "styleReferences": [
+        "icons/cross.png",
+        "icons/settings.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-94fe-76b0-9032-3f6572db4560/exec-74a24f67-ab39-4756-b727-fefc66298d82.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "2c1f9736131e2e34e547a788b2f4974862bdb707ca776e437a329d4c2c461f44",
+      "sha256": "74c41f645a0b5b718774774271e76cdc4387dd3413e6cf290174c112a9ee385e"
+    },
+    {
+      "name": "status",
+      "output": "icons/status.png",
+      "description": "icons/status.md",
+      "prompt": "themes/gota/lobby/sources/status-prompt.txt",
+      "styleReferences": [
+        "icons/cross.png",
+        "icons/settings.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-94fe-76b0-9032-3f6572db4560/exec-4f009878-a1cd-4a17-b9d7-2d7d6897c56b.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "fb697e48d2fdc0d325e5a7262ec490f920ac138e38d23b538cba8daa5808e544",
+      "sha256": "0cb0ed16d49f82c1f08df2671ce15d3653bd7d13058f298dfa1334149f8ac6ec"
+    },
+    {
+      "name": "search",
+      "output": "icons/search.png",
+      "description": "icons/search.md",
+      "prompt": "themes/gota/lobby/sources/search-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/cross.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-cc5c-7103-9b20-25701395e25b/exec-4e95ff73-d4b3-4c0c-8105-c2464697df52.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "fcef1e02216a8697961e4af4bf3d6b0d89ade6b5cdf7b3fdc53bc4baa6d8d0db",
+      "sha256": "58f9142e97e380dc449ed2ee26a3a33babd668e34f3efcac1d6bfbe13328ba0f"
+    },
+    {
+      "name": "globe",
+      "output": "icons/globe.png",
+      "description": "icons/globe.md",
+      "prompt": "themes/gota/lobby/sources/globe-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/cross.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-cc5c-7103-9b20-25701395e25b/exec-d15607da-82ae-4895-b50e-23a537f0cba1.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "fdad9d0e6eec251c58c1e2fa90df0aebe58617c25903e18c045a09c3ce6c1d18",
+      "sha256": "386ca9447718a6c36b5be4389add317054b507519217fd43dab76368af3e7e9e"
+    },
+    {
+      "name": "lock",
+      "output": "icons/lock.png",
+      "description": "icons/lock.md",
+      "prompt": "themes/gota/lobby/sources/lock-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/cross.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-cc5c-7103-9b20-25701395e25b/exec-4e92c92e-ba29-43cd-86ae-e6a944474e78.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "07e59eb81fe447edcad408dee241b50ffdc4aeda71e1b9141edaf5ea2ab934e7",
+      "sha256": "bae177c42a9831b9bb2dac13561695523de8bcc44e51c26a64ec470323ac181b"
+    },
+    {
+      "name": "link",
+      "output": "icons/link.png",
+      "description": "icons/link.md",
+      "prompt": "themes/gota/lobby/sources/link-prompt.txt",
+      "styleReferences": [
+        "icons/settings.png",
+        "icons/cross.png"
+      ],
+      "generatedSource": "/Users/me/.codex/generated_images/01a17ebe-cc5c-7103-9b20-25701395e25b/exec-3b3a9a92-9067-436f-8bba-9af3ea29ce57.png",
+      "processing": "Trimmed, scaled to fit a 128x128 RGBA canvas and centered. Navigation and room icons received an isolated center_icons.nim pass.",
+      "size": [
+        128,
+        128
+      ],
+      "tintable": true,
+      "generatedSha256": "b97e8a4414afcea5d59434f5bce0f4675cfd572a0709a6706807417919efa5b0",
+      "sha256": "acc4e3d4ad962df28ae1dde4a5cc983b4785790d34c55cadcd9175ecc5d349a6"
+    }
+  ],
+  "layouts": {
+    "source": "themes/gota/lobby/layouts",
+    "fontSizes": [
+      48,
+      28,
+      20
+    ],
+    "fonts": [
+      "fonts/Rubik-Regular.ttf",
+      "fonts/Rubik-Bold.ttf"
+    ],
+    "mapPreview": "Original illustrative SVG terrain; not a generated live map or screenshot crop."
+  }
+}

@@ -1,0 +1,15 @@
+Use case: stylized-concept.
+Asset type: fantasy strategy game UI icon, tintable.
+Create a brand-new icon of the following subject. The two attached icons are STYLE REFERENCES ONLY: match their minimal rounded white sculpted material, soft bevels, neutral pale gray shading, simple strong silhouette and generous transparent padding. Do not reproduce a gear or plus symbol.
+Subject: A single plain closed padlock: one simple rounded rectangular solid body and one wide closed U-shaped shackle. Small keyhole notch is optional, keep silhouette simple and unmistakable at 32 pixels. No keys, chain, shield, engraving, numbers, extra objects, or textures.
+Composition: one centered symbol on a square canvas, near-front view. The icon occupies roughly 80% of canvas, with balanced padding. It must remain legible when reduced to 32 pixels.
+Style: extremely simple white clay or plastic UI sculpture, broad smooth shapes with very slight neutral light-gray shading, restrained bevel depth. Neutral grayscale only, no colored lighting. No black outlines, frame, badge plate, floor, ground, cast shadow, surrounding glow, background scenery, or watermark.
+Background: genuine alpha transparency throughout the empty space, including any interior holes. Do not draw a checkerboard, black matte or white matte. Single icon only, no text, labels, grid or multiple variants.
+
+Generation mode: built-in image_gen.
+Style references: icons/settings.png, icons/cross.png.
+Generated source: /Users/me/.codex/generated_images/01a17ebe-cc5c-7103-9b20-25701395e25b/exec-4e92c92e-ba29-43cd-86ae-e6a944474e78.png
+Finishing: skills/scripts/generating_icons/finish_icon.sh --grayscale.
+Centering: skills/scripts/generating_icons/center_icons.nim applied only to
+these new icons in a temporary directory before copying them back.
+Validation: verify_icons.sh --grayscale, plus visual review at 128 and 32 px.

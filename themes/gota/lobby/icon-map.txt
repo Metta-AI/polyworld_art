@@ -1,0 +1,96 @@
+Gods of the Arena UI icon mapping
+
+All paths are relative to polyworld_art. Icons are shared between screens.
+Tint neutral artwork at draw time. Never duplicate files for team colors.
+
+Both screen headers
+  icons/battle.png
+  Tint: cream / gold
+
+Red and blue team headings
+  icons/tower.png
+  Tint: team red / blue
+
+Human player slots
+  icons/character.png
+  Tint: cream
+
+Bots, Match Settings, Advanced settings
+  icons/settings.png
+  Tint: cream
+
+Add player, Create room, numeric increment
+  icons/cross.png
+  Tint: cream
+
+Numeric decrement
+  icons/minus.png
+  Tint: cream
+
+Dropdowns and collapsed disclosures
+  icons/chevron_down.png
+  Tint: cream
+
+Back navigation
+  icons/arrow_left.png
+  Tint: cream
+
+Start Game and Join room
+  icons/arrow_right.png
+  Tint: cream
+
+Shuffle players
+  icons/shuffle.png
+  Tint: cream
+
+Reroll match seed
+  icons/dice.png
+  Tint: cream
+
+Map generation disclosure
+  icons/terrain.png
+  Tint: cream
+
+Public rooms heading
+  icons/units.png
+  Tint: cream
+
+Refresh public rooms
+  icons/loop.png
+  Tint: cream
+
+Search rooms
+  icons/search.png
+  Tint: cream
+
+Public room visibility
+  icons/globe.png
+  Tint: cream
+
+Private room visibility
+  icons/lock.png
+  Tint: cream
+
+Join by invite heading
+  icons/link.png
+  Tint: cream
+
+Connected, Open and Full indicators
+  icons/status.png
+  Tint: green / muted gray
+
+Three font sizes at the 1672 x 941 reference canvas
+
+48 px - Screen titles: BATTLE SETUP and MULTIPLAYER.
+28 px - Section headings.
+20 px - All other text: brand, subtitle, labels, values, buttons, badges,
+        slot numbers, helper text, table headers, room names, pagination.
+
+Fonts: fonts/Rubik-Regular.ttf and fonts/Rubik-Bold.ttf.
+Use weight, color and spacing for emphasis, not additional font sizes.
+
+Draw toggle tracks, toggle thumbs, slot-number circles, panel frames,
+fields and buttons as UI geometry. The map thumbnail is a map preview,
+not an icon. The existing units.png has luminance-alpha (LA) storage,
+which is valid transparent PNG artwork; other mapped icons use RGBA.
+

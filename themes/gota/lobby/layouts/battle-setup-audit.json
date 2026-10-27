@@ -1,0 +1,52 @@
+{
+  "sizes": [
+    "20px",
+    "28px",
+    "48px"
+  ],
+  "fontsLoaded": true,
+  "clipped": [],
+  "missingImages": [],
+  "bounds": [
+    {
+      "class": "header",
+      "x": 111,
+      "y": 0,
+      "width": 1450,
+      "height": 142
+    },
+    {
+      "class": "panel roster",
+      "x": 111,
+      "y": 142,
+      "width": 930,
+      "height": 690
+    },
+    {
+      "class": "panel settings",
+      "x": 1061,
+      "y": 142,
+      "width": 500,
+      "height": 690
+    },
+    {
+      "class": "footer",
+      "x": 111,
+      "y": 832,
+      "width": 1450,
+      "height": 90
+    }
+  ],
+  "image": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "cornerAlpha": 0
+  }
+}

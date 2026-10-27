@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "referenceCanvas": {
+    "width": 1672,
+    "height": 941
+  },
+  "fontSizes": {
+    "title": 48,
+    "section": 28,
+    "body": 20
+  },
+  "fonts": {
+    "regular": "fonts/Rubik-Regular.ttf",
+    "bold": "fonts/Rubik-Bold.ttf",
+    "notice": "fonts/OFL-Rubik.txt"
+  },
+  "fontRoles": {
+    "title": [
+      "BATTLE SETUP",
+      "MULTIPLAYER"
+    ],
+    "section": [
+      "RED TEAM",
+      "BLUE TEAM",
+      "MATCH SETTINGS",
+      "PUBLIC ROOMS",
+      "CREATE ROOM heading",
+      "JOIN BY INVITE"
+    ],
+    "body": [
+      "Brand text",
+      "Subtitles",
+      "All buttons, including primary actions",
+      "Labels and field values",
+      "Table headers and rows",
+      "Slot numbers",
+      "HUMAN and BOT badges",
+      "Helper text",
+      "Status labels",
+      "Pagination"
+    ]
+  },
+  "typographyRules": [
+    "Use only the three declared sizes.",
+    "Use font weight, color and spacing for additional hierarchy.",
+    "Do not shrink helpers, badges, table headers or primary-action labels independently.",
+    "Scale the complete screen uniformly when adapting to a different viewport."
+  ],
+  "icons": [
+    {
+      "id": "battle",
+      "file": "icons/battle.png",
+      "use": "Both screen headers",
+      "tint": "cream / gold"
+    },
+    {
+      "id": "team",
+      "file": "icons/tower.png",
+      "use": "Red and blue team headings",
+      "tint": "team red / blue"
+    },
+    {
+      "id": "human",
+      "file": "icons/character.png",
+      "use": "Human player slots",
+      "tint": "cream"
+    },
+    {
+      "id": "botAndSettings",
+      "file": "icons/settings.png",
+      "use": "Bots, Match Settings, Advanced settings",
+      "tint": "cream"
+    },
+    {
+      "id": "add",
+      "file": "icons/cross.png",
+      "use": "Add player, Create room, numeric increment",
+      "tint": "cream"
+    },
+    {
+      "id": "subtract",
+      "file": "icons/minus.png",
+      "use": "Numeric decrement",
+      "tint": "cream"
+    },
+    {
+      "id": "dropdown",
+      "file": "icons/chevron_down.png",
+      "use": "Dropdowns and collapsed disclosures",
+      "tint": "cream"
+    },
+    {
+      "id": "back",
+      "file": "icons/arrow_left.png",
+      "use": "Back navigation",
+      "tint": "cream"
+    },
+    {
+      "id": "forward",
+      "file": "icons/arrow_right.png",
+      "use": "Start Game and Join room",
+      "tint": "cream"
+    },
+    {
+      "id": "shuffle",
+      "file": "icons/shuffle.png",
+      "use": "Shuffle players",
+      "tint": "cream"
+    },
+    {
+      "id": "randomSeed",
+      "file": "icons/dice.png",
+      "use": "Reroll match seed",
+      "tint": "cream"
+    },
+    {
+      "id": "terrain",
+      "file": "icons/terrain.png",
+      "use": "Map generation disclosure",
+      "tint": "cream"
+    },
+    {
+      "id": "rooms",
+      "file": "icons/units.png",
+      "use": "Public rooms heading",
+      "tint": "cream"
+    },
+    {
+      "id": "refresh",
+      "file": "icons/loop.png",
+      "use": "Refresh public rooms",
+      "tint": "cream"
+    },
+    {
+      "id": "search",
+      "file": "icons/search.png",
+      "use": "Search rooms",
+      "tint": "cream"
+    },
+    {
+      "id": "public",
+      "file": "icons/globe.png",
+      "use": "Public room visibility",
+      "tint": "cream"
+    },
+    {
+      "id": "private",
+      "file": "icons/lock.png",
+      "use": "Private room visibility",
+      "tint": "cream"
+    },
+    {
+      "id": "invite",
+      "file": "icons/link.png",
+      "use": "Join by invite heading",
+      "tint": "cream"
+    },
+    {
+      "id": "status",
+      "file": "icons/status.png",
+      "use": "Connected, Open and Full indicators",
+      "tint": "green / muted gray"
+    }
+  ],
+  "primitives": [
+    {
+      "id": "toggle",
+      "drawing": "Rounded track and circular thumb; colors indicate on/off."
+    },
+    {
+      "id": "slotNumber",
+      "drawing": "Circle outline with body-size numeral; no separate icon."
+    },
+    {
+      "id": "mapPreview",
+      "drawing": "Render the selected map; this is content, not an icon."
+    },
+    {
+      "id": "controls",
+      "drawing": "Panel, button, field and badge backgrounds are layout primitives, not icons."
+    }
+  ],
+  "layouts": {
+    "battleSetup": {
+      "source": "themes/gota/lobby/layouts/battle-setup.html",
+      "preview": "themes/gota/lobby/layouts/battle-setup.png",
+      "audit": "themes/gota/lobby/layouts/battle-setup-audit.json"
+    },
+    "multiplayer": {
+      "source": "themes/gota/lobby/layouts/multiplayer.html",
+      "preview": "themes/gota/lobby/layouts/multiplayer.png",
+      "audit": "themes/gota/lobby/layouts/multiplayer-audit.json"
+    },
+    "stylesheet": "themes/gota/lobby/layouts/ui.css",
+    "renderCommand": "python3 themes/gota/lobby/layouts/render.py",
+    "note": "Editable static design references, not multiplayer runtime implementation."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "mappedIcons": 19,
+  "newIcons": 13,
+  "icons": [
+    {
+      "file": "icons/battle.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/tower.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/character.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/settings.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/cross.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/minus.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/chevron_down.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/arrow_left.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/arrow_right.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/shuffle.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/dice.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/terrain.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/units.png",
+      "mode": "LA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/loop.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/search.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/globe.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/lock.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/link.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "icons/status.png",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ]
+    }
+  ],
+  "fontSizes": [
+    20,
+    28,
+    48
+  ],
+  "screenAudits": [
+    "layouts/battle-setup-audit.json",
+    "layouts/multiplayer-audit.json"
+  ],
+  "status": "passed",
+  "repositoryBaseline": "tools/verify_assets.py already failed before these additions on pre-existing terrain/heartleaf/layers/heartleaf-layers inventory entries. This task leaves those unrelated files unchanged."
+}

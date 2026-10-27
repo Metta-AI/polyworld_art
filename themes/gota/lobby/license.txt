@@ -1,0 +1,25 @@
+Gods of the Arena lobby UI assets
+
+The new shared icons listed in sources/provenance.json are original
+project-generated artwork created with built-in image generation on
+2026-10-27, using the existing CC0 gear, tower and plus icons as style
+references. They follow skills/generating_icons.md and are dedicated under
+CC0-1.0, with the full terms in the repository root LICENSE.
+
+Exact generation prompts, source references and processing details are
+retained in sources/. The image-generation source paths identify the
+original local outputs. No third-party screenshot pixels are included in
+the new shared icons or editable layouts.
+
+The icon mapping and typography data are project-authored CC0 material.
+Editable HTML, CSS, JavaScript and Python layout/rendering tools are under
+the repository's MIT code license, retained in LICENSE-CODE.
+
+The layouts reference unmodified Rubik Regular and Rubik Bold from fonts/.
+These fonts and rendered font-derived glyphs retain OFL-1.1. See
+fonts/license.md and fonts/OFL-Rubik.txt for the full notices. Rendered
+layout PNGs are recorded as OFL-1.1 in the asset inventory to retain this
+font-derived condition. Underlying original artwork remains CC0-1.0.
+
+The map thumbnail in the editable Battle Setup layout is an original,
+illustrative SVG terrain drawing. It is not a live map preview.

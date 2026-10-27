@@ -1,0 +1,8 @@
+Use case: stylized-concept.
+Asset type: tintable game UI icon, one icon on a square transparent canvas.
+Primary request: Create status in the same simple soft white sculpted style as the two supplied reference icons.
+Input images: the plus and gear are STYLE references only; do not repeat their shapes.
+Subject: A single plain round filled circular disc seen perfectly front-on. Very shallow raised sculpted surface with subtle light-gray edge bevel, bright white center. No hole, no ring, no symbol, no letters. A status dot, not a sphere with dramatic shading.
+Style: Extremely simple matte white clay/plastic UI pictogram. Broad smooth geometry, rounded or beveled edges, very slight neutral pale-gray shading only. Clean strong silhouette readable at 32 pixels. White/grayscale only for runtime color tinting.
+Composition: Exactly one centered icon, nearly flat front view, generous balanced transparent padding, maximum visible extent roughly 80 percent of the square canvas.
+Constraints: Genuine alpha transparency. No text, frame, button tile, backdrop, floor, cast shadow, glow, colored edge, watermark, decoration, or extra objects. No black outline. Do not render a checkerboard. Match reference material and restrained depth.
