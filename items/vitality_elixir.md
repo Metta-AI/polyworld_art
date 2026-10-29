@@ -1,6 +1,6 @@
 # Vitality Elixir
 
-A round bottle of luminous red orange elixir sealed by a leafy stopper.
+A round glass vial filled with luminous green elixir and a green stopper on a dark background.
 Suitable for restoring health, recovering from wounds, or emergency healing.
 
-Keywords: vitality, elixir, red, bottle, health, restore, consumable.
+Keywords: vitality, elixir, green, vial, health, restore, consumable.
