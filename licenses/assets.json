@@ -199,6 +199,30 @@
       "origin": "Original Softmax Inc artwork supplied locally as crewRift-map1-textured.glb and crewRift-map1.blend. User confirmed author Josh Grafton and copyright owner Softmax Inc on 2026-10-07. Source details in crewrift/source.json.",
       "changes": "Runtime GLB bytes preserved. Authored navigation triangles and task positions extracted from the Blender guide. Polyworld runtime scales the model by 12.5 and bakes atlas transforms into a static batch. Large authoring files, intermediate exports, and temporary captures excluded.",
       "notice": "crewrift/license.md"
+    },
+    "gotaUiIcons": {
+      "license": "CC0-1.0",
+      "creator": "Polyworld contributors, with Codex and built-in imagegen",
+      "title": "Shared lobby and battle setup UI icons",
+      "origin": "Original icons generated on 2026-10-27 using CC0 icons/settings.png, icons/tower.png and icons/cross.png as style references. Exact prompts, original source digests and processing are in themes/gota/lobby/sources/provenance.json.",
+      "changes": "Finished with the repository generating-icons workflow as centered grayscale 128x128 RGBA PNGs. Companion descriptions and icon/font mappings added.",
+      "notice": "themes/gota/lobby/license.txt"
+    },
+    "gotaUiLayouts": {
+      "license": "MIT",
+      "creator": "Polyworld contributors, with Codex",
+      "title": "Editable three-size lobby UI layout sources and renderer",
+      "origin": "New original HTML, CSS, JavaScript and Python code authored on 2026-10-27 to implement the user-approved screen layouts with existing and newly generated Polyworld icons.",
+      "changes": "One Rubik font family, exactly 48/28/20 px tokens, static original vector terrain illustration, transparent rendering, and computed-font and layout checks. No screenshot pixels embedded.",
+      "notice": "LICENSE-CODE"
+    },
+    "gotaUiRenders": {
+      "license": "OFL-1.1",
+      "creator": "Polyworld contributors and The Rubik Project Authors",
+      "title": "Rubik-rendered lobby design previews",
+      "origin": "Rendered on 2026-10-27 from themes/gota/lobby/layouts/ using original CC0 UI artwork and unmodified fonts/Rubik-Regular.ttf and fonts/Rubik-Bold.ttf.",
+      "changes": "Transparent PNG previews at 1672x941. Font-derived glyphs retain the Rubik OFL notice; underlying project artwork remains CC0 as detailed in themes/gota/lobby/license.txt.",
+      "notice": "fonts/OFL-Rubik.txt"
     }
   },
   "files": [
@@ -10010,6 +10034,34 @@
       "bytes": 8750
     },
     {
+      "path": "icons/arrow_left.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "d017ac481b62234eda0e8457a583abd506e9bd063e49ff6408f99074edf2b5af",
+      "bytes": 235
+    },
+    {
+      "path": "icons/arrow_left.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "627ca9aef3aa02ba7d0ca24aa22c9ab9f8d08e3a349cce05ab248c64a6b87453",
+      "bytes": 3848
+    },
+    {
+      "path": "icons/arrow_right.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "99b8beec64ede8ea1316b4221efce0025e12a9d5fdf3660480dd34bde5a5d862",
+      "bytes": 263
+    },
+    {
+      "path": "icons/arrow_right.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "d272ad073224efcece24602305bfa0ee6cdf352bf57afe30aaf2297bc35e3cf6",
+      "bytes": 4134
+    },
+    {
       "path": "icons/assists.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -10078,6 +10130,20 @@
       "source": "project",
       "sha256": "fb96dfbd0cc80a207f367766c1ee3aadcc20c1ec1751cc8ab78ac5fadf19af44",
       "bytes": 6982
+    },
+    {
+      "path": "icons/battle.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "bc673c80e17b49d44149505ce21f55fc0d06171b50b020e69c09be419c107328",
+      "bytes": 283
+    },
+    {
+      "path": "icons/battle.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "0a90779bce50836b4a5a051d6330b1c9187fcbe54bbda188d4fbdbf3c1173f6e",
+      "bytes": 10600
     },
     {
       "path": "icons/blaze.md",
@@ -10316,6 +10382,20 @@
       "source": "project",
       "sha256": "9f7f44ad31e62b7864dd00f40f94b9927aaf0e01b1a4dd17df754e35c66f63b7",
       "bytes": 11194
+    },
+    {
+      "path": "icons/chevron_down.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "140c38d034372f85a420c3f06a3cdaf4614ae51b7abfe668fecf29c53762f871",
+      "bytes": 267
+    },
+    {
+      "path": "icons/chevron_down.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "69d7ae16e96d30a838b06ea869e1a16d7e04e8da85123e446c350edd4c38137a",
+      "bytes": 4516
     },
     {
       "path": "icons/combat_stats.md",
@@ -10584,6 +10664,20 @@
       "bytes": 6421
     },
     {
+      "path": "icons/dice.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "c5f1508e9ac08858c3fab48c16e304f034f82f184ecdd645bfc822cff14a051f",
+      "bytes": 293
+    },
+    {
+      "path": "icons/dice.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "a31dd945539ee28343381a5809bd753d7961e73268c83feebef8e3616cc0fc6c",
+      "bytes": 7453
+    },
+    {
       "path": "icons/diplomacy.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -10806,6 +10900,20 @@
       "source": "project",
       "sha256": "2e4901371970c7d7658e41e6c6c27accbf69fae03935b6c70a2e084964593f3b",
       "bytes": 10140
+    },
+    {
+      "path": "icons/globe.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "ac4bda46e61090663612c87cd9f5b0f39a5fee08c3f89fe6f280f2ea7b0e023c",
+      "bytes": 239
+    },
+    {
+      "path": "icons/globe.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "386ca9447718a6c36b5be4389add317054b507519217fd43dab76368af3e7e9e",
+      "bytes": 10785
     },
     {
       "path": "icons/gold.md",
@@ -11088,6 +11196,34 @@
       "bytes": 5833
     },
     {
+      "path": "icons/link.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "dad172b0cf5e23cebdebe1af9c17a6a3d4b1cea50d29ff0f82823e679d5299ce",
+      "bytes": 209
+    },
+    {
+      "path": "icons/link.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "acc4e3d4ad962df28ae1dde4a5cc983b4785790d34c55cadcd9175ecc5d349a6",
+      "bytes": 8492
+    },
+    {
+      "path": "icons/lock.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "b10f26185f32ad6a81e5a6e921ec744d2350ff2b51f086effd63921e6a9ec409",
+      "bytes": 245
+    },
+    {
+      "path": "icons/lock.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "bae177c42a9831b9bb2dac13561695523de8bcc44e51c26a64ec470323ac181b",
+      "bytes": 5649
+    },
+    {
       "path": "icons/loop.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -11268,6 +11404,20 @@
       "source": "project",
       "sha256": "d494bef0f67b85f3558da9a3cdf137473e7a400ea4943827f7779ac308253da7",
       "bytes": 9345
+    },
+    {
+      "path": "icons/minus.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "684cdef8ee77e251dcd22b3261cd5b1297d4da5af3b25741a054f1720cc9b097",
+      "bytes": 256
+    },
+    {
+      "path": "icons/minus.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "74c41f645a0b5b718774774271e76cdc4387dd3413e6cf290174c112a9ee385e",
+      "bytes": 1933
     },
     {
       "path": "icons/move.md",
@@ -11760,6 +11910,20 @@
       "bytes": 8058
     },
     {
+      "path": "icons/search.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "4316d32430ee8bc9e589340e1cdddc95f78d173972fdfe465a9384e30ad48250",
+      "bytes": 240
+    },
+    {
+      "path": "icons/search.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "58f9142e97e380dc449ed2ee26a3a33babd668e34f3efcac1d6bfbe13328ba0f",
+      "bytes": 6912
+    },
+    {
       "path": "icons/select.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -11828,6 +11992,20 @@
       "source": "project",
       "sha256": "055b26becd0aec083ffe98bbf8c4a57fa3118bc44ae80e3b18acd7170bc8f80d",
       "bytes": 7633
+    },
+    {
+      "path": "icons/shuffle.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "e34247e403e351e963849bde0b4e9f4b6b9e9c7f552e16acdce23b7be8e3a62b",
+      "bytes": 268
+    },
+    {
+      "path": "icons/shuffle.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "e4b90107adc4744074794a613e063893e029bce0a5d91081f2356f59878379e9",
+      "bytes": 10720
     },
     {
       "path": "icons/silenced.md",
@@ -12040,6 +12218,20 @@
       "bytes": 7176
     },
     {
+      "path": "icons/status.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "ffab9671984ec389995f5d3d8518665aa366631f64c96e78f684d90c61253dbc",
+      "bytes": 275
+    },
+    {
+      "path": "icons/status.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "0cb0ed16d49f82c1f08df2671ce15d3653bd7d13058f298dfa1334149f8ac6ec",
+      "bytes": 4826
+    },
+    {
       "path": "icons/stealth.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -12122,6 +12314,20 @@
       "source": "project",
       "sha256": "32d5169197e252c0a145465a226bcfb953d5fed070028895d7d1f06cb7a8afa8",
       "bytes": 6659
+    },
+    {
+      "path": "icons/terrain.md",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "11025d5a33dca0498f992339df89ddcd10b1183a6d568a9b3aeedc4f1d9e6384",
+      "bytes": 277
+    },
+    {
+      "path": "icons/terrain.png",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "8c9b04ab0386f61bfe96c08532d6c4e84fd8a39e47bccde84a164d03ac8a15c6",
+      "bytes": 7031
     },
     {
       "path": "icons/thorn.md",
@@ -18114,6 +18320,202 @@
       "source": "project",
       "sha256": "0093723f15e10d5e91caf879a2ecf454d656e30e4928e91b57177b21d05445b5",
       "bytes": 705624
+    },
+    {
+      "path": "themes/gota/lobby/icon-map.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "e45d559c77a326c32eaef9c76e0e947798ec34dee19bb607386978617b24d5b3",
+      "bytes": 2026
+    },
+    {
+      "path": "themes/gota/lobby/layouts/audit.js",
+      "license": "MIT",
+      "source": "gotaUiLayouts",
+      "sha256": "a5c1b8fe9dcd54d41780c1f8e7ad7d6ac1adc5c52519265baf00d26791a2b4fb",
+      "bytes": 1495
+    },
+    {
+      "path": "themes/gota/lobby/layouts/battle-setup-audit.json",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "bd38cbb5566727365ea3bf4fcb54d99e8ffc45d991b7b68c6f812558d80b90bc",
+      "bytes": 734
+    },
+    {
+      "path": "themes/gota/lobby/layouts/battle-setup.html",
+      "license": "MIT",
+      "source": "gotaUiLayouts",
+      "sha256": "7ce4af1e09c83e5349ef0347e44f23f1aa86122226547b1e35914bb4476a22a1",
+      "bytes": 8555
+    },
+    {
+      "path": "themes/gota/lobby/layouts/battle-setup.png",
+      "license": "OFL-1.1",
+      "source": "gotaUiRenders",
+      "sha256": "a5d746e7033f8b978f123f73ff1a2d5aa17ad79682628706f5ea659a2cfe5406",
+      "bytes": 524860
+    },
+    {
+      "path": "themes/gota/lobby/layouts/generate.py",
+      "license": "MIT",
+      "source": "gotaUiLayouts",
+      "sha256": "a0125acfb83e4451cbb11f0d0325afed4842cdd98814d99dfeaa4200c07f75ba",
+      "bytes": 9073
+    },
+    {
+      "path": "themes/gota/lobby/layouts/multiplayer-audit.json",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "8aaf5c7c623b4a459fb69eda1452b9ad8e682a498aac19f91563378a831838bf",
+      "bytes": 861
+    },
+    {
+      "path": "themes/gota/lobby/layouts/multiplayer.html",
+      "license": "MIT",
+      "source": "gotaUiLayouts",
+      "sha256": "8a8486250bfb678da7c7c4227b9676211b2700607d4dd087f8e2a7566620c98a",
+      "bytes": 4198
+    },
+    {
+      "path": "themes/gota/lobby/layouts/multiplayer.png",
+      "license": "OFL-1.1",
+      "source": "gotaUiRenders",
+      "sha256": "4ff3d3150aa0ff55c19b610a3176000c34cb6ffcb87f4de2c9ac16c292b74045",
+      "bytes": 354724
+    },
+    {
+      "path": "themes/gota/lobby/layouts/render.py",
+      "license": "MIT",
+      "source": "gotaUiLayouts",
+      "sha256": "777738ed640ff96e1c59693639dde7a469615d11e53ffa2e8e2ca400389a28a1",
+      "bytes": 2470
+    },
+    {
+      "path": "themes/gota/lobby/layouts/ui.css",
+      "license": "MIT",
+      "source": "gotaUiLayouts",
+      "sha256": "c1f14347fe4457a23db5dcae055a0a67b126e46b726ed4739e921f0ac3c48e9b",
+      "bytes": 9388
+    },
+    {
+      "path": "themes/gota/lobby/license.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "2e7d5fad31a2fce7988a12cd428e4707b94eb713ef211515e9f54a37fd4205d3",
+      "bytes": 1334
+    },
+    {
+      "path": "themes/gota/lobby/sources/arrow_left-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "cf49676dd75b4dc20335fc193cbbcf1d90e827b40c0765cc109c927cbde0d95a",
+      "bytes": 1217
+    },
+    {
+      "path": "themes/gota/lobby/sources/arrow_right-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "51be631c35a9322949de73269aa8376098fbbff877fdc810d40092b45d3421be",
+      "bytes": 1218
+    },
+    {
+      "path": "themes/gota/lobby/sources/battle-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "385c7d6c4cc19b4cf977aee370c66ac4c550003c615c24148f3bef761c485309",
+      "bytes": 1032
+    },
+    {
+      "path": "themes/gota/lobby/sources/chevron_down-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "4e4902c10ff4090663c98c59b0f7a0e3a13db86a6be31cbcebebf82eefabb50f",
+      "bytes": 1185
+    },
+    {
+      "path": "themes/gota/lobby/sources/dice-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "8c9b2497db5fe3d3fa659f690099cb63d13f3d6c8069f261edef99f3f1fae218",
+      "bytes": 894
+    },
+    {
+      "path": "themes/gota/lobby/sources/globe-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "8b736f831a341aed2760659a0c077bef3f808854ce244c2f74aad939e5b62cbc",
+      "bytes": 1926
+    },
+    {
+      "path": "themes/gota/lobby/sources/link-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "c01b90df3931713ee32fc9a28ecb7dfbde47caa0bd6bdd9380a79ccb32c25b86",
+      "bytes": 1897
+    },
+    {
+      "path": "themes/gota/lobby/sources/lock-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "da24a5c81e3cca3837a5dbb0db68783ceeed7ec49665246702fd354c954a12c3",
+      "bytes": 1884
+    },
+    {
+      "path": "themes/gota/lobby/sources/minus-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "e5466d6ac6ebdc44e6a0f8ef22f34b7720284150df8c1d6cae5bf9389d1628e0",
+      "bytes": 1177
+    },
+    {
+      "path": "themes/gota/lobby/sources/provenance.json",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "133d894028b59694f2aeb51f88c61e9afd7e3f9cdc871abbc24c067cfbf3fed5",
+      "bytes": 11186
+    },
+    {
+      "path": "themes/gota/lobby/sources/search-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "fbc563165c41738f9f3bbf5d2abc5d14e2df9b18a6f8e0e1e5c193438ce1e248",
+      "bytes": 1890
+    },
+    {
+      "path": "themes/gota/lobby/sources/shuffle-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "09a4ecfa0ce5d5249c1901e95823097e8659d3dd486ef884ab38e20b148ec372",
+      "bytes": 996
+    },
+    {
+      "path": "themes/gota/lobby/sources/status-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "0218f0c5b605117883568f44172553d956aa35a9051439a86627d74acc02f881",
+      "bytes": 1238
+    },
+    {
+      "path": "themes/gota/lobby/sources/terrain-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "c58411f0e897891463ba4ba12483f3cef1e6120b0b637a74baa10b75ad831f70",
+      "bytes": 905
+    },
+    {
+      "path": "themes/gota/lobby/ui.json",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "b4110c9d1dedb70ce1bb9da17fd80653eb4338605b18723b1674fa12b82ffc33",
+      "bytes": 4863
+    },
+    {
+      "path": "themes/gota/lobby/validation.json",
+      "license": "CC0-1.0",
+      "source": "gotaUiIcons",
+      "sha256": "8f35028dbc9fbed0453733b64eb67e62071db00d59dba718f3619db5d0d03e46",
+      "bytes": 2691
     },
     {
       "path": "themes/heartleaf/heartleaf_logo.png",
