@@ -56,7 +56,7 @@ Clone this repository beside `polyworld`:
 
 ```sh
 git lfs install
-git clone https://github.com/Metta-AI/polyworld_art.git
+git clone https://github.com/softmax-universe/polyworld_art.git
 git -C polyworld_art lfs pull
 ```
 

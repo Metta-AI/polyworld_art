@@ -1,7 +1,7 @@
 # Initial import
 
 The initial import was prepared on 2026-09-22 from the working tree of
-`Metta-AI/polyworld-data`, based on commit
+`softmax-universe/polyworld-data`, based on commit
 `254f07b8596a57745f5e4e5a6eae12f993bf6c8c` and the owner's current uncommitted
 asset cleanup. No Git objects, branches, tags or previous revisions were
 copied. The per-file digests in `licenses/assets.json` identify this snapshot.
@@ -52,7 +52,7 @@ selected asset sets.
 ## Cartoon water migration
 
 The cartoon water experiment's 19 PNGs and two prompt notes were moved from
-`Metta-AI/polyworld` on 2026-09-22 into `terrain/cartoon_water/`. The source
+`softmax-universe/polyworld` on 2026-09-22 into `terrain/cartoon_water/`. The source
 checkout was based on commit `4345758`. No earlier revisions were imported.
 The existing CC0 dedication covers the water textures and previews.
 
@@ -66,7 +66,7 @@ See `terrain/cartoon_water/license.md` for the creation process and notices.
 ## AWM import
 
 The Archers Warriors Mages runtime artwork was added on 2026-09-23 into
-`awm/` from `Metta-AI/polyworld-data` commit `d82697d` and the author's
+`awm/` from `softmax-universe/polyworld-data` commit `d82697d` and the author's
 uncommitted battlefield material. No earlier revisions were imported. This
 reverses the earlier AWM exclusion for the reviewed files only.
 
