@@ -279,6 +279,14 @@
       "origin": "Generated with the built-in image generation tool on 2026-11-05. Exact prompt and current card rules are recorded in awm/cards/PROMPTS-gift.md. No image inputs were sent; existing project-generated Reload and Post illustrations were visually inspected to guide the written style description.",
       "changes": "Added Gift: a hooded archer transfers an enchanted wooden reliquary to a wary armored hero, wrapped in the golden ribbon and bow used by the spell effect. Generated PNG copied without edits. Updated the card artwork catalog to 39 cards and its game-project path.",
       "notice": "licenses/awm.md"
+    },
+    "awmPreviewOutputNovember05": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM card artwork README preview location update",
+      "origin": "Edited in the project on 2026-11-05 from the existing CC0 awm/cards/README.md. No external inputs.",
+      "changes": "Removed the previews/ component entry, since generated previews are not kept in this repository, and documented that tools/render_cards.nim writes them to the game project's ignored build/card-previews/. Dropped the fixed row count from the contact sheet description. Card catalog unchanged.",
+      "notice": "licenses/awm.md"
     }
   },
   "files": [
@@ -1937,9 +1945,9 @@
     {
       "path": "awm/cards/README.md",
       "license": "CC0-1.0",
-      "source": "awmGiftNovember5",
-      "sha256": "48a236023c0a4116a8377fc221a97acf25f17a489189e00cf43412f96d0c5c69",
-      "bytes": 3635
+      "source": "awmPreviewOutputNovember05",
+      "sha256": "80824353dee410202eff839a35608dd6ced22e7ad3c93d26237af09bef0f3246",
+      "bytes": 3586
     },
     {
       "path": "awm/cards/archive/overwork-2026-10-14.png",

@@ -9,11 +9,6 @@ All face components remain independently editable:
 - `frames/`: 600 × 850 SVG frames with transparent illustration apertures.
 - `icons/`: energy, power, toughness, and arcane symbol SVG images.
 - `fonts/`: bundled Grenze fonts and their SIL Open Font License.
-- `previews/`: generated final compositions, never gameplay data. Every base
-  card has an individual 600 × 850 PNG. `cards.png` shows the complete set in
-  five columns and eight rows, with each card displayed at 300 × 425. Separate
-  `back.png` and `bear-damaged.png` previews demonstrate the reverse and live
-  damage display.
 
 All 39 cards in `baseCards` have original illustrations:
 
@@ -58,12 +53,18 @@ SVG gradients live directly below the root SVG element because the bundled
 Pixie SVG parser skips `defs`. Gradients on strokes are avoided for the same
 renderer compatibility. SVG assets can still be edited in standard tools.
 
-Regenerate all individual faces, the complete contact sheet, and the two
-additional previews from the AWM project root (`games/awm`):
+Previews are generated, never gameplay data, and are not kept in this
+repository. Render them from the AWM project root (`games/awm`) into its
+ignored `build/card-previews/`:
 
 ```sh
-nim c -r --out:/tmp/awm-render-cards tools/render_cards.nim
+nim c -r --out:build/render-cards tools/render_cards.nim
 ```
+
+Every base card gets an individual 600 × 850 PNG. `cards.png` shows the
+complete set in five columns, with each card displayed at 300 × 425. Separate
+`back.png` and `bear-damaged.png` previews demonstrate the reverse and live
+damage display.
 
 The renderer checks that every base card has a matching PNG before rendering;
 missing artwork stops the command with the card name and expected path.
