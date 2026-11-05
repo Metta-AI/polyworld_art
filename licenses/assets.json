@@ -745,6 +745,20 @@
       "bytes": 33992
     },
     {
+      "path": "abilities/hail_of_arrows.md",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "200807c6cd8dded6ad3d1573a50c1e189930871527262c572d7c500ecb4eb9bb",
+      "bytes": 221
+    },
+    {
+      "path": "abilities/hail_of_arrows.png",
+      "license": "CC0-1.0",
+      "source": "awm",
+      "sha256": "9b24160184a2e92fb70cda730d8594f40f20685e36060c3eaf60721be79093fd",
+      "bytes": 38042
+    },
+    {
       "path": "abilities/healing_bloom.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -1123,6 +1137,20 @@
       "bytes": 33223
     },
     {
+      "path": "abilities/ranger_bow.md",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "21ac5ca7ec132f76bbbf458f88a89a75ad8e64e212f7b479b0c12b9adb982bc6",
+      "bytes": 212
+    },
+    {
+      "path": "abilities/ranger_bow.png",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "c62ca9b0c23436f2a559af6a56efad643d44c3c290748f9e45334158368bfda7",
+      "bytes": 20606
+    },
+    {
       "path": "abilities/recall_beacon.md",
       "license": "CC0-1.0",
       "source": "project",
@@ -1429,6 +1457,20 @@
       "source": "project",
       "sha256": "bbfb0a7bbc344594c3fad330da3c1cfedd793a5fa7c5a77d957f2b92a3ec558a",
       "bytes": 35811
+    },
+    {
+      "path": "abilities/sword_attack.md",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "8349997ec334c099d86a74f2f1aede2a45c1f66d5de5d30d03ede0674212db27",
+      "bytes": 212
+    },
+    {
+      "path": "abilities/sword_attack.png",
+      "license": "CC0-1.0",
+      "source": "project",
+      "sha256": "1e66868e4fb0aafa10ca1c894c70b1f184fdb7e3e2173a125b9a15b39ab1cfc9",
+      "bytes": 23447
     },
     {
       "path": "abilities/thorn_ring.md",
