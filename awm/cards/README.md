@@ -4,27 +4,43 @@ All face components remain independently editable:
 
 - `art/`: standalone illustrations; filenames use lowercase card names with
   spaces replaced by hyphens (for example, `hail-of-arrows.png`).
+- `archive/`: superseded illustrations retained for reference, outside the
+  runtime artwork directory.
 - `frames/`: 600 × 850 SVG frames with transparent illustration apertures.
 - `icons/`: energy, power, toughness, and arcane symbol SVG images.
 - `fonts/`: bundled Grenze fonts and their SIL Open Font License.
 - `previews/`: generated final compositions, never gameplay data. Every base
   card has an individual 600 × 850 PNG. `cards.png` shows the complete set in
-  five columns and four rows, with each card displayed at 300 × 425. Separate
+  five columns and eight rows, with each card displayed at 300 × 425. Separate
   `back.png` and `bear-damaged.png` previews demonstrate the reverse and live
   damage display.
 
-All 20 cards in `baseCards` have original illustrations:
+All 39 cards in `baseCards` have original illustrations:
 
-- Archers: Bolt, Sniper, Sharpshooter, Hail of Arrows.
-- Warriors: Bear, Swords, Shields, Duel, Tactician, Footsoldier, Commander, Rally.
-- Mages: Bouncer, Ooze, Oozification, Plan, Study, Primordial, Bubble,
-  Bubble Shield.
+- Class level-up trinkets: Archer, Warrior, Mage.
+- Archers: Bolt, Sniper, Sharpshooter, Ambusher, Assassin, Reload, Overcharge,
+  Explode, Hail of Arrows, Wildfire, Post, Gift.
+- Warriors: Bear, Swords, Shields, Duel, Tactician, Banner, Pillage,
+  Footsoldier, Commander, Rally.
+- Mages: Bouncer, Ooze, Spirit, Oozification, Plan, Study, Summon Primordial,
+  Primordial, Bubble, Bubble Shield, Morphosis Chamber, Overwork, Burnout,
+  Control.
 
 The exact generation prompts are preserved in `PROMPTS.md` (Bear, Bouncer,
 Bolt), `PROMPTS-archer.md` (remaining Archers),
 `PROMPTS-warrior-additions.md` (Swords, Shields, Duel, Tactician, Footsoldier),
-`PROMPTS-commander-ooze.md` (Commander, Rally, Ooze, Oozification), and
-`PROMPTS-mage-additions.md` (Plan, Study, Primordial, Bubble, Bubble Shield). Each
+`PROMPTS-commander-ooze.md` (Commander, Rally, Ooze, Oozification),
+`PROMPTS-mage-additions.md` (Plan, Study, Primordial, Bubble, Bubble Shield),
+`PROMPTS-summon-primordial.md` (Summon Primordial, using the existing Primordial
+illustration as its character and style reference),
+`PROMPTS-october-additions.md` (Ambusher, Assassin, Reload, Overcharge, Explode,
+Wildfire, Banner, Pillage, Spirit),
+`PROMPTS-class-and-mage-additions.md` (Archer, Warrior, Mage, Morphosis Chamber,
+original Overwork, Control), `PROMPTS-post.md` (Post),
+`PROMPTS-overwork-burnout.md` (Overwork's bubble removal and its quiet,
+depleted Burnout companion), and `PROMPTS-gift.md` (Gift).
+The original Overwork image is retained in
+`archive/overwork-2026-10-14.png`. Each
 illustration was generated separately using the built-in image generation
 tool and visually inspected before being added to the project.
 
@@ -43,7 +59,7 @@ Pixie SVG parser skips `defs`. Gradients on strokes are avoided for the same
 renderer compatibility. SVG assets can still be edited in standard tools.
 
 Regenerate all individual faces, the complete contact sheet, and the two
-additional previews from the AWM project root (`examples/awm`):
+additional previews from the AWM project root (`games/awm`):
 
 ```sh
 nim c -r --out:/tmp/awm-render-cards tools/render_cards.nim

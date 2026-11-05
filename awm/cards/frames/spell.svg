@@ -1,17 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="850" viewBox="0 0 600 850">
-  
     <linearGradient id="steel" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="850"><stop offset="0" stop-color="#535354"/><stop offset="0.22" stop-color="#1c2429"/><stop offset="0.7" stop-color="#151b20"/><stop offset="1" stop-color="#3b3b39"/></linearGradient>
     <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="850"><stop offset="0" stop-color="#eedcaf"/><stop offset="0.25" stop-color="#9f7d4d"/><stop offset="0.48" stop-color="#d1b887"/><stop offset="0.75" stop-color="#70573b"/><stop offset="1" stop-color="#bc9c6a"/></linearGradient>
     <linearGradient id="paper" gradientUnits="userSpaceOnUse" x1="0" y1="576" x2="0" y2="750"><stop offset="0" stop-color="#f2e7cb"/><stop offset="0.75" stop-color="#e4d5b2"/><stop offset="1" stop-color="#c8b589"/></linearGradient>
     <linearGradient id="title" gradientUnits="userSpaceOnUse" x1="0" y1="25" x2="0" y2="108"><stop offset="0" stop-color="#313c40"/><stop offset="1" stop-color="#121a20"/></linearGradient>
-  
   <!-- The central aperture is transparent: illustration is a separate layer. -->
   <path d="M36 5 H564 Q595 5 595 36 V814 Q595 845 564 845 H36 Q5 845 5 814 V36 Q5 5 36 5 Z M28 115 V529 H572 V115 Z" fill="url(#steel)" fill-rule="evenodd"/>
   <rect x="6" y="6" width="588" height="838" rx="30" fill="none" stroke="#05090c" stroke-width="10"/>
   <rect x="11" y="11" width="578" height="828" rx="27" fill="none" stroke="#baa06e" stroke-width="5"/>
   <rect x="20" y="20" width="560" height="810" rx="20" fill="none" stroke="#71664f" stroke-width="1.5"/>
-  <path d="M142 30 H550 L571 51 V94 L550 109 H143 L125 91 V48 Z" fill="url(#title)" stroke="#94784d" stroke-width="2"/>
-  <path d="M151 36 H546 L563 52 M565 96 L548 102 H150" fill="none" stroke="#dac498" stroke-width="1" opacity="0.58"/>
   <rect x="26" y="113" width="548" height="419" fill="none" stroke="#080c10" stroke-width="8"/>
   <rect x="27" y="113" width="546" height="417" fill="none" stroke="#baa06e" stroke-width="3"/>
   <path d="M29 178 V134 L48 115 H92 M508 115 H553 L571 134 V178 M29 470 V510 L49 530 H89 M511 530 H551 L571 510 V470" fill="none" stroke="#d2b680" stroke-width="4"/>

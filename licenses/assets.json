@@ -223,6 +223,62 @@
       "origin": "Rendered on 2026-10-27 from themes/gota/lobby/layouts/ using original CC0 UI artwork and unmodified fonts/Rubik-Regular.ttf and fonts/Rubik-Bold.ttf.",
       "changes": "Transparent PNG previews at 1672x941. Font-derived glyphs retain the Rubik OFL notice; underlying project artwork remains CC0 as detailed in themes/gota/lobby/license.txt.",
       "notice": "fonts/OFL-Rubik.txt"
+    },
+    "awmSummonPrimordial": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM Summon Primordial card illustration and source record",
+      "origin": "Generated with the built-in image generation tool on 2026-10-05. Exact prompt and input recorded in awm/cards/PROMPTS-summon-primordial.md. The only image input was the existing project-generated CC0 illustration awm/cards/art/primordial.png.",
+      "changes": "New spell illustration depicting the summoning of the existing Primordial and the magical recall of a chosen hero's forces in translucent bubbles. Generated PNG copied without edits; existing Primordial image preserved. Added prompt and updated the card artwork catalog to 21 cards.",
+      "notice": "licenses/awm.md"
+    },
+    "awmOctoberCards": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM October card additions",
+      "origin": "Nine original illustrations generated with the built-in image generation tool on 2026-10-09. Exact text prompts and card rules are recorded in awm/cards/PROMPTS-october-additions.md. No image inputs were sent; existing project-generated Sniper, Footsoldier and Bubble Shield art was visually inspected to guide the written style descriptions.",
+      "changes": "Added Ambusher, Assassin, Reload, Overcharge, Explode, Wildfire, Banner, Pillage and Spirit illustrations. Generated PNGs copied without edits. Existing artwork preserved. Added prompt record and updated the card artwork catalog to 30 cards.",
+      "notice": "licenses/awm.md"
+    },
+    "awmClassMageOctober14": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM class cards and new Mage illustrations",
+      "origin": "Six original illustrations generated with the built-in image generation tool on 2026-10-14. Exact prompts and card rules are recorded in awm/cards/PROMPTS-class-and-mage-additions.md. No image inputs were sent; existing project-generated Sniper, Footsoldier and Bubble Shield art was visually inspected to guide the written style descriptions.",
+      "changes": "Added Archer, Warrior and Mage class relic illustrations, plus Morphosis Chamber, Overwork and Control. Generated PNGs copied without edits; existing artwork preserved. Added prompt record and updated the card artwork catalog to 36 cards.",
+      "notice": "licenses/awm.md"
+    },
+    "awmPostOctober21": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM Post card illustration and source record",
+      "origin": "Generated with the built-in image generation tool on 2026-10-21. The user specified archers positioning in advantageous places. Exact prompt and current card rules are recorded in awm/cards/PROMPTS-post.md. No image inputs were sent; existing project-generated Sniper and Banner art was visually inspected to guide the written style description.",
+      "changes": "Added Post: archers occupying protected high-ground firing positions above a mountain pass, with a reinforcing archer joining them. Generated PNG copied without edits; existing artwork preserved. Added prompt record and updated the card artwork catalog to 37 cards.",
+      "notice": "licenses/awm.md"
+    },
+    "awmOverworkBurnoutOctober22": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM revised Overwork and Burnout companion illustrations",
+      "origin": "Created with the built-in image generation tool on 2026-10-22. Both initial edits use the original project-generated CC0 Overwork illustration, preserved at awm/cards/archive/overwork-2026-10-14.png, as their sole input. Burnout received a second edit using its generated intermediate as the sole input to remove all candlelight. Exact prompts and inputs are recorded in awm/cards/PROMPTS-overwork-burnout.md.",
+      "changes": "Retained original Overwork composition and removed its upper-right bubble, captive and associated trails. Added Burnout showing the same mage depressed beside the intact inactive book apparatus, without magic or lit candles. Final generated PNGs copied without post-processing. Archived original Overwork unchanged; updated card catalog and prompt cross-references.",
+      "notice": "licenses/awm.md"
+    },
+    "awmFaceLayoutNovember05": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM card frame and energy crystal layout update",
+      "origin": "Edited in the project from the existing project-generated CC0 SVGs awm/cards/frames/creature.svg, awm/cards/frames/spell.svg and awm/cards/icons/energy.svg, recorded on 2026-11-05. No external inputs.",
+      "changes": "Removed the fixed title plate and its highlight from the creature and spell frames, because the game now sets the card name from the left edge with the cost crystal at the top right, and removed the small lightning glyph above the energy crystal. Also removed two blank lines. All other frame and icon geometry is unchanged.",
+      "notice": "licenses/awm.md"
+    },
+    "awmGiftNovember5": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "AWM Gift Archer spell illustration and source record",
+      "origin": "Generated with the built-in image generation tool on 2026-11-05. Exact prompt and current card rules are recorded in awm/cards/PROMPTS-gift.md. No image inputs were sent; existing project-generated Reload and Post illustrations were visually inspected to guide the written style description.",
+      "changes": "Added Gift: a hooded archer transfers an enchanted wooden reliquary to a wary armored hero, wrapped in the golden ribbon and bow used by the spell effect. Generated PNG copied without edits. Updated the card artwork catalog to 39 cards and its game-project path.",
+      "notice": "licenses/awm.md"
     }
   },
   "files": [
@@ -1809,6 +1865,13 @@
       "bytes": 8683
     },
     {
+      "path": "awm/cards/PROMPTS-class-and-mage-additions.md",
+      "license": "CC0-1.0",
+      "source": "awmOverworkBurnoutOctober22",
+      "sha256": "fca144753e32873204f015f8f2436ae55577e7b3553a49ad0f723005d43e7a24",
+      "bytes": 13877
+    },
+    {
       "path": "awm/cards/PROMPTS-commander-ooze.md",
       "license": "CC0-1.0",
       "source": "awm",
@@ -1816,11 +1879,46 @@
       "bytes": 8662
     },
     {
+      "path": "awm/cards/PROMPTS-gift.md",
+      "license": "CC0-1.0",
+      "source": "awmGiftNovember5",
+      "sha256": "a898dee34f837652b23441925fefc5003f5c4b1580362064e5833745270a2f6e",
+      "bytes": 3550
+    },
+    {
       "path": "awm/cards/PROMPTS-mage-additions.md",
       "license": "CC0-1.0",
       "source": "awm",
       "sha256": "788e2d628bb0148607df9c961e3bd0640c77b21ec84127837db1264b06849470",
       "bytes": 8255
+    },
+    {
+      "path": "awm/cards/PROMPTS-october-additions.md",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "85168f73b1f3368405fe343c0525a4fef0483eda4846f06170ebd9e9cee2548f",
+      "bytes": 18530
+    },
+    {
+      "path": "awm/cards/PROMPTS-overwork-burnout.md",
+      "license": "CC0-1.0",
+      "source": "awmOverworkBurnoutOctober22",
+      "sha256": "e2ea7a4036306f00847b8fbabf66d175d746022eb43421935147387bc287a29d",
+      "bytes": 7363
+    },
+    {
+      "path": "awm/cards/PROMPTS-post.md",
+      "license": "CC0-1.0",
+      "source": "awmPostOctober21",
+      "sha256": "e4c6ba6c7d7d05b947e4693dcd98e6192c9871b2a7ae58fb75ea9fcc0d50da7b",
+      "bytes": 3625
+    },
+    {
+      "path": "awm/cards/PROMPTS-summon-primordial.md",
+      "license": "CC0-1.0",
+      "source": "awmSummonPrimordial",
+      "sha256": "116e1124212d63fcb7c18e85816be5dd4e5f0634f7822cd24b531192d7f71e8b",
+      "bytes": 3574
     },
     {
       "path": "awm/cards/PROMPTS-warrior-additions.md",
@@ -1839,9 +1937,44 @@
     {
       "path": "awm/cards/README.md",
       "license": "CC0-1.0",
-      "source": "awm",
-      "sha256": "6d5f785b4bf18d06a07595add50ab4080e4e26b53adb6e7da6a8c5f577774ed4",
-      "bytes": 2724
+      "source": "awmGiftNovember5",
+      "sha256": "48a236023c0a4116a8377fc221a97acf25f17a489189e00cf43412f96d0c5c69",
+      "bytes": 3635
+    },
+    {
+      "path": "awm/cards/archive/overwork-2026-10-14.png",
+      "license": "CC0-1.0",
+      "source": "awmClassMageOctober14",
+      "sha256": "1a65ec4a5afe3cb7a752b21c9325f2580f3cca82c8b0292956e988576c3b5d22",
+      "bytes": 2748601
+    },
+    {
+      "path": "awm/cards/art/ambusher.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "4560e582fff55b57075c2f1318cb50b74ffb82c578389bf710d6ad47f804b8c3",
+      "bytes": 2951281
+    },
+    {
+      "path": "awm/cards/art/archer.png",
+      "license": "CC0-1.0",
+      "source": "awmClassMageOctober14",
+      "sha256": "c6655fbdec80f353930779af17a771d073aed947717777d165ed8c4992fbf22f",
+      "bytes": 3267464
+    },
+    {
+      "path": "awm/cards/art/assassin.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "42ab87c150c9285530061c479c5cdfe31b069bd64b37435dcbe2871e174c5d06",
+      "bytes": 2467549
+    },
+    {
+      "path": "awm/cards/art/banner.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "f679c8801917c4a31009046e2b45d6216023e9f0f3949573cec5600b99dccc37",
+      "bytes": 3135149
     },
     {
       "path": "awm/cards/art/bear.png",
@@ -1879,11 +2012,25 @@
       "bytes": 2710133
     },
     {
+      "path": "awm/cards/art/burnout.png",
+      "license": "CC0-1.0",
+      "source": "awmOverworkBurnoutOctober22",
+      "sha256": "16410599e5106546851878155fafc32beebf2621b38f2347ce59a33fd6d30c15",
+      "bytes": 2407418
+    },
+    {
       "path": "awm/cards/art/commander.png",
       "license": "CC0-1.0",
       "source": "awm",
       "sha256": "018372510edc568685d33165de8afc1f626c443afe08924901e66d5369923a41",
       "bytes": 2736786
+    },
+    {
+      "path": "awm/cards/art/control.png",
+      "license": "CC0-1.0",
+      "source": "awmClassMageOctober14",
+      "sha256": "ce5d3bf58544ea825980188ef0b2c31a12e3c831f3f4be7259017ba65da6a2db",
+      "bytes": 2990917
     },
     {
       "path": "awm/cards/art/duel.png",
@@ -1893,6 +2040,13 @@
       "bytes": 2934547
     },
     {
+      "path": "awm/cards/art/explode.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "45a09957b2817e6634caa93fb59421063a87d51ab55d7a15010080615c242724",
+      "bytes": 3204621
+    },
+    {
       "path": "awm/cards/art/footsoldier.png",
       "license": "CC0-1.0",
       "source": "awm",
@@ -1900,11 +2054,32 @@
       "bytes": 2706268
     },
     {
+      "path": "awm/cards/art/gift.png",
+      "license": "CC0-1.0",
+      "source": "awmGiftNovember5",
+      "sha256": "4d81acc4ad0bdc8b35a13cea4471d01ea92e558e65c9239694f57f27e73c577d",
+      "bytes": 2928820
+    },
+    {
       "path": "awm/cards/art/hail-of-arrows.png",
       "license": "CC0-1.0",
       "source": "awm",
       "sha256": "c011db0f05a19da56d50f5de6520452119710f4947ecfd3c659a8abc14f8ff4e",
       "bytes": 2775204
+    },
+    {
+      "path": "awm/cards/art/mage.png",
+      "license": "CC0-1.0",
+      "source": "awmClassMageOctober14",
+      "sha256": "cb80ee86c23573bce7eda3dfa947df91c0b7708bc5b0cced9aa8037d5b9d67a4",
+      "bytes": 2962520
+    },
+    {
+      "path": "awm/cards/art/morphosis-chamber.png",
+      "license": "CC0-1.0",
+      "source": "awmClassMageOctober14",
+      "sha256": "44369675a37f4d257e44f1a47a360a30a699761db01838cc62f0f00853931acd",
+      "bytes": 3024236
     },
     {
       "path": "awm/cards/art/ooze.png",
@@ -1921,11 +2096,39 @@
       "bytes": 2726739
     },
     {
+      "path": "awm/cards/art/overcharge.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "c025300ccc8da1d65308f0a0145a82f57164ce19c2a0b3a1a0efc992153efa8c",
+      "bytes": 3234332
+    },
+    {
+      "path": "awm/cards/art/overwork.png",
+      "license": "CC0-1.0",
+      "source": "awmOverworkBurnoutOctober22",
+      "sha256": "2eb7783872f0e2092412a4f6d98fc6bb3eee42edd230af013afc091f431a982d",
+      "bytes": 2554727
+    },
+    {
+      "path": "awm/cards/art/pillage.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "1094bf4097d1577ab1f4dfdf3ab55d9a63eb441608493d95639fa43c2e18fff5",
+      "bytes": 3248762
+    },
+    {
       "path": "awm/cards/art/plan.png",
       "license": "CC0-1.0",
       "source": "awm",
       "sha256": "dc68fad9cf225f493b400ff3cd41a219cddbb7935776b14a7078d6b571def900",
       "bytes": 2351269
+    },
+    {
+      "path": "awm/cards/art/post.png",
+      "license": "CC0-1.0",
+      "source": "awmPostOctober21",
+      "sha256": "70b9c06dc76754a757ecfd84aee0bd4c3747571b3dc7eb618312750c3c5fe30a",
+      "bytes": 3371622
     },
     {
       "path": "awm/cards/art/primordial.png",
@@ -1940,6 +2143,13 @@
       "source": "awm",
       "sha256": "f22b6741d2ef31a312bc1a257b23110235e9ab904695a796a5ce8975c17137d0",
       "bytes": 2829599
+    },
+    {
+      "path": "awm/cards/art/reload.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "d68ebc6d16381858431b67ec8757a1465fad266c41ae13781df03f6705bcedac",
+      "bytes": 3001952
     },
     {
       "path": "awm/cards/art/sharpshooter.png",
@@ -1963,11 +2173,25 @@
       "bytes": 2658186
     },
     {
+      "path": "awm/cards/art/spirit.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "16959a0f74df6fcd8fb397d968dab94029adf9f03429190fbc9f7c953a589710",
+      "bytes": 3121471
+    },
+    {
       "path": "awm/cards/art/study.png",
       "license": "CC0-1.0",
       "source": "awm",
       "sha256": "81b53c90f56da317815cfd3f7162a2eaa4380f31b31068f9aeda21d4c89f270b",
       "bytes": 2434038
+    },
+    {
+      "path": "awm/cards/art/summon-primordial.png",
+      "license": "CC0-1.0",
+      "source": "awmSummonPrimordial",
+      "sha256": "a5989be75ed0966f35dca3ee621bbabd35a3eb1fe56a3ea7df82a720d24a5096",
+      "bytes": 3110294
     },
     {
       "path": "awm/cards/art/swords.png",
@@ -1989,6 +2213,20 @@
       "source": "awm",
       "sha256": "d1f6a29c4693bae5a33d51547a950cf677024d1f247100ffd0a7706cf54c1187",
       "bytes": 766
+    },
+    {
+      "path": "awm/cards/art/warrior.png",
+      "license": "CC0-1.0",
+      "source": "awmClassMageOctober14",
+      "sha256": "1d30288fec052a47a522df35c39d337bd0c42ec534d020f051e5bb9ca99f303e",
+      "bytes": 2868904
+    },
+    {
+      "path": "awm/cards/art/wildfire.png",
+      "license": "CC0-1.0",
+      "source": "awmOctoberCards",
+      "sha256": "d34089e4385ed6c9033b1d66557cbd8f830a561bc3970216edd3aa55228b12d3",
+      "bytes": 2969402
     },
     {
       "path": "awm/cards/fonts/Grenze-Regular.ttf",
@@ -2028,16 +2266,16 @@
     {
       "path": "awm/cards/frames/creature.svg",
       "license": "CC0-1.0",
-      "source": "awm",
-      "sha256": "c60d3c188e554d58566ce8bbe830e365dace63506bd5a6c7b891860090ca12bc",
-      "bytes": 3608
+      "source": "awmFaceLayoutNovember05",
+      "sha256": "eba4754886887c5099d6f8952c4289344c4211115ab0d1b20dd77e49f3a48530",
+      "bytes": 3364
     },
     {
       "path": "awm/cards/frames/spell.svg",
       "license": "CC0-1.0",
-      "source": "awm",
-      "sha256": "17a79fbda33525e99741e02281b14ff9b5526dadec0b48f4bc43fc35dc7a44f3",
-      "bytes": 3492
+      "source": "awmFaceLayoutNovember05",
+      "sha256": "c6d860936f7c3af7e2403c12116146c2ff6130cfafbd08479f6d485bb6221822",
+      "bytes": 3248
     },
     {
       "path": "awm/cards/icons/arcane.svg",
@@ -2049,9 +2287,9 @@
     {
       "path": "awm/cards/icons/energy.svg",
       "license": "CC0-1.0",
-      "source": "awm",
-      "sha256": "1b3a399846e1c2286a82a4bb9ec3335c8ec8f9507ba2c89f8ec3db794d2bcc47",
-      "bytes": 1163
+      "source": "awmFaceLayoutNovember05",
+      "sha256": "4ca3c2adaa37957d99e6b379776165d7e6c67afaf312171831e173c576ef93d0",
+      "bytes": 1091
     },
     {
       "path": "awm/cards/icons/power.svg",
