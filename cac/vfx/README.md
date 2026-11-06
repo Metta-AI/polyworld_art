@@ -16,7 +16,7 @@ Impact particles remain procedural: 88 short trails spread at varied speeds
 and elevations, while 40 small blue particles drift and fade around the target.
 Each cast's visual seed changes the shower, but each particle follows a stable
 trajectory throughout that cast. No game randomness is consumed. Capture builds
-accept `AWM_VFX_SEED` to reproduce a variation. The bubble, hover halo, target halo, and damage
+accept `CAC_VFX_SEED` to reproduce a variation. The bubble, hover halo, target halo, and damage
 flash remain procedural as well.
 
 `previews/lightning-randomized.mp4` shows three different casts.

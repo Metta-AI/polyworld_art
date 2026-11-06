@@ -1,6 +1,6 @@
 # Old Crossroads stone material
 
-Prepared by `polyworld/examples/awm/tools/render_stone_normals.nim`.
+Prepared by `polyworld/games/cac/tools/render_stone_normals.nim`.
 All three 512×512 textures repeat seamlessly and contain linear data.
 
 - `stone-slab-normal.png`: tangent-space OpenGL +Y normals with broad natural

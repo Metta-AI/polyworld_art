@@ -1,15 +1,15 @@
-# Archers Warriors Mages asset licenses
+# Cards and Casters asset licenses
 
-AWM uses the following asset families from `awm/`. These notices cover its
-current runtime assets and their source records, not every file in
-polyworld_art.
+Cards and Casters (formerly Archers Warriors Mages, AWM) uses the following
+asset families from `cac/`. These notices cover its current runtime assets
+and their source records, not every file in polyworld_art.
 
 | Assets | License and notice |
 | --- | --- |
 | Card illustrations, VFX sprites and battlefield textures | [Root license](../LICENSE), project-generated AI assets. |
 | Card frames, symbols, placeholder art and HUD SVGs | [Root license](../LICENSE), project-authored assets. |
 | Generation prompts, recipes and READMEs | [Root license](../LICENSE). |
-| Grenze Regular and SemiBold | [SIL OFL 1.1](../awm/cards/fonts/OFL.txt). |
+| Grenze Regular and SemiBold | [SIL OFL 1.1](../cac/cards/fonts/OFL.txt). |
 | Rubik Regular and Bold (HUD labels) | [SIL OFL 1.1](../fonts/OFL-Rubik.txt). |
 
 The complete [CC0 legal text](../LICENSE) is included.
@@ -18,20 +18,20 @@ The complete [CC0 legal text](../LICENSE) is included.
 
 Each card illustration and VFX sprite was generated separately with the
 built-in image generation tool, visually inspected and copied without edits.
-The exact prompts are kept beside the images in `awm/cards/PROMPTS*.md` and
-`awm/vfx/PROMPTS*.md`. The regenerated Sharpshooter used the earlier project
+The exact prompts are kept beside the images in `cac/cards/PROMPTS*.md` and
+`cac/vfx/PROMPTS*.md`. The regenerated Sharpshooter used the earlier project
 Sharpshooter illustration as its only input image.
 
 The SVG frames, symbols, `unknown.svg` placeholder and HUD were authored in
 the project. They embed no images, fonts or external references.
 
-`awm/battlefield/source/rock-normal.png` was generated with the built-in
-image generation tool from the prompt in `awm/battlefield/source/prompt.txt`.
+`cac/battlefield/source/rock-normal.png` was generated with the built-in
+image generation tool from the prompt in `cac/battlefield/source/prompt.txt`.
 A stone normal map obtained from Adobe was supplied only as a visual
 structure reference. It is not included, and the author confirmed on
 2026-09-23 that the generated normal is a completely different image.
-The three textures in `awm/battlefield/textures/` were prepared from that
-source and procedural grain by `examples/awm/tools/render_stone_normals.nim`
+The three textures in `cac/battlefield/textures/` were prepared from that
+source and procedural grain by `games/cac/tools/render_stone_normals.nim`
 in Polyworld.
 
 The Grenze fonts are the original, unmodified files from

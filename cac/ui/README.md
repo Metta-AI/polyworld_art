@@ -1,9 +1,9 @@
-# AWM interface
+# Cards and Casters interface
 
 `hud/` contains independently editable SVG assets for the screen-space UI.
-`awmhud.nim` lays out the player panels, class crests, life hearts, energy,
-turn plaque and action buttons. The 3D scene, camera and world objects are
-independent of this interface.
+`games/cac/src/ui/hud.nim` in Polyworld lays out the player panels, class
+crests, life hearts, energy, turn plaque and action buttons. The 3D scene,
+camera and world objects are independent of this interface.
 
 - Archer uses a bow, Warrior a sword, and Mage a crystal staff.
 - Life is printed inside a crimson heart.

@@ -63,7 +63,7 @@ water name. The edited prompt notes state that they are not a verbatim
 archive. The shader and procedural generator remain in Polyworld under MIT.
 See `terrain/cartoon_water/license.md` for the creation process and notices.
 
-## AWM import
+## AWM (Cards and Casters) import
 
 The Archers Warriors Mages runtime artwork was added on 2026-09-23 into
 `awm/` from `Metta-AI/polyworld-data` commit `d82697d` and the author's
@@ -75,4 +75,9 @@ VFX sprites, a generated stone normal and three textures prepared from it,
 project-authored SVG frames, symbols and HUD, prompts, READMEs and the
 unmodified OFL Grenze fonts. Image bytes were preserved. Previews, videos,
 the war-room proposal and unreferenced loose images were excluded. See
-`licenses/awm.md` for the creation process and notices.
+`licenses/cac.md` for the creation process and notices.
+
+On 2026-11-06 the game was renamed Cards and Casters (CaC). The collection
+moved from `awm/` to `cac/` and its notice from `licenses/awm.md` to
+`licenses/cac.md`. Image bytes were preserved; only the game name and paths
+in the READMEs and the notice changed.

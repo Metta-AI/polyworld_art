@@ -54,7 +54,7 @@ Pixie SVG parser skips `defs`. Gradients on strokes are avoided for the same
 renderer compatibility. SVG assets can still be edited in standard tools.
 
 Previews are generated, never gameplay data, and are not kept in this
-repository. Render them from the AWM project root (`games/awm`) into its
+repository. Render them from the Cards and Casters project root (`games/cac`) into its
 ignored `build/card-previews/`:
 
 ```sh
