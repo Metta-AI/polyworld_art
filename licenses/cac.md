@@ -6,7 +6,7 @@ and their source records, not every file in polyworld_art.
 
 | Assets | License and notice |
 | --- | --- |
-| Card illustrations, VFX sprites and battlefield textures | [Root license](../LICENSE), project-generated AI assets. |
+| Card illustrations, loading illustration, VFX sprites and battlefield textures | [Root license](../LICENSE), project-generated AI assets. |
 | Card frames, symbols, placeholder art and HUD SVGs | [Root license](../LICENSE), project-authored assets. |
 | Generation prompts, recipes and READMEs | [Root license](../LICENSE). |
 | Grenze Regular and SemiBold | [SIL OFL 1.1](../cac/cards/fonts/OFL.txt). |
@@ -24,6 +24,14 @@ Sharpshooter illustration as its only input image.
 
 The SVG frames, symbols, `unknown.svg` placeholder and HUD were authored in
 the project. They embed no images, fonts or external references.
+
+The loading illustration `cac/loading/source/moonlit-table.png` was generated
+with the built-in image generation tool on 2026-11-06 without input images.
+Its exact prompt is in `cac/loading/PROMPTS.md`. The source PNG is unedited;
+`cac/loading/moonlit-table.webp` is the runtime copy compressed with libwebp
+at quality 86, method 6, without resizing or compositing. The separate vector
+wordmark is authored in Polyworld's `games/cac/web/loading/` and uses outlined
+Grenze SemiBold lettering with its OFL attribution.
 
 `cac/battlefield/source/rock-normal.png` was generated with the built-in
 image generation tool from the prompt in `cac/battlefield/source/prompt.txt`.

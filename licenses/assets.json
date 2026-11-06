@@ -295,6 +295,14 @@
       "origin": "Edited in the project on 2026-11-06 from the existing CC0 cac/battlefield/README.md, cac/cards/README.md, cac/ui/README.md, cac/vfx/README.md and licenses/cac.md, when Archers Warriors Mages (AWM) was renamed Cards and Casters and awm/ moved to cac/. cac/cards/README.md also carries the 2026-11-05 preview location update (cacPreviewOutputNovember05). No external inputs.",
       "changes": "Replaced the game name and its awm/ and Polyworld examples/awm paths with Cards and Casters, cac/ and games/cac/, renamed AWM_VFX_SEED to CAC_VFX_SEED and named games/cac/src/ui/hud.nim as the HUD layout. Image bytes and the card catalog are unchanged.",
       "notice": "licenses/cac.md"
+    },
+    "cacLoadingNovember06": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Cards and Casters moonlit card-table loading illustration and source records",
+      "origin": "Generated with the built-in image generation tool on 2026-11-06, with no image inputs. Exact prompt in cac/loading/PROMPTS.md. Existing project card art informed the written fantasy painting direction.",
+      "changes": "Added the original unedited PNG and a WebP runtime copy compressed with libwebp at quality 86, method 6, without resizing or compositing. Added generation and conversion documentation; extended licenses/cac.md after the Cards and Casters rename (cacRenameNovember06) to cover the loading illustration.",
+      "notice": "licenses/cac.md"
     }
   },
   "files": [
@@ -2320,6 +2328,34 @@
       "source": "cac",
       "sha256": "fc8243816d3f248be3910c3ddb83b769f93aa311e36abe5aa62bfc606a7eafa6",
       "bytes": 1082
+    },
+    {
+      "path": "cac/loading/PROMPTS.md",
+      "license": "CC0-1.0",
+      "source": "cacLoadingNovember06",
+      "sha256": "04520d56bb31aa6a87d9e4be0ed4c096afee45137fdbeeb7fd453d8b25c256b9",
+      "bytes": 4181
+    },
+    {
+      "path": "cac/loading/README.md",
+      "license": "CC0-1.0",
+      "source": "cacLoadingNovember06",
+      "sha256": "8816fa652bba758b9f65ed16fd7c649925226daa1003979091022ad1c6ccadb3",
+      "bytes": 1114
+    },
+    {
+      "path": "cac/loading/moonlit-table.webp",
+      "license": "CC0-1.0",
+      "source": "cacLoadingNovember06",
+      "sha256": "da11cc9c695220b4ff61d6dc332b102576975764f49dffea61c4233a4621d4a2",
+      "bytes": 312418
+    },
+    {
+      "path": "cac/loading/source/moonlit-table.png",
+      "license": "CC0-1.0",
+      "source": "cacLoadingNovember06",
+      "sha256": "80a6b652458eb03d8e0d4fc65447966a05f0acd11eef571a5061f7e3c53db433",
+      "bytes": 2811975
     },
     {
       "path": "cac/ui/README.md",
@@ -14245,9 +14281,9 @@
     {
       "path": "licenses/cac.md",
       "license": "CC0-1.0",
-      "source": "cacRenameNovember06",
-      "sha256": "4a5187b6dd7df5dd291ed250cf77c82b338df9bd19573b249f7ba659ee6f9f27",
-      "bytes": 2393
+      "source": "cacLoadingNovember06",
+      "sha256": "7cbd97ad79460ea7d67d4de8f7ffb09e6c3894e792028f818393e82c0d4df518",
+      "bytes": 2933
     },
     {
       "path": "licenses/cta.md",
