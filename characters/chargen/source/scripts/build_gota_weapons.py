@@ -728,6 +728,15 @@ def main():
       hides=[], skinNodes=[], hairShades=[], hatShades=[], clothShades=[],
       attachmentBone=entry['bone'], triangles=triangles,
       triangleLimitExclusive=5000, singleFile=True)
+    if entry['name'] == 'Vanguard shield':
+      node = next(n for n in doc['nodes'] if n.get('name') == obj.name and 'mesh' in n)
+      shades = []
+      for i, primitive in enumerate(doc['meshes'][node['mesh']]['primitives']):
+        name = doc['materials'][primitive['material']].get('name', '')
+        if name.startswith('Shield face '):
+          shades.append(dict(node=obj.name, primitive=i, shade=1.0))
+      assert len(shades) == 1, shades
+      data['clothShades'] = shades
     if entry['name'] in ['Vanguard sword', 'Death Knight sword']:
       # Runtime grip offsets use degrees and the exported Y-up bind space.
       data['attachmentPivot'] = SwordPivot

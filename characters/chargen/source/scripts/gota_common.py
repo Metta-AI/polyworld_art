@@ -402,6 +402,20 @@ def exportParts(ctx, parts):
     data = dict(id=identity, name=entry['name'], files=[identity + '.glb'],
       nodes=names, hides=sorted(set(hides)), alignment='both', singleFile=True,
       skinNodes=[], hairShades=[], hatShades=[], clothShades=[])
+    if ctx.slug == 'vanguard_knight':
+      shades = []
+      for node in doc['nodes']:
+        name = node.get('name', '')
+        if 'mesh' not in node or name not in names:
+          continue
+        for i, primitive in enumerate(doc['meshes'][node['mesh']]['primitives']):
+          mat = doc['materials'][primitive['material']].get('name', '')
+          if name.endswith('BluePlume31') or name.endswith('Cape26'):
+            shade = 0.8 if mat.endswith('BlueShadow') else 1.0
+            shades.append(dict(node=name, primitive=i, shade=shade))
+      expected = {'Chest': 2, 'Headgear': 1}.get(category, 0)
+      assert len(shades) == expected, (category, shades)
+      data['clothShades'] = shades
     if entry.get('attachmentBone'):
       data['attachmentBone'] = entry['attachmentBone']
     write(Library / (identity + '.json'), data)

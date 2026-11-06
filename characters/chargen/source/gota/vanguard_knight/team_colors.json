@@ -1,0 +1,7 @@
+{
+  "title": "Vanguard knight team color masks",
+  "creator": "Softmax / Polyworld contributors",
+  "license": "CC0-1.0",
+  "process": "Recovered material selectors for the cape, helmet plume, and shield face. Ivory armor, gold trim and other authored materials remain unchanged. Runtime part IDs and geometry are unchanged. Source and skill recipes retain the selectors on rebuild.",
+  "review": "All eight faction colors; cached merged model colors compared with fresh assemblies."
+}

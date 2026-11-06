@@ -19,5 +19,7 @@
   "skinNodes": [],
   "hairShades": [],
   "hatShades": [],
-  "clothShades": []
+  "clothShades": [
+    {"node": "Gota_vanguard_knight_BluePlume31", "primitive": 0, "shade": 1.0}
+  ]
 }

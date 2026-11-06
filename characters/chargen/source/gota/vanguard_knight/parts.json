@@ -113,7 +113,10 @@
     "skinNodes": [],
     "hairShades": [],
     "hatShades": [],
-    "clothShades": []
+    "clothShades": [
+      {"node": "Gota_vanguard_knight_Cape26", "primitive": 0, "shade": 1.0},
+      {"node": "Gota_vanguard_knight_Cape26", "primitive": 1, "shade": 0.8}
+    ]
   },
   {
     "category": "Headgear",
@@ -137,6 +140,8 @@
     "skinNodes": [],
     "hairShades": [],
     "hatShades": [],
-    "clothShades": []
+    "clothShades": [
+      {"node": "Gota_vanguard_knight_BluePlume31", "primitive": 0, "shade": 1.0}
+    ]
   }
 ]

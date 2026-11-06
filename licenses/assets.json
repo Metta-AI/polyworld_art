@@ -319,6 +319,14 @@
       "origin": "Original Polyworld Zeus crown and canonical Chargen rig; procedural source and editable Blender file in characters/chargen/source/elemental.",
       "changes": "Recovered original procedural laurel geometry derived from the project Zeus crown materials and canonical Head rig. Replaced the tiara with two curved sprigs and sixteen faceted leaves; removed dormant tiara meshes and collapsed triangles at the leaf tips. Renamed the summon to Elemental and selected its crown in the LvD roster.",
       "notice": "LICENSE"
+    },
+    "chargenKnightColors": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Vanguard knight team color masks",
+      "origin": "Existing original project Vanguard knight and shield. Details in characters/chargen/source/gota/vanguard_knight/team_colors.json.",
+      "changes": "Recovered material selectors for the cape, helmet plume, and shield face. Ivory armor, gold trim and other authored materials remain unchanged. Runtime part IDs and geometry are unchanged. Source and skill recipes retain the selectors on rebuild.",
+      "notice": "LICENSE"
     }
   },
   "files": [
@@ -4441,9 +4449,9 @@
     {
       "path": "characters/chargen/clothing/torsos/gota_vanguard_knight_chest.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "448889d43bc2c0f9da00c8a2f7bc0966da219dad6d470fd5542c45f3fc6541bd",
-      "bytes": 1251
+      "source": "chargenKnightColors",
+      "bytes": 1403,
+      "sha256": "dc03177d782b54c5cad302677e2732a4c60de6b6592f6f0449fabf66a52c9aef"
     },
     {
       "path": "characters/chargen/clothing/torsos/gota_warlock_chest.glb",
@@ -6394,9 +6402,9 @@
     {
       "path": "characters/chargen/hats/gota_vanguard_knight_headgear.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "817a6e310e2b540a6d58f481b35358daebc324a5b8d1fc80ed74a102bd931a2d",
-      "bytes": 598
+      "source": "chargenKnightColors",
+      "bytes": 680,
+      "sha256": "65287f0f1eb9166a7937bbf3497f3f83fcd2b4fffc49f6fc9b14bd8da584851b"
     },
     {
       "path": "characters/chargen/hats/gota_warlock_headgear.glb",
@@ -7528,9 +7536,9 @@
     {
       "path": "characters/chargen/props/left/gota_vanguard_knight_left_hand.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "597ed62fad2dfc5cd1ffafb0144cee5042531ae335418173ea71060bf2c35fa4",
-      "bytes": 445
+      "source": "chargenKnightColors",
+      "bytes": 531,
+      "sha256": "2e50a3aec2f8d8a3d2c09a7a5dcd975cf6f401c6235f31a57ebe2e85f01a43b1"
     },
     {
       "path": "characters/chargen/props/left/gota_warlock_left_hand.glb",
@@ -8921,9 +8929,9 @@
     {
       "path": "characters/chargen/source/gota/vanguard_knight/parts.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "726f516d51464fa3aa75e49dc8492d02e005d1a74868b97649b61ab472ed28f9",
-      "bytes": 4036
+      "source": "chargenKnightColors",
+      "bytes": 4280,
+      "sha256": "c92f8114a5b9b2aa3b2c8e0a629e77def0e8ff35234862d7d749638dd97b3cb2"
     },
     {
       "path": "characters/chargen/source/gota/vanguard_knight/preset.json",
@@ -8945,6 +8953,20 @@
       "source": "project",
       "sha256": "8837e317df6833450fd67073db637511a11b140235c2a83f0e4e3ea17040be08",
       "bytes": 757
+    },
+    {
+      "path": "characters/chargen/source/gota/vanguard_knight/team_colors.json",
+      "license": "CC0-1.0",
+      "source": "chargenKnightColors",
+      "bytes": 486,
+      "sha256": "ba892172d524ff5fcdc93f96650cfe4d442fcf2a69a1757cf1bfde78d6f48293"
+    },
+    {
+      "path": "characters/chargen/source/gota/vanguard_knight/team_colors_preview.png",
+      "license": "CC0-1.0",
+      "source": "chargenKnightColors",
+      "bytes": 57318,
+      "sha256": "6749ec3a05d3e3c467447733ed720df80dc7e06bbe899b15d793ec07468f05b8"
     },
     {
       "path": "characters/chargen/source/gota/vanguard_knight/verification.json",
@@ -9068,9 +9090,9 @@
     {
       "path": "characters/chargen/source/gota/weapons/parts.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "09b89d1374d91b1e9d19d54c49f721d772d3373ef135bac72d4a37fac5ae65c3",
-      "bytes": 11233
+      "source": "chargenKnightColors",
+      "bytes": 11323,
+      "sha256": "806d51549d290b3b2a68bd13b2725578437261e8b43b67c9fb5caf2a3f19381c"
     },
     {
       "path": "characters/chargen/source/gota/weapons_v1/prompts.json",
@@ -9433,8 +9455,8 @@
       "path": "characters/chargen/source/scripts/build_gota_weapons.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "2a5f981719cec3971779ab9bd875067e7d23bf2ba9d003c9d63a70d2e6c93aa7",
-      "bytes": 32392
+      "bytes": 32878,
+      "sha256": "3f1fdad1102af1881bc3b49d43003a5022ceec257c7a7eb5b5a50dc8b5497f6f"
     },
     {
       "path": "characters/chargen/source/scripts/build_hats.py",
@@ -9566,8 +9588,8 @@
       "path": "characters/chargen/source/scripts/gota_common.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "689881cf6dd9a725aae254d98690431e005111ffa21c19c7e71ded19beb317ca",
-      "bytes": 19814
+      "bytes": 20519,
+      "sha256": "85444b8e7e2fdaf05594076045e9ab45b54b711f3878a414d21fa09ea2fce445"
     },
     {
       "path": "characters/chargen/source/scripts/gota_crossbowman.py",
@@ -14711,8 +14733,8 @@
       "path": "skills/scripts/chargen/build_gota_weapons.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "2a5f981719cec3971779ab9bd875067e7d23bf2ba9d003c9d63a70d2e6c93aa7",
-      "bytes": 32392
+      "bytes": 32878,
+      "sha256": "3f1fdad1102af1881bc3b49d43003a5022ceec257c7a7eb5b5a50dc8b5497f6f"
     },
     {
       "path": "skills/scripts/chargen/build_hats.py",
@@ -14837,8 +14859,8 @@
       "path": "skills/scripts/chargen/gota_common.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "689881cf6dd9a725aae254d98690431e005111ffa21c19c7e71ded19beb317ca",
-      "bytes": 19814
+      "bytes": 20519,
+      "sha256": "85444b8e7e2fdaf05594076045e9ab45b54b711f3878a414d21fa09ea2fce445"
     },
     {
       "path": "skills/scripts/chargen/gota_crossbowman.py",

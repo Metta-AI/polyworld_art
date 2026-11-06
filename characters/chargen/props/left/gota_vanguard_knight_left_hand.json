@@ -12,7 +12,9 @@
   "skinNodes": [],
   "hairShades": [],
   "hatShades": [],
-  "clothShades": [],
+  "clothShades": [
+    {"node": "GotaWeapon_vanguard_knight_left_hand", "primitive": 1, "shade": 1.0}
+  ],
   "attachmentBone": "LeftForeArm",
   "triangles": 1526,
   "triangleLimitExclusive": 5000,
