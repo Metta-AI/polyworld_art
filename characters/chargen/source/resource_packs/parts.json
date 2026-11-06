@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Back",
+    "id": "clothing/backs/resource_wood",
+    "name": "Wood stack backpack",
+    "files": [
+      "clothing/backs/resource_wood.glb"
+    ],
+    "nodes": [
+      "ResourcePack_wood"
+    ],
+    "alignment": "both",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "singleFile": true,
+    "triangles": 556,
+    "triangleLimitExclusive": 700
+  },
+  {
+    "category": "Back",
+    "id": "clothing/backs/resource_gold",
+    "name": "Gold sack backpack",
+    "files": [
+      "clothing/backs/resource_gold.glb"
+    ],
+    "nodes": [
+      "ResourcePack_gold"
+    ],
+    "alignment": "both",
+    "hides": [],
+    "skinNodes": [],
+    "hairShades": [],
+    "hatShades": [],
+    "clothShades": [],
+    "singleFile": true,
+    "triangles": 616,
+    "triangleLimitExclusive": 700
+  }
+]

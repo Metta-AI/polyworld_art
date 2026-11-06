@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Wood stack backpack",
+    "triangles": 556,
+    "meshNodes": 1,
+    "bones": [
+      "Hips",
+      "LeftArm",
+      "LeftShoulder",
+      "RightArm",
+      "RightShoulder",
+      "Spine",
+      "Spine1",
+      "Spine2"
+    ],
+    "textureFree": true,
+    "normalizedWeights": true,
+    "canonicalRig": true,
+    "nondegenerateTriangles": true,
+    "file": "clothing/backs/resource_wood.glb",
+    "sha256": "c5883b83a1e8fdb64ac7c31f3e8f779df6915d97a1c3941f2b8ec45289139add"
+  },
+  {
+    "name": "Gold sack backpack",
+    "triangles": 616,
+    "meshNodes": 1,
+    "bones": [
+      "Hips",
+      "LeftArm",
+      "LeftShoulder",
+      "RightArm",
+      "RightShoulder",
+      "Spine",
+      "Spine1",
+      "Spine2"
+    ],
+    "textureFree": true,
+    "normalizedWeights": true,
+    "canonicalRig": true,
+    "nondegenerateTriangles": true,
+    "file": "clothing/backs/resource_gold.glb",
+    "sha256": "18da041d8cee925ebd7b52005ab6c33ce886f91334a8952d16dbfb1909f0a652"
+  }
+]

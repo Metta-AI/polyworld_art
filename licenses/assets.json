@@ -303,6 +303,14 @@
       "origin": "Generated with the built-in image generation tool on 2026-11-06, with no image inputs. Exact prompt in cac/loading/PROMPTS.md. Existing project card art informed the written fantasy painting direction.",
       "changes": "Added the original unedited PNG and a WebP runtime copy compressed with libwebp at quality 86, method 6, without resizing or compositing. Added generation and conversion documentation; extended licenses/cac.md after the Cards and Casters rename (cacRenameNovember06) to cover the loading illustration.",
       "notice": "licenses/cac.md"
+    },
+    "chargenResourcePacks": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors, authored with OpenAI Codex",
+      "title": "Chargen wood stack and gold sack backpacks",
+      "origin": "Original procedural Blender geometry fitted to the existing Chargen rig. OpenAI image_gen references, exact prompts and authoring provenance are retained in characters/chargen/source/resource_packs/source.json.",
+      "changes": "Created two modular Back items with shared-rig skinning and vertex colors. Enlarged the gold sack, reduced polygon counts, and removed geometric tree rings following user review. Retained the isolated Blender source, generation and validation scripts, and actual game-renderer previews.",
+      "notice": "LICENSE"
     }
   },
   "files": [
@@ -3294,6 +3302,34 @@
       "source": "project",
       "sha256": "9be0b2b348d3f72547640e991d15f7ac11fdd0fe0bcb46dbe91f60de03373d59",
       "bytes": 303
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_gold.glb",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 68912,
+      "sha256": "18da041d8cee925ebd7b52005ab6c33ce886f91334a8952d16dbfb1909f0a652"
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_gold.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 366,
+      "sha256": "baa1a990610503f57e66dcbd3aecc8ed6b283e71bfef421c58e14d005d83430e"
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_wood.glb",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 62624,
+      "sha256": "c5883b83a1e8fdb64ac7c31f3e8f779df6915d97a1c3941f2b8ec45289139add"
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_wood.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 367,
+      "sha256": "966c5aa0a5af917bc1d77cd4eccbc7ca9c2f5a23ce60c617d26d8f6243a33d20"
     },
     {
       "path": "characters/chargen/clothing/belts/astronaut_belt.glb",
@@ -9183,6 +9219,69 @@
       "bytes": 4328
     },
     {
+      "path": "characters/chargen/source/resource_packs/fit_review.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 60854,
+      "sha256": "6eb3bc22e4d071a43c479d18022670021832a958a2065311f627d195126a4997"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/parts.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 862,
+      "sha256": "b3d148e63bb3ece8c2faf980f0d62d3f9e37d7c1e16fe9f41e6bcf2857d2e2be"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/peon-carrying-gold.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 1536333,
+      "sha256": "596bea79288a41d62638287282404e3a58304060d9562519ff678bc73fd157f9"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/peon-carrying-wood.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 1562434,
+      "sha256": "02165c5e191976b63b9b13f20c1f3f18591c695b4782aa9e387c9ef4ff500d79"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/preview.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 76395,
+      "sha256": "44377505ba5bfb1d6134fedaf69966fb6f18c4c0796d6c8059f23a7a90e4ff5f"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/prompts.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 5109,
+      "sha256": "03b0c95af1ae1d418d0ce8d436a8c84989c9eb0aef45dac7536035c5f56a68dc"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/resource_packs.blend",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 246147,
+      "sha256": "e190b73cd590fb3922c1d6669db96e6e4c6756b8d53fbc5c487fe8f446cf9eb2"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/source.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 2196,
+      "sha256": "dc7a43be9a3700c60812e4b86f2521cca1f92467cd1d0f000ddbbda5ed7c323e"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/verification.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 992,
+      "sha256": "0034dd5af844cdbc4dc52dff20c97101bcb365c3492f122763344405c1cc2bf2"
+    },
+    {
       "path": "characters/chargen/source/scripts/beard_sheets.py",
       "license": "MIT",
       "source": "code",
@@ -9300,6 +9399,13 @@
       "source": "code",
       "sha256": "f39ed39f9b19ae338ba6f1f078949f1160d6b72b30ff69926ab7ebcfa8378364",
       "bytes": 39989
+    },
+    {
+      "path": "characters/chargen/source/scripts/build_resource_packs.py",
+      "license": "MIT",
+      "source": "code",
+      "bytes": 10396,
+      "sha256": "54b961d2b85c8d3a849a4124aad510e918a4c94af181c1b589e700d7b59ed13d"
     },
     {
       "path": "characters/chargen/source/scripts/clean_sources.py",
@@ -9769,6 +9875,13 @@
       "source": "code",
       "sha256": "518f2a4eb12fd58c01676c7d1efd69a5edb3fc99331773d1fdba6e30acc2b859",
       "bytes": 10954
+    },
+    {
+      "path": "characters/chargen/source/scripts/verify_resource_packs.py",
+      "license": "MIT",
+      "source": "code",
+      "bytes": 2750,
+      "sha256": "c1766d0cfd5f008fa6c4ed861883751f44e5c8437c99dc860c7b23a0efae70b7"
     },
     {
       "path": "characters/chargen/source/scripts/verify_universal.py",

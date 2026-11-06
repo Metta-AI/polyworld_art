@@ -1,0 +1,19 @@
+{
+  "id": "clothing/backs/resource_wood",
+  "name": "Wood stack backpack",
+  "files": [
+    "clothing/backs/resource_wood.glb"
+  ],
+  "nodes": [
+    "ResourcePack_wood"
+  ],
+  "alignment": "both",
+  "hides": [],
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": [],
+  "singleFile": true,
+  "triangles": 556,
+  "triangleLimitExclusive": 700
+}

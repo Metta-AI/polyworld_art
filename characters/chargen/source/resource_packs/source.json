@@ -1,0 +1,51 @@
+{
+  "title": "Chargen resource backpacks",
+  "creator": "Softmax / Polyworld contributors, authored with OpenAI Codex",
+  "license": "CC0-1.0",
+  "created": "2026-11-06",
+  "process": "Original procedural Blender geometry fitted to the canonical Chargen peon and shared rig. Exported as one independently selectable Back mesh per resource. No textures or third-party models were added.",
+  "references": [
+    "peon-carrying-wood.png",
+    "peon-carrying-gold.png"
+  ],
+  "reference_generation": "OpenAI image_gen from user-provided screenshots of the Polyworld Chargen peon; exact prompts retained in prompts.json.",
+  "user_corrections": [
+    "Enlarge the gold sack.",
+    "Use substantially fewer triangles.",
+    "Do not model tree rings in geometry."
+  ],
+  "authoring_recipe": "../scripts/build_resource_packs.py",
+  "validation_recipe": "../scripts/verify_resource_packs.py",
+  "rig": "../../rig/humanoid.glb",
+  "attachment": "Cargo is rigid on Spine2; the shoulder straps inherit the tunic weights.",
+  "runtime": "LvD preloads merged peon variants and selects the backpack from current cargo without changing simulation state. Existing animations are reused; no new animation clips are shipped.",
+  "triangle_budget_per_pack_exclusive": 700,
+  "notes": "The references guide proportions and materials; the final meshes use plain log ends and a larger sack following the user correction.",
+  "runtime_review": {
+    "renderer": "Polyworld CharacterScene / ToonCharacters, the same merged skinning path as LvD",
+    "recipe": "polyworld/experiments/chargen/render_resource_packs.nim",
+    "views": [
+      "front",
+      "side",
+      "back",
+      "three-quarter"
+    ],
+    "clips": [
+      "Idle_Loop",
+      "Jog_Fwd_Loop",
+      "Interact"
+    ],
+    "samples_per_clip": 4,
+    "frames_verified": 96,
+    "retained_previews": [
+      "preview.png",
+      "fit_review.png"
+    ],
+    "checks": [
+      "OpenGL renders without errors",
+      "Both backpack choices preserve one merged mesh and one draw primitive per peon",
+      "Existing clip availability, canonical rig and normalized weights",
+      "Gold and wood harvest-to-deposit lifecycle and interrupted orders"
+    ]
+  }
+}
