@@ -311,6 +311,14 @@
       "origin": "Original procedural Blender geometry fitted to the existing Chargen rig. OpenAI image_gen references, exact prompts and authoring provenance are retained in characters/chargen/source/resource_packs/source.json.",
       "changes": "Created two modular Back items with shared-rig skinning and vertex colors. Enlarged the gold sack, reduced polygon counts, and removed geometric tree rings following user review. Retained the isolated Blender source, generation and validation scripts, and actual game-renderer previews.",
       "notice": "LICENSE"
+    },
+    "chargenElemental": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "LvD Elemental grand laurel crown",
+      "origin": "Original Polyworld Zeus crown and canonical Chargen rig; procedural source and editable Blender file in characters/chargen/source/elemental.",
+      "changes": "Recovered original procedural laurel geometry derived from the project Zeus crown materials and canonical Head rig. Replaced the tiara with two curved sprigs and sixteen faceted leaves; removed dormant tiara meshes and collapsed triangles at the leaf tips. Renamed the summon to Elemental and selected its crown in the LvD roster.",
+      "notice": "LICENSE"
     }
   },
   "files": [
@@ -6419,6 +6427,20 @@
       "bytes": 650
     },
     {
+      "path": "characters/chargen/hats/lvd_elemental_laurel.glb",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 53980,
+      "sha256": "8a9f2cbb84f2b762c3928702205c3279f738fc09ea60a74e3c67fc807657676b"
+    },
+    {
+      "path": "characters/chargen/hats/lvd_elemental_laurel.json",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 623,
+      "sha256": "3b7f0926484d95c14171fc9595cf8db87d110e80874f14c0e3c2715087c3b85d"
+    },
+    {
       "path": "characters/chargen/heads/base.glb",
       "license": "CC0-1.0",
       "source": "project",
@@ -6442,9 +6464,9 @@
     {
       "path": "characters/chargen/lvd.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "e82f074c5f0eb5eecbc00ca30d0910103411bac6555dd644c95b0d31662e8bdf",
-      "bytes": 49435
+      "source": "chargenElemental",
+      "bytes": 49510,
+      "sha256": "f37d01c5906919ef219644e0d709b1aa7b7c8a9e9e9a39b0f6aed3f9c118ab9d"
     },
     {
       "path": "characters/chargen/manifest.json",
@@ -8015,6 +8037,27 @@
       "bytes": 34507
     },
     {
+      "path": "characters/chargen/source/elemental/elemental.blend",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 126306,
+      "sha256": "ed1480d008a088cfd7a0860dbb85e87560b55b9c4ca3cef872b1327b1be77c0a"
+    },
+    {
+      "path": "characters/chargen/source/elemental/preview.png",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 34742,
+      "sha256": "926d667824e47a58256c1ea119b03e72f0c16f32a11fd3be3c801b3fd817ab0f"
+    },
+    {
+      "path": "characters/chargen/source/elemental/source.json",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 806,
+      "sha256": "9bea6e4b62bb4005ae91a703d18896854110170de6f7ef449f397a3f3932e29a"
+    },
+    {
       "path": "characters/chargen/source/eyes/dead_x_v1/generated.png",
       "license": "CC0-1.0",
       "source": "project",
@@ -9343,6 +9386,13 @@
       "source": "code",
       "sha256": "412c47d136bbda23268d30750422c97aa88b20da018f685d88a0839c425ed1a4",
       "bytes": 5269
+    },
+    {
+      "path": "characters/chargen/source/scripts/build_elemental_crown.py",
+      "license": "MIT",
+      "source": "code",
+      "bytes": 7942,
+      "sha256": "02ac312f56d857c3af997517233703f178f1f79c0bd84660bebe01bd9294b9fe"
     },
     {
       "path": "characters/chargen/source/scripts/build_expressions.py",

@@ -883,7 +883,7 @@
       {
         "kind": "SummonUnit",
         "preset": {
-          "name": "LvD Fire elemental A",
+          "name": "LvD Elemental A",
           "pose": "Idle_Loop",
           "group": "LvD review",
           "hairColor": "Dark brown",
@@ -949,7 +949,7 @@
             },
             {
               "category": "Headgear",
-              "item": "None",
+              "item": "Elemental grand laurel crown",
               "rgb": []
             },
             {
@@ -1005,9 +1005,9 @@
           ]
         },
         "skinRgb": [
-          1.0,
-          0.36,
-          0.02
+          0.20392157,
+          0.59607846,
+          0.85882354
         ]
       }
     ],
@@ -1890,7 +1890,7 @@
       {
         "kind": "SummonUnit",
         "preset": {
-          "name": "LvD Fire elemental B",
+          "name": "LvD Elemental B",
           "pose": "Idle_Loop",
           "group": "LvD review",
           "hairColor": "Dark brown",
@@ -1956,7 +1956,7 @@
             },
             {
               "category": "Headgear",
-              "item": "None",
+              "item": "Elemental grand laurel crown",
               "rgb": []
             },
             {
@@ -2012,9 +2012,9 @@
           ]
         },
         "skinRgb": [
-          1.0,
-          0.36,
-          0.02
+          0.60784316,
+          0.34901962,
+          0.7137255
         ]
       }
     ]

@@ -1,0 +1,12 @@
+{
+  "title": "LvD Elemental grand laurel crown",
+  "creator": "Softmax / Polyworld contributors",
+  "license": "CC0-1.0",
+  "source": "../../hats/gota_zeus_headgear.glb",
+  "process": "Recovered original procedural laurel geometry derived from the project Zeus crown materials and canonical Head rig. Replaced the tiara with two curved sprigs and sixteen faceted leaves; removed dormant tiara meshes and collapsed triangles at the leaf tips.",
+  "recipe": "../scripts/build_elemental_crown.py",
+  "triangles": 960,
+  "editable_source": "elemental.blend",
+  "runtime": "Elemental body takes the owning faction color; gold crown stays gold. Selectable in Chargen and merged into one game mesh.",
+  "review": "Actual Polyworld CharacterScene renderer, Amethyst and Emerald; all eight faction tints tested."
+}

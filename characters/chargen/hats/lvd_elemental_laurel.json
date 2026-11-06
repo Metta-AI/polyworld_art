@@ -1,0 +1,26 @@
+{
+  "id": "hats/lvd_elemental_laurel",
+  "name": "Elemental grand laurel crown",
+  "files": [
+    "hats/lvd_elemental_laurel.glb"
+  ],
+  "nodes": [
+    "Lvd_elemental_laurel_stem_-1",
+    "Lvd_elemental_laurel_-1_0",
+    "Lvd_elemental_laurel_-1_1",
+    "Lvd_elemental_laurel_-1_2",
+    "Lvd_elemental_laurel_-1_3",
+    "Lvd_elemental_laurel_stem_1",
+    "Lvd_elemental_laurel_1_0",
+    "Lvd_elemental_laurel_1_1",
+    "Lvd_elemental_laurel_1_2",
+    "Lvd_elemental_laurel_1_3"
+  ],
+  "hides": [],
+  "alignment": "both",
+  "singleFile": true,
+  "skinNodes": [],
+  "hairShades": [],
+  "hatShades": [],
+  "clothShades": []
+}
